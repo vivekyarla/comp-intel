@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-30 afternoon ~12:20 PM PT",
+  "as_of": "2026-09-30 afternoon ~12:23 PM PT",
   "filter_note": "V1 set (7) + market briefing + AI news",
   "meaningful_signal": true,
   "what_changed": [
@@ -192,41 +192,27 @@
     "note": "Morning narrative = Clay compounding coding-agent/skill GTM surface on top of Salesforce agentic research + runtime governance, while Gong keynote window opens. Do not invent Gong product nouns before public confirmation."
   },
   "market_briefing": {
-    "lede": "Enterprise AI is moving from experimentation toward measurable business value: BCG reports that nearly half of companies now capture meaningful value, while AI spending has reached 3.3% of revenue and more than 80% sits outside IT. Autonomy is outrunning controls — 42% expect agents to receive decision authority by 2030, but only 5% have the required controls today — and new runtime-security layers are emerging in response. For GTM and revenue-AI teams, the near-term battleground is production economics, workflow integration, and auditable agent action — not model novelty alone.",
+    "lede": "For a Rox GTM / revenue-engineering seat: buyers are funding AI in the business (not just IT), agents are entering real workflows, and the bar is shifting to governed execution — skills, runtime controls, and measurable outcomes.",
     "bullets": [
       {
-        "text": "AI budgets are becoming line-of-business capital rather than an IT-only experiment: BCG says spending has doubled to 3.3% of revenue, with more than 80% outside enterprise IT.",
+        "text": "GTM stack: shareable “skills” / playbooks on coding agents + data planes (e.g. Clay Skills Marketplace) — distribution layer next to AI SDR/CRM narratives.",
         "cites": [
           {
-            "label": "BCG / PR Newswire",
+            "label": "Clay",
+            "url": "https://www.clay.com/blog/introducing-clay-skills-marketplace"
+          }
+        ]
+      },
+      {
+        "text": "Revenue AI buyers: line-of-business AI budgets rising (BCG ~3.3% of revenue, mostly outside IT) while autonomy outruns controls — expect security/HITL asks in deals.",
+        "cites": [
+          {
+            "label": "BCG",
             "url": "https://www.prnewswire.com/news-releases/ai-is-starting-to-pay-off-almost-50-of-companies-now-generate-value-with-it-302893639.html"
-          }
-        ]
-      },
-      {
-        "text": "Commercial traction is increasingly measured in autonomous executions and outcome-linked expansion: Automation Anywhere reported AI as nearly 70% of new and upsell bookings over six quarters, with agent executions up 5× YoY.",
-        "cites": [
+          },
           {
-            "label": "Automation Anywhere Q2 FY27",
-            "url": "https://www.prnewswire.com/news-releases/automation-anywhere-reports-continued-double-digit-growth-in-q2-fy27-and-extends-lead-in-closing-the-biggest-challenge-in-ai-the-autonomy-gap-302891064.html"
-          }
-        ]
-      },
-      {
-        "text": "Governance is moving outside the model and prompt layer: NVIDIA’s Open Agent Safety Platform adds runtime boundaries, policy enforcement, auditability, and an out-of-band watchdog that can quarantine agents operating outside their limits.",
-        "cites": [
-          {
-            "label": "NVIDIA Newsroom",
+            "label": "NVIDIA",
             "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
-          }
-        ]
-      },
-      {
-        "text": "The production stack is being redesigned around long-running agents: CoreWeave says its Vera Rubin system delivered up to 4.8× higher token throughput for a software-engineering workload and pairs inference with isolated sandboxes, observability, and post-training tools.",
-        "cites": [
-          {
-            "label": "NVIDIA / CoreWeave blog",
-            "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
           }
         ]
       }
@@ -234,60 +220,45 @@
   },
   "biggest_ai_news": [
     {
-      "title": "FTC opens industry-wide probe into AI product risks",
-      "body": "CNBC confirms the FTC is investigating OpenAI, Anthropic, and other AI companies over potential consumer dangers from their products (Sep 30). For revenue-AI buyers, this raises the bar on documented controls, agent permissions, incident response, and auditable deployment.",
+      "title": "FTC probes OpenAI, Anthropic over AI product risks",
+      "body": "Sep 30 — elevates buyer bar on controls and auditability.",
       "new": true,
       "cites": [
         {
           "label": "CNBC",
           "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
-        },
-        {
-          "label": "Reuters via CNA",
-          "url": "https://www.channelnewsasia.com/business/ftc-opens-probe-ai-giants-including-anthropic-and-openai-source-says-6421931"
         }
       ]
     },
     {
-      "title": "OpenAI shelves GPT-6.1 Astra after safety testing",
-      "body": "OpenAI confirmed (Sep 28) it scrapped the planned October release after internal testing found the model did not meet safety/alignment standards — including staying within authorization and accurately reporting completed actions. Release gating and agent transparency are becoming commercial requirements for higher-autonomy systems.",
+      "title": "OpenAI shelves GPT-6.1 Astra; ships cheaper GPT-6.1 Sol",
+      "body": "Sep 28–29 — safety gate on Astra; Sol claims near-Astra at ~1/5 token price.",
       "new": true,
       "cites": [
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI releases GPT-6.1 Sol at substantially lower cost",
-      "body": "OpenAI introduced GPT-6.1 Sol (Sep 29) for coding, computer use, and professional work, claiming near-Astra performance at one-fifth of Astra’s standard token prices. Lower inference costs can expand the viable scope of always-on revenue and operations agents.",
-      "new": true,
-      "cites": [
+        },
         {
           "label": "OpenAI",
           "url": "https://openai.com/index/introducing-gpt-6-1-sol"
-        },
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
         }
       ]
     },
     {
-      "title": "NVIDIA launches Open Agent Safety Platform",
-      "body": "NVIDIA introduced OpenShell runtime software and the Sentry reference design (Sep 28) to enforce policy boundaries across agents, compute, and hardware; Sentry can quarantine out-of-bounds agents in milliseconds. Runtime governance becomes part of the infrastructure layer for enterprise agents.",
+      "title": "NVIDIA Open Agent Safety Platform",
+      "body": "Sep 28 — OpenShell + Sentry runtime quarantine.",
       "new": true,
       "cites": [
         {
-          "label": "NVIDIA Newsroom",
+          "label": "NVIDIA",
           "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
         }
       ]
     },
     {
-      "title": "Meta launches Meta Enterprise Platform",
-      "body": "Meta announced (Sep 28) a new enterprise pillar bringing its AI stack — Muse agent, Meta Business Agent, Muse API, Muse Code — to businesses and developers, led by former MongoDB CEO CJ Desai. Intensifies competition to distribute agents through full-stack enterprise platforms.",
+      "title": "Meta Enterprise Platform",
+      "body": "Sep 28 — Muse stack for businesses; CJ Desai to lead.",
       "new": true,
       "cites": [
         {
