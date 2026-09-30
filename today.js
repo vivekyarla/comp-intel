@@ -58,6 +58,41 @@
     return map[name] || null;
   }
 
+
+  function renderBriefing(b) {
+    if (!b) return "";
+    var html = '<div class="briefing">';
+    if (b.lede) html += '<p class="lede">' + esc(b.lede) + "</p>";
+    if (b.bullets && b.bullets.length) {
+      html += '<ul class="briefing-bullets">';
+      b.bullets.forEach(function (it) {
+        html += "<li><span class=\"btxt\">" + esc(it.text || "") + "</span>";
+        html += citesHtml(it.cites);
+        html += "</li>";
+      });
+      html += "</ul>";
+    }
+    html += "</div>";
+    return html;
+  }
+
+  function renderAiNews(items) {
+    if (!items || !items.length) return "";
+    var html = '<div class="change-list ai-news">';
+    items.forEach(function (it) {
+      html += '<article class="change-card">';
+      html += '<div class="body" style="grid-column: 1 / -1">';
+      html += '<p class="title">';
+      if (it.new) html += '<span class="badge-new">New</span>';
+      html += esc(it.title) + "</p>";
+      if (it.body) html += '<p class="text">' + esc(it.body) + "</p>";
+      html += citesHtml(it.cites);
+      html += "</div></article>";
+    });
+    html += "</div>";
+    return html;
+  }
+
   function renderChanges(items) {
     if (!items || !items.length) {
       return '<p class="empty">No changes in window.</p>';
@@ -241,6 +276,14 @@
     document.title = "Market Intel — Today · " + (asOf || "brief");
 
     var parts = [];
+    var briefingHtml = renderBriefing(data.market_briefing);
+    if (briefingHtml) {
+      parts.push(section("Market briefing", briefingHtml));
+    }
+    var aiHtml = renderAiNews(data.biggest_ai_news);
+    if (aiHtml) {
+      parts.push(section("Biggest AI news", aiHtml));
+    }
     parts.push(
       section(
         "What changed",

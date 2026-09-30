@@ -615,3 +615,51 @@ section h2 {
     align-items: stretch;
   }
 }
+
+
+/* —— Market briefing —— */
+.briefing {
+  padding: 0.95rem 1rem;
+  background: #fff;
+  border: 1px solid #e8e8e6;
+  border-radius: 8px;
+  animation: fadeUp 0.45s ease both;
+}
+
+.briefing .lede {
+  margin: 0 0 0.75rem;
+  font-size: 0.98rem;
+  color: #222;
+  line-height: 1.5;
+}
+
+.briefing-bullets {
+  margin: 0;
+  padding: 0 0 0 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.briefing-bullets li {
+  font-size: 0.92rem;
+  color: #333;
+}
+
+.briefing-bullets .btxt {
+  display: block;
+}
+
+.briefing-bullets .cites {
+  margin-top: 0.25rem;
+  font-size: 0.82rem;
+}
+
+.briefing-bullets .cites a + a::before {
+  content: " · ";
+  color: #aaa;
+}
+
+.ai-news .change-card {
+  grid-template-columns: 1fr;
+}
