@@ -135,7 +135,7 @@
   }
 
   function renderMoves(items) {
-    if (!items || !items.length) return '<p class="empty">Quiet peers omitted.</p>';
+    if (!items || !items.length) return '';
     var html = '<div class="moves-list">';
     items.forEach(function (it) {
       var slug = it.slug || slugFromCompany(it.company);
@@ -254,13 +254,10 @@
     );
     parts.push(section("Market direction", renderDirection(data.market_direction)));
     parts.push(section("Category language pulse", renderPulse(data.language_pulse)));
-    parts.push(
-      section(
-        "Competitive moves",
-        renderMoves(data.competitive_moves) +
-          '<p class="empty" style="margin-top:0.65rem">Quiet peers omitted.</p>'
-      )
-    );
+    var movesHtml = renderMoves(data.competitive_moves);
+    if (movesHtml) {
+      parts.push(section("Competitive moves", movesHtml));
+    }
     parts.push(section("One thing to watch", renderWatch(data.watch)));
     if (data.interpretation) {
       parts.push(section("Interpretation vs fact", renderInterp(data.interpretation)));
