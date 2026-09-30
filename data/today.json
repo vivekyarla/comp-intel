@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-09-29 afternoon ~1:10 PM PT",
+  "filter_note": "V1 set (7)",
+  "what_changed": [
+    {
+      "title": "Salesforce signs definitive agreement to acquire Listen Labs",
+      "body": "Official story + X (Sep 29, ~1:00 PM PT). AI customer research + human simulation platform (study design, interviews, synthesis, digital twins). Complements Marketing Cloud / Service Cloud / broader AI portfolio. Close expected Q4 Salesforce FY2027 subject to customary conditions incl. regulatory clearance. Price not disclosed. Why it matters: signed deal deepens agentic research/simulation context for Agentforce-adjacent stack — not a new sales-agent SKU on its face.",
+      "new": true,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
+      "cites": [
+        {"label": "story", "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/"},
+        {"label": "X", "url": "https://x.com/salesforce/status/2105025282902028737"}
+      ]
+    },
+    {
+      "title": "Salesforce + NVIDIA: Slack Admin Bridge for OpenShell",
+      "body": "Unchanged vs morning (Sep 28). OpenShell secure runtime; Slack Admin Bridge surfaces policy exceptions as HITL approval cards. Available for developers. Why it matters: runtime governance narrative.",
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
+      "cites": [
+        {"label": "blog", "url": "https://www.salesforce.com/blog/extending-admin-control-to-the-runtime-layer-with-nvidia-openshell-and-slack/"},
+        {"label": "X", "url": "https://x.com/salesforce/status/2104651166902792233"},
+        {"label": "NVIDIA PR", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/default.aspx"}
+      ]
+    },
+    {
+      "title": "Clay shipped 24 new/updated marketplace integrations",
+      "body": "Unchanged substance (Sep 29). EMEA/APAC, public-sector/CRE/PE, buying signals, action sinks including Nooks, Canva, ClickHouse, Twain, HubSpot list write.",
+      "company": "Clay",
+      "logo": "assets/logos/clay.png",
+      "cites": [
+        {"label": "blog", "url": "https://www.clay.com/blog/clay-integrations-september-2026"},
+        {"label": "X", "url": "https://x.com/clay/status/2104961567548662243"}
+      ]
+    },
+    {
+      "title": "Gong Celebrate ’26 day 1 live (Sep 29–Oct 1)",
+      "body": "Afternoon re-check: still no net-new public product press. Virtual keynote Wed Sep 30, 9:00 a.m. PST open.",
+      "company": "Gong",
+      "logo": "assets/logos/gong.png",
+      "cites": [
+        {"label": "Celebrate", "url": "https://www.gong.io/events/celebrate"},
+        {"label": "virtual", "url": "https://www.gong.io/events/celebrate/virtual"}
+      ]
+    }
+  ],
+  "quiet_note": "Quiet in-window (primary): Nooks, Salesloft, Monaco.",
+  "market_direction": [
+    {
+      "kind": "up",
+      "label": "Accelerating (M&A / agentic research context)",
+      "text": "Salesforce Listen Labs definitive agreement (Sep 29 afternoon)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (agent runtime governance)",
+      "text": "NVIDIA OpenShell + Salesforce/Slack HITL bridge (Sep 28)."
+    },
+    {
+      "kind": "flat",
+      "label": "Stable (GTM data layer)",
+      "text": "Clay’s Sep 29 integration pack is incremental marketplace breadth."
+    },
+    {
+      "kind": "emerging",
+      "label": "Emerging (event)",
+      "text": "Gong Celebrate day 1; product reveals pending Wed keynote."
+    }
+  ],
+  "language_pulse": [
+    {
+      "term": "Customer research / human simulation / digital twins",
+      "gloss": "Salesforce Listen Labs story language (Sep 29)."
+    },
+    {
+      "term": "Runtime governance / secure runtime / human control surface",
+      "gloss": "OpenShell + Slack (Sep 28)."
+    },
+    {
+      "term": "Open Agent Safety",
+      "gloss": "NVIDIA platform label (Sep 28)."
+    }
+  ],
+  "competitive_moves": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "New · Listen Labs definitive agreement; OpenShell + Slack Admin Bridge.",
+      "cites": []
+    },
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "text": "24 integrations; notable Nooks dialer sink + HubSpot list / ClickHouse.",
+      "cites": []
+    },
+    {
+      "company": "Outreach",
+      "slug": "outreach",
+      "text": "Ops, secondary — GeekWire Sep 28: HQ relocating early 2027 to Fremont Lake Union Center (Adobe-anchored).",
+      "cites": [
+        {"label": "GeekWire", "url": "https://www.geekwire.com/2026/seattle-based-sales-tech-company-outreach-to-move-hq-to-adobes-campus-in-fremont-neighborhood/"}
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "Gong Celebrate virtual opening keynote — Wed Sep 30, 9:00 a.m. PST",
+      "body": "Highest-probability near-term surface for Revenue AI OS / Harness / Custom Agents roadmap. Secondary: Listen Labs close / Agentforce integration path.",
+      "company": "Gong",
+      "logo": "assets/logos/gong.png",
+      "image": "assets/media/gong-celebrate.png",
+      "cites": [
+        {"label": "event", "url": "https://www.gong.io/events/celebrate"},
+        {"label": "virtual", "url": "https://www.gong.io/events/celebrate/virtual"}
+      ]
+    }
+  ],
+  "interpretation": {
+    "fact": "Salesforce Sep 29 story + X announce definitive Listen Labs agreement (close Q4 FY2027 subject to conditions; price undisclosed). OpenShell Sep 28; Clay 24 integrations Sep 29; Celebrate day 1 with no new product press afternoon; Outreach GeekWire Sep 28 HQ move.",
+    "note": "Afternoon shift = Salesforce buying agentic research/simulation context on top of yesterday’s runtime governance story. Do not invent Gong product news before the keynote."
+  }
+}
