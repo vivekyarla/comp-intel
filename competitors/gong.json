@@ -1,0 +1,71 @@
+{
+  "name": "Gong",
+  "slug": "gong",
+  "website": "https://www.gong.io/",
+  "as_of": "2026-10-01",
+  "positioning": "Gong markets itself as a Revenue AI Operating System (Revenue AI OS): conversation/interaction data via the Gong Revenue Graph, applications (Engage, Forecast, Enable, Agents), and an agentic execution layer (Gong Revenue Harness) for governed custom agents. Self-label is Revenue AI / Revenue AI OS, not AI SDR or AI CRM.",
+  "recent": [
+    {
+      "date": "2026-09-30",
+      "title": "Mission Callisto at Celebrate '26: Gong Enrich, Agent Builder, Deep Mode, Dashboards + Gong Activate framing",
+      "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26",
+      "summary": "Celebrate '26 keynote product drop. Mission Callisto: Gong Enrich (third-party account/contact waterfall into Revenue Graph; partners Apollo, ZoomInfo, Lusha, LeadIQ, etc.) GA; Agent Builder for event-triggered Custom Agents; Deep Mode in Gong Assistant GA (Gong Credits); expanded Gong Dashboards GA for Forecast users. Gong Activate announced as next-gen Revenue AI / self-improving revenue loop. Auto-triggered Custom Agents roll later in 2026. Blog: https://www.gong.io/blog/mission-callisto-revenue-ai PR: https://www.prnewswire.com/news-releases/gong-announces-mission-callisto-unveils-sales-enrichment-layer-for-revenue-teams-302893939.html",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Gong Collective: 400+ integrations; MCP framed as part of Revenue Harness",
+      "url": "https://www.gong.io/blog/gong-collective-integrations-july-2026",
+      "summary": "Company blog states ecosystem hit 400+ integrations and that MCP support is part of the Gong Revenue Harness (Gong as MCP client and server).",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Gong available in Microsoft Marketplace / Azure; MCP support live",
+      "url": "https://www.gong.io/press/gong-partnering-with-microsoft-to-enable-enterprises-to-automate-workflows-act-faster-and-win-more-revenue-with-ai",
+      "summary": "Press: Gong listed in Microsoft Marketplace with Azure Consumption Commitment (MACC) purchasing; deeper Microsoft ecosystem integrations; MCP support described as live. Companion blog: https://www.gong.io/blog/architect-smarter-revenue-ai-workflows-gong-microsoft-marketplace",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Mission Big Dipper: Gong Revenue Harness + Custom Agents",
+      "url": "https://www.gong.io/press/gong-launches-mission-big-dipper-revenue-harness",
+      "summary": "Product mission launch: Gong Revenue Harness as agentic execution layer; Custom Agents (natural-language, no engineering) GA; Gong Assistant expansions (AI Builder, standalone workspace) GA; Gong Enable (AI Coach, AI Builder for Scorecards) GA; Account Console Assistant and Dry Run expected July 2026. CPO Eilon Reshef: 'Every revenue leader has AI. Almost none of them are moving the number with it.' Blog: https://www.gong.io/blog/mission-big-dipper-revenue-ai-os",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Growth: ARR tops $500M; >55% YoY",
+      "url": "https://www.gong.io/press",
+      "summary": "Newsroom lists May 12, 2026 announcement: growth acceleration past 55% YoY; ARR tops $500M; tenth straight quarter of accelerating growth rate. Full release body not re-fetched beyond newsroom summary.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Mission Andromeda: Gong Enable, Assistant, Account management, MCP",
+      "url": "https://www.gong.io/blog/mission-andromeda-revenue-ai-os",
+      "summary": "First named 'Mission' launch cadence: Gong Enable, Gong Assistant conversational guidance, unified account management, MCP client/server interoperability with systems such as Microsoft 365 Copilot and Salesforce Agentforce.",
+      "source_type": "company_blog"
+    }
+  ],
+  "language_pulse": [
+    "revenue loop",
+    "Gong Activate",
+    "Agent Builder",
+    "Deep Mode",
+    "Gong Enrich",
+    "Mission Callisto",
+    "Revenue AI OS",
+    "Revenue AI",
+    "Gong Revenue Harness",
+    "agentic execution",
+    "Custom Agents",
+    "Gong Revenue Graph",
+    "governed agents",
+    "Model Context Protocol (MCP)",
+    "Gong Enable",
+    "Gong Assistant",
+    "insight into action"
+  ],
+  "notes": "Oct 1: Mission Callisto confirmed post-keynote. Treat Gong Activate as announced vision; Enrich/Deep Mode/Dashboards GA; auto Custom Agents later 2026."
+}

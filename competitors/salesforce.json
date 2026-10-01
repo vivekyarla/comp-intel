@@ -1,0 +1,72 @@
+{
+  "name": "Salesforce (Agentforce)",
+  "slug": "salesforce",
+  "website": "https://www.salesforce.com/",
+  "as_of": "2026-10-01",
+  "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
+  "recent": [
+    {
+      "date": "2026-09-30",
+      "title": "Salesforce Agentforce surfaced on OpenAI Marketplace (X)",
+      "url": "https://x.com/salesforce/status/2105373551163302040",
+      "summary": "Official X: Salesforce now part of OpenAI Marketplace; discover Agentforce and use part of existing OpenAI commitment toward eligible partner products. Plugin page: https://openai.com/business/plugins/salesforce/",
+      "source_type": "social"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Definitive agreement to acquire Listen Labs (AI customer research + human simulation)",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/",
+      "summary": "Sep 29 afternoon (~1:00 PM PT) company story + X: Salesforce signed a definitive agreement to acquire Listen Labs. AI agents design studies, recruit (claimed 50M+ network), interview in 120+ languages, synthesize insights; digital twins for simulated customer response. Complements Marketing Cloud, Service Cloud, broader AI portfolio. Close expected Q4 Salesforce FY2027 subject to customary conditions incl. regulatory clearance. Price not disclosed in official story.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Slack Admin Bridge for NVIDIA OpenShell \u2014 runtime HITL in Slack",
+      "url": "https://www.salesforce.com/blog/extending-admin-control-to-the-runtime-layer-with-nvidia-openshell-and-slack/",
+      "summary": "Sep 28 company blog (+ X): with NVIDIA, Slack Admin Bridge for OpenShell. OpenShell enforces agent runtime policy; exceptions surface as Slack approval cards with audit trail and App Home analytics. Available for developers (slack-samples/openshell-slack-admin-bridge). Exploring OpenShell + MuleSoft Agent Fabric. Same day as NVIDIA Open Agent Safety Platform launch naming Salesforce among partners.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "SalesBleed: Zenity discloses patched Agentforce 0-click CRM exfil / Slack phishing flaws",
+      "url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
+      "summary": "Zenity Labs public write-up dated Sep 24, 2026 (also The Register same day): three Agentforce issues (indirect prompt injection via Web-to-Lead \u2192 Trusted URLs bypass \u2192 DNS/HTML-img or Slack-unfurl exfil; plus Slack Reply-to-Thread phishing under agent identity). Reported Jun 1; Trusted URLs fix confirmed Aug 19; Zenity says all three fixed as of Sep 21. No evidence of real-world exploitation stated. Companion: https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Job-ready Agentforce portfolio + long-horizon runtime; Hunter outbound sales agent pilot",
+      "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
+      "summary": "Salesforce introduces job-ready agents across sales/service/commerce/workforce. Sales-relevant: Hunter (outbound sales agent) pilot now, GA November '26 \u2014 first on new long-horizon runtime (memory, durable execution, dynamic steering over days/weeks); Piper inbound pipe-gen agent GA now. Also Multi-Agent Orchestration GA; Agent Optimizer GA Oct '26; AI Skills in Coworker pilot/GA Oct '26. Claims 7B Agentic Work Units across Agentforce+Slack. Forbes coverage same day.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Agentforce Sales: digital workforce for every seller",
+      "url": "https://www.salesforce.com/news/stories/agentforce-sales-announcement/",
+      "summary": "Agentforce Sales launch narrative: Engagement, Pipeline Management, Account Research & Meeting Prep, Quoting, Partner Success agents GA; Prospecting agent available Mar 30. Kris Billmaier (EVP/GM Agentforce Sales): data + digital workforce for 170k Salesforce customers. Pricing via Agentforce for Sales add-on or Agentforce1 Edition.",
+      "source_type": "press"
+    }
+  ],
+  "language_pulse": [
+    "Agentforce",
+    "job-ready agents",
+    "long-horizon runtime",
+    "Hunter (outbound sales agent)",
+    "Piper (inbound pipe gen)",
+    "agentic sales",
+    "digital workforce",
+    "Multi-Agent Orchestration",
+    "Customer 360",
+    "Agent Script",
+    "OpenShell",
+    "Slack Admin Bridge",
+    "runtime governance",
+    "human control surface",
+    "Listen Labs",
+    "human simulation",
+    "digital twins",
+    "customer research agents"
+  ],
+  "notes": "Sep 30 morning: Listen Labs + OpenShell retained in Today window. No net-new SF primary product beyond carry-forward. Oct 1: OpenAI Marketplace X added; OpenShell Sep 28 demoted off Today window."
+}

@@ -1,12 +1,33 @@
 {
-  "as_of": "2026-09-30 afternoon ~12:23 PM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news",
+  "as_of": "2026-10-01 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Sep 29–Oct 1 PT",
   "meaningful_signal": true,
   "what_changed": [
     {
-      "title": "Clay launched Skills Marketplace",
-      "body": "NEW vs yesterday. Sep 29 blog + Sep 30 X amplify. Free community GTM skills (playbooks) installable into Claude Code / Codex / Cursor; Clay supplies data via Agent Plugin. Credits apply when skills pull Clay data. Why it matters: shareable GTM skill layer on coding agents — ecosystem/distribution, not a classic AI SDR SKU.",
+      "title": "Gong launches Mission Callisto at Celebrate '26",
+      "body": "NEW vs yesterday. Sep 30 press + blog after virtual opening keynote: Mission Callisto adds Gong Enrich (third-party account/contact waterfall into Revenue Graph; partners incl. Apollo, ZoomInfo, Lusha, LeadIQ, etc.), Agent Builder for event-triggered Custom Agents (natural language or visual; reusable skills), Deep Mode in Gong Assistant (complex investigation; Gong Credits), expanded Gong Dashboards. Also announced Gong Activate — next-gen Revenue AI framing (self-improving “revenue loop”; agents + reps from same blueprint). GA now: Enrich, Deep Mode, Dashboards (Forecast users; broader later). Auto-triggered Custom Agents + other Assistant enhancements rolling later in 2026. Why it matters: confirmed Celebrate product drop — enrichment + agentic execution + measurement inside Revenue AI OS, not just event promo.",
       "new": true,
+      "company": "Gong",
+      "logo": "assets/logos/gong.png",
+      "cites": [
+        {
+          "label": "press",
+          "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26"
+        },
+        {
+          "label": "blog",
+          "url": "https://www.gong.io/blog/mission-callisto-revenue-ai"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/gong-announces-mission-callisto-unveils-sales-enrichment-layer-for-revenue-teams-302893939.html"
+        }
+      ]
+    },
+    {
+      "title": "Clay Skills Marketplace still live (Sep 29)",
+      "body": "RETAINED. Community GTM skills free to install into Claude Code / Codex / Cursor; Clay supplies data via Agent Plugin. Credits when skills pull Clay data. No net-new product PR Oct 1; marketplace remains the live distribution surface. Why it matters: shareable GTM skill layer on coding agents — ecosystem/distribution, not a classic AI SDR SKU.",
+      "new": false,
       "company": "Clay",
       "logo": "assets/logos/clay.png",
       "cites": [
@@ -17,16 +38,13 @@
         {
           "label": "marketplace",
           "url": "https://marketplace.clay.com/skills"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/clay/status/2105301658062274934"
         }
       ]
     },
     {
       "title": "Salesforce signs definitive agreement to acquire Listen Labs",
-      "body": "RETAINED (Sep 29, ~1:00 PM PT). AI customer research + human simulation (study design, interviews, synthesis, digital twins). Close expected Q4 Salesforce FY2027 subject to conditions. Price undisclosed. Why it matters: agentic research/simulation context for Agentforce-adjacent stack.",
+      "body": "RETAINED (Sep 29). AI customer research + human simulation (study design, interviews, synthesis, digital twins). Close expected Q4 Salesforce FY2027 subject to conditions. Price undisclosed in official story. Why it matters: agentic research/simulation context for Agentforce-adjacent stack.",
+      "new": false,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
@@ -41,28 +59,26 @@
       ]
     },
     {
-      "title": "Salesforce + NVIDIA: Slack Admin Bridge for OpenShell",
-      "body": "RETAINED (Sep 28). OpenShell secure runtime; Slack Admin Bridge HITL approval cards. Available for developers. Why it matters: runtime governance narrative.",
+      "title": "Salesforce Agentforce surfaces on OpenAI Marketplace",
+      "body": "NEW vs yesterday (Sep 30 X). Salesforce posts that it is now part of the OpenAI Marketplace — discover Agentforce and use part of existing OpenAI commitment toward eligible partner products. Why it matters: distribution/procurement path for Agentforce next to OpenAI enterprise spend (not a new Agentforce SKU).",
+      "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "blog",
-          "url": "https://www.salesforce.com/blog/extending-admin-control-to-the-runtime-layer-with-nvidia-openshell-and-slack/"
-        },
-        {
           "label": "X",
-          "url": "https://x.com/salesforce/status/2104651166902792233"
+          "url": "https://x.com/salesforce/status/2105373551163302040"
         },
         {
-          "label": "NVIDIA PR",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/default.aspx"
+          "label": "OpenAI plugin",
+          "url": "https://openai.com/business/plugins/salesforce/"
         }
       ]
     },
     {
       "title": "Clay shipped 24 new/updated marketplace integrations",
-      "body": "RETAINED (Sep 29). EMEA/APAC, public-sector/CRE/PE, buying signals, action sinks including Nooks, Canva, ClickHouse, Twain, HubSpot list write.",
+      "body": "RETAINED (Sep 29). EMEA/APAC coverage, public-sector/CRE/PE, buying signals, action sinks including Nooks, Canva, ClickHouse, Twain, HubSpot list write.",
+      "new": false,
       "company": "Clay",
       "logo": "assets/logos/clay.png",
       "cites": [
@@ -75,127 +91,125 @@
           "url": "https://x.com/clay/status/2104961564776267811"
         }
       ]
-    },
-    {
-      "title": "Gong Celebrate ’26 day 2 — virtual keynote morning",
-      "body": "As of ~8:50 AM PT: no net-new public product press vs yesterday afternoon. Livestream Wed Sep 30 9:00 a.m. PST. Do not invent product nouns before confirmation.",
-      "company": "Gong",
-      "logo": "assets/logos/gong.png",
-      "cites": [
-        {
-          "label": "Celebrate",
-          "url": "https://www.gong.io/events/celebrate"
-        },
-        {
-          "label": "virtual",
-          "url": "https://www.gong.io/events/celebrate/virtual"
-        },
-        {
-          "label": "agenda",
-          "url": "https://www.gong.io/events/celebrate/agenda"
-        }
-      ]
     }
   ],
-  "quiet_note": "Quiet in-window (primary): Nooks, Salesloft, Monaco. Clay monty engineering blog (Sep 30) noted on competitor page only.",
+  "quiet_note": "Quiet in-window (primary product): Nooks, Salesloft, Monaco, Outreach newsroom. Dropped from Today (Sep 28-only): Salesforce/NVIDIA OpenShell Slack Admin Bridge; Outreach GeekWire HQ move — see competitor pages. Gong_io / NooksHQ / outreach_io / Salesloft X timelines empty via API. Clay monty engineering blog stays competitor-page only.",
   "market_direction": [
+    {
+      "kind": "up",
+      "label": "Accelerating (Revenue AI OS / agentic execution)",
+      "text": "Gong Mission Callisto + Gong Activate framing at Celebrate '26 (Sep 30) — NEW."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (GTM skill / coding-agent layer)",
+      "text": "Clay Skills Marketplace (Sep 29) — retained."
+    },
     {
       "kind": "up",
       "label": "Accelerating (M&A / agentic research context)",
       "text": "Salesforce Listen Labs definitive agreement (Sep 29) — retained."
     },
     {
-      "kind": "up",
-      "label": "Accelerating (agent runtime governance)",
-      "text": "NVIDIA OpenShell + Salesforce/Slack HITL bridge (Sep 28) — retained."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (GTM skill / coding-agent layer)",
-      "text": "Clay Skills Marketplace (Sep 29–30) — NEW."
+      "kind": "emerging",
+      "label": "Emerging (model marketplace distribution)",
+      "text": "Salesforce Agentforce on OpenAI Marketplace (Sep 30 X) — NEW."
     },
     {
       "kind": "flat",
       "label": "Stable (GTM data layer)",
       "text": "Clay Sep 29 integration pack remains incremental marketplace breadth."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (event)",
-      "text": "Gong Celebrate keynote morning; product reveals pending public confirmation."
     }
   ],
   "language_pulse": [
     {
+      "term": "Mission Callisto / Gong Enrich / Deep Mode / Agent Builder",
+      "gloss": "Gong Celebrate '26 product nouns (Sep 30) — Enrich GA; Deep Mode GA; auto Custom Agents later 2026."
+    },
+    {
+      "term": "Gong Activate / revenue loop",
+      "gloss": "Gong next-gen Revenue AI framing at Celebrate (Sep 30) — vision + orchestration narrative."
+    },
+    {
       "term": "Skills / GTM skills marketplace",
-      "gloss": "Clay installable playbooks for coding agents (Sep 29–30)."
+      "gloss": "Clay installable playbooks for coding agents (Sep 29)."
     },
     {
       "term": "Customer research / human simulation / digital twins",
       "gloss": "Salesforce Listen Labs story language (Sep 29)."
     },
     {
-      "term": "Runtime governance / secure runtime / human control surface",
-      "gloss": "OpenShell + Slack (Sep 28)."
-    },
-    {
-      "term": "Open Agent Safety",
-      "gloss": "NVIDIA platform label (Sep 28)."
+      "term": "OpenAI Marketplace (Agentforce)",
+      "gloss": "Salesforce distribution path via OpenAI partner marketplace (Sep 30 X)."
     }
   ],
   "competitive_moves": [
     {
+      "company": "Gong",
+      "slug": "gong",
+      "text": "New · Mission Callisto (Enrich, Agent Builder, Deep Mode, Dashboards) + Gong Activate framing at Celebrate '26.",
+      "cites": [
+        {
+          "label": "press",
+          "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26"
+        }
+      ]
+    },
+    {
       "company": "Clay",
       "slug": "clay",
-      "text": "New · Skills Marketplace; retained 24 integrations / Nooks sink.",
+      "text": "Retained · Skills Marketplace; 24 integrations / Nooks sink.",
       "cites": []
     },
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "Retained · Listen Labs definitive agreement; OpenShell + Slack Admin Bridge.",
-      "cites": []
-    },
-    {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "Ops, secondary — GeekWire Sep 28: HQ relocating early 2027 to Fremont Lake Union Center (Adobe-anchored).",
+      "text": "Retained · Listen Labs definitive agreement. New · Agentforce on OpenAI Marketplace (Sep 30 X). Also amplified Agent Optimizer (Winter '27; blog dated Sep 21 — out of Today as product ship).",
       "cites": [
         {
-          "label": "GeekWire",
-          "url": "https://www.geekwire.com/2026/seattle-based-sales-tech-company-outreach-to-move-hq-to-adobes-campus-in-fremont-neighborhood/"
+          "label": "X Marketplace",
+          "url": "https://x.com/salesforce/status/2105373551163302040"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "Gong Celebrate virtual opening keynote outcomes — Wed Sep 30, 9:00–10:30 a.m. PST",
-      "body": "As of morning run, no public product drop yet. Re-check newsroom/blog/X after keynote for Revenue AI OS / Harness / Custom Agents. Secondary: Listen Labs path; Clay Skills Marketplace adoption.",
+      "title": "Gong Activate path vs Mission Callisto GA — what ships vs what’s roadmap",
+      "body": "Enrich / Deep Mode / Dashboards are GA; auto-triggered Custom Agents and further Assistant surfaces roll later in 2026. Watch how Gong prices Enrich/Credits vs Clay-style enrichment, and whether Activate becomes a named SKU or stays vision. Secondary: Listen Labs close / Agentforce integration; Clay Skills Marketplace adoption.",
       "company": "Gong",
       "logo": "assets/logos/gong.png",
       "image": "assets/media/gong-celebrate.png",
       "cites": [
         {
-          "label": "event",
-          "url": "https://www.gong.io/events/celebrate"
+          "label": "blog",
+          "url": "https://www.gong.io/blog/mission-callisto-revenue-ai"
         },
         {
-          "label": "virtual",
-          "url": "https://www.gong.io/events/celebrate/virtual"
+          "label": "Celebrate",
+          "url": "https://www.gong.io/events/celebrate"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Clay Skills Marketplace blog Sep 29 + X Sep 30. Salesforce Listen Labs Sep 29; OpenShell Sep 28; Clay integrations Sep 29. Gong Celebrate keynote Wed Sep 30 9:00 a.m. PST with no new product press as of ~8:50 AM PT. Outreach GeekWire Sep 28 HQ move.",
-    "note": "Morning narrative = Clay compounding coding-agent/skill GTM surface on top of Salesforce agentic research + runtime governance, while Gong keynote window opens. Do not invent Gong product nouns before public confirmation."
+    "fact": "Gong published Mission Callisto + Celebrate press dated Sep 30 (Enrich, Agent Builder, Deep Mode, Dashboards GA; Activate as next-gen framing). Clay Skills Marketplace + integrations Sep 29. Salesforce Listen Labs Sep 29; Salesforce OpenAI Marketplace X Sep 30. Sep 28 OpenShell / Outreach HQ dropped from Today. Gemini 4 Argon + FTC probe Sep 30.",
+    "note": "Primary narrative = Gong closing the Revenue AI OS loop (enrich → agents → measure) on the same week Clay pushed GTM skills onto coding agents and Salesforce deepened research M&A + model-marketplace distribution. Treat Activate as announced vision; do not invent SKUs. Do not invent Gong nouns beyond confirmed press."
   },
   "market_briefing": {
-    "lede": "Buyers are funding AI in the business (not just IT), agents are entering real workflows, and the bar is shifting to governed execution — skills, runtime controls, and measurable outcomes.",
+    "lede": "Revenue AI vendors are shipping the full loop — trusted context, agentic execution, and measurement — while GTM teams also get shareable “skills” that run inside coding agents on top of data planes. Buyer scrutiny of frontier models and agent controls is rising in parallel.",
     "bullets": [
       {
-        "text": "GTM stack: shareable “skills” / playbooks on coding agents + data planes (e.g. Clay Skills Marketplace) — distribution layer next to AI SDR/CRM narratives.",
+        "text": "Platform move: Gong Mission Callisto (Enrich + Agent Builder + Deep Mode + Dashboards) and Gong Activate framing put enrichment, event-triggered agents, and analytics inside one Revenue AI OS.",
+        "cites": [
+          {
+            "label": "Gong",
+            "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26"
+          }
+        ]
+      },
+      {
+        "text": "Workflow layer: Clay Skills Marketplace keeps GTM playbooks installable into Claude Code / Codex / Cursor with Clay as the data plane — distribution next to AI SDR/CRM narratives.",
         "cites": [
           {
             "label": "Clay",
@@ -204,21 +218,36 @@
         ]
       },
       {
-        "text": "Revenue AI buyers: line-of-business AI budgets rising (BCG ~3.3% of revenue, mostly outside IT) while autonomy outruns controls — expect security/HITL asks in deals.",
+        "text": "Governance bar: FTC opens a broad AI product-risk probe (OpenAI, Anthropic, others) the same week Google gates Gemini 4 Argon to trusted cyber defenders first.",
         "cites": [
           {
-            "label": "BCG",
-            "url": "https://www.prnewswire.com/news-releases/ai-is-starting-to-pay-off-almost-50-of-companies-now-generate-value-with-it-302893639.html"
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
           },
           {
-            "label": "NVIDIA",
-            "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+            "label": "Google",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
           }
         ]
       }
     ]
   },
   "biggest_ai_news": [
+    {
+      "title": "Google announces Gemini 4 Argon",
+      "body": "Sep 30 — frontier model for long-horizon coding, enterprise knowledge work, cyber defense; Fairwind roll-out first; 1M output tokens; broad access later.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        }
+      ]
+    },
     {
       "title": "FTC probes OpenAI, Anthropic over AI product risks",
       "body": "Sep 30 — elevates buyer bar on controls and auditability.",
@@ -227,43 +256,32 @@
         {
           "label": "CNBC",
           "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI shelves GPT-6.1 Astra; ships cheaper GPT-6.1 Sol",
-      "body": "Sep 28–29 — safety gate on Astra; Sol claims near-Astra at ~1/5 token price.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/"
         },
         {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI disrupts coordinated model-distillation campaign",
+      "body": "Sep 30 — adversarial extraction of protected reasoning; shared via Frontier Model Forum.",
+      "new": true,
+      "cites": [
+        {
           "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
         }
       ]
     },
     {
-      "title": "NVIDIA Open Agent Safety Platform",
-      "body": "Sep 28 — OpenShell + Sentry runtime quarantine.",
+      "title": "White House voluntary AI safety pact",
+      "body": "Sep 29 — OpenAI, Google, Meta, Anthropic, Nvidia, xAI agree to outside audits; no enforcement deadline.",
       "new": true,
       "cites": [
         {
-          "label": "NVIDIA",
-          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
-        }
-      ]
-    },
-    {
-      "title": "Meta Enterprise Platform",
-      "body": "Sep 28 — Muse stack for businesses; CJ Desai to lead.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Meta",
-          "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+          "label": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal"
         }
       ]
     }
