@@ -2,7 +2,7 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-02",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
     {
@@ -68,5 +68,5 @@
     "digital twins",
     "customer research agents"
   ],
-  "notes": "Sep 30 morning: Listen Labs + OpenShell retained in Today window. No net-new SF primary product beyond carry-forward. Oct 1: OpenAI Marketplace X added; OpenShell Sep 28 demoted off Today window."
+  "notes": "Oct 2: OpenAI Marketplace X (Sep 30) retained on Today. Listen Labs (Sep 29) DROPPED from Today (outside window) \u2014 kept here. No net-new Agentforce product PR Oct 1\u20132 (newsroom ROI thought leadership)."
 }
