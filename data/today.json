@@ -1,198 +1,34 @@
 {
-  "as_of": "2026-10-02 morning ~8:50 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window \u2248 Sep 30\u2013Oct 2 PT",
-  "meaningful_signal": true,
-  "what_changed": [
-    {
-      "title": "Outreach spotlights Deal Agent for evidence-linked CRM updates",
-      "body": "NEW vs yesterday. Oct 1 product blog: Deal Agent reviews recorded calls/meetings (incl. historical), surfaces AI-recommended opportunity field updates with transcript excerpt + timestamp evidence, and generates custom AI deal summaries (open / closed-won / closed-lost templates). Sellers can auto-apply or accept/edit/reject; Slack + Microsoft Teams notifications; CRM sync (Salesforce, Dynamics). Blog cites internal 90-day usage (e.g. ~90.8% acceptance among actioned recommendations). Recent enhancements called out: append/prepend/replace, historical backfill, Economic Buyer/Champion auto-accept options, deal-channel Slack posts. Available today. Why it matters: agentic deal hygiene \u2014 conversation \u2192 governed CRM write \u2014 after a quiet Outreach newsroom stretch.",
-      "new": true,
-      "company": "Outreach",
-      "logo": "assets/logos/outreach.png",
-      "cites": [
-        {
-          "label": "blog",
-          "url": "https://www.outreach.ai/resources/blog/deal-agent-automate-deal-updates"
-        },
-        {
-          "label": "product",
-          "url": "https://www.outreach.ai/ai-agents/deal-agent"
-        }
-      ]
-    },
-    {
-      "title": "Gong Mission Callisto at Celebrate '26 (Sep 30)",
-      "body": "RETAINED. Mission Callisto: Gong Enrich (third-party account/contact waterfall into Revenue Graph; partners incl. Apollo, ZoomInfo, Lusha, LeadIQ, etc.), Agent Builder for event-triggered Custom Agents, Deep Mode in Gong Assistant (Gong Credits), expanded Gong Dashboards. Gong Activate framed as next-gen Revenue AI / self-improving \u201crevenue loop.\u201d GA: Enrich, Deep Mode, Dashboards (Forecast users; broader later). Auto-triggered Custom Agents + further Assistant enhancements later in 2026. No net-new Gong press Oct 1\u20132. Why it matters: still the primary in-window Revenue AI OS product drop.",
-      "new": false,
-      "company": "Gong",
-      "logo": "assets/logos/gong.png",
-      "cites": [
-        {
-          "label": "press",
-          "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26"
-        },
-        {
-          "label": "blog",
-          "url": "https://www.gong.io/blog/mission-callisto-revenue-ai"
-        },
-        {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/gong-announces-mission-callisto-unveils-sales-enrichment-layer-for-revenue-teams-302893939.html"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce Agentforce on OpenAI Marketplace (Sep 30)",
-      "body": "RETAINED (Sep 30 X). Salesforce posts it is part of the OpenAI Marketplace \u2014 discover Agentforce and apply part of existing OpenAI commitment toward eligible partner products. No net-new Agentforce product PR Oct 1\u20132 morning (newsroom Oct 1 piece is thought leadership / ROI narrative, not a ship). Why it matters: distribution/procurement path next to OpenAI enterprise spend \u2014 not a new Agentforce SKU.",
-      "new": false,
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.svg",
-      "cites": [
-        {
-          "label": "X",
-          "url": "https://x.com/salesforce/status/2105373551163302040"
-        },
-        {
-          "label": "OpenAI plugin",
-          "url": "https://openai.com/business/plugins/salesforce/"
-        }
-      ]
-    }
-  ],
-  "quiet_note": "Quiet in-window (primary product): Nooks, Salesloft, Monaco. Clay \u2014 no net-new Oct 1\u20132 product PR (Skills Marketplace + Sep 29 integrations aged out of Today window; Oct 1 X amplify / SCULPT speakers are event/promo). Dropped from Today (Sep 29-only): Clay Skills Marketplace; Salesforce Listen Labs definitive agreement; Clay 24 integrations \u2014 see competitor pages. Gong_io / NooksHQ / outreach_io / Salesloft X empty or below keep thresholds via API.",
-  "market_direction": [
-    {
-      "kind": "up",
-      "label": "Accelerating (agentic deal hygiene / CRM write)",
-      "text": "Outreach Deal Agent product spotlight (Oct 1) \u2014 NEW."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (Revenue AI OS / agentic execution)",
-      "text": "Gong Mission Callisto + Gong Activate framing (Sep 30) \u2014 retained."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (model marketplace distribution)",
-      "text": "Salesforce Agentforce on OpenAI Marketplace (Sep 30) \u2014 retained."
-    },
-    {
-      "kind": "flat",
-      "label": "Stable (GTM data / skills layer)",
-      "text": "Clay Skills Marketplace + Sep integrations moved off Today (outside 1\u20132 day window); still live on competitor page."
-    }
-  ],
-  "language_pulse": [
-    {
-      "term": "Deal Agent / evidence-linked field updates",
-      "gloss": "Outreach Oct 1 language \u2014 AI opportunity updates grounded in transcript + timestamp; accept/edit/reject or auto-apply."
-    },
-    {
-      "term": "Mission Callisto / Gong Enrich / Deep Mode / Agent Builder",
-      "gloss": "Gong Celebrate '26 product nouns (Sep 30) \u2014 Enrich/Deep Mode/Dashboards GA; auto Custom Agents later 2026."
-    },
-    {
-      "term": "Gong Activate / revenue loop",
-      "gloss": "Gong next-gen Revenue AI framing at Celebrate (Sep 30)."
-    },
-    {
-      "term": "OpenAI Marketplace (Agentforce)",
-      "gloss": "Salesforce distribution path via OpenAI partner marketplace (Sep 30 X)."
-    },
-    {
-      "term": "Claude Code Mods",
-      "gloss": "In-process JS/TS hooks that rewrite prompts/tool calls and draw UI (Oct 1 docs) \u2014 coding-agent extensibility layer."
-    }
-  ],
-  "competitive_moves": [
-    {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "New \u00b7 Deal Agent blog (Oct 1): evidence-linked opportunity field updates + custom deal summaries; Slack/Teams; available today.",
-      "cites": [
-        {
-          "label": "blog",
-          "url": "https://www.outreach.ai/resources/blog/deal-agent-automate-deal-updates"
-        }
-      ]
-    },
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "text": "Retained \u00b7 Mission Callisto (Enrich, Agent Builder, Deep Mode, Dashboards) + Gong Activate framing at Celebrate '26.",
-      "cites": [
-        {
-          "label": "press",
-          "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26"
-        }
-      ]
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Retained \u00b7 Agentforce on OpenAI Marketplace (Sep 30 X). Listen Labs (Sep 29) aged off Today \u2192 competitor page.",
-      "cites": [
-        {
-          "label": "X Marketplace",
-          "url": "https://x.com/salesforce/status/2105373551163302040"
-        }
-      ]
-    }
-  ],
-  "watch": [
-    {
-      "title": "Gong Activate vs Callisto GA \u2014 and Deal Agent write-path governance",
-      "body": "Primary: Enrich / Deep Mode / Dashboards are GA; auto-triggered Custom Agents roll later in 2026 \u2014 watch Enrich/Credits pricing vs Clay-style enrichment and whether Activate becomes a SKU. Secondary: Outreach Deal Agent acceptance/auto-apply defaults and how buyers govern AI CRM writes vs Gong measurement loop. Tertiary: Listen Labs close path (now competitor-page only).",
-      "company": "Gong",
-      "logo": "assets/logos/gong.png",
-      "image": "assets/media/gong-celebrate.png",
-      "cites": [
-        {
-          "label": "Gong blog",
-          "url": "https://www.gong.io/blog/mission-callisto-revenue-ai"
-        },
-        {
-          "label": "Outreach Deal Agent",
-          "url": "https://www.outreach.ai/resources/blog/deal-agent-automate-deal-updates"
-        }
-      ]
-    }
-  ],
-  "interpretation": {
-    "fact": "Outreach published Deal Agent product blog dated Oct 1 (evidence-linked field updates + deal summaries; available today). Gong Mission Callisto + Activate remain Sep 30 primary product drop; Salesforce OpenAI Marketplace X Sep 30. Sep 29 Clay Skills/integrations and Salesforce Listen Labs dropped from Today (outside 1\u20132 day window). AI: Microsoft MAI-Transcribe-2-Streaming + MAI-Voice-2.1 (Oct 1); Claude Code Mods docs (Oct 1); Google Project Suncatcher prototype in orbit (Oct 1).",
-    "note": "Narrative shift vs yesterday: after Gong closed the enrich\u2192agents\u2192measure loop, Outreach is pushing conversation intelligence into governed CRM writes (deal hygiene). Treat Deal Agent as a productized agent surface with cited internal usage \u2014 not a net-new category invention. Do not invent Gong Activate SKUs. Clay Skills aged to competitor page, not deleted."
-  },
+  "as_of": "2026-10-05 morning ~8:55 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 3–5 PT (weekend + Monday morning)",
+  "meaningful_signal": false,
   "market_briefing": {
-    "lede": "Revenue platforms are pushing agents past advisory summaries into evidence-linked CRM writes and deal hygiene, while coding-agent hooks and low-latency voice primitives keep expanding the building blocks GTM teams wire into workflows.",
+    "lede": "Enterprise agent platforms are starting to compete on spend caps and governed autonomy as much as on capability, while open speech and sovereign models keep lowering the cost of building on conversation data.",
     "bullets": [
       {
-        "text": "Deal hygiene: Outreach\u2019s Deal Agent (Oct 1) turns recorded calls into AI-recommended opportunity field updates with transcript timestamps, plus custom deal summaries \u2014 auto-apply or human accept, via in-app / Slack / Teams.",
+        "text": "Agent budgets: Cohere North 2 (Oct 5) tracks token use per user and per agent, adds consumption tiers, company-wide caps and alerts, plus per-agent autonomy policies, shared agents and reusable skills.",
         "cites": [
           {
-            "label": "Outreach",
-            "url": "https://www.outreach.ai/resources/blog/deal-agent-automate-deal-updates"
+            "label": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
           }
         ]
       },
       {
-        "text": "Revenue AI OS: Gong Mission Callisto (Sep 30) still anchors the week \u2014 Enrich + Agent Builder + Deep Mode + Dashboards inside one measurement loop, with Gong Activate as next-gen framing.",
+        "text": "Agent trust: OpenAI's safety-report lead David Robinson resigned Oct 3 calling the company's culture \"broken\"; OpenAI says it pauses training or holds back models when needed.",
         "cites": [
           {
-            "label": "Gong",
-            "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
           }
         ]
       },
       {
-        "text": "Builder stack: Claude Code Mods (Oct 1) add in-process JS/TS hooks that rewrite prompts/tool calls and draw UI, while Microsoft ships MAI-Transcribe-2-Streaming + MAI-Voice-2.1 for real-time conversational voice agents.",
+        "text": "Conversation data: Google open-sourced DiarizationLM-Gemma-4-E4B (Oct 4, Apache-2.0), a 4B model that corrects speech-recognition and speaker-labeling output and runs locally.",
         "cites": [
           {
-            "label": "Claude Mods",
-            "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
-          },
-          {
-            "label": "Microsoft",
-            "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/"
+            "label": "Hugging Face",
+            "url": "https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1"
           }
         ]
       }
@@ -200,60 +36,157 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Microsoft ships MAI-Transcribe-2-Streaming + MAI-Voice-2.1",
-      "body": "Oct 1 \u2014 low-latency streaming speech-to-text (60 languages; ~100ms partials) plus multilingual TTS / Flash variants for conversational voice agents.",
+      "title": "Cohere ships North 2 with token spending caps",
+      "body": "Oct 5 — rebuilt agent orchestration with human sign-off steps, agent memory, skills, shared libraries; admin console caps token spend by user, group and company; model-agnostic, on-prem or VPC.",
       "new": true,
       "cites": [
-        {
-          "label": "Microsoft",
-          "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/"
-        },
         {
           "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model/"
-        }
-      ]
-    },
-    {
-      "title": "Claude Code Mods: in-process agent hooks",
-      "body": "Oct 1 \u2014 JS/TS mods rewrite prompts/tool calls, manage permissions, and draw custom UI inside Claude Code 2.1.287+.",
-      "new": true,
-      "cites": [
-        {
-          "label": "claude.dev",
-          "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
-        }
-      ]
-    },
-    {
-      "title": "Google Project Suncatcher prototype reaches orbit",
-      "body": "Oct 1 \u2014 Planet-built test sat with TPUs launched on SpaceX Transporter-18; research moonshot on ML infra in space.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+          "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
         },
         {
-          "label": "NPR",
-          "url": "https://www.npr.org/2026/10/01/nx-s1-5983697/project-suncatcher-google-ai-data-center-space"
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/cohere-launches-north-2-with-redesigned-agent-harness-and-memory/"
         }
       ]
     },
     {
-      "title": "Gemini 4 Argon still rolling (Sep 30)",
-      "body": "Sep 30 \u2014 frontier model for long-horizon coding / enterprise / cyber; Fairwind first; retained as in-window signal.",
-      "new": false,
+      "title": "OpenAI safety-report lead resigns, says culture is \"broken\"",
+      "body": "Oct 3 — David Robinson's Atlantic essay cites rogue-agent incidents; OpenAI responds it pauses training or holds back models when needed.",
+      "new": true,
       "cites": [
-        {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
-        },
         {
           "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+        }
+      ]
+    },
+    {
+      "title": "Aleph Alpha releases Kolibri open-weight model",
+      "body": "Available Oct 3, announced Oct 5 — 78B-parameter mixture-of-experts (~3B active), German/English, tool calling; Cohere merger still pending approval.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Aleph Alpha",
+          "url": "https://aleph-alpha.com/en/news/kolibri-sovereign-ai-made-in-germany/"
+        },
+        {
+          "label": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/"
+        }
+      ]
+    },
+    {
+      "title": "Google open-sources DiarizationLM-Gemma-4-E4B",
+      "body": "Oct 4 — 4B Apache-2.0 model that fixes ASR and speaker-diarization errors; quantized builds run locally.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1"
         }
       ]
     }
-  ]
+  ],
+  "what_changed": [
+    {
+      "title": "Cohere North 2 puts token caps and autonomy policies in the admin console",
+      "body": "NEW (adjacent, not watchlist). Oct 5: North 2 rebuilds orchestration (multistep work with human sign-off), adds shareable prompt-built agents, cross-session memory, a skills feature and shared libraries. North Admin tracks token use per user and agent, sets consumption tiers and company caps with alerts, and applies PII/prompt-injection guardrails and per-agent autonomy policies. Connectors: Slack, GitHub, SharePoint, OneDrive. Why it matters: agent spend control is becoming a platform feature buyers can compare.",
+      "new": true,
+      "cites": [
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
+        },
+        {
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/cohere-launches-north-2-with-redesigned-agent-harness-and-memory/"
+        }
+      ]
+    },
+    {
+      "title": "Outreach re-promotes its Salesforce Headless / AgentExchange tie-in",
+      "body": "Low signal, amplification only. Oct 3 LinkedIn post (via TipRanks) re-ups the Sep 15 positioning: Outreach agents and Agentforce share live deal context and execute multi-step updates; Outreach is transactable on AgentExchange. No new product PR from any watchlist company Oct 3–5.",
+      "new": false,
+      "company": "Outreach",
+      "logo": "assets/logos/outreach.png",
+      "cites": [
+        {
+          "label": "TipRanks (LinkedIn post)",
+          "url": "https://www.tipranks.com/news/private-companies/outreach-deepens-salesforce-integration-with-ai-driven-revenue-orchestration"
+        },
+        {
+          "label": "Outreach blog (Sep 15)",
+          "url": "https://www.outreach.ai/resources/blog/salesforce-headless-outreach"
+        }
+      ]
+    }
+  ],
+  "quiet_note": "Quiet Oct 3–5 (weekend): no net-new product PR from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Aged off Today to competitor pages: Outreach Deal Agent (Oct 1), Gong Mission Callisto (Sep 30), Salesforce Agentforce on OpenAI Marketplace (Sep 30), RocketReach as Gong Enrich partner (Oct 1), Clay CEO Disrupt session (Oct 2). X pull unavailable today (API returned 402 Payment Required).",
+  "market_direction": [
+    {
+      "kind": "up",
+      "label": "Accelerating (agent spend governance)",
+      "text": "Cohere North 2 per-user/per-agent token tracking, tiers and caps (Oct 5)."
+    },
+    {
+      "kind": "emerging",
+      "label": "Emerging (open conversation-data tooling)",
+      "text": "Google DiarizationLM-Gemma-4-E4B, Apache-2.0, local inference (Oct 4)."
+    },
+    {
+      "kind": "emerging",
+      "label": "Emerging (sovereign open-weight models)",
+      "text": "Aleph Alpha Kolibri, documented data provenance, customer-controlled deployment (Oct 3–5)."
+    },
+    {
+      "kind": "flat",
+      "label": "Stable (watchlist product cadence)",
+      "text": "Weekend lull after last week's Gong Callisto and Outreach Deal Agent; those now live on competitor pages."
+    }
+  ],
+  "language_pulse": [
+    {
+      "term": "Token spending caps / consumption tiers",
+      "gloss": "Cohere North 2 admin language for metering agent usage by user, group and company (Oct 5)."
+    },
+    {
+      "term": "Autonomy policies",
+      "gloss": "Cohere's per-agent limits on which actions an agent may take (Oct 5)."
+    },
+    {
+      "term": "Headless / execution layer",
+      "gloss": "Salesforce + Outreach framing for agents acting across apps without a single UI (re-amplified Oct 3)."
+    },
+    {
+      "term": "DiarizationLM",
+      "gloss": "Google's LLM-based correction of transcripts and speaker labels (Oct 4 release)."
+    }
+  ],
+  "watch": [
+    {
+      "title": "October launch wave: Clay Sculpt (Oct 8) and Salesforce's October GAs",
+      "body": "Clay hosts Sculpt in San Francisco on Oct 8, its likely venue for new launches. Salesforce has Agent Optimizer and AI Skills in Agentforce Coworker slated for GA in October, with the Hunter outbound sales agent GA planned for November (restated in an Oct 5 regional release). Watch whether skills packaging and agent spend controls show up in pricing.",
+      "company": "Clay",
+      "logo": "assets/logos/clay.png",
+      "cites": [
+        {
+          "label": "Clay blog",
+          "url": "https://www.clay.com/blog"
+        },
+        {
+          "label": "Salesforce Dreamforce recap",
+          "url": "https://www.salesforce.com/blog/dreamforce-2026-announcements/"
+        },
+        {
+          "label": "Zawya (Oct 5)",
+          "url": "https://www.zawya.com/en/press-release/companies-news/salesforce-expands-agentforce-in-the-middle-east-with-a-new-portfolio-of-ai-agents-built-for-high-value-work-1509854"
+        }
+      ]
+    }
+  ],
+  "interpretation": {
+    "fact": "No watchlist product PR Oct 3–5. Cohere North 2 (Oct 5) adds token caps, autonomy policies, skills. OpenAI safety-report lead resigned (Oct 3). Aleph Alpha Kolibri available Oct 3. Google DiarizationLM-Gemma-4-E4B published Oct 4. Outreach Oct 3 LinkedIn post re-promotes Sep 15 AgentExchange news.",
+    "note": "Light interpretation: with competitors quiet, the useful signal is platform-level — metering and policy controls for agents are becoming standard admin features, which could raise buyer expectations for usage visibility in GTM agent tools. Do not treat the Outreach post as a new launch."
+  }
 }

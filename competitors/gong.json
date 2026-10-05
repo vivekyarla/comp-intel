@@ -2,9 +2,23 @@
   "name": "Gong",
   "slug": "gong",
   "website": "https://www.gong.io/",
-  "as_of": "2026-10-02",
+  "as_of": "2026-10-05",
   "positioning": "Gong markets itself as a Revenue AI Operating System (Revenue AI OS): conversation/interaction data via the Gong Revenue Graph, applications (Engage, Forecast, Enable, Agents), and an agentic execution layer (Gong Revenue Harness) for governed custom agents. Self-label is Revenue AI / Revenue AI OS, not AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-10-02",
+      "title": "Celebrate '26 recap blog: Deep Mode, Agent Builder, Gong Enrich; Cisco Engage stats",
+      "url": "https://www.gong.io/blog/celebrate-26-recap",
+      "summary": "Oct 2 recap of Celebrate '26: CEO Amit Bendov frames agentic AI 'as a system' in the Revenue AI OS; highlights Deep Mode, Agent Builder, Gong Enrich (claims bounce rates halved, phone connects doubled). Cisco on stage: 50,000+ outreach programs via Gong flows, ~4,000 Gong Engage cadences; top-adopting teams cite 32% larger deal sizes and 26% higher win rates (Cisco-reported).",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "RocketReach joins as Gong Enrich data partner (700M+ contacts; BYOK credits)",
+      "url": "https://www.prnewswire.com/news-releases/rocketreach-enriches-ai-revenue-operations-through-strategic-data-partnership-with-gong-302896210.html",
+      "summary": "Partner-side PR (Oct 1): RocketReach data fills missing email/phone in Gong Engage Flows and one-click in-app enrichment; admins control waterfall placement and CRM sync; existing RocketReach credits usable via Bring Your Own Keys before Gong Credits. Available on Gong Collective; MCP support planned. Re-covered by CROFirst Oct 5.",
+      "source_type": "partner_press"
+    },
     {
       "date": "2026-09-30",
       "title": "Mission Callisto at Celebrate '26: Gong Enrich, Agent Builder, Deep Mode, Dashboards + Gong Activate framing",
@@ -67,5 +81,5 @@
     "Gong Assistant",
     "insight into action"
   ],
-  "notes": "Oct 2: Mission Callisto retained on Today (Sep 30 still in window). No net-new Gong press Oct 1\u20132. Treat Gong Activate as announced vision; Enrich/Deep Mode/Dashboards GA; auto Custom Agents later 2026."
+  "notes": "Oct 5: Mission Callisto (Sep 30) aged off Today. No net-new Gong press Oct 3–5. Enrich partner ecosystem filling in (RocketReach Oct 1, BYOK + Gong Credits). Treat Gong Activate as announced vision; auto Custom Agents later 2026."
 }
