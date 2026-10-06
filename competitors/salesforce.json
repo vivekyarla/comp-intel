@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-06",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-06",
+      "title": "Newsroom Q&A: governed autonomy — LLM layer plus deterministic layer (Agent Fabric, Flow, Apex)",
+      "url": "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/",
+      "summary": "Oct 6 newsroom Q&A with Kathy Baxter (Principal Architect, Ethical AI Practice): Agentforce 'splits the agent brain into two layers' — probabilistic LLM for language/reasoning; consequential decisions routed through deterministic business logic, workflows and permissions with escalation to humans; audit trail of agent and human actions; Atlas Reasoning Engine explains actions; autonomy granted incrementally by policy; agents must identify as AI; Trust Layer toxicity and prompt-injection detection; Testing Center for bias checks; biggest gap cited is lack of post-launch monitoring. Messaging, not a launch.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-09-30",
       "title": "Salesforce Agentforce surfaced on OpenAI Marketplace (X)",
@@ -68,5 +75,5 @@
     "digital twins",
     "customer research agents"
   ],
-  "notes": "Oct 5: OpenAI Marketplace (Sep 30) aged off Today. No net-new Agentforce product PR Oct 3–5 (Oct 5 Middle East regional release restates Sep 11 job-ready agents). Watch October GAs: Agent Optimizer and AI Skills in Agentforce Coworker; Hunter GA planned November."
+  "notes": "Oct 6: no net-new Agentforce product PR Oct 5–6; Oct 6 newsroom Q&A restates governed-autonomy design (filed here, low signal on Today). Oct 5 Middle East release restates Sep 11 job-ready agents. Watch October GAs: Agent Optimizer and AI Skills in Agentforce Coworker; Hunter GA planned November 2026."
 }

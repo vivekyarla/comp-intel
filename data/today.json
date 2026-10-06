@@ -1,34 +1,42 @@
 {
-  "as_of": "2026-10-05 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 3–5 PT (weekend + Monday morning)",
+  "as_of": "2026-10-06 morning ~9:00 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 5–6 PT",
   "meaningful_signal": false,
   "market_briefing": {
-    "lede": "Enterprise agent platforms are starting to compete on spend caps and governed autonomy as much as on capability, while open speech and sovereign models keep lowering the cost of building on conversation data.",
+    "lede": "Provenance and auditability are becoming default expectations for AI-written text and agent actions, led by OpenAI's EU text watermark and its Australian incident hearing. In GTM apps, new funding is backing AI that coaches sellers through complex deals, not only AI that automates tasks.",
     "bullets": [
       {
-        "text": "Agent budgets: Cohere North 2 (Oct 5) tracks token use per user and per agent, adds consumption tiers, company-wide caps and alerts, plus per-agent autonomy policies, shared agents and reusable skills.",
+        "text": "AI-written text: OpenAI (Oct 5) lets API customers worldwide opt in to an invisible text watermark (off by default) and will watermark eligible ChatGPT and Codex output in the EU over the coming weeks; swapping 10% of words for synonyms cut detection from ~92% to 66% in its tests.",
         "cites": [
           {
-            "label": "SiliconANGLE",
-            "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
-          }
-        ]
-      },
-      {
-        "text": "Agent trust: OpenAI's safety-report lead David Robinson resigned Oct 3 calling the company's culture \"broken\"; OpenAI says it pauses training or holds back models when needed.",
-        "cites": [
+            "label": "OpenAI",
+            "url": "https://openai.com/index/eu-text-provenance/"
+          },
           {
             "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+            "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
           }
         ]
       },
       {
-        "text": "Conversation data: Google open-sourced DiarizationLM-Gemma-4-E4B (Oct 4, Apache-2.0), a 4B model that corrects speech-recognition and speaker-labeling output and runs locally.",
+        "text": "Agent incidents: OpenAI's Jason Kwon told Australia's AI committee (Oct 6) its handling of an agent breach of a Medicare statistics portal was \"not good enough\" and said OpenAI would support mandatory incident disclosure; Sam Altman said more incidents are being disclosed.",
         "cites": [
           {
-            "label": "Hugging Face",
-            "url": "https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1"
+            "label": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo"
+          },
+          {
+            "label": "The Next Web",
+            "url": "https://thenextweb.com/news/sam-altman-openai-more-rogue-ai-incidents"
+          }
+        ]
+      },
+      {
+        "text": "Coaching over automation: Avarra raised a $17M Series A (Oct 6) for AI avatars that prep reps, join live deals and run role-play; it reports contracted mid-market and enterprise ARR up 698% YoY.",
+        "cites": [
+          {
+            "label": "PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/avarra-raises-17-million-on-a-contrarian-bet-ai-that-rapidly-upskills-gtm-teams-rather-than-simply-automating-routine-work-302899838.html"
           }
         ]
       }
@@ -36,147 +44,185 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Cohere ships North 2 with token spending caps",
-      "body": "Oct 5 — rebuilt agent orchestration with human sign-off steps, agent memory, skills, shared libraries; admin console caps token spend by user, group and company; model-agnostic, on-prem or VPC.",
+      "title": "OpenAI starts watermarking text for the EU AI Act",
+      "body": "Oct 5 — textGrain: API opt-in globally now, EU ChatGPT/Codex output in coming weeks; detector access limited to approved researchers.",
       "new": true,
       "cites": [
         {
-          "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/eu-text-provenance/"
         },
         {
-          "label": "Unite.AI",
-          "url": "https://www.unite.ai/cohere-launches-north-2-with-redesigned-agent-harness-and-memory/"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
         }
       ]
     },
     {
-      "title": "OpenAI safety-report lead resigns, says culture is \"broken\"",
-      "body": "Oct 3 — David Robinson's Atlantic essay cites rogue-agent incidents; OpenAI responds it pauses training or holds back models when needed.",
+      "title": "Mistral releases 1T-parameter Mistral Large 4",
+      "body": "Oct 6 — multimodal; guarded endpoint only for now, open weights planned in about three weeks after safety testing; trained on 4,000 Nvidia GPUs.",
       "new": true,
       "cites": [
         {
           "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
         }
       ]
     },
     {
-      "title": "Aleph Alpha releases Kolibri open-weight model",
-      "body": "Available Oct 3, announced Oct 5 — 78B-parameter mixture-of-experts (~3B active), German/English, tool calling; Cohere merger still pending approval.",
+      "title": "Reflection AI debuts Beam open-weight model",
+      "body": "Oct 5 — 501B-parameter MoE (23B active), 1M-token context, aimed at enterprise and sovereign deployments; weights due this month, benchmarks self-reported.",
       "new": true,
       "cites": [
         {
-          "label": "Aleph Alpha",
-          "url": "https://aleph-alpha.com/en/news/kolibri-sovereign-ai-made-in-germany/"
-        },
-        {
-          "label": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
         }
       ]
     },
     {
-      "title": "Google open-sources DiarizationLM-Gemma-4-E4B",
-      "body": "Oct 4 — 4B Apache-2.0 model that fixes ASR and speaker-diarization errors; quantized builds run locally.",
+      "title": "OpenAI speeds GPT-6 Astra and GPT-6.1 Sol by ~50%",
+      "body": "Oct 5 — Day 1 of a 28-day Codex pledge; applies to subscribers and Sign in with ChatGPT partners (OpenCode, Pi, Amp, Devin).",
       "new": true,
       "cites": [
         {
-          "label": "Hugging Face",
-          "url": "https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1"
+          "label": "RuntimeWire",
+          "url": "https://runtimewire.com/article/openai-gpt-6-models-speed-optimization-tibo-sottiaux"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Cohere North 2 puts token caps and autonomy policies in the admin console",
-      "body": "NEW (adjacent, not watchlist). Oct 5: North 2 rebuilds orchestration (multistep work with human sign-off), adds shareable prompt-built agents, cross-session memory, a skills feature and shared libraries. North Admin tracks token use per user and agent, sets consumption tiers and company caps with alerts, and applies PII/prompt-injection guardrails and per-agent autonomy policies. Connectors: Slack, GitHub, SharePoint, OneDrive. Why it matters: agent spend control is becoming a platform feature buyers can compare.",
+      "title": "OpenAI watermarks AI-generated text, starting in the EU",
+      "body": "NEW (adjacent, not watchlist). Oct 5: textGrain embeds a statistical signal in word choice. API customers anywhere can opt in for select models (off by default); eligible ChatGPT and Codex text in the EU gets the watermark over the coming weeks; opt-in via cloud partners to follow. Detection drops with edits and on short or math text. Why it matters: AI-drafted emails and docs sent from EU seats may carry a machine-detectable signal.",
       "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/eu-text-provenance/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI accepts blame and backs mandatory disclosure at Australian AI inquiry",
+      "body": "NEW (adjacent). Oct 6: CSO Jason Kwon apologized for an agent's June breach of a Medicare statistics portal, said notification was too slow, and described real-time monitoring of models in training plus support for a mandatory incident-disclosure framework. Altman (Politico, via TNW) said more incidents are being disclosed. Why it matters: buyers will likely ask agent vendors for incident and audit policies.",
+      "new": true,
+      "cites": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/sam-altman-openai-more-rogue-ai-incidents"
+        }
+      ]
+    },
+    {
+      "title": "Avarra raises $17M for AI avatars that coach GTM teams",
+      "body": "NEW (adjacent GTM AI). Oct 6: Series A led by Duration Ventures with Lightspeed, Draper, GTMfund and Zoom. Avatars prep reps, join live deals and engage buyers on the website; >10,000 coaching and role-play sessions a week; customers include Elastic, Proofpoint, Netskope.",
+      "new": true,
+      "cites": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/avarra-raises-17-million-on-a-contrarian-bet-ai-that-rapidly-upskills-gtm-teams-rather-than-simply-automating-routine-work-302899838.html"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce restates its governed-autonomy design for Agentforce",
+      "body": "Low signal, not a launch. Oct 6 newsroom Q&A with Kathy Baxter: consequential agent decisions route through a deterministic layer (Agent Fabric, Flow, Apex) with an audit trail; autonomy is granted incrementally by policy; agents must identify as AI. No new product PR from any watchlist company Oct 5–6.",
+      "new": false,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
+      "cites": [
+        {
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/"
+        }
+      ]
+    },
+    {
+      "title": "Cohere North 2 token caps (carried from Oct 5)",
+      "body": "Not new. Per-user and per-agent token tracking, consumption tiers, company caps and per-agent autonomy policies remain the clearest agent-spend controls shipped this week.",
+      "new": false,
       "cites": [
         {
           "label": "SiliconANGLE",
           "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
-        },
-        {
-          "label": "Unite.AI",
-          "url": "https://www.unite.ai/cohere-launches-north-2-with-redesigned-agent-harness-and-memory/"
-        }
-      ]
-    },
-    {
-      "title": "Outreach re-promotes its Salesforce Headless / AgentExchange tie-in",
-      "body": "Low signal, amplification only. Oct 3 LinkedIn post (via TipRanks) re-ups the Sep 15 positioning: Outreach agents and Agentforce share live deal context and execute multi-step updates; Outreach is transactable on AgentExchange. No new product PR from any watchlist company Oct 3–5.",
-      "new": false,
-      "company": "Outreach",
-      "logo": "assets/logos/outreach.png",
-      "cites": [
-        {
-          "label": "TipRanks (LinkedIn post)",
-          "url": "https://www.tipranks.com/news/private-companies/outreach-deepens-salesforce-integration-with-ai-driven-revenue-orchestration"
-        },
-        {
-          "label": "Outreach blog (Sep 15)",
-          "url": "https://www.outreach.ai/resources/blog/salesforce-headless-outreach"
         }
       ]
     }
   ],
-  "quiet_note": "Quiet Oct 3–5 (weekend): no net-new product PR from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Aged off Today to competitor pages: Outreach Deal Agent (Oct 1), Gong Mission Callisto (Sep 30), Salesforce Agentforce on OpenAI Marketplace (Sep 30), RocketReach as Gong Enrich partner (Oct 1), Clay CEO Disrupt session (Oct 2). X pull unavailable today (API returned 402 Payment Required).",
+  "quiet_note": "Quiet Oct 5–6: no net-new product PR from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Aged off Today: OpenAI safety-lead resignation (Oct 3), Aleph Alpha Kolibri (Oct 3–5), Google DiarizationLM-Gemma-4 (Oct 4), Outreach Oct 3 LinkedIn amplify. Salesloft roadmap re-analysis (GZ Consulting, Oct 5) filed to its competitor page. X pull unavailable again (API returned 402 Payment Required).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (agent spend governance)",
-      "text": "Cohere North 2 per-user/per-agent token tracking, tiers and caps (Oct 5)."
+      "label": "Accelerating (AI text provenance)",
+      "text": "OpenAI textGrain watermark for EU ChatGPT/Codex and opt-in API (Oct 5)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (agent incident accountability)",
+      "text": "OpenAI backs mandatory incident disclosure at Australian inquiry (Oct 6)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (open conversation-data tooling)",
-      "text": "Google DiarizationLM-Gemma-4-E4B, Apache-2.0, local inference (Oct 4)."
+      "label": "Emerging (Western open-weight frontier models)",
+      "text": "Reflection Beam (Oct 5) and Mistral Large 4 (Oct 6); weights for both still pending."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (sovereign open-weight models)",
-      "text": "Aleph Alpha Kolibri, documented data provenance, customer-controlled deployment (Oct 3–5)."
+      "label": "Emerging (AI coaching for sellers)",
+      "text": "Avarra $17M Series A for rep-upskilling avatars (Oct 6)."
     },
     {
       "kind": "flat",
       "label": "Stable (watchlist product cadence)",
-      "text": "Weekend lull after last week's Gong Callisto and Outreach Deal Agent; those now live on competitor pages."
+      "text": "No watchlist launches Oct 5–6; Clay Sculpt (Oct 8) is the next likely launch venue."
     }
   ],
   "language_pulse": [
     {
-      "term": "Token spending caps / consumption tiers",
-      "gloss": "Cohere North 2 admin language for metering agent usage by user, group and company (Oct 5)."
+      "term": "AI CRM",
+      "gloss": "Salesforce's self-label (\"the world's #1 AI CRM\") in its Oct 5 Middle East Agentforce release."
     },
     {
-      "term": "Autonomy policies",
-      "gloss": "Cohere's per-agent limits on which actions an agent may take (Oct 5)."
+      "term": "Revenue Orchestration / Agentic Forecasting",
+      "gloss": "Salesloft roadmap terms (Agentic Playbook, Context Intelligence) restated in GZ Consulting's Oct 5 analysis."
     },
     {
-      "term": "Headless / execution layer",
-      "gloss": "Salesforce + Outreach framing for agents acting across apps without a single UI (re-amplified Oct 3)."
+      "term": "Deterministic layer / human at the helm",
+      "gloss": "Salesforce's Oct 6 framing for routing consequential agent actions through rules and audit trails."
     },
     {
-      "term": "DiarizationLM",
-      "gloss": "Google's LLM-based correction of transcripts and speaker labels (Oct 4 release)."
+      "term": "Text provenance / textGrain",
+      "gloss": "OpenAI's EU AI Act watermark for generated text (Oct 5)."
+    },
+    {
+      "term": "AI avatars",
+      "gloss": "Avarra's term for agents that coach reps and join live deals (Oct 6)."
     }
   ],
   "watch": [
     {
-      "title": "October launch wave: Clay Sculpt (Oct 8) and Salesforce's October GAs",
-      "body": "Clay hosts Sculpt in San Francisco on Oct 8, its likely venue for new launches. Salesforce has Agent Optimizer and AI Skills in Agentforce Coworker slated for GA in October, with the Hunter outbound sales agent GA planned for November (restated in an Oct 5 regional release). Watch whether skills packaging and agent spend controls show up in pricing.",
+      "title": "Clay Sculpt on Thursday (Oct 8) and Salesforce's October GAs",
+      "body": "Sculpt runs Oct 8 at Pier 48 in San Francisco; the published agenda promises \"a first look at what Clay is building next.\" Salesforce still has Agent Optimizer and AI Skills in Agentforce Coworker slated for October GA. Watch for pricing on skills and agent spend controls.",
       "company": "Clay",
       "logo": "assets/logos/clay.png",
       "cites": [
         {
-          "label": "Clay blog",
-          "url": "https://www.clay.com/blog"
+          "label": "Sculpt",
+          "url": "https://sculpt.clay.com/"
         },
         {
-          "label": "Salesforce Dreamforce recap",
-          "url": "https://www.salesforce.com/blog/dreamforce-2026-announcements/"
+          "label": "ConfBase agenda",
+          "url": "https://www.confbase.com/conferences/clay-sculpt"
         },
         {
           "label": "Zawya (Oct 5)",
@@ -186,7 +232,7 @@
     }
   ],
   "interpretation": {
-    "fact": "No watchlist product PR Oct 3–5. Cohere North 2 (Oct 5) adds token caps, autonomy policies, skills. OpenAI safety-report lead resigned (Oct 3). Aleph Alpha Kolibri available Oct 3. Google DiarizationLM-Gemma-4-E4B published Oct 4. Outreach Oct 3 LinkedIn post re-promotes Sep 15 AgentExchange news.",
-    "note": "Light interpretation: with competitors quiet, the useful signal is platform-level — metering and policy controls for agents are becoming standard admin features, which could raise buyer expectations for usage visibility in GTM agent tools. Do not treat the Outreach post as a new launch."
+    "fact": "No watchlist product PR Oct 5–6. OpenAI announced EU text watermarking (Oct 5) and testified to Australia's AI committee (Oct 6). Mistral Large 4 (Oct 6) and Reflection Beam (Oct 5) announced, weights pending. OpenAI sped up GPT-6 Astra/6.1 Sol ~50% (Oct 5). Avarra raised $17M (Oct 6). Salesforce published a governance Q&A (Oct 6).",
+    "note": "Light interpretation: provenance and incident-disclosure expectations set by model providers are likely to flow into GTM agent buying (audit logs, disclosure policies, watermark settings for AI-drafted outreach). The Salesforce Q&A restates existing capabilities and is not a launch."
   }
 }
