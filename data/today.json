@@ -1,42 +1,42 @@
 {
-  "as_of": "2026-10-06 morning ~9:00 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 5–6 PT",
+  "as_of": "2026-10-07 morning ~9:15 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 6–7 PT",
   "meaningful_signal": false,
   "market_briefing": {
-    "lede": "Provenance and auditability are becoming default expectations for AI-written text and agent actions, led by OpenAI's EU text watermark and its Australian incident hearing. In GTM apps, new funding is backing AI that coaches sellers through complex deals, not only AI that automates tasks.",
+    "lede": "Agents that act across company lines are getting rules: Sierra and Meta proposed an open protocol for personal agents dealing with businesses, and Salesforce called for zero-trust checks on every agent interaction. Assistants and GTM data vendors are also moving into the files and agent tools reps already use.",
     "bullets": [
       {
-        "text": "AI-written text: OpenAI (Oct 5) lets API customers worldwide opt in to an invisible text watermark (off by default) and will watermark eligible ChatGPT and Codex output in the EU over the coming weeks; swapping 10% of words for synonyms cut detection from ~92% to 66% in its tests.",
+        "text": "Agent-to-business protocol: Sierra (Oct 6) announced the Personal Agent Protocol with Meta, Genesys, Shopify, Stripe, Walmart and others: OAuth sessions, company-set permissions, and routes via website, MCP/OpenAPI or the company's own agent. A v0.1 spec is planned later in October.",
         "cites": [
           {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/eu-text-provenance/"
+            "label": "Unite.AI",
+            "url": "https://www.unite.ai/sierra-unveils-personal-agent-protocol-built-with-meta-and-partners/"
           },
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+            "label": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/"
           }
         ]
       },
       {
-        "text": "Agent incidents: OpenAI's Jason Kwon told Australia's AI committee (Oct 6) its handling of an agent breach of a Medicare statistics portal was \"not good enough\" and said OpenAI would support mandatory incident disclosure; Sam Altman said more incidents are being disclosed.",
+        "text": "Skills inside the doc: Claude for Google Workspace (public beta, Oct 6) brings Claude's connectors and saved skills into Docs, Sheets and Slides. Anthropic's example pulls Salesforce account history into a QBR deck, and edits wait for approval by default.",
         "cites": [
           {
-            "label": "BBC",
-            "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo"
+            "label": "Claude",
+            "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
           },
           {
-            "label": "The Next Web",
-            "url": "https://thenextweb.com/news/sam-altman-openai-more-rogue-ai-incidents"
+            "label": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1006111/you-can-use-claude-directly-in-google-docs-slides-and-sheets-with-a-new-add-on"
           }
         ]
       },
       {
-        "text": "Coaching over automation: Avarra raised a $17M Series A (Oct 6) for AI avatars that prep reps, join live deals and run role-play; it reports contracted mid-market and enterprise ARR up 698% YoY.",
+        "text": "Data sold to agents: HG Insights (Oct 6) launched a Contextual Intelligence Platform with an MCP server, agents reachable from Slack and Teams, and consumption pricing in Intelligence Credits. Copilot modules start at $22,000.",
         "cites": [
           {
             "label": "PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/avarra-raises-17-million-on-a-contrarian-bet-ai-that-rapidly-upskills-gtm-teams-rather-than-simply-automating-routine-work-302899838.html"
+            "url": "https://www.prnewswire.com/news-releases/hg-insights-launches-contextual-intelligence-platform-bringing-precision-to-ai-driven-gtm-revenue-302899222.html"
           }
         ]
       }
@@ -44,74 +44,117 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI starts watermarking text for the EU AI Act",
-      "body": "Oct 5 — textGrain: API opt-in globally now, EU ChatGPT/Codex output in coming weeks; detector access limited to approved researchers.",
+      "title": "OpenAI publishes 722 math manuscripts from an unreleased model",
+      "body": "Oct 6: 372 result families on GitHub from ~4,000 attempted problems, many with Lean proofs. None are peer reviewed, and the model has not been released.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/eu-text-provenance/"
+          "label": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/science-technology/openai-releases-findings-on-hundreds-of-math-problems/4081096"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic puts Claude inside Google Docs, Sheets and Slides",
+      "body": "Oct 6: public beta on paid plans. The same day, Claude for Startups added a free year of Claude Team and $1,000 in API credits.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Claude",
+          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
         },
         {
           "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/"
         }
       ]
     },
     {
-      "title": "Mistral releases 1T-parameter Mistral Large 4",
-      "body": "Oct 6 — multimodal; guarded endpoint only for now, open weights planned in about three weeks after safety testing; trained on 4,000 Nvidia GPUs.",
+      "title": "Microsoft and Nvidia launch Surface Laptop Ultra on RTX Spark",
+      "body": "Oct 7: up to 128GB unified memory and 1 petaflop of AI compute for local workloads. Windows security features plus Nvidia OpenShell control what on-device agents can access.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+          "label": "Quartz",
+          "url": "https://qz.com/microsoft-nvidia-surface-laptop-ultra-ai-windows-100726"
         }
       ]
     },
     {
-      "title": "Reflection AI debuts Beam open-weight model",
-      "body": "Oct 5 — 501B-parameter MoE (23B active), 1M-token context, aimed at enterprise and sovereign deployments; weights due this month, benchmarks self-reported.",
+      "title": "Google opens SynthID Detector to everyone",
+      "body": "Oct 7: available globally in English. It checks images, video and audio from Google and partners including OpenAI and NVIDIA.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI speeds GPT-6 Astra and GPT-6.1 Sol by ~50%",
-      "body": "Oct 5 — Day 1 of a 28-day Codex pledge; applies to subscribers and Sign in with ChatGPT partners (OpenCode, Pi, Amp, Devin).",
-      "new": true,
-      "cites": [
-        {
-          "label": "RuntimeWire",
-          "url": "https://runtimewire.com/article/openai-gpt-6-models-speed-optimization-tibo-sottiaux"
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "OpenAI watermarks AI-generated text, starting in the EU",
-      "body": "NEW (adjacent, not watchlist). Oct 5: textGrain embeds a statistical signal in word choice. API customers anywhere can opt in for select models (off by default); eligible ChatGPT and Codex text in the EU gets the watermark over the coming weeks; opt-in via cloud partners to follow. Detection drops with edits and on short or math text. Why it matters: AI-drafted emails and docs sent from EU seats may carry a machine-detectable signal.",
+      "title": "Sierra and Meta propose a standard for personal agents dealing with businesses",
+      "body": "NEW (adjacent, not watchlist). Oct 6: Personal Agent Protocol, developed with Meta, Genesys, Instinct, Rocket, Shopify, Stripe and Walmart. Sessions run on OAuth, customers choose read or write access, and companies decide what agents can do via web pages, MCP/OpenAPI APIs or their own agent. The v0.1 spec and a reference implementation are due later in October. Why it matters: buyer-side agents may arrive with scoped credentials, so agent-facing surfaces become part of sales and service.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/eu-text-provenance/"
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/sierra-unveils-personal-agent-protocol-built-with-meta-and-partners/"
         },
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/"
         }
       ]
     },
     {
-      "title": "OpenAI accepts blame and backs mandatory disclosure at Australian AI inquiry",
-      "body": "NEW (adjacent). Oct 6: CSO Jason Kwon apologized for an agent's June breach of a Medicare statistics portal, said notification was too slow, and described real-time monitoring of models in training plus support for a mandatory incident-disclosure framework. Altman (Politico, via TNW) said more incidents are being disclosed. Why it matters: buyers will likely ask agent vendors for incident and audit policies.",
+      "title": "Claude for Google Workspace brings connectors and skills into Docs, Sheets and Slides",
+      "body": "NEW (adjacent). Oct 6: sidebar add-on in public beta on all paid plans, plus beta connectors to create and edit Google files from Claude. 'Ask before edits' is the default mode. Enterprise controls (Compliance API, CMEK, OpenTelemetry audit export) apply to the add-on.",
       "new": true,
+      "cites": [
+        {
+          "label": "Claude",
+          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006111/you-can-use-claude-directly-in-google-docs-slides-and-sheets-with-a-new-add-on"
+        }
+      ]
+    },
+    {
+      "title": "HG Insights repackages GTM data as an agent layer with credit pricing",
+      "body": "NEW (adjacent GTM data). Oct 6: Fabric data foundation (new Momentum signal), Copilots with explainable Fit/Need/Intent scoring, HG Agents and a Superagent reachable from Slack, Teams or MCP, and an MCP server also offered via AWS Marketplace. Pricing is consumption-based Intelligence Credits; Copilot modules start at $22,000.",
+      "new": true,
+      "cites": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/hg-insights-launches-contextual-intelligence-platform-bringing-precision-to-ai-driven-gtm-revenue-302899222.html"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce publishes a zero-trust view of multi-agent systems",
+      "body": "Low signal, not a launch. Oct 7 newsroom post by Kathy Baxter summarizes a white paper from workshops with 21 organizations. It calls for deterministic guardrails outside the agent's reasoning loop, an 'owner's tag' on every memory item, and defined human escalation points. No new product PR from any watchlist company Oct 6–7.",
+      "new": false,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
+      "cites": [
+        {
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/stories/trust-in-multi-agent-future/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI backs mandatory incident disclosure (carried from Oct 6)",
+      "body": "Not new. At Australia's AI inquiry, OpenAI said its handling of an agent breach was 'not good enough' and said it would support a mandatory incident-disclosure framework.",
+      "new": false,
       "cites": [
         {
           "label": "BBC",
@@ -122,117 +165,74 @@
           "url": "https://thenextweb.com/news/sam-altman-openai-more-rogue-ai-incidents"
         }
       ]
-    },
-    {
-      "title": "Avarra raises $17M for AI avatars that coach GTM teams",
-      "body": "NEW (adjacent GTM AI). Oct 6: Series A led by Duration Ventures with Lightspeed, Draper, GTMfund and Zoom. Avatars prep reps, join live deals and engage buyers on the website; >10,000 coaching and role-play sessions a week; customers include Elastic, Proofpoint, Netskope.",
-      "new": true,
-      "cites": [
-        {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/avarra-raises-17-million-on-a-contrarian-bet-ai-that-rapidly-upskills-gtm-teams-rather-than-simply-automating-routine-work-302899838.html"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce restates its governed-autonomy design for Agentforce",
-      "body": "Low signal, not a launch. Oct 6 newsroom Q&A with Kathy Baxter: consequential agent decisions route through a deterministic layer (Agent Fabric, Flow, Apex) with an audit trail; autonomy is granted incrementally by policy; agents must identify as AI. No new product PR from any watchlist company Oct 5–6.",
-      "new": false,
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.svg",
-      "cites": [
-        {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/"
-        }
-      ]
-    },
-    {
-      "title": "Cohere North 2 token caps (carried from Oct 5)",
-      "body": "Not new. Per-user and per-agent token tracking, consumption tiers, company caps and per-agent autonomy policies remain the clearest agent-spend controls shipped this week.",
-      "new": false,
-      "cites": [
-        {
-          "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
-        }
-      ]
     }
   ],
-  "quiet_note": "Quiet Oct 5–6: no net-new product PR from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Aged off Today: OpenAI safety-lead resignation (Oct 3), Aleph Alpha Kolibri (Oct 3–5), Google DiarizationLM-Gemma-4 (Oct 4), Outreach Oct 3 LinkedIn amplify. Salesloft roadmap re-analysis (GZ Consulting, Oct 5) filed to its competitor page. X pull unavailable again (API returned 402 Payment Required).",
+  "quiet_note": "Quiet Oct 6–7: no net-new product PR from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco, and no Clay pre-announcement ahead of Sculpt. Salesloft named a Chief People Officer (Oct 6), filed to its competitor page. Aged off Today: OpenAI EU text watermark, Reflection Beam, GPT-6 speedups and Cohere North 2 (all Oct 5). X pull unavailable again (API returned 402 Payment Required).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (AI text provenance)",
-      "text": "OpenAI textGrain watermark for EU ChatGPT/Codex and opt-in API (Oct 5)."
+      "label": "Accelerating (agent identity and verification)",
+      "text": "Personal Agent Protocol (Oct 6) and Salesforce's zero-trust multi-agent paper (Oct 7)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (agent incident accountability)",
-      "text": "OpenAI backs mandatory incident disclosure at Australian inquiry (Oct 6)."
+      "label": "Accelerating (AI content provenance)",
+      "text": "Google SynthID Detector opens globally (Oct 7), two days after OpenAI's EU text watermark."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (Western open-weight frontier models)",
-      "text": "Reflection Beam (Oct 5) and Mistral Large 4 (Oct 6); weights for both still pending."
+      "label": "Emerging (assistants inside office files)",
+      "text": "Claude for Google Workspace beta with connectors and skills (Oct 6)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (AI coaching for sellers)",
-      "text": "Avarra $17M Series A for rep-upskilling avatars (Oct 6)."
+      "label": "Emerging (GTM data served to agents on credits)",
+      "text": "HG Insights MCP server and Intelligence Credits (Oct 6)."
     },
     {
       "kind": "flat",
       "label": "Stable (watchlist product cadence)",
-      "text": "No watchlist launches Oct 5–6; Clay Sculpt (Oct 8) is the next likely launch venue."
+      "text": "No watchlist launches Oct 6–7; Clay Sculpt (Oct 8) is next."
     }
   ],
   "language_pulse": [
     {
-      "term": "AI CRM",
-      "gloss": "Salesforce's self-label (\"the world's #1 AI CRM\") in its Oct 5 Middle East Agentforce release."
+      "term": "Personal agent / business agent",
+      "gloss": "Sierra and Meta's framing for consumer agents transacting with company agents and APIs (Oct 6)."
     },
     {
-      "term": "Revenue Orchestration / Agentic Forecasting",
-      "gloss": "Salesloft roadmap terms (Agentic Playbook, Context Intelligence) restated in GZ Consulting's Oct 5 analysis."
+      "term": "Zero Trust / complex accountability",
+      "gloss": "Salesforce's Oct 7 terms for verifying every agent's identity, action and access."
     },
     {
-      "term": "Deterministic layer / human at the helm",
-      "gloss": "Salesforce's Oct 6 framing for routing consequential agent actions through rules and audit trails."
+      "term": "Contextual Intelligence / context gap",
+      "gloss": "HG Insights' label for an entity-resolved data layer that agents act on (Oct 6)."
     },
     {
-      "term": "Text provenance / textGrain",
-      "gloss": "OpenAI's EU AI Act watermark for generated text (Oct 5)."
+      "term": "Revenue Orchestration / Predictive Revenue System",
+      "gloss": "Salesloft's self-description, restated in its Oct 6 CPO release."
     },
     {
-      "term": "AI avatars",
-      "gloss": "Avarra's term for agents that coach reps and join live deals (Oct 6)."
+      "term": "Aim before you automate",
+      "gloss": "Gong CCO Simon Frey's framing for AI ROI in an Oct 6 customer-story blog."
     }
   ],
   "watch": [
     {
-      "title": "Clay Sculpt on Thursday (Oct 8) and Salesforce's October GAs",
-      "body": "Sculpt runs Oct 8 at Pier 48 in San Francisco; the published agenda promises \"a first look at what Clay is building next.\" Salesforce still has Agent Optimizer and AI Skills in Agentforce Coworker slated for October GA. Watch for pricing on skills and agent spend controls.",
+      "title": "Clay Sculpt tomorrow (Thursday, Oct 8)",
+      "body": "No pre-announcement found as of Wednesday morning. The 9:30 AM opening keynote (Kareem Amin with Clay's heads of product and AI) promises \"a first look at what Clay is building next\"; a main-stage session covers an agent that reads workflow logs and fixes routing bugs via PR. The closing fireside is with Sierra co-founder Clay Bavor, two days after Sierra's Personal Agent Protocol. Watch for pricing on skills and agents.",
       "company": "Clay",
       "logo": "assets/logos/clay.png",
       "cites": [
         {
-          "label": "Sculpt",
+          "label": "Sculpt agenda",
           "url": "https://sculpt.clay.com/"
-        },
-        {
-          "label": "ConfBase agenda",
-          "url": "https://www.confbase.com/conferences/clay-sculpt"
-        },
-        {
-          "label": "Zawya (Oct 5)",
-          "url": "https://www.zawya.com/en/press-release/companies-news/salesforce-expands-agentforce-in-the-middle-east-with-a-new-portfolio-of-ai-agents-built-for-high-value-work-1509854"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "No watchlist product PR Oct 5–6. OpenAI announced EU text watermarking (Oct 5) and testified to Australia's AI committee (Oct 6). Mistral Large 4 (Oct 6) and Reflection Beam (Oct 5) announced, weights pending. OpenAI sped up GPT-6 Astra/6.1 Sol ~50% (Oct 5). Avarra raised $17M (Oct 6). Salesforce published a governance Q&A (Oct 6).",
-    "note": "Light interpretation: provenance and incident-disclosure expectations set by model providers are likely to flow into GTM agent buying (audit logs, disclosure policies, watermark settings for AI-drafted outreach). The Salesforce Q&A restates existing capabilities and is not a launch."
+    "fact": "No watchlist product PR Oct 6–7. Sierra announced the Personal Agent Protocol with Meta and partners (Oct 6). Anthropic launched Claude for Google Workspace in beta and expanded Claude for Startups (Oct 6). HG Insights launched its Contextual Intelligence Platform (Oct 6). OpenAI released 722 math manuscripts (Oct 6). Microsoft and Nvidia launched the Surface Laptop Ultra, and Google opened SynthID Detector globally (Oct 7). Salesforce published a multi-agent trust post (Oct 7); Salesloft named a CPO (Oct 6).",
+    "note": "Light interpretation: identity, permission and audit standards for agents are forming outside the CRM vendors, so they are likely to show up as requirements for GTM agents that touch buyers or customer data. PAP is a proposal with no published spec yet."
   }
 }

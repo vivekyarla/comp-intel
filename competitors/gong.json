@@ -2,9 +2,23 @@
   "name": "Gong",
   "slug": "gong",
   "website": "https://www.gong.io/",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-07",
   "positioning": "Gong markets itself as a Revenue AI Operating System (Revenue AI OS): conversation/interaction data via the Gong Revenue Graph, applications (Engage, Forecast, Enable, Agents), and an agentic execution layer (Gong Revenue Harness) for governed custom agents. Self-label is Revenue AI / Revenue AI OS, not AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-10-07",
+      "title": "ARR Club (third-party): Gong at $550M+ ARR, ~50% YoY",
+      "url": "https://www.arr.club/signal/gong-hit-550m-arr-growing-50-percent-yoy",
+      "summary": "Oct 7 third-party post says Gong shared metrics at its user conference: $550M+ ARR up ~50% YoY, 125%+ NDR (147% enterprise), ~75% gross margin, 10x MCP growth, 3x AI credit usage, 15-month CAC payback. Not verified against a Gong primary source; Gong's last official ARR release was >$500M (May 2026). Kept off Today.",
+      "source_type": "third_party"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Blog: 'Aim before you automate' — Celebrate '26 Executive Showcase customer stories",
+      "url": "https://www.gong.io/blog/how-4-revenue-leaders-drive-measurable-roi",
+      "summary": "Oct 6 blog by CCO Simon Frey: Experian (25% win-rate lift after consolidating), Thomson Reuters (Salesforce as system of record, Gong as system of engagement; ~12% higher win rates for high adopters; $38M pipeline touched by Gong flows/Engage at 42% win rate), Adyen (call analysis 60 days post-acquisition), Snowflake (rep enablement as live experiment). Customer-reported figures; not a launch.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-10-02",
       "title": "Celebrate '26 recap blog: Deep Mode, Agent Builder, Gong Enrich; Cisco Engage stats",
@@ -79,7 +93,9 @@
     "Model Context Protocol (MCP)",
     "Gong Enable",
     "Gong Assistant",
-    "insight into action"
+    "insight into action",
+    "system of engagement",
+    "aim before you automate"
   ],
-  "notes": "Oct 5: Mission Callisto (Sep 30) aged off Today. No net-new Gong press Oct 3–5. Enrich partner ecosystem filling in (RocketReach Oct 1, BYOK + Gong Credits). Treat Gong Activate as announced vision; auto Custom Agents later 2026."
+  "notes": "Oct 7: no net-new Gong press Oct 6–7. Oct 6 customer-ROI blog filed. ARR Club Oct 7 cites $550M+ ARR / ~50% YoY from the conference — third-party, unverified, kept off Today. Mission Callisto (Sep 30) remains the latest launch; auto-triggered Custom Agents later 2026."
 }
