@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-09",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-08",
+      "title": "X amplification: Hunter outbound agent + 'Claudeforce' + This Month at Salesforce (not new)",
+      "url": "https://x.com/salesforce/status/2108256352497807409",
+      "summary": "Oct 8 @salesforce posts promoted Hunter (pilot; GA planned Nov '26 per Sep 11 release), Claudeforce (announced Aug 27; https://x.com/salesforce/status/2108226116242624854) and a Dreamforce recap episode. Restatements, not launches. Agent Optimizer and AI Skills in Agentforce Coworker still slated GA October '26.",
+      "source_type": "social_amplify"
+    },
     {
       "date": "2026-10-07",
       "title": "Newsroom: 'From Autonomy to Accountability' — zero-trust view of multi-agent systems (white paper)",

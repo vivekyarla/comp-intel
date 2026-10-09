@@ -1,42 +1,38 @@
 {
-  "as_of": "2026-10-07 morning ~9:15 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 6–7 PT",
-  "meaningful_signal": false,
+  "as_of": "2026-10-09 morning ~9:45 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 8–9 PT",
+  "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Agents that act across company lines are getting rules: Sierra and Meta proposed an open protocol for personal agents dealing with businesses, and Salesforce called for zero-trust checks on every agent interaction. Assistants and GTM data vendors are also moving into the files and agent tools reps already use.",
+    "lede": "GTM agents are being handed outcomes instead of steps, and the vendors shipping them are adding loops to learn and limits to stay in check. On Oct 8 Clay previewed an agent that runs plays and proposes ICP changes from results, Microsoft packaged Dynamics 365 as Copilot skills that stop at proposals, and Google gave its Gemini agent its own Workspace identity and audit trail.",
     "bullets": [
       {
-        "text": "Agent-to-business protocol: Sierra (Oct 6) announced the Personal Agent Protocol with Meta, Genesys, Shopify, Stripe, Walmart and others: OAuth sessions, company-set permissions, and routes via website, MCP/OpenAPI or the company's own agent. A v0.1 spec is planned later in October.",
+        "text": "CRM as skills: Microsoft (Oct 8) made 30 Dynamics 365 CRM skills for Copilot Cowork generally available, built on MCP tools across Sales, Customer Service and Customer Insights. Autopilot for recurring work is in private preview, and skills separate analysis, proposed changes and completed actions.",
         "cites": [
           {
-            "label": "Unite.AI",
-            "url": "https://www.unite.ai/sierra-unveils-personal-agent-protocol-built-with-meta-and-partners/"
-          },
-          {
-            "label": "SiliconANGLE",
-            "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/"
+            "label": "Microsoft",
+            "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/08/bring-microsoft-dynamics-365-into-the-flow-of-work-with-30-new-crm-skills/"
           }
         ]
       },
       {
-        "text": "Skills inside the doc: Claude for Google Workspace (public beta, Oct 6) brings Claude's connectors and saved skills into Docs, Sheets and Slides. Anthropic's example pulls Salesforce account history into a QBR deck, and edits wait for approval by default.",
+        "text": "Agent as coworker: Google's Gemini agent (Oct 8) gets its own Workspace account and email, writes an audit trail attributed to the agent, connects to Slack, Microsoft 365, Snowflake and any MCP server, and lets users pick Claude. Real-time spend caps are part of the launch.",
         "cites": [
           {
-            "label": "Claude",
-            "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
           },
           {
-            "label": "The Verge",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/1006111/you-can-use-claude-directly-in-google-docs-slides-and-sheets-with-a-new-add-on"
+            "label": "Google",
+            "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
           }
         ]
       },
       {
-        "text": "Data sold to agents: HG Insights (Oct 6) launched a Contextual Intelligence Platform with an MCP server, agents reachable from Slack and Teams, and consumption pricing in Intelligence Credits. Copilot modules start at $22,000.",
+        "text": "Outcome budgets: Hone (Oct 8) raised a seed co-led by Benchmark and Index for 'engines' that own outcomes, starting with account management. It is exploring budget-based pricing instead of per-seat or per-task. Round size not disclosed.",
         "cites": [
           {
-            "label": "PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/hg-insights-launches-contextual-intelligence-platform-bringing-precision-to-ai-driven-gtm-revenue-302899222.html"
+            "label": "TBPN Digest",
+            "url": "https://www.tbpndigest.com/story/2026-10-08/hone-raises-from-benchmark-and-index-to-build-ai-engines-that-own-business-outcomes-not-just-automate-tasks"
           }
         ]
       }
@@ -44,195 +40,229 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI publishes 722 math manuscripts from an unreleased model",
-      "body": "Oct 6: 372 result families on GitHub from ~4,000 attempted problems, many with Lean proofs. None are peer reviewed, and the model has not been released.",
+      "title": "Google launches the Gemini agent for work",
+      "body": "Oct 8: one agent that takes objectives, delegates to subagents, connects to business systems and any MCP server, and offers Claude in the model picker. Business first; consumers later.",
       "new": true,
       "cites": [
-        {
-          "label": "Anadolu Agency",
-          "url": "https://www.aa.com.tr/en/science-technology/openai-releases-findings-on-hundreds-of-math-problems/4081096"
-        },
-        {
-          "label": "Engadget",
-          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic puts Claude inside Google Docs, Sheets and Slides",
-      "body": "Oct 6: public beta on paid plans. The same day, Claude for Startups added a free year of Claude Team and $1,000 in API credits.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Claude",
-          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
-        },
         {
           "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft and Nvidia launch Surface Laptop Ultra on RTX Spark",
-      "body": "Oct 7: up to 128GB unified memory and 1 petaflop of AI compute for local workloads. Windows security features plus Nvidia OpenShell control what on-device agents can access.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Quartz",
-          "url": "https://qz.com/microsoft-nvidia-surface-laptop-ultra-ai-windows-100726"
-        }
-      ]
-    },
-    {
-      "title": "Google opens SynthID Detector to everyone",
-      "body": "Oct 7: available globally in English. It checks images, video and audio from Google and partners including OpenAI and NVIDIA.",
-      "new": true,
-      "cites": [
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+        },
         {
           "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic launches OSS Scanner and a critical-infrastructure defense program",
+      "body": "Oct 8: free, opt-in model-generated vulnerability scans for eligible open-source projects (reports unreviewed by humans), plus a program with 11 founding partners including CrowdStrike, Palo Alto Networks and Deloitte.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/08/anthropic-launches-critical-infrastructure-program-and-free-oss-scanner-for-open-source/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI expands GPT-6 Intelligent UI to Free and Go users",
+      "body": "Rollout began Oct 7 on paid plans and reached Free and Go from Oct 8: interactive charts, forms and calculators inside ChatGPT answers. Applies to Chat, not Work or Codex.",
+      "new": true,
+      "cites": [
+        {
+          "label": "TechRepublic",
+          "url": "https://www.techrepublic.com/article/news-gpt-6-intelligent-ui-charts-forms/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI fires three safety researchers, citing a breach of trust",
+      "body": "Oct 9: OpenAI says the three violated policies on handling sensitive information; the researchers say they were removed for prioritizing safety.",
+      "new": true,
+      "cites": [
+        {
+          "label": "ABC News (AP)",
+          "url": "https://abcnews.com/Technology/wireStory/openai-fires-3-safety-researchers-dispute-ai-risks-137123277"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Sierra and Meta propose a standard for personal agents dealing with businesses",
-      "body": "NEW (adjacent, not watchlist). Oct 6: Personal Agent Protocol, developed with Meta, Genesys, Instinct, Rocket, Shopify, Stripe and Walmart. Sessions run on OAuth, customers choose read or write access, and companies decide what agents can do via web pages, MCP/OpenAPI APIs or their own agent. The v0.1 spec and a reference implementation are due later in October. Why it matters: buyer-side agents may arrive with scoped credentials, so agent-facing surfaces become part of sales and service.",
+      "title": "Clay launches an agent-first way to build, Workflows and an Inbound SDR Agent at Sculpt",
+      "body": "NEW (watchlist). Oct 8: an agent plans, runs and improves outcome-based plays using Knowledge Hub (ICP, personas, positioning), suggests ICP updates from results, and schedules its own check-ins. Beta for Sculpt attendees, early-access users in coming weeks. Workflows (visual canvas; branch, loop, code, agent steps; built from chat or CLI) is in beta for all Clay users, full launch this fall. Inbound SDR Agent (voice qualification, sandbox demo, routes to rep calendars, trained on past demo calls) is preview/waitlist only. No pricing announced. Why it matters: Clay now has a seller agent of its own, not just data and orchestration under someone else's.",
       "new": true,
+      "company": "Clay",
+      "logo": "assets/logos/clay.png",
       "cites": [
         {
-          "label": "Unite.AI",
-          "url": "https://www.unite.ai/sierra-unveils-personal-agent-protocol-built-with-meta-and-partners/"
+          "label": "Clay",
+          "url": "https://www.clay.com/blog/sculpt-2026-recap"
         },
         {
-          "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/"
-        }
-      ]
-    },
-    {
-      "title": "Claude for Google Workspace brings connectors and skills into Docs, Sheets and Slides",
-      "body": "NEW (adjacent). Oct 6: sidebar add-on in public beta on all paid plans, plus beta connectors to create and edit Google files from Claude. 'Ask before edits' is the default mode. Enterprise controls (Compliance API, CMEK, OpenTelemetry audit export) apply to the add-on.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Claude",
-          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+          "label": "Sculpt showcase",
+          "url": "https://sculpt.clay.com/showcase"
         },
         {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006111/you-can-use-claude-directly-in-google-docs-slides-and-sheets-with-a-new-add-on"
+          "label": "Hacking Demand",
+          "url": "https://hackingdemand.com/blog/clay-sculpt-2026-announcements"
         }
       ]
     },
     {
-      "title": "HG Insights repackages GTM data as an agent layer with credit pricing",
-      "body": "NEW (adjacent GTM data). Oct 6: Fabric data foundation (new Momentum signal), Copilots with explainable Fit/Need/Intent scoring, HG Agents and a Superagent reachable from Slack, Teams or MCP, and an MCP server also offered via AWS Marketplace. Pricing is consumption-based Intelligence Credits; Copilot modules start at $22,000.",
+      "title": "Microsoft ships 30 Dynamics 365 CRM skills for Copilot",
+      "body": "NEW (adjacent). Oct 8: skills GA in Copilot Cowork over 180+ GA tools; Autopilot private preview; Code via Frontier. Examples: pipeline prioritizer, deal rescue, 30-day account plan, case triage. Skills respect Dynamics 365 and Microsoft 365 permissions and keep proposed changes distinct from saved ones.",
       "new": true,
       "cites": [
         {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/hg-insights-launches-contextual-intelligence-platform-bringing-precision-to-ai-driven-gtm-revenue-302899222.html"
+          "label": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/08/bring-microsoft-dynamics-365-into-the-flow-of-work-with-30-new-crm-skills/"
         }
       ]
     },
     {
-      "title": "Salesforce publishes a zero-trust view of multi-agent systems",
-      "body": "Low signal, not a launch. Oct 7 newsroom post by Kathy Baxter summarizes a white paper from workshops with 21 organizations. It calls for deterministic guardrails outside the agent's reasoning loop, an 'owner's tag' on every memory item, and defined human escalation points. No new product PR from any watchlist company Oct 6–7.",
+      "title": "Google's Gemini agent works as a named coworker with its own audit trail",
+      "body": "NEW (adjacent). Oct 8 at Gemini at Work: objectives, skills, subagents, a tasks inbox, connectors (Workspace, Microsoft 365, Slack, Jira, Snowflake, Databricks, any MCP server), Claude in the model picker, and spend caps. Early testers include Shopify and PayPal.",
+      "new": true,
+      "cites": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+        },
+        {
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+        }
+      ]
+    },
+    {
+      "title": "Hone raises a seed for AI 'engines' that own account-management outcomes",
+      "body": "NEW (adjacent). Oct 8: co-led by Benchmark and Index; founder previously at Cognition. Template engines for GTM, recruiting, financial risk and procurement; exploring budget-based pricing. Round size not disclosed.",
+      "new": true,
+      "cites": [
+        {
+          "label": "TBPN Digest",
+          "url": "https://www.tbpndigest.com/story/2026-10-08/hone-raises-from-benchmark-and-index-to-build-ai-engines-that-own-business-outcomes-not-just-automate-tasks"
+        }
+      ]
+    },
+    {
+      "title": "Outreach publishes a commissioned Forrester TEI study",
+      "body": "Low signal (watchlist). Oct 8: 244% three-year ROI and payback under six months for a composite organization. The study says most modeled value comes from workflow standardization and automation; the composite is still in early pilots with Amplify, Outreach's agentic offering.",
       "new": false,
+      "company": "Outreach",
+      "logo": "assets/logos/outreach.png",
+      "cites": [
+        {
+          "label": "Outreach blog",
+          "url": "https://www.outreach.ai/resources/blog/forrester-tei-ai-readiness-gap-2026"
+        }
+      ]
+    }
+  ],
+  "quiet_note": "No net-new product PR Oct 8–9 from Gong, Nooks, Salesloft or Monaco. Salesforce's Oct 8 X posts restated Hunter (pilot; GA planned November) and Claudeforce (announced Aug 27), filed to its competitor page. Aged off Today: Sierra/Meta Personal Agent Protocol, Claude for Google Workspace, HG Insights platform, OpenAI math manuscripts (Oct 6); Salesforce zero-trust post, Surface Laptop Ultra, SynthID Detector (Oct 7). X API pull failed again (402); public X search used as fallback.",
+  "market_direction": [
+    {
+      "kind": "up",
+      "label": "Accelerating (agents given outcomes, not steps)",
+      "text": "Clay agent-first build, Google Gemini agent ('objectives, not just instructions'), Hone engines (all Oct 8)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (CRM exposed as MCP tools and skills)",
+      "text": "Microsoft's 30 Dynamics 365 skills (Oct 8), after Claudeforce and Clay's Agent Plugin."
+    },
+    {
+      "kind": "emerging",
+      "label": "Emerging (AI SDR from data and orchestration vendors)",
+      "text": "Clay Inbound SDR Agent in preview (Oct 8)."
+    },
+    {
+      "kind": "emerging",
+      "label": "Emerging (agent identity and attributed audit)",
+      "text": "Gemini agent gets its own Workspace account and agent-attributed audit trail (Oct 8)."
+    },
+    {
+      "kind": "flat",
+      "label": "Stable (ROI proof rests on workflow foundations)",
+      "text": "Outreach TEI (Oct 8) attributes modeled value mostly to standardization, with agentic AI as future upside."
+    }
+  ],
+  "language_pulse": [
+    {
+      "term": "Self-learning revenue engine / GTM alpha",
+      "gloss": "Clay's Sculpt framing for systems that learn from each campaign (Oct 8)."
+    },
+    {
+      "term": "Knowledge Hub",
+      "gloss": "Clay's living record of ICP, personas and positioning that guides agent actions (Oct 8)."
+    },
+    {
+      "term": "Agentic CRM / system of action",
+      "gloss": "Microsoft's terms for Dynamics 365 feeding skills into Copilot (Oct 8)."
+    },
+    {
+      "term": "Objectives, not just instructions",
+      "gloss": "Google Cloud CEO Thomas Kurian on the Gemini agent (Oct 8)."
+    },
+    {
+      "term": "AI readiness gap",
+      "gloss": "Outreach's framing for its Forrester TEI release (Oct 8)."
+    },
+    {
+      "term": "Engines that own outcomes",
+      "gloss": "Hone's label for autonomous systems priced against a budget (Oct 8)."
+    }
+  ],
+  "competitive_moves": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "text": "New · Sculpt (Oct 8): agent-first build (beta), Workflows (beta for all users), Inbound SDR Agent (preview/waitlist). No pricing.",
+      "cites": [
+        {
+          "label": "Clay",
+          "url": "https://www.clay.com/blog/sculpt-2026-recap"
+        },
+        {
+          "label": "Sculpt showcase",
+          "url": "https://sculpt.clay.com/showcase"
+        }
+      ]
+    },
+    {
+      "company": "Outreach",
+      "slug": "outreach",
+      "text": "Low signal · Commissioned Forrester TEI (Oct 8): 244% ROI for a composite; agentic value framed as future upside.",
+      "cites": [
+        {
+          "label": "Outreach blog",
+          "url": "https://www.outreach.ai/resources/blog/forrester-tei-ai-readiness-gap-2026"
+        }
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
+      "body": "Salesforce's Sep 11 announcement put both at GA in October '26: Agent Optimizer (an agent that builds, tests and tunes other agents) and AI Skills in Agentforce Coworker (teach a task once, scale it). Hunter, the outbound sales agent, stays in pilot until November. Watch for GA confirmation and pricing, now that Clay and Microsoft have shipped comparable skill and agent layers.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
           "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/trust-in-multi-agent-future/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI backs mandatory incident disclosure (carried from Oct 6)",
-      "body": "Not new. At Australia's AI inquiry, OpenAI said its handling of an agent breach was 'not good enough' and said it would support a mandatory incident-disclosure framework.",
-      "new": false,
-      "cites": [
-        {
-          "label": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/sam-altman-openai-more-rogue-ai-incidents"
-        }
-      ]
-    }
-  ],
-  "quiet_note": "Quiet Oct 6–7: no net-new product PR from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco, and no Clay pre-announcement ahead of Sculpt. Salesloft named a Chief People Officer (Oct 6), filed to its competitor page. Aged off Today: OpenAI EU text watermark, Reflection Beam, GPT-6 speedups and Cohere North 2 (all Oct 5). X pull unavailable again (API returned 402 Payment Required).",
-  "market_direction": [
-    {
-      "kind": "up",
-      "label": "Accelerating (agent identity and verification)",
-      "text": "Personal Agent Protocol (Oct 6) and Salesforce's zero-trust multi-agent paper (Oct 7)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (AI content provenance)",
-      "text": "Google SynthID Detector opens globally (Oct 7), two days after OpenAI's EU text watermark."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (assistants inside office files)",
-      "text": "Claude for Google Workspace beta with connectors and skills (Oct 6)."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (GTM data served to agents on credits)",
-      "text": "HG Insights MCP server and Intelligence Credits (Oct 6)."
-    },
-    {
-      "kind": "flat",
-      "label": "Stable (watchlist product cadence)",
-      "text": "No watchlist launches Oct 6–7; Clay Sculpt (Oct 8) is next."
-    }
-  ],
-  "language_pulse": [
-    {
-      "term": "Personal agent / business agent",
-      "gloss": "Sierra and Meta's framing for consumer agents transacting with company agents and APIs (Oct 6)."
-    },
-    {
-      "term": "Zero Trust / complex accountability",
-      "gloss": "Salesforce's Oct 7 terms for verifying every agent's identity, action and access."
-    },
-    {
-      "term": "Contextual Intelligence / context gap",
-      "gloss": "HG Insights' label for an entity-resolved data layer that agents act on (Oct 6)."
-    },
-    {
-      "term": "Revenue Orchestration / Predictive Revenue System",
-      "gloss": "Salesloft's self-description, restated in its Oct 6 CPO release."
-    },
-    {
-      "term": "Aim before you automate",
-      "gloss": "Gong CCO Simon Frey's framing for AI ROI in an Oct 6 customer-story blog."
-    }
-  ],
-  "watch": [
-    {
-      "title": "Clay Sculpt tomorrow (Thursday, Oct 8)",
-      "body": "No pre-announcement found as of Wednesday morning. The 9:30 AM opening keynote (Kareem Amin with Clay's heads of product and AI) promises \"a first look at what Clay is building next\"; a main-stage session covers an agent that reads workflow logs and fixes routing bugs via PR. The closing fireside is with Sierra co-founder Clay Bavor, two days after Sierra's Personal Agent Protocol. Watch for pricing on skills and agents.",
-      "company": "Clay",
-      "logo": "assets/logos/clay.png",
-      "cites": [
-        {
-          "label": "Sculpt agenda",
-          "url": "https://sculpt.clay.com/"
+          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "No watchlist product PR Oct 6–7. Sierra announced the Personal Agent Protocol with Meta and partners (Oct 6). Anthropic launched Claude for Google Workspace in beta and expanded Claude for Startups (Oct 6). HG Insights launched its Contextual Intelligence Platform (Oct 6). OpenAI released 722 math manuscripts (Oct 6). Microsoft and Nvidia launched the Surface Laptop Ultra, and Google opened SynthID Detector globally (Oct 7). Salesforce published a multi-agent trust post (Oct 7); Salesloft named a CPO (Oct 6).",
-    "note": "Light interpretation: identity, permission and audit standards for agents are forming outside the CRM vendors, so they are likely to show up as requirements for GTM agents that touch buyers or customer data. PAP is a proposal with no published spec yet."
+    "fact": "Clay launched an agent-first build mode (beta), Workflows (beta for all) and previewed an Inbound SDR Agent at Sculpt (Oct 8). Microsoft made 30 Dynamics 365 CRM skills GA (Oct 8). Google launched the Gemini agent (Oct 8). Anthropic launched OSS Scanner and a critical-infrastructure program (Oct 8). OpenAI expanded GPT-6 Intelligent UI (Oct 8) and fired three safety researchers (Oct 9). Hone raised a seed (Oct 8). Outreach released a commissioned TEI study (Oct 8).",
+    "note": "Light interpretation: the agent layer for GTM is converging on the same pattern from three directions (data/orchestration, CRM, workplace suite): outcome-level tasks, MCP/skills access to CRM, and human approval before writes. Clay's Inbound SDR Agent is preview-only, so its competitive effect on AI SDR vendors is not yet measurable."
   }
 }
