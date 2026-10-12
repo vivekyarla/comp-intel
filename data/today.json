@@ -1,38 +1,34 @@
 {
-  "as_of": "2026-10-09 morning ~9:45 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Oct 8–9 PT",
+  "as_of": "2026-10-12 morning ~9:07 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Sat Oct 10 – Mon Oct 12 PT (weekend + Monday morning)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "GTM agents are being handed outcomes instead of steps, and the vendors shipping them are adding loops to learn and limits to stay in check. On Oct 8 Clay previewed an agent that runs plays and proposes ICP changes from results, Microsoft packaged Dynamics 365 as Copilot skills that stop at proposals, and Google gave its Gemini agent its own Workspace identity and audit trail.",
+    "lede": "Revenue agents are getting write access to the systems sellers and RevOps run on, and vendors are drawing the boundary in the product. Monday's launches scope each agent action to the signed-in user's permissions, tag every write in the audit trail, and ship skills bundled with the connectors they need.",
     "bullets": [
       {
-        "text": "CRM as skills: Microsoft (Oct 8) made 30 Dynamics 365 CRM skills for Copilot Cowork generally available, built on MCP tools across Sales, Customer Service and Customer Insights. Autopilot for recurring work is in private preview, and skills separate analysis, proposed changes and completed actions.",
+        "text": "Scoped writes: Qobra's MCP went native in Dust (Oct 12) with 65 actions, 45 read and 20 write, across quotas, plans, records and requests. Each action runs under the user's own Qobra permissions, every write is logged as an MCP action, and agents never edit statements or payouts.",
         "cites": [
           {
-            "label": "Microsoft",
-            "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/08/bring-microsoft-dynamics-365-into-the-flow-of-work-with-30-new-crm-skills/"
+            "label": "Qobra",
+            "url": "https://www.qobra.co/blog/qobra-dust-partnership"
           }
         ]
       },
       {
-        "text": "Agent as coworker: Google's Gemini agent (Oct 8) gets its own Workspace account and email, writes an audit trail attributed to the agent, connects to Slack, Microsoft 365, Snowflake and any MCP server, and lets users pick Claude. Real-time spend caps are part of the launch.",
+        "text": "Skills as installable units: Salesforce's Winter '27 release, GA Oct 12, ships 100+ prebuilt Agent Skills in a shared registry and plug-ins that bundle skills with MCP connectors, hooks and config. It also lets Agentforce orchestrate, or act as a subagent to, A2A-compliant agents from AWS, Azure and Google.",
         "cites": [
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
-          },
-          {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+            "label": "Salesforce newsroom",
+            "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/"
           }
         ]
       },
       {
-        "text": "Outcome budgets: Hone (Oct 8) raised a seed co-led by Benchmark and Index for 'engines' that own outcomes, starting with account management. It is exploring budget-based pricing instead of per-seat or per-task. Round size not disclosed.",
+        "text": "Capture beyond the video call: Reevo's mobile app (Oct 12) records and transcribes in-person meetings and calls from a phone without a meeting bot, then updates the deal and drafts the follow-up.",
         "cites": [
           {
-            "label": "TBPN Digest",
-            "url": "https://www.tbpndigest.com/story/2026-10-08/hone-raises-from-benchmark-and-index-to-build-ai-engines-that-own-business-outcomes-not-just-automate-tasks"
+            "label": "MarTech Cube (GlobeNewswire)",
+            "url": "https://www.martechcube.com/reevo-unveils-mobile-ai-sales-app-to-keep-deals-moving-beyond-the-desk/"
           }
         ]
       }
@@ -40,209 +36,194 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Google launches the Gemini agent for work",
-      "body": "Oct 8: one agent that takes objectives, delegates to subagents, connects to business systems and any MCP server, and offers Claude in the model picker. Business first; consumers later.",
+      "title": "Microsoft unveils Maia 300 and makes Maia its main inference system",
+      "body": "Oct 12: multi-gigawatt Maia deployments from 2027; Microsoft claims 40% more tokens per megawatt than leading GPU systems. Maia 200 already serves Copilot, with GitHub Copilot and Foundry to follow by year-end.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+          "label": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia in early talks to buy or deepen its stake in Reflection AI",
+      "body": "FT, Sat Oct 10: options include an acqui-hire, more chips or a bigger stake; Nvidia has already invested $800M. Talks could collapse. Reflection released its open-weight Beam model Oct 5.",
+      "new": true,
+      "cites": [
+        {
+          "label": "TNW (citing FT)",
+          "url": "https://thenextweb.com/news/nvidia-reflection-ai-acquisition-talks-ft"
         },
         {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+          "label": "Financial Times",
+          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
         }
       ]
     },
     {
-      "title": "Anthropic launches OSS Scanner and a critical-infrastructure defense program",
-      "body": "Oct 8: free, opt-in model-generated vulnerability scans for eligible open-source projects (reports unreviewed by humans), plus a program with 11 founding partners including CrowdStrike, Palo Alto Networks and Deloitte.",
+      "title": "AMD introduces Helion, a rack blueprint for agent workloads",
+      "body": "Oct 12: OCP-based racks with CPU-only (up to 32,768 cores) or CPU+GPU configurations and a built-in token router across frontier and open models. Partner configurations planned for November 2026.",
       "new": true,
       "cites": [
         {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
-        },
-        {
-          "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/10/08/anthropic-launches-critical-infrastructure-program-and-free-oss-scanner-for-open-source/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI expands GPT-6 Intelligent UI to Free and Go users",
-      "body": "Rollout began Oct 7 on paid plans and reached Free and Go from Oct 8: interactive charts, forms and calculators inside ChatGPT answers. Applies to Chat, not Work or Codex.",
-      "new": true,
-      "cites": [
-        {
-          "label": "TechRepublic",
-          "url": "https://www.techrepublic.com/article/news-gpt-6-intelligent-ui-charts-forms/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI fires three safety researchers, citing a breach of trust",
-      "body": "Oct 9: OpenAI says the three violated policies on handling sensitive information; the researchers say they were removed for prioritizing safety.",
-      "new": true,
-      "cites": [
-        {
-          "label": "ABC News (AP)",
-          "url": "https://abcnews.com/Technology/wireStory/openai-fires-3-safety-researchers-dispute-ai-risks-137123277"
+          "label": "AMD (GlobeNewswire)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/12/3378907/0/en/introducing-amd-helion-agentic-ai-compute-at-rack-scale.html"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Clay launches an agent-first way to build, Workflows and an Inbound SDR Agent at Sculpt",
-      "body": "NEW (watchlist). Oct 8: an agent plans, runs and improves outcome-based plays using Knowledge Hub (ICP, personas, positioning), suggests ICP updates from results, and schedules its own check-ins. Beta for Sculpt attendees, early-access users in coming weeks. Workflows (visual canvas; branch, loop, code, agent steps; built from chat or CLI) is in beta for all Clay users, full launch this fall. Inbound SDR Agent (voice qualification, sandbox demo, routes to rep calendars, trained on past demo calls) is preview/waitlist only. No pricing announced. Why it matters: Clay now has a seller agent of its own, not just data and orchestration under someone else's.",
+      "title": "Salesforce signs a definitive agreement to acquire Loops",
+      "body": "NEW (watchlist). Oct 12: Loops monitors KPIs, explains why metrics move and suggests actions; it can be triggered from Slack and email. Team and technology go into Tableau; close expected early November. Price not disclosed (Ctech estimates about $30M). Why it matters: Salesforce is adding 'explain why, then act' analytics agents next to Agentforce, its second agent-company deal in two weeks after Listen Labs (Sep 29).",
       "new": true,
-      "company": "Clay",
-      "logo": "assets/logos/clay.png",
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/sculpt-2026-recap"
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/"
         },
         {
-          "label": "Sculpt showcase",
-          "url": "https://sculpt.clay.com/showcase"
+          "label": "Ctech",
+          "url": "https://www.calcalistech.com/ctechnews/article/rypqhecozg"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce Winter '27 reaches general availability",
+      "body": "NEW (watchlist). Oct 12 per Salesforce: Agent Skills and Plugins (100+ prebuilt skills; Salesforce Development plug-in in the Claude Code marketplace), Third-Party Agent Orchestration over A2A, Slack Code, Marketing Goals Agent (pilot). Trailhead highlights list Agent Optimizer in Agentforce Builder, Hunter and Momentum (call and email capture into Salesforce). No GA flag or pricing found yet for Agent Optimizer or AI Skills in Coworker.",
+      "new": true,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
+      "cites": [
+        {
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/"
         },
         {
-          "label": "Hacking Demand",
-          "url": "https://hackingdemand.com/blog/clay-sculpt-2026-announcements"
+          "label": "Trailhead release highlights",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/see-whats-new-slack-agentforce-agentforce-operations-and-sales"
         }
       ]
     },
     {
-      "title": "Microsoft ships 30 Dynamics 365 CRM skills for Copilot",
-      "body": "NEW (adjacent). Oct 8: skills GA in Copilot Cowork over 180+ GA tools; Autopilot private preview; Code via Frontier. Examples: pipeline prioritizer, deal rescue, 30-day account plan, case triage. Skills respect Dynamics 365 and Microsoft 365 permissions and keep proposed changes distinct from saved ones.",
+      "title": "Qobra's sales-comp MCP goes native in Dust with write actions",
+      "body": "NEW (adjacent). Oct 12: 45 read and 20 write actions (users, quotas, plans, records, reports, requests), scoped to the user's Qobra permissions, writes tagged as MCP in the audit trail; statements and payouts are off-limits to agents. Doctolib named as a production user. The same MCP server works with Claude and ChatGPT.",
       "new": true,
       "cites": [
         {
-          "label": "Microsoft",
-          "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/08/bring-microsoft-dynamics-365-into-the-flow-of-work-with-30-new-crm-skills/"
+          "label": "Qobra",
+          "url": "https://www.qobra.co/blog/qobra-dust-partnership"
         }
       ]
     },
     {
-      "title": "Google's Gemini agent works as a named coworker with its own audit trail",
-      "body": "NEW (adjacent). Oct 8 at Gemini at Work: objectives, skills, subagents, a tasks inbox, connectors (Workspace, Microsoft 365, Slack, Jira, Snowflake, Databricks, any MCP server), Claude in the model picker, and spend caps. Early testers include Shopify and PayPal.",
+      "title": "Reevo launches a mobile app for bot-free conversation capture",
+      "body": "NEW (optional watchlist). Oct 12: account briefings before meetings, phone recording and transcription of in-person meetings and calls, automatic summaries, deal updates and follow-up drafts, routing of pricing and security questions to colleagues, badge and business-card scanning.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
-        },
-        {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+          "label": "MarTech Cube (GlobeNewswire)",
+          "url": "https://www.martechcube.com/reevo-unveils-mobile-ai-sales-app-to-keep-deals-moving-beyond-the-desk/"
         }
       ]
     },
     {
-      "title": "Hone raises a seed for AI 'engines' that own account-management outcomes",
-      "body": "NEW (adjacent). Oct 8: co-led by Benchmark and Index; founder previously at Cognition. Template engines for GTM, recruiting, financial risk and procurement; exploring budget-based pricing. Round size not disclosed.",
+      "title": "Hiver launches Hiver Omni, an agentic omnichannel support platform",
+      "body": "NEW (adjacent). Oct 12: AI agents investigate and work multi-step requests across connected systems; email, chat, Slack, voice and WhatsApp in one workspace; resolutions feed knowledge updates, quality review and account signals. Available now.",
       "new": true,
       "cites": [
         {
-          "label": "TBPN Digest",
-          "url": "https://www.tbpndigest.com/story/2026-10-08/hone-raises-from-benchmark-and-index-to-build-ai-engines-that-own-business-outcomes-not-just-automate-tasks"
-        }
-      ]
-    },
-    {
-      "title": "Outreach publishes a commissioned Forrester TEI study",
-      "body": "Low signal (watchlist). Oct 8: 244% three-year ROI and payback under six months for a composite organization. The study says most modeled value comes from workflow standardization and automation; the composite is still in early pilots with Amplify, Outreach's agentic offering.",
-      "new": false,
-      "company": "Outreach",
-      "logo": "assets/logos/outreach.png",
-      "cites": [
-        {
-          "label": "Outreach blog",
-          "url": "https://www.outreach.ai/resources/blog/forrester-tei-ai-readiness-gap-2026"
+          "label": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/10/12/3378652/0/en/hiver-launches-hiver-omni-an-agentic-omnichannel-platform-built-for-complex-support.html"
         }
       ]
     }
   ],
-  "quiet_note": "No net-new product PR Oct 8–9 from Gong, Nooks, Salesloft or Monaco. Salesforce's Oct 8 X posts restated Hunter (pilot; GA planned November) and Claudeforce (announced Aug 27), filed to its competitor page. Aged off Today: Sierra/Meta Personal Agent Protocol, Claude for Google Workspace, HG Insights platform, OpenAI math manuscripts (Oct 6); Salesforce zero-trust post, Surface Laptop Ultra, SynthID Detector (Oct 7). X API pull failed again (402); public X search used as fallback.",
+  "quiet_note": "No net-new product PR Oct 10–12 from Gong, Clay, Nooks, Outreach, Salesloft or Monaco (Clay's Oct 12 X post recapped Sculpt; Outreach's Oct 12 blog post is content marketing). Aged off Today: Clay Sculpt launches, Microsoft's 30 Dynamics 365 CRM skills, Google Gemini agent, Hone seed, Outreach Forrester TEI, Anthropic OSS Scanner, OpenAI GPT-6 Intelligent UI expansion (all Oct 8); OpenAI firing of three safety researchers (Oct 9). X API pull failed again (402); one public X search used as fallback.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (agents given outcomes, not steps)",
-      "text": "Clay agent-first build, Google Gemini agent ('objectives, not just instructions'), Hone engines (all Oct 8)."
+      "label": "Accelerating (agents get scoped write access to revenue systems)",
+      "text": "Qobra MCP in Dust with 20 write actions under user permissions; Salesforce skill plug-ins bundling MCP connectors (both Oct 12)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (CRM exposed as MCP tools and skills)",
-      "text": "Microsoft's 30 Dynamics 365 skills (Oct 8), after Claudeforce and Clay's Agent Plugin."
+      "label": "Accelerating (analytics that explain why and suggest the next action)",
+      "text": "Salesforce to acquire Loops for Tableau (Oct 12)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (cross-vendor agent orchestration)",
+      "text": "Agentforce Third-Party Agent Orchestration over A2A reaches GA with Winter '27 (Oct 12)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (AI SDR from data and orchestration vendors)",
-      "text": "Clay Inbound SDR Agent in preview (Oct 8)."
+      "label": "Emerging (conversation capture off the video call)",
+      "text": "Reevo mobile app (Oct 12); Momentum listed in Salesforce's Winter '27 Sales highlights."
     },
     {
-      "kind": "emerging",
-      "label": "Emerging (agent identity and attributed audit)",
-      "text": "Gemini agent gets its own Workspace account and agent-attributed audit trail (Oct 8)."
-    },
-    {
-      "kind": "flat",
-      "label": "Stable (ROI proof rests on workflow foundations)",
-      "text": "Outreach TEI (Oct 8) attributes modeled value mostly to standardization, with agentic AI as future upside."
+      "kind": "up",
+      "label": "Accelerating (inference hardware built for agent workloads)",
+      "text": "Microsoft Maia 300 and AMD Helion (both Oct 12)."
     }
   ],
   "language_pulse": [
     {
-      "term": "Self-learning revenue engine / GTM alpha",
-      "gloss": "Clay's Sculpt framing for systems that learn from each campaign (Oct 8)."
+      "term": "Agentic analytics enterprise",
+      "gloss": "Salesforce's framing for Tableau with Loops (Oct 12)."
     },
     {
-      "term": "Knowledge Hub",
-      "gloss": "Clay's living record of ICP, personas and positioning that guides agent actions (Oct 8)."
+      "term": "Headless, agentic",
+      "gloss": "How Salesforce describes Loops, triggered from Slack and email (Oct 12)."
     },
     {
-      "term": "Agentic CRM / system of action",
-      "gloss": "Microsoft's terms for Dynamics 365 feeding skills into Copilot (Oct 8)."
+      "term": "Agent Skills and Plugins",
+      "gloss": "Salesforce's registry of reusable skills plus bundles with MCP connectors and hooks (Winter '27 GA, Oct 12)."
     },
     {
-      "term": "Objectives, not just instructions",
-      "gloss": "Google Cloud CEO Thomas Kurian on the Gemini agent (Oct 8)."
+      "term": "Tagged as an MCP action",
+      "gloss": "Qobra's audit-trail label for agent writes (Oct 12)."
     },
     {
-      "term": "AI readiness gap",
-      "gloss": "Outreach's framing for its Forrester TEI release (Oct 8)."
+      "term": "Agentic omnichannel",
+      "gloss": "Hiver's category label for Hiver Omni (Oct 12)."
     },
     {
-      "term": "Engines that own outcomes",
-      "gloss": "Hone's label for autonomous systems priced against a budget (Oct 8)."
+      "term": "Tokens per megawatt",
+      "gloss": "Microsoft's efficiency metric for Maia 300 (Oct 12)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Clay",
-      "slug": "clay",
-      "text": "New · Sculpt (Oct 8): agent-first build (beta), Workflows (beta for all users), Inbound SDR Agent (preview/waitlist). No pricing.",
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "New · Definitive agreement to acquire Loops, an AI analytics agent, for Tableau (Oct 12); close expected early November; price undisclosed.",
       "cites": [
         {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/sculpt-2026-recap"
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/"
         },
         {
-          "label": "Sculpt showcase",
-          "url": "https://sculpt.clay.com/showcase"
+          "label": "Ctech",
+          "url": "https://www.calcalistech.com/ctechnews/article/rypqhecozg"
         }
       ]
     },
     {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "Low signal · Commissioned Forrester TEI (Oct 8): 244% ROI for a composite; agentic value framed as future upside.",
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "New · Winter '27 GA (Oct 12): Agent Skills and Plugins, A2A third-party orchestration. Agent Optimizer and AI Skills GA and pricing still unconfirmed.",
       "cites": [
         {
-          "label": "Outreach blog",
-          "url": "https://www.outreach.ai/resources/blog/forrester-tei-ai-readiness-gap-2026"
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/"
+        },
+        {
+          "label": "Trailhead release highlights",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/see-whats-new-slack-agentforce-agentforce-operations-and-sales"
         }
       ]
     }
@@ -250,19 +231,23 @@
   "watch": [
     {
       "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
-      "body": "Salesforce's Sep 11 announcement put both at GA in October '26: Agent Optimizer (an agent that builds, tests and tunes other agents) and AI Skills in Agentforce Coworker (teach a task once, scale it). Hunter, the outbound sales agent, stays in pilot until November. Watch for GA confirmation and pricing, now that Clay and Microsoft have shipped comparable skill and agent layers.",
+      "body": "Winter '27 went GA Oct 12, but Salesforce has not publicly confirmed the GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26. Hunter stays in pilot until November. Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
           "label": "Salesforce newsroom",
           "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
+        },
+        {
+          "label": "Salesforce blog",
+          "url": "https://www.salesforce.com/blog/agent-optimizer/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Clay launched an agent-first build mode (beta), Workflows (beta for all) and previewed an Inbound SDR Agent at Sculpt (Oct 8). Microsoft made 30 Dynamics 365 CRM skills GA (Oct 8). Google launched the Gemini agent (Oct 8). Anthropic launched OSS Scanner and a critical-infrastructure program (Oct 8). OpenAI expanded GPT-6 Intelligent UI (Oct 8) and fired three safety researchers (Oct 9). Hone raised a seed (Oct 8). Outreach released a commissioned TEI study (Oct 8).",
-    "note": "Light interpretation: the agent layer for GTM is converging on the same pattern from three directions (data/orchestration, CRM, workplace suite): outcome-level tasks, MCP/skills access to CRM, and human approval before writes. Clay's Inbound SDR Agent is preview-only, so its competitive effect on AI SDR vendors is not yet measurable."
+    "fact": "Salesforce signed a definitive agreement to acquire Loops (Oct 12) and its Winter '27 release reached GA (Oct 12). Qobra's MCP went native in Dust (Oct 12). Reevo launched a mobile app and Hiver launched Hiver Omni (Oct 12). Microsoft announced Maia 300 (Oct 12). The FT reported Nvidia in talks over Reflection AI (Oct 10). AMD introduced Helion (Oct 12).",
+    "note": "Light interpretation: vendors now ship agent write access with the controls built in (user-scoped permissions, audit tags, protected fields) rather than as read-only copilots. Salesforce's Loops deal is small and lands in Tableau, so its direct effect on sales workflows depends on how it surfaces in Agentforce and Slack after close."
   }
 }
