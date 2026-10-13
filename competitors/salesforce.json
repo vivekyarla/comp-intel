@@ -2,9 +2,16 @@
  "name": "Salesforce (Agentforce)",
  "slug": "salesforce",
  "website": "https://www.salesforce.com/",
- "as_of": "2026-10-12",
+ "as_of": "2026-10-13",
  "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
  "recent": [
+  {
+   "date": "2026-10-13",
+   "title": "Docusign IAM launched natively across Salesforce, Agentforce and Slack",
+   "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html",
+   "summary": "Oct 13 PR Newswire (Docusign, with Salesforce CCO Bill Patterson quoted): Intelligent Agreement Management is natively available across Salesforce, Agentforce and Slack. Sellers can ask Agentforce about agreement terms, generate/send contracts, track renewals and run Slack-thread agreement workflows. Builds on the Sep 4 Docusign MCP-for-every-agent announce (MCP GA Sep 30). Agent Optimizer / AI Skills October GA + pricing still unconfirmed as of Oct 13 morning.",
+   "source_type": "press"
+  },
   {
    "date": "2026-10-12",
    "title": "Definitive agreement to acquire Loops (AI analytics agent) for Tableau",
@@ -28,16 +35,16 @@
   },
   {
    "date": "2026-10-07",
-   "title": "Newsroom: 'From Autonomy to Accountability' — zero-trust view of multi-agent systems (white paper)",
+   "title": "Newsroom: 'From Autonomy to Accountability' \u2014 zero-trust view of multi-agent systems (white paper)",
    "url": "https://www.salesforce.com/news/stories/trust-in-multi-agent-future/",
    "summary": "Oct 7 post by Kathy Baxter summarizing a white paper from workshops with 21 organizations: agents from third parties will act across company lines, so every interaction needs explicit, continuous verification (Zero Trust). Recommends deterministic guardrails outside the agent's reasoning loop (cites an NVIDIA study on thought-action disconnect), an 'owner's tag' on every memory item so memory isn't shared across users/agents, and defined human escalation points (large financial transactions, low confidence, prompt injection, failure loops). Thought leadership, not a launch.",
    "source_type": "company_blog"
   },
   {
    "date": "2026-10-06",
-   "title": "Newsroom Q&A: governed autonomy — LLM layer plus deterministic layer (Agent Fabric, Flow, Apex)",
+   "title": "Newsroom Q&A: governed autonomy \u2014 LLM layer plus deterministic layer (Agent Fabric, Flow, Apex)",
    "url": "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/",
-   "summary": "Oct 6 newsroom Q&A with Kathy Baxter (Principal Architect, Ethical AI Practice): Agentforce 'splits the agent brain into two layers' — probabilistic LLM for language/reasoning; consequential decisions routed through deterministic business logic, workflows and permissions with escalation to humans; audit trail of agent and human actions; Atlas Reasoning Engine explains actions; autonomy granted incrementally by policy; agents must identify as AI; Trust Layer toxicity and prompt-injection detection; Testing Center for bias checks; biggest gap cited is lack of post-launch monitoring. Messaging, not a launch.",
+   "summary": "Oct 6 newsroom Q&A with Kathy Baxter (Principal Architect, Ethical AI Practice): Agentforce 'splits the agent brain into two layers' \u2014 probabilistic LLM for language/reasoning; consequential decisions routed through deterministic business logic, workflows and permissions with escalation to humans; audit trail of agent and human actions; Atlas Reasoning Engine explains actions; autonomy granted incrementally by policy; agents must identify as AI; Trust Layer toxicity and prompt-injection detection; Testing Center for bias checks; biggest gap cited is lack of post-launch monitoring. Messaging, not a launch.",
    "source_type": "company_blog"
   },
   {
@@ -56,7 +63,7 @@
   },
   {
    "date": "2026-09-28",
-   "title": "Slack Admin Bridge for NVIDIA OpenShell — runtime HITL in Slack",
+   "title": "Slack Admin Bridge for NVIDIA OpenShell \u2014 runtime HITL in Slack",
    "url": "https://www.salesforce.com/blog/extending-admin-control-to-the-runtime-layer-with-nvidia-openshell-and-slack/",
    "summary": "Sep 28 company blog (+ X): with NVIDIA, Slack Admin Bridge for OpenShell. OpenShell enforces agent runtime policy; exceptions surface as Slack approval cards with audit trail and App Home analytics. Available for developers (slack-samples/openshell-slack-admin-bridge). Exploring OpenShell + MuleSoft Agent Fabric. Same day as NVIDIA Open Agent Safety Platform launch naming Salesforce among partners.",
    "source_type": "company_blog"
@@ -65,14 +72,14 @@
    "date": "2026-09-24",
    "title": "SalesBleed: Zenity discloses patched Agentforce 0-click CRM exfil / Slack phishing flaws",
    "url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
-   "summary": "Zenity Labs public write-up dated Sep 24, 2026 (also The Register same day): three Agentforce issues (indirect prompt injection via Web-to-Lead → Trusted URLs bypass → DNS/HTML-img or Slack-unfurl exfil; plus Slack Reply-to-Thread phishing under agent identity). Reported Jun 1; Trusted URLs fix confirmed Aug 19; Zenity says all three fixed as of Sep 21. No evidence of real-world exploitation stated. Companion: https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
+   "summary": "Zenity Labs public write-up dated Sep 24, 2026 (also The Register same day): three Agentforce issues (indirect prompt injection via Web-to-Lead \u2192 Trusted URLs bypass \u2192 DNS/HTML-img or Slack-unfurl exfil; plus Slack Reply-to-Thread phishing under agent identity). Reported Jun 1; Trusted URLs fix confirmed Aug 19; Zenity says all three fixed as of Sep 21. No evidence of real-world exploitation stated. Companion: https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
    "source_type": "press"
   },
   {
    "date": "2026-09-11",
    "title": "Job-ready Agentforce portfolio + long-horizon runtime; Hunter outbound sales agent pilot",
    "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
-   "summary": "Salesforce introduces job-ready agents across sales/service/commerce/workforce. Sales-relevant: Hunter (outbound sales agent) pilot now, GA November '26 — first on new long-horizon runtime (memory, durable execution, dynamic steering over days/weeks); Piper inbound pipe-gen agent GA now. Also Multi-Agent Orchestration GA; Agent Optimizer GA Oct '26; AI Skills in Coworker pilot/GA Oct '26. Claims 7B Agentic Work Units across Agentforce+Slack. Forbes coverage same day.",
+   "summary": "Salesforce introduces job-ready agents across sales/service/commerce/workforce. Sales-relevant: Hunter (outbound sales agent) pilot now, GA November '26 \u2014 first on new long-horizon runtime (memory, durable execution, dynamic steering over days/weeks); Piper inbound pipe-gen agent GA now. Also Multi-Agent Orchestration GA; Agent Optimizer GA Oct '26; AI Skills in Coworker pilot/GA Oct '26. Claims 7B Agentic Work Units across Agentforce+Slack. Forbes coverage same day.",
    "source_type": "press"
   },
   {
@@ -110,5 +117,5 @@
   "Third-Party Agent Orchestration (A2A)",
   "Momentum"
  ],
- "notes": "Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) — meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6–7 governed-autonomy and Zero Trust posts were messaging."
+ "notes": "Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) \u2014 meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6\u20137 governed-autonomy and Zero Trust posts were messaging."
 }

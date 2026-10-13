@@ -1,34 +1,34 @@
 {
-  "as_of": "2026-10-12 morning ~9:07 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window ≈ Sat Oct 10 – Mon Oct 12 PT (weekend + Monday morning)",
+  "as_of": "2026-10-13 morning ~9:00 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Oct 12 \u2013 Tue Oct 13 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Revenue agents are getting write access to the systems sellers and RevOps run on, and vendors are drawing the boundary in the product. Monday's launches scope each agent action to the signed-in user's permissions, tag every write in the audit trail, and ship skills bundled with the connectors they need.",
+    "lede": "Agreement data and CRM hygiene are landing inside the AI surfaces sellers already live in. Tuesday's launches put Docusign's IAM into Agentforce and Slack, open Seismic's content and agents to Claude via MCP, and let Nimble turn meeting transcripts into CRM writes from ChatGPT or Claude.",
     "bullets": [
       {
-        "text": "Scoped writes: Qobra's MCP went native in Dust (Oct 12) with 65 actions, 45 read and 20 write, across quotas, plans, records and requests. Each action runs under the user's own Qobra permissions, every write is logged as an MCP action, and agents never edit statements or payouts.",
+        "text": "Agreements inside Agentforce: Docusign's Intelligent Agreement Management is now native across Salesforce, Agentforce and Slack (Oct 13). Sellers can ask Agentforce about contract terms, generate and send agreements, track renewals and route negotiation without leaving CRM or Slack.",
         "cites": [
           {
-            "label": "Qobra",
-            "url": "https://www.qobra.co/blog/qobra-dust-partnership"
+            "label": "PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html"
           }
         ]
       },
       {
-        "text": "Skills as installable units: Salesforce's Winter '27 release, GA Oct 12, ships 100+ prebuilt Agent Skills in a shared registry and plug-ins that bundle skills with MCP connectors, hooks and config. It also lets Agentforce orchestrate, or act as a subagent to, A2A-compliant agents from AWS, Azure and Google.",
+        "text": "Enablement agents + MCP everywhere: At Seismic Shift (Oct 13), Seismic shipped Deal Agent and Library Agent and expanded Seismic Everywhere so its MCP server exposes governed content and agents to Claude, ChatGPT, Gemini and Copilot.",
         "cites": [
           {
-            "label": "Salesforce newsroom",
-            "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/"
+            "label": "National Law Review (Business Wire)",
+            "url": "https://natlawreview.com/press-releases/seismic-brings-agentic-revenue-execution-everywhere-go-market-teams-work"
           }
         ]
       },
       {
-        "text": "Capture beyond the video call: Reevo's mobile app (Oct 12) records and transcribes in-person meetings and calls from a phone without a meeting bot, then updates the deal and drafts the follow-up.",
+        "text": "CRM writes from the assistant: Nimble MCP (Oct 13) lets Claude and ChatGPT log meeting summaries, assign follow-ups, clean duplicates and research lookalike prospects in Nimble, under the user's permissions; included in every Nimble plan.",
         "cites": [
           {
-            "label": "MarTech Cube (GlobeNewswire)",
-            "url": "https://www.martechcube.com/reevo-unveils-mobile-ai-sales-app-to-keep-deals-moving-beyond-the-desk/"
+            "label": "EIN Presswire",
+            "url": "https://www.einpresswire.com/article/949065967/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean"
           }
         ]
       }
@@ -36,194 +36,176 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Microsoft unveils Maia 300 and makes Maia its main inference system",
-      "body": "Oct 12: multi-gigawatt Maia deployments from 2027; Microsoft claims 40% more tokens per megawatt than leading GPU systems. Maia 200 already serves Copilot, with GitHub Copilot and Foundry to follow by year-end.",
+      "title": "Anthropic: small models may be months from self-replicating on IoT devices",
+      "body": "Oct 12: experiments suggest weight-based worms on smart TVs and similar hardware; no fully rogue replicator yet; GLM-5.2 completed end-to-end replication in a simplified eval. CNBC covered Oct 13.",
       "new": true,
       "cites": [
         {
-          "label": "Microsoft",
-          "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
-        }
-      ]
-    },
-    {
-      "title": "Nvidia in early talks to buy or deepen its stake in Reflection AI",
-      "body": "FT, Sat Oct 10: options include an acqui-hire, more chips or a bigger stake; Nvidia has already invested $800M. Talks could collapse. Reflection released its open-weight Beam model Oct 5.",
-      "new": true,
-      "cites": [
-        {
-          "label": "TNW (citing FT)",
-          "url": "https://thenextweb.com/news/nvidia-reflection-ai-acquisition-talks-ft"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/self-replicating-ai"
         },
         {
-          "label": "Financial Times",
-          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
         }
       ]
     },
     {
-      "title": "AMD introduces Helion, a rack blueprint for agent workloads",
-      "body": "Oct 12: OCP-based racks with CPU-only (up to 32,768 cores) or CPU+GPU configurations and a built-in token router across frontier and open models. Partner configurations planned for November 2026.",
+      "title": "NVIDIA opens Vera Rubin architecture at OCP",
+      "body": "Oct 12: MGX rack designs contributed to OCP; Open Data Center Spec v0.7 with AMD, Google and Meta; grid-resilience spec with Google, Meta and Microsoft; Meta adopting Spectrum-6 networking.",
       "new": true,
       "cites": [
         {
-          "label": "AMD (GlobeNewswire)",
-          "url": "https://www.globenewswire.com/news-release/2026/10/12/3378907/0/en/introducing-amd-helion-agentic-ai-compute-at-rack-scale.html"
+          "label": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+        }
+      ]
+    },
+    {
+      "title": "Meta unveils Wonder and Wonder Full frontier models",
+      "body": "Oct 12: Meta claims Wonder and Wonder Full perform at a level comparable to leading OpenAI and Anthropic models; for paid Muse personal-agent subscribers.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Malay Mail (AFP)",
+          "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/13/meta-unveils-new-ai-models-it-says-rival-openai-anthropic/238887"
+        }
+      ]
+    },
+    {
+      "title": "Reuters: Anthropic and OpenAI negotiating what outside evaluators can publish",
+      "body": "Oct 13: labs sought editorial control as recently as Oct 5; both now say assessors keep independence while labs redact confidential information.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Reuters (via 93.3 The Drive)",
+          "url": "https://www.933thedrive.com/2026/10/13/exclusive-behind-ai-industrys-call-for-independent-reviews-a-fight-over-what-gets-made-public/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce signs a definitive agreement to acquire Loops",
-      "body": "NEW (watchlist). Oct 12: Loops monitors KPIs, explains why metrics move and suggests actions; it can be triggered from Slack and email. Team and technology go into Tableau; close expected early November. Price not disclosed (Ctech estimates about $30M). Why it matters: Salesforce is adding 'explain why, then act' analytics agents next to Agentforce, its second agent-company deal in two weeks after Listen Labs (Sep 29).",
+      "title": "Docusign IAM launches natively across Salesforce, Agentforce and Slack",
+      "body": "NEW (watchlist). Oct 13: sellers can ask Agentforce about agreement terms, generate and send contracts, track renewals and run Slack-thread agreement workflows. Why it matters: agreements become a callable layer next to Agentforce rather than a separate CLM tab.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/"
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html"
+        }
+      ]
+    },
+    {
+      "title": "Seismic ships Deal Agent, Library Agent and MCP Everywhere at Shift",
+      "body": "NEW (adjacent). Oct 13: Deal Agent surfaces deal risk, missing stakeholders and next-best actions; Library Agent flags outdated or conflicting messaging for review; Seismic Everywhere exposes content, permissions and agents via MCP to Claude, ChatGPT, Gemini and Copilot, plus Canva, ServiceNow, Microsoft 365 Copilot and Slack integrations.",
+      "new": true,
+      "cites": [
+        {
+          "label": "National Law Review (Business Wire)",
+          "url": "https://natlawreview.com/press-releases/seismic-brings-agentic-revenue-execution-everywhere-go-market-teams-work"
+        }
+      ]
+    },
+    {
+      "title": "Nimble launches Nimble MCP for Claude and ChatGPT",
+      "body": "NEW (adjacent). Oct 13: AI assistants log meeting summaries, assign follow-ups, clean duplicates and research lookalike prospects in Nimble under user permissions; asks before writes; included in every Nimble plan; works with Claude Free and ChatGPT Pro/Business/Enterprise/Edu.",
+      "new": true,
+      "cites": [
+        {
+          "label": "EIN Presswire",
+          "url": "https://www.einpresswire.com/article/949065967/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA opens Vera Rubin architecture and AI-factory standards at OCP",
+      "body": "NEW (AI infra). Oct 12: MGX Vera Rubin rack designs, Open Data Center Spec v0.7, OCP Grid Resilience Spec, Meta Spectrum-6 adoption, Cisco USFP 400Gb/s optics plans, Google Falcon Transport on future ConnectX-10.",
+      "new": true,
+      "cites": [
+        {
+          "label": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic research: small models may soon self-replicate on IoT devices",
+      "body": "NEW (AI safety). Oct 12: weight-based replicators on smart TVs and similar hardware may be months away; no fully rogue replicator yet; GLM-5.2 completed end-to-end replication in a simplified firewalled eval.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/self-replicating-ai"
         },
         {
-          "label": "Ctech",
-          "url": "https://www.calcalistech.com/ctechnews/article/rypqhecozg"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce Winter '27 reaches general availability",
-      "body": "NEW (watchlist). Oct 12 per Salesforce: Agent Skills and Plugins (100+ prebuilt skills; Salesforce Development plug-in in the Claude Code marketplace), Third-Party Agent Orchestration over A2A, Slack Code, Marketing Goals Agent (pilot). Trailhead highlights list Agent Optimizer in Agentforce Builder, Hunter and Momentum (call and email capture into Salesforce). No GA flag or pricing found yet for Agent Optimizer or AI Skills in Coworker.",
-      "new": true,
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.svg",
-      "cites": [
-        {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/"
-        },
-        {
-          "label": "Trailhead release highlights",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/see-whats-new-slack-agentforce-agentforce-operations-and-sales"
-        }
-      ]
-    },
-    {
-      "title": "Qobra's sales-comp MCP goes native in Dust with write actions",
-      "body": "NEW (adjacent). Oct 12: 45 read and 20 write actions (users, quotas, plans, records, reports, requests), scoped to the user's Qobra permissions, writes tagged as MCP in the audit trail; statements and payouts are off-limits to agents. Doctolib named as a production user. The same MCP server works with Claude and ChatGPT.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Qobra",
-          "url": "https://www.qobra.co/blog/qobra-dust-partnership"
-        }
-      ]
-    },
-    {
-      "title": "Reevo launches a mobile app for bot-free conversation capture",
-      "body": "NEW (optional watchlist). Oct 12: account briefings before meetings, phone recording and transcription of in-person meetings and calls, automatic summaries, deal updates and follow-up drafts, routing of pricing and security questions to colleagues, badge and business-card scanning.",
-      "new": true,
-      "cites": [
-        {
-          "label": "MarTech Cube (GlobeNewswire)",
-          "url": "https://www.martechcube.com/reevo-unveils-mobile-ai-sales-app-to-keep-deals-moving-beyond-the-desk/"
-        }
-      ]
-    },
-    {
-      "title": "Hiver launches Hiver Omni, an agentic omnichannel support platform",
-      "body": "NEW (adjacent). Oct 12: AI agents investigate and work multi-step requests across connected systems; email, chat, Slack, voice and WhatsApp in one workspace; resolutions feed knowledge updates, quality review and account signals. Available now.",
-      "new": true,
-      "cites": [
-        {
-          "label": "GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/10/12/3378652/0/en/hiver-launches-hiver-omni-an-agentic-omnichannel-platform-built-for-complex-support.html"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
         }
       ]
     }
   ],
-  "quiet_note": "No net-new product PR Oct 10–12 from Gong, Clay, Nooks, Outreach, Salesloft or Monaco (Clay's Oct 12 X post recapped Sculpt; Outreach's Oct 12 blog post is content marketing). Aged off Today: Clay Sculpt launches, Microsoft's 30 Dynamics 365 CRM skills, Google Gemini agent, Hone seed, Outreach Forrester TEI, Anthropic OSS Scanner, OpenAI GPT-6 Intelligent UI expansion (all Oct 8); OpenAI firing of three safety researchers (Oct 9). X API pull failed again (402); one public X search used as fallback.",
+  "quiet_note": "No net-new product PR Oct 12\u201313 from Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Aged off Today: Salesforce Loops acquisition, Winter '27 GA, Qobra/Dust MCP, Reevo mobile, Hiver Omni, Microsoft Maia 300, Nvidia/Reflection talks, AMD Helion (all Oct 12 / weekend). Gong Callisto remains Sep 30; Clay Sculpt Oct 8; Monaco/Overlayy Sep 4. X pull succeeded (kept_total=2).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (agents get scoped write access to revenue systems)",
-      "text": "Qobra MCP in Dust with 20 write actions under user permissions; Salesforce skill plug-ins bundling MCP connectors (both Oct 12)."
+      "label": "Accelerating (agreement intelligence inside CRM agents)",
+      "text": "Docusign Intelligent Agreement Management native across Salesforce, Agentforce and Slack (Oct 13)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (analytics that explain why and suggest the next action)",
-      "text": "Salesforce to acquire Loops for Tableau (Oct 12)."
+      "label": "Accelerating (MCP as the GTM content/CRM connector)",
+      "text": "Seismic Everywhere MCP and Nimble MCP (both Oct 13); continues Monday's Qobra/Dust pattern."
     },
     {
       "kind": "up",
-      "label": "Accelerating (cross-vendor agent orchestration)",
-      "text": "Agentforce Third-Party Agent Orchestration over A2A reaches GA with Winter '27 (Oct 12)."
+      "label": "Accelerating (role-based agents for deal and content ops)",
+      "text": "Seismic Deal Agent and Library Agent at Shift (Oct 13)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (conversation capture off the video call)",
-      "text": "Reevo mobile app (Oct 12); Momentum listed in Salesforce's Winter '27 Sales highlights."
+      "label": "Emerging (weight-based AI worms on edge devices)",
+      "text": "Anthropic IoT self-replication research (Oct 12)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (inference hardware built for agent workloads)",
-      "text": "Microsoft Maia 300 and AMD Helion (both Oct 12)."
+      "label": "Accelerating (open AI-factory rack standards)",
+      "text": "NVIDIA Vera Rubin / MGX contributions and OCP data-center specs (Oct 12)."
     }
   ],
   "language_pulse": [
     {
-      "term": "Agentic analytics enterprise",
-      "gloss": "Salesforce's framing for Tableau with Loops (Oct 12)."
+      "term": "Intelligent Agreement Management (IAM)",
+      "gloss": "Docusign's agreement platform now native in Salesforce/Agentforce/Slack (Oct 13)."
     },
     {
-      "term": "Headless, agentic",
-      "gloss": "How Salesforce describes Loops, triggered from Slack and email (Oct 12)."
+      "term": "Seismic Everywhere",
+      "gloss": "Seismic's MCP + headless embedding of content and agents into AI assistants (Oct 13)."
     },
     {
-      "term": "Agent Skills and Plugins",
-      "gloss": "Salesforce's registry of reusable skills plus bundles with MCP connectors and hooks (Winter '27 GA, Oct 12)."
+      "term": "Weight-based replicators",
+      "gloss": "Anthropic's term for AI worms that carry model weights onto compromised devices (Oct 12)."
     },
     {
-      "term": "Tagged as an MCP action",
-      "gloss": "Qobra's audit-trail label for agent writes (Oct 12)."
+      "term": "Open Data Center Specification v0.7",
+      "gloss": "OCP facility blueprint from NVIDIA, AMD, Google and Meta (Oct 12)."
     },
     {
-      "term": "Agentic omnichannel",
-      "gloss": "Hiver's category label for Hiver Omni (Oct 12)."
-    },
-    {
-      "term": "Tokens per megawatt",
-      "gloss": "Microsoft's efficiency metric for Maia 300 (Oct 12)."
+      "term": "Wonder / Wonder Full",
+      "gloss": "Meta's new frontier Muse models (Oct 12)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "New · Definitive agreement to acquire Loops, an AI analytics agent, for Tableau (Oct 12); close expected early November; price undisclosed.",
+      "text": "New \u00b7 Docusign Intelligent Agreement Management launched natively across Salesforce, Agentforce and Slack (Oct 13). Agent Optimizer and AI Skills October GA and pricing still unconfirmed.",
       "cites": [
         {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/"
-        },
-        {
-          "label": "Ctech",
-          "url": "https://www.calcalistech.com/ctechnews/article/rypqhecozg"
-        }
-      ]
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "New · Winter '27 GA (Oct 12): Agent Skills and Plugins, A2A third-party orchestration. Agent Optimizer and AI Skills GA and pricing still unconfirmed.",
-      "cites": [
-        {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/"
-        },
-        {
-          "label": "Trailhead release highlights",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/see-whats-new-slack-agentforce-agentforce-operations-and-sales"
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html"
         }
       ]
     }
@@ -247,7 +229,7 @@
     }
   ],
   "interpretation": {
-    "fact": "Salesforce signed a definitive agreement to acquire Loops (Oct 12) and its Winter '27 release reached GA (Oct 12). Qobra's MCP went native in Dust (Oct 12). Reevo launched a mobile app and Hiver launched Hiver Omni (Oct 12). Microsoft announced Maia 300 (Oct 12). The FT reported Nvidia in talks over Reflection AI (Oct 10). AMD introduced Helion (Oct 12).",
-    "note": "Light interpretation: vendors now ship agent write access with the controls built in (user-scoped permissions, audit tags, protected fields) rather than as read-only copilots. Salesforce's Loops deal is small and lands in Tableau, so its direct effect on sales workflows depends on how it surfaces in Agentforce and Slack after close."
+    "fact": "Docusign and Salesforce launched IAM natively across Salesforce, Agentforce and Slack (Oct 13). Seismic announced Deal Agent, Library Agent and MCP Everywhere (Oct 13). Nimble launched Nimble MCP (Oct 13). Anthropic published IoT self-replication research (Oct 12). NVIDIA opened Vera Rubin architecture at OCP (Oct 12). Meta unveiled Wonder and Wonder Full (Oct 12). Reuters reported Anthropic/OpenAI evaluator-publication talks (Oct 13).",
+    "note": "Light interpretation: the GTM stack is converging on calling the system of record from the assistant \u2014 agreements (Docusign), content (Seismic) and CRM hygiene (Nimble) ship as MCP or Agentforce-native actions with user-scoped permissions, continuing Monday's Qobra pattern."
   }
 }
