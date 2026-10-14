@@ -1,34 +1,38 @@
 {
-  "as_of": "2026-10-13 morning ~9:00 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Oct 12 \u2013 Tue Oct 13 PT",
+  "as_of": "2026-10-14 morning ~9:15 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Oct 13 \u2013 Wed Oct 14 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Agreement data and CRM hygiene are landing inside the AI surfaces sellers already live in. Tuesday's launches put Docusign's IAM into Agentforce and Slack, open Seismic's content and agents to Claude via MCP, and let Nimble turn meeting transcripts into CRM writes from ChatGPT or Claude.",
+    "lede": "Quotes, contracts and deal rooms are becoming tools the assistant calls, not tabs reps open. In the last two days Conga and GetAccept shipped MCP servers for Claude, ChatGPT and Copilot, and Aligned put an agent inside the deal room that edits the deal itself, with the rep approving each change.",
     "bullets": [
       {
-        "text": "Agreements inside Agentforce: Docusign's Intelligent Agreement Management is now native across Salesforce, Agentforce and Slack (Oct 13). Sellers can ask Agentforce about contract terms, generate and send agreements, track renewals and route negotiation without leaving CRM or Slack.",
+        "text": "Contracts and quotes over MCP: Conga's MCP Server (Oct 14) connects Claude, Copilot and other MCP clients to live contract, quote and obligation data; Conga CLM and Conga Contracts for Salesforce now support Salesforce MCP to create, negotiate, sign and manage contracts in natural language inside Salesforce.",
         "cites": [
           {
-            "label": "PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html"
+            "label": "Conga",
+            "url": "https://conga.com/press/conga-ai-innovations-press-release"
+          },
+          {
+            "label": "StreetInsider (Business Wire)",
+            "url": "https://www.streetinsider.com/Business+Wire/Conga+Expands+AI+Across+the+Commerce+Lifecycle+with+New+MCP+Server+and+AiMe+Capabilities/27182844.html"
           }
         ]
       },
       {
-        "text": "Enablement agents + MCP everywhere: At Seismic Shift (Oct 13), Seismic shipped Deal Agent and Library Agent and expanded Seismic Everywhere so its MCP server exposes governed content and agents to Claude, ChatGPT, Gemini and Copilot.",
+        "text": "Deal rooms from the chat window: GetAccept MCP (Oct 13) lets Claude, ChatGPT or Gemini read room engagement, log calls, update mutual action plans and build/publish a Digital Sales Room; reminders and invites ask before sending.",
         "cites": [
           {
-            "label": "National Law Review (Business Wire)",
-            "url": "https://natlawreview.com/press-releases/seismic-brings-agentic-revenue-execution-everywhere-go-market-teams-work"
+            "label": "GetAccept",
+            "url": "https://www.getaccept.com/newsroom/introducing-getaccept-mcp"
           }
         ]
       },
       {
-        "text": "CRM writes from the assistant: Nimble MCP (Oct 13) lets Claude and ChatGPT log meeting summaries, assign follow-ups, clean duplicates and research lookalike prospects in Nimble, under the user's permissions; included in every Nimble plan.",
+        "text": "Agents that act inside the deal: Aligned's Seller Agent (beta, Oct 14) rewrites content, updates mutual action plans and builds decks and calculators in the deal workspace; every change is source-linked and applied only with rep approval; pricing after beta.",
         "cites": [
           {
-            "label": "EIN Presswire",
-            "url": "https://www.einpresswire.com/article/949065967/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean"
+            "label": "FinancialContent (GlobeNewswire)",
+            "url": "https://www.financialcontent.com/article/gnwcq-2026-10-14-aligned-introduces-seller-agent-the-industrys-first-ai-agent-built-inside-the-deal-workspace"
           }
         ]
       }
@@ -36,176 +40,168 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Anthropic: small models may be months from self-replicating on IoT devices",
-      "body": "Oct 12: experiments suggest weight-based worms on smart TVs and similar hardware; no fully rogue replicator yet; GLM-5.2 completed end-to-end replication in a simplified eval. CNBC covered Oct 13.",
+      "title": "Google ships Gemini 4 Argon",
+      "body": "Oct 13: frontier model GA via Gemini API, Gemini app (Pro/Ultra), AI Mode and Antigravity; Google claims #1 on the Vals Index; intro price $2/$10 per million input/output tokens through Nov 30, then $4/$20; 1M-token limit.",
       "new": true,
       "cites": [
         {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/research/self-replicating-ai"
-        },
-        {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
         }
       ]
     },
     {
-      "title": "NVIDIA opens Vera Rubin architecture at OCP",
-      "body": "Oct 12: MGX rack designs contributed to OCP; Open Data Center Spec v0.7 with AMD, Google and Meta; grid-resilience spec with Google, Meta and Microsoft; Meta adopting Spectrum-6 networking.",
+      "title": "OpenAI CFO: a more capable model is being held back",
+      "body": "Oct 14: Sarah Friar told the Dublin AI summit OpenAI is withholding an internal model (which she said proved the Navier-Stokes equations) pending more safety work. OpenAI's own claim; not independently verified.",
       "new": true,
       "cites": [
         {
-          "label": "NVIDIA",
-          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+          "label": "Cybernews",
+          "url": "https://cybernews.com/ai-news/openai-cfo-ai-summit-dublin-keynote/"
         }
       ]
     },
     {
-      "title": "Meta unveils Wonder and Wonder Full frontier models",
-      "body": "Oct 12: Meta claims Wonder and Wonder Full perform at a level comparable to leading OpenAI and Anthropic models; for paid Muse personal-agent subscribers.",
+      "title": "OpenAI retires GPT-4o and GPT-4.1 from the API on Jan 14, 2027",
+      "body": "Notice Oct 14: GPT-4o, 4o mini, 4.1 and 4.1 mini snapshots (and their fine-tunes) shut down; recommended replacement gpt-6-luna.",
       "new": true,
       "cites": [
         {
-          "label": "Malay Mail (AFP)",
-          "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/13/meta-unveils-new-ai-models-it-says-rival-openai-anthropic/238887"
+          "label": "OpenAI",
+          "url": "https://developers.openai.com/api/docs/deprecations"
         }
       ]
     },
     {
-      "title": "Reuters: Anthropic and OpenAI negotiating what outside evaluators can publish",
-      "body": "Oct 13: labs sought editorial control as recently as Oct 5; both now say assessors keep independence while labs redact confidential information.",
+      "title": "NVIDIA gives $250M in compute to UK AI-safety research",
+      "body": "Oct 14: five-year pledge for agentic safety and security research; UK confirmed its AI Security Institute tests frontier models before release.",
       "new": true,
       "cites": [
         {
-          "label": "Reuters (via 93.3 The Drive)",
-          "url": "https://www.933thedrive.com/2026/10/13/exclusive-behind-ai-industrys-call-for-independent-reviews-a-fight-over-what-gets-made-public/"
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Docusign IAM launches natively across Salesforce, Agentforce and Slack",
-      "body": "NEW (watchlist). Oct 13: sellers can ask Agentforce about agreement terms, generate and send contracts, track renewals and run Slack-thread agreement workflows. Why it matters: agreements become a callable layer next to Agentforce rather than a separate CLM tab.",
+      "title": "Conga ships MCP Server, AiMe expansion and Salesforce MCP tools for CLM",
+      "body": "NEW (adjacent, Salesforce ecosystem). Oct 14 at Conga Connection: MCP Server for Claude and Copilot over live contracts, quotes and obligations; AiMe with 90+ tools and 19 skills; new CLM AI (Redline, Search, Compliance Screening, Clause Library Builder, Tools for Salesforce MCP); GC AI and SAP Ariba integrations. Why it matters: quote-to-contract becomes a callable layer for whichever assistant or CRM agent the rep uses.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
+          "label": "Conga",
+          "url": "https://conga.com/press/conga-ai-innovations-press-release"
+        }
+      ]
+    },
+    {
+      "title": "GetAccept launches GetAccept MCP for deal rooms",
+      "body": "NEW (adjacent). Oct 13: Ask / Act / Build across deal rooms, contracts and calls from Claude, ChatGPT or Gemini; asks before sending reminders and invites; GetAccept Agent in Salesforce in beta for selected customers.",
+      "new": true,
+      "cites": [
+        {
+          "label": "GetAccept",
+          "url": "https://www.getaccept.com/newsroom/introducing-getaccept-mcp"
+        }
+      ]
+    },
+    {
+      "title": "Aligned releases Seller Agent inside the deal workspace",
+      "body": "NEW (adjacent). Oct 14: consult, execute, automate and create inside the deal room, powered by the always-on Aligned Brain; changes proposed then applied with rep approval; MCP client integration for extra data; beta on all plans, pricing after beta.",
+      "new": true,
+      "cites": [
+        {
+          "label": "FinancialContent (GlobeNewswire)",
+          "url": "https://www.financialcontent.com/article/gnwcq-2026-10-14-aligned-introduces-seller-agent-the-industrys-first-ai-agent-built-inside-the-deal-workspace"
+        }
+      ]
+    },
+    {
+      "title": "Revenue Growth Agent launches MCP Connector for ChatGPT and Claude",
+      "body": "NEW (adjacent). Oct 14: Meeting Prepper, Discovery Conversion (MEDDIC gap analysis) and Solution Proposal agents run inside the assistant and can push updates to CRM records.",
+      "new": true,
+      "cites": [
+        {
           "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html"
+          "url": "https://www.prnewswire.com/news-releases/revenue-growth-agent-launches-model-context-protocol-connector-bringing-company-specific-sales-intelligence-into-chatgpt-and-claude-302907680.html"
         }
       ]
     },
     {
-      "title": "Seismic ships Deal Agent, Library Agent and MCP Everywhere at Shift",
-      "body": "NEW (adjacent). Oct 13: Deal Agent surfaces deal risk, missing stakeholders and next-best actions; Library Agent flags outdated or conflicting messaging for review; Seismic Everywhere exposes content, permissions and agents via MCP to Claude, ChatGPT, Gemini and Copilot, plus Canva, ServiceNow, Microsoft 365 Copilot and Slack integrations.",
+      "title": "Google makes Gemini 4 Argon generally available",
+      "body": "NEW (AI model). Oct 13: API, Gemini app, AI Mode and Antigravity; $2/$10 per million tokens introductory through Nov 30.",
       "new": true,
       "cites": [
         {
-          "label": "National Law Review (Business Wire)",
-          "url": "https://natlawreview.com/press-releases/seismic-brings-agentic-revenue-execution-everywhere-go-market-teams-work"
-        }
-      ]
-    },
-    {
-      "title": "Nimble launches Nimble MCP for Claude and ChatGPT",
-      "body": "NEW (adjacent). Oct 13: AI assistants log meeting summaries, assign follow-ups, clean duplicates and research lookalike prospects in Nimble under user permissions; asks before writes; included in every Nimble plan; works with Claude Free and ChatGPT Pro/Business/Enterprise/Edu.",
-      "new": true,
-      "cites": [
-        {
-          "label": "EIN Presswire",
-          "url": "https://www.einpresswire.com/article/949065967/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean"
-        }
-      ]
-    },
-    {
-      "title": "NVIDIA opens Vera Rubin architecture and AI-factory standards at OCP",
-      "body": "NEW (AI infra). Oct 12: MGX Vera Rubin rack designs, Open Data Center Spec v0.7, OCP Grid Resilience Spec, Meta Spectrum-6 adoption, Cisco USFP 400Gb/s optics plans, Google Falcon Transport on future ConnectX-10.",
-      "new": true,
-      "cites": [
-        {
-          "label": "NVIDIA",
-          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic research: small models may soon self-replicate on IoT devices",
-      "body": "NEW (AI safety). Oct 12: weight-based replicators on smart TVs and similar hardware may be months away; no fully rogue replicator yet; GLM-5.2 completed end-to-end replication in a simplified firewalled eval.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/research/self-replicating-ai"
-        },
-        {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
         }
       ]
     }
   ],
-  "quiet_note": "No net-new product PR Oct 12\u201313 from Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Aged off Today: Salesforce Loops acquisition, Winter '27 GA, Qobra/Dust MCP, Reevo mobile, Hiver Omni, Microsoft Maia 300, Nvidia/Reflection talks, AMD Helion (all Oct 12 / weekend). Gong Callisto remains Sep 30; Clay Sculpt Oct 8; Monaco/Overlayy Sep 4. X pull succeeded (kept_total=2).",
+  "quiet_note": "No net-new product PR Oct 13\u201314 from Gong, Clay, Nooks, Outreach, Salesloft or Monaco. Salesforce first-party activity was restatement (Oct 13 @salesforce Tableau Knowledge promo, a Winter '27 feature; Agentforce on-by-default coverage restating a release-note item). Salesloft CPO coverage restates its Oct 6 release. Aged off Today: Docusign IAM, Seismic agents + MCP, Nimble MCP, Anthropic IoT replication, NVIDIA Vera Rubin at OCP, Meta Wonder, Anthropic/OpenAI evaluator talks (all Oct 12\u201313). X pull succeeded (kept_total=1).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (agreement intelligence inside CRM agents)",
-      "text": "Docusign Intelligent Agreement Management native across Salesforce, Agentforce and Slack (Oct 13)."
+      "label": "Accelerating (deal-execution layer over MCP)",
+      "text": "Conga MCP Server and Salesforce MCP tools (Oct 14), GetAccept MCP (Oct 13); extends Oct 13's content and CRM connectors into quotes, contracts and deal rooms."
     },
     {
       "kind": "up",
-      "label": "Accelerating (MCP as the GTM content/CRM connector)",
-      "text": "Seismic Everywhere MCP and Nimble MCP (both Oct 13); continues Monday's Qobra/Dust pattern."
+      "label": "Accelerating (approve-before-act agents in the deal flow)",
+      "text": "Aligned applies changes only with rep approval; GetAccept asks before reminders and invites (Oct 13\u201314)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (role-based agents for deal and content ops)",
-      "text": "Seismic Deal Agent and Library Agent at Shift (Oct 13)."
+      "label": "Accelerating (frontier price compression)",
+      "text": "Gemini 4 Argon at $2/$10 per million tokens introductory (Oct 13)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (weight-based AI worms on edge devices)",
-      "text": "Anthropic IoT self-replication research (Oct 12)."
+      "label": "Emerging (forced model migrations for agent builders)",
+      "text": "OpenAI GPT-4o/4.1 API shutdown Jan 14, 2027 (notice Oct 14)."
     },
     {
-      "kind": "up",
-      "label": "Accelerating (open AI-factory rack standards)",
-      "text": "NVIDIA Vera Rubin / MGX contributions and OCP data-center specs (Oct 12)."
+      "kind": "emerging",
+      "label": "Emerging (labs pacing releases on safety)",
+      "text": "OpenAI withholding a more capable model; NVIDIA UK safety compute and AISI pre-release testing (Oct 14)."
     }
   ],
   "language_pulse": [
     {
-      "term": "Intelligent Agreement Management (IAM)",
-      "gloss": "Docusign's agreement platform now native in Salesforce/Agentforce/Slack (Oct 13)."
+      "term": "Conga MCP Server / AiMe",
+      "gloss": "Conga's 'commerce chain' of quotes, contracts and obligations exposed to AI assistants (Oct 14)."
     },
     {
-      "term": "Seismic Everywhere",
-      "gloss": "Seismic's MCP + headless embedding of content and agents into AI assistants (Oct 13)."
+      "term": "Tools for Salesforce MCP",
+      "gloss": "Conga's natural-language contract actions inside Salesforce (Oct 14)."
     },
     {
-      "term": "Weight-based replicators",
-      "gloss": "Anthropic's term for AI worms that carry model weights onto compromised devices (Oct 12)."
+      "term": "AI Deal Workspace / Aligned Brain",
+      "gloss": "Aligned's framing for an agent that runs inside the deal (Oct 14)."
     },
     {
-      "term": "Open Data Center Specification v0.7",
-      "gloss": "OCP facility blueprint from NVIDIA, AMD, Google and Meta (Oct 12)."
+      "term": "Digital Sales Room via MCP",
+      "gloss": "GetAccept's Ask / Act / Build from the assistant (Oct 13)."
     },
     {
-      "term": "Wonder / Wonder Full",
-      "gloss": "Meta's new frontier Muse models (Oct 12)."
+      "term": "Pacing the frontier",
+      "gloss": "OpenAI CFO Sarah Friar on withholding a model (Oct 14)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "New \u00b7 Docusign Intelligent Agreement Management launched natively across Salesforce, Agentforce and Slack (Oct 13). Agent Optimizer and AI Skills October GA and pricing still unconfirmed.",
+      "text": "Ecosystem \u00b7 Conga CLM for Salesforce and Conga Contracts for Salesforce now support Salesforce MCP: create, review, negotiate, sign and manage contracts in natural language inside Salesforce (Oct 14). Agent Optimizer and AI Skills October GA and pricing still unconfirmed.",
       "cites": [
         {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/docusign-and-salesforce-launch-intelligent-agreement-management-natively-across-salesforce-to-power-agentic-agreement-workflows-302900284.html"
+          "label": "Conga",
+          "url": "https://conga.com/press/conga-ai-innovations-press-release"
         }
       ]
     }
@@ -213,7 +209,7 @@
   "watch": [
     {
       "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
-      "body": "Winter '27 went GA Oct 12, but Salesforce has not publicly confirmed the GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26. Hunter stays in pilot until November. Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
+      "body": "Mid-October and still no public GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26; Hunter stays in pilot until November. Partners are already wiring into Salesforce MCP (Conga, Oct 14). Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
@@ -229,7 +225,7 @@
     }
   ],
   "interpretation": {
-    "fact": "Docusign and Salesforce launched IAM natively across Salesforce, Agentforce and Slack (Oct 13). Seismic announced Deal Agent, Library Agent and MCP Everywhere (Oct 13). Nimble launched Nimble MCP (Oct 13). Anthropic published IoT self-replication research (Oct 12). NVIDIA opened Vera Rubin architecture at OCP (Oct 12). Meta unveiled Wonder and Wonder Full (Oct 12). Reuters reported Anthropic/OpenAI evaluator-publication talks (Oct 13).",
-    "note": "Light interpretation: the GTM stack is converging on calling the system of record from the assistant \u2014 agreements (Docusign), content (Seismic) and CRM hygiene (Nimble) ship as MCP or Agentforce-native actions with user-scoped permissions, continuing Monday's Qobra pattern."
+    "fact": "Conga announced its MCP Server, AiMe expansion and Salesforce MCP tools for CLM (Oct 14). GetAccept launched GetAccept MCP (Oct 13). Aligned released Seller Agent in beta (Oct 14). Revenue Growth Agent launched an MCP Connector (Oct 14). Google made Gemini 4 Argon GA (Oct 13). OpenAI's CFO said a more capable model is being withheld (Oct 14). OpenAI announced GPT-4o/4.1 API retirement for Jan 14, 2027 (Oct 14). NVIDIA pledged $250M of compute to UK AI-safety research (Oct 14).",
+    "note": "Light interpretation: after content and CRM-hygiene connectors, deal execution (quotes, contracts, deal rooms) is the next layer going MCP, with confirm-before-write controls up front. Conga building to Salesforce MCP suggests partners are targeting Salesforce's MCP surface ahead of the Agent Optimizer / AI Skills GAs."
   }
 }
