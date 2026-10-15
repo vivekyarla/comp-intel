@@ -1,0 +1,132 @@
+{
+  "name": "Clay",
+  "slug": "clay",
+  "website": "https://www.clay.com/",
+  "as_of": "2026-10-15",
+  "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
+  "recent": [
+    {
+      "date": "2026-10-14",
+      "title": "Ranked #2 most impactful GTM tool in 2026 State of B2B GTM Report",
+      "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report",
+      "summary": "Oct 14 Growth Unhinged / GTM Strategist survey of 300 B2B software GTM leaders (Sep 2026 fielding): Clay #2 most impactful GTM tool (up from #3), behind Claude (#1) and ahead of HubSpot (#3). Clay promoted the ranking on X Oct 15 (https://x.com/clay/status/2110736702394249696). Same window: @clay posted a self-learning revenue system framing video (Oct 14) restating Sculpt language — not a new launch. No Clay first-party product PR Oct 14–15.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Sculpt: agent-first way to build in Clay (beta)",
+      "url": "https://www.clay.com/blog/sculpt-2026-recap",
+      "summary": "Outcome-based tasks; agent plans, runs and improves plays using Knowledge Hub (ICP, personas, positioning); recommends ICP updates from campaign results; schedules its own check-ins. Available to Sculpt attendees Oct 8; early-access users in coming weeks. No pricing announced. Showcase: https://sculpt.clay.com/showcase",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Sculpt: Clay Workflows in beta for all users; full launch this fall",
+      "url": "https://www.clay.com/blog/sculpt-2026-recap",
+      "summary": "Visual canvas where steps branch, loop, run code or call an agent; build from chat or a coding agent via CLI; per-run trace and bulk re-run; results write back to Audiences. Community post: available on Launch, Growth, Enterprise; legacy plans through year-end.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Sculpt: Inbound SDR Agent preview (waitlist)",
+      "url": "https://www.clay.com/blog/sculpt-2026-recap",
+      "summary": "Clay's first agentic seller: enriches visitors, qualifies via voice, demos product in a sandbox, routes to rep calendars; trained on past demo call recordings. Pre-beta waitlist; no date or pricing. Puts Clay in the AI SDR lane (interpretation).",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Blog (SEO comparison): '10 ZoomInfo Alternatives for GTM Teams in 2026'",
+      "url": "https://www.clay.com/blog",
+      "summary": "Oct 6 comparison post listed on clay.com/blog under More posts; competitive SEO content, not a launch. No Sculpt pre-announcement found as of Oct 7 morning. Sculpt agenda (sculpt.clay.com): 9:30 AM opening keynote by Kareem Amin with Abbie Kouzmanoff, Jeff Barg and Matthew Quan ('a first look at what Clay is building next'); Gunner Park on a self-learning revenue engine that fixes routing bugs via PR; closing fireside with Sierra co-founder Clay Bavor.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "TechCrunch: Kareem Amin to speak on 'The GTM Engineer' at Disrupt (Oct 13–15)",
+      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+      "summary": "Event announcement: AI Stage session 'The GTM Engineer: How AI Created Tech's Next Big Job Category' at TechCrunch Disrupt, Oct 13–15, Moscone West. Clay's own Sculpt conference is Oct 8 in San Francisco (clay.com banner). Category-language signal, not a product ship.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Engineering: monty — internal Slack analytics agent (how-we-build)",
+      "url": "https://www.clay.com/blog/building-everyones-personal-data-scientist",
+      "summary": "Sep 30 engineering blog (also lists Sep 28): Clay built monty, an in-house Slack analytics agent over governed Snowflake/dbt models (Vercel eve + Opus). Internal tooling narrative — not a customer product launch.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Clay Skills Marketplace launched",
+      "url": "https://www.clay.com/blog/introducing-clay-skills-marketplace",
+      "summary": "Sep 29 blog (+ Sep 30 X amplify): free community marketplace of GTM skills (playbooks) that install into Claude Code, Codex, or Cursor; Clay supplies data via Agent Plugin. Credits consumed when skills pull Clay data. Featured community creators; submission via skill-creator prompt.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "24 new and updated marketplace integrations (EMEA/APAC, public sector, signals, Nooks sink)",
+      "url": "https://www.clay.com/blog/clay-integrations-september-2026",
+      "summary": "Sep 29 blog by Karishma Rajaratnam: 24 new/updated providers — EMEA/APAC coverage, GovSpend/Pursuit public sector, Actovia CRE, Magellan PE hierarchy, G2/Sequel intent, action sinks including Nooks dialer, Canva, ClickHouse, Twain, HubSpot list. Available on every plan + free trial.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "9 Ways to Use Clay's Agent Plugin to Build GTM Workflows and Tools",
+      "url": "https://www.clay.com/blog/clay-agent-plugin-use-cases",
+      "summary": "Clay Team blog Sep 23: nine internal builds on the Agent Plugin (API/CLI inside Claude Code/Codex). Plugin opened beta in July; generally available to every customer at no extra cost as of Sep 15, 2026.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "We asked 6,346 companies for a demo. Most never wrote back.",
+      "url": "https://www.clay.com/blog/claygent-experiment-speed-to-lead",
+      "summary": "Thought-leadership Sep 22: Claygents filled thousands of B2B demo/contact forms and timed responses. Brand/content signal; no product ship.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Series D: $115M at $7.1B valuation; 'AI growth engine' positioning",
+      "url": "https://www.clay.com/blog/series-d",
+      "summary": "CEO Kareem Amin: Clay raised $115M Series D at $7.1B led by Wellington; participants include Sequoia, a16z perennial, Meritech, DST, CapitalG, others. Claims 4x revenue growth in 2025; 17k+ customers including 80% of Forbes AI50. Also announces $1M GTM Engineer scholarship. Teases launches at Sculpt conference.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Account Agents in Workflows",
+      "url": "https://www.clay.com/blog/account-agents-workflows",
+      "summary": "Product announcement (Aug 25 / Aug 23 listed): drop Account Agents into Workflows so agents retain account memory and act inside plays.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Workflows open beta — node-based GTM orchestration on Audiences",
+      "url": "https://www.clay.com/blog/introducing-workflows",
+      "summary": "Introduces Workflows as orchestration layer on Audiences: triggers, branching, code nodes, Claygents, record-level observability/cost, unlimited steps/records. Open beta; free indefinitely on Launch/Growth/Enterprise.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Account Research Agents open beta",
+      "url": "https://www.clay.com/blog/account-research-agents",
+      "summary": "Always-on agents reason over Audiences (CRM, Gong, email, warehouse, signals); synthesize fields and write back for expansion/re-engagement/health. Available on Enterprise, Growth, Launch.",
+      "source_type": "company_blog"
+    }
+  ],
+  "language_pulse": [
+    "coding agents",
+    "GTM skills",
+    "Skills Marketplace",
+    "AI growth engine",
+    "GTM engineers",
+    "Account Research Agents",
+    "Account Agents",
+    "Claygents",
+    "Workflows",
+    "Audiences",
+    "GTM orchestration",
+    "self-learning revenue engine",
+    "MCP for reps",
+    "Agent Plugin",
+    "Claygent"
+  ],
+  "notes": "Oct 7: no net-new Clay product PR Oct 6–7 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13–15."
+}
