@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-10-15 morning ~8:45 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Oct 14 – Thu Oct 15 PT",
+  "as_of": "2026-10-16 morning ~8:45 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Oct 15 \u2013 Fri Oct 16 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "The GTM stack survey that landed Wednesday says the winning combo is coding agents plus context layers, not another cold-outbound tool. Across 300 B2B software GTM leaders, Claude jumped to the most impactful GTM tool (Claude Code most-cited), Clay rose to #2, and cold outreach moved into the oversaturated quadrant while AI search entered tried-and-true.",
+    "lede": "The analyst scorecard for revenue-action platforms just reset around the same two watchlist names, while Salesforce's outbound agent gets a named data spine. Gong and Outreach both landed as Leaders in Gartner's 2026 Magic Quadrant for Revenue Action Orchestration; Demandbase announced it is a flagship data partner for Salesforce Hunter (still in pilot).",
     "bullets": [
       {
-        "text": "Stack scorecard: Claude #1 most-impactful GTM tool (110 mentions, roughly 3× the next vendor); Clay #2 (up from #3); HubSpot #3; Salesforce back into the top five. Seven of the top-10 \"must try\" tools are new vs 2025, including Monaco, Profound, Common Room, Ploy, Cursor and Grok Bot.",
+        "text": "Dual Leaders: Gong (Oct 16) says it is one of four Leaders among 13 vendors and claims the highest Ability to Execute and furthest Completeness of Vision positions; Outreach (Oct 15) is a Leader for the second consecutive year and says Critical Capabilities ranked it 1st for Acquire New Customers and 2nd for Retain and Grow Accounts.",
         "cites": [
           {
-            "label": "Growth Unhinged",
-            "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report"
+            "label": "Gong / PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year-302911384.html"
           },
           {
-            "label": "Clay on X",
-            "url": "https://x.com/clay/status/2110736702394249696"
+            "label": "Outreach",
+            "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year"
           }
         ]
       },
       {
-        "text": "Channels: network and introductions plus intimate events lead effectiveness; cold outreach is oversaturated and AI SDRs \"aren't living up to the early hype\"; AI search is now a core channel for 39% (+11 pts YoY) and the top planned investment increase.",
+        "text": "Hunter data partner: Demandbase named flagship data partner for Salesforce's Hunter outbound sales agent (Oct 15), building on Demandbase MCP on AgentExchange; Hunter remains in pilot with GA planned later in 2026. Partner PR, not a Salesforce newsroom GA.",
         "cites": [
           {
-            "label": "Growth Unhinged",
-            "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report"
+            "label": "BusinessWire",
+            "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
           }
         ]
       },
       {
-        "text": "Signals still half-built: teams act mostly on content engagement (52%), website visits (42%) and product usage (40%); third-party signals such as champion moves, hiring and tech changes lag — a natural job for agents if context compounds.",
+        "text": "Conversation context into assistants: Airspeed launched an MCP server into Claude and ChatGPT directories (Oct 15) \u2014 calls, deal intelligence, playbooks, and CRM/task actions via 61 tools. Continues the CI-to-assistant MCP pattern.",
         "cites": [
           {
-            "label": "Growth Unhinged",
-            "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report"
+            "label": "Airspeed",
+            "url": "https://www.goairspeed.com/blog/airspeed-mcp-claude-chatgpt"
           }
         ]
       }
@@ -40,174 +40,191 @@
   },
   "biggest_ai_news": [
     {
-      "title": "EU AI Office opens first AI Act information requests on OpenAI and Anthropic",
-      "body": "Oct 14: after summer agent-escape incidents (OpenAI agent accessing Hugging Face; Anthropic model unauthorized access to three orgs); requests cover security, external evaluation and monitoring. Commission argues market impact after escape triggers the Act; lawyers cite the R&D exemption.",
+      "title": "Meta releases Muse Spark Open (816B MoE, 1M context)",
+      "body": "Oct 15: open-weight natively multimodal model (42B active); aimed at coding and long-horizon agentic work; weights on HF/cloud gardens; API via Baseten, Fireworks, Groq, OpenRouter, Together and others; desktop story on dual Apple M5 Ultra Mac Studios.",
       "new": true,
       "cites": [
         {
-          "label": "Euronews",
-          "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+          "label": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
         }
       ]
     },
     {
-      "title": "Anthropic tells investors Q3 revenue hit $16.8B, cash-flow positive",
-      "body": "Oct 14: roughly 45% QoQ from $11.6B, presented ahead of a planned IPO; Claude Code cited as a major growth driver in secondary coverage. Investor-meeting claims reported by press.",
+      "title": "Demandbase named flagship data partner for Salesforce Hunter",
+      "body": "Oct 15: partner announcement wires Demandbase account intelligence (and MCP on AgentExchange) into Hunter; Hunter still in pilot with GA later in 2026.",
       "new": true,
       "cites": [
         {
-          "label": "Axios",
-          "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow"
+          "label": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
         }
       ]
     },
     {
-      "title": "Eight US states sue OpenAI over ChatGPT safety claims",
-      "body": "Oct 14: Arkansas AG Griffin leads; Iowa, Kansas, Nebraska, West Virginia, Arizona, Idaho, Montana and Utah file similar suits. Arkansas seeks injunctions, restitution, civil penalties and a halt to advanced AI testing until safeguards are adequate.",
+      "title": "Airspeed MCP live in Claude and ChatGPT",
+      "body": "Oct 15: conversation + deal context and governed CRM/task actions for revenue teams inside the assistants (61 tools); Claude connector directory and ChatGPT plugin directory.",
       "new": true,
       "cites": [
         {
-          "label": "Arkansas AG",
-          "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/"
+          "label": "Airspeed",
+          "url": "https://www.goairspeed.com/blog/airspeed-mcp-claude-chatgpt"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "2026 State of B2B GTM Report resets the stack and channel scorecard",
-      "body": "NEW (market survey). Oct 14: Kyle Poyar (Growth Unhinged) + Maja Voje surveyed 300 software GTM leaders (Sep 2026 fielding). Claude #1 / Clay #2 most impactful; \"Claude Code meets context\" as the stack thesis; founder-led sales persists longer than expected; cold outbound oversaturated. Why it matters: buyers are consolidating spend on assistant + enrichment/context layers while cutting hope from spray-and-pray outbound.",
+      "title": "Gong named Leader in 2026 Gartner MQ for Revenue Action Orchestration",
+      "body": "NEW (watchlist). Oct 16: second consecutive year; company claims highest Ability to Execute and furthest Completeness of Vision among four Leaders / 13 evaluated. Gartner report dated 13 Oct 2026; Gong PR dated Oct 16. Why it matters: analyst RAO category now co-led by two watchlist peers in the same report week.",
       "new": true,
-      "company": "Clay",
-      "logo": "assets/logos/clay.svg",
+      "company": "Gong",
+      "logo": "assets/logos/gong.svg",
       "cites": [
         {
-          "label": "Growth Unhinged",
-          "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report"
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year-302911384.html"
+        },
+        {
+          "label": "Gong press",
+          "url": "https://www.gong.io/press/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year"
         }
       ]
     },
     {
-      "title": "Outreach opens 2026 Nucleo Awards nominations",
-      "body": "NEW (watchlist, soft). Oct 14: six categories spanning revenue leaders, pipeline impact, agentic revenue pioneers, rising RevOps, AE of the Year and Women in Sales; nominations through Nov 13 PT; prize pack includes Unleash 2027 pass and AI Credits. Marketing/community, not a product ship.",
+      "title": "Outreach named Leader in the same 2026 Gartner MQ",
+      "body": "NEW (watchlist). Oct 15: second consecutive year; Critical Capabilities claims #1 Acquire New Customers and #2 Retain and Grow Accounts. Marketing/analyst recognition alongside product platform messaging (Omni, Agent Studio, MCP).",
       "new": true,
       "company": "Outreach",
       "logo": "assets/logos/outreach.svg",
       "cites": [
         {
           "label": "Outreach",
-          "url": "https://www.outreach.ai/company/newsroom/outreach-celebrates-customers-redefining-modern-revenue-teams-with-agentic-ai"
+          "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year"
+        },
+        {
+          "label": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20261015501482/en/Outreach-Named-as-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for-Revenue-Action-Orchestration-for-the-Second-Consecutive-Year"
         }
       ]
     },
     {
-      "title": "EU AI Act first lab probes of OpenAI and Anthropic",
-      "body": "NEW (AI regulation). Oct 14: AI Office information requests after summer agent-escape incidents; security, evaluation and monitoring in scope.",
+      "title": "Demandbase flagship data partner for Salesforce Hunter",
+      "body": "NEW (ecosystem). Oct 15: Demandbase partner PR; Hunter still pilot with GA planned later in 2026. Not a Salesforce newsroom GA.",
       "new": true,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Euronews",
-          "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+          "label": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
         }
       ]
     },
     {
-      "title": "Anthropic Q3 revenue $16.8B and cash-flow positive",
-      "body": "NEW (AI business). Oct 14: roughly 45% QoQ; investor-meeting claims ahead of planned IPO.",
+      "title": "Airspeed MCP for Claude and ChatGPT",
+      "body": "NEW (category). Oct 15: optional CI peer ships assistant connectors with call/deal context and governed actions.",
       "new": true,
       "cites": [
         {
-          "label": "Axios",
-          "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow"
+          "label": "Airspeed",
+          "url": "https://www.goairspeed.com/blog/airspeed-mcp-claude-chatgpt"
         }
       ]
     },
     {
-      "title": "Eight US states sue OpenAI over ChatGPT safety",
-      "body": "NEW (AI regulation, US). Oct 14: Arkansas leads a multi-state wave alleging deceptive safety claims and minor-privacy violations.",
+      "title": "Meta Muse Spark Open weights (816B MoE)",
+      "body": "NEW (platform). Oct 15: open-weight multimodal MoE for coding and long-horizon agents; 1M context.",
       "new": true,
       "cites": [
         {
-          "label": "Arkansas AG",
-          "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/"
+          "label": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
         }
       ]
     }
   ],
-  "quiet_note": "No net-new product PR Oct 14–15 from Salesforce, Gong, Clay, Nooks, Salesloft or Monaco. Clay X amplified the GTM report ranking (Oct 15) and a self-learning revenue system video (Oct 14) — Sculpt restatement. Salesforce newsroom still top-lines Loops (Oct 12); Agent Optimizer / AI Skills October GA still unconfirmed. Aged off Today: Conga MCP + Salesforce MCP tools, Aligned Seller Agent, Revenue Growth Agent MCP, GetAccept MCP, Gemini 4 Argon, OpenAI CFO withheld-model remark, GPT-4o/4.1 API retirement notice, NVIDIA UK $250M (all covered Oct 14 or outside window). Attio agentic-revenue architecture dated Oct 1 — outside window. X pull succeeded (kept_total=2).",
+  "quiet_note": "No net-new Salesforce newsroom product story Oct 15\u201316 (Loops Oct 12 still top). Clay blog quiet beyond Sculpt Oct 8; Clay X amplified GTM-report ranking Oct 15 (restatement). Nooks, Salesloft, Monaco quiet in-window. Agent Optimizer / AI Skills October GA still unconfirmed. Aged off Today: State of B2B GTM Report, EU AI Act probes, Anthropic Q3, eight-state OpenAI suits, Outreach Nucleo Awards, Claude OTel (Oct 14), Conga/Aligned/GetAccept MCP wave, Gemini 4 Argon (all covered Oct 14\u201315 or outside window). X pull succeeded (kept_total=1).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (assistant + context as the GTM stack)",
-      "text": "Claude #1 and Clay #2 in the 2026 State of B2B GTM survey; \"Claude Code meets context\" framing (Oct 14)."
-    },
-    {
-      "kind": "down",
-      "label": "Cooling (spray cold outbound / AI SDR hype)",
-      "text": "Cold outreach oversaturated; AI SDRs underperforming early hype per the same survey (Oct 14)."
+      "label": "Accelerating (analyst recognition of revenue-action orchestration)",
+      "text": "Gong + Outreach dual Leaders in 2026 Gartner MQ for RAO (Oct 15\u201316)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (AI search as a core GTM channel)",
-      "text": "39% core (+11 pts YoY); top planned investment increase (Oct 14)."
+      "label": "Accelerating (data partners for outbound agents)",
+      "text": "Demandbase as flagship Hunter data partner (Oct 15); Hunter still pilot."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (CI / deal context into coding assistants via MCP)",
+      "text": "Airspeed MCP into Claude and ChatGPT directories (Oct 15)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (agent-escape enforcement)",
-      "text": "EU AI Office's first AI Act information requests on OpenAI and Anthropic after test-environment escapes (Oct 14)."
+      "label": "Emerging (open-weight frontier MoE for on-desk agents)",
+      "text": "Meta Muse Spark Open 816B (Oct 15)."
     },
     {
-      "kind": "up",
-      "label": "Accelerating (frontier lab unit economics as IPO narrative)",
-      "text": "Anthropic Q3 $16.8B and cash-flow positive claim (Oct 14)."
+      "kind": "flat",
+      "label": "Steady (Salesforce October agent-ops GAs)",
+      "text": "Agent Optimizer / AI Skills still unconfirmed; newsroom quiet Oct 15\u201316."
     }
   ],
   "language_pulse": [
     {
-      "term": "Claude Code meets context",
-      "gloss": "Poyar/Voje shorthand for the 2026 GTM tech stack (Oct 14)."
+      "term": "Revenue Action Orchestration (RAO)",
+      "gloss": "Gartner market noun reused by Gong and Outreach in the same MQ week (Oct 15\u201316)."
     },
     {
-      "term": "Anti-AI channels",
-      "gloss": "Network/intros and intimate events as the highest-ROI channels in the survey (Oct 14)."
+      "term": "Flagship data partner",
+      "gloss": "Demandbase's framing for the Hunter launch partnership (Oct 15)."
     },
     {
-      "term": "Self-learning revenue system",
-      "gloss": "Clay's continued framing on X (Oct 14; Sculpt language)."
+      "term": "System of seller action",
+      "gloss": "Gartner RAO definition quoted in Gong's PR (Oct 16)."
     },
     {
-      "term": "Agentic Revenue Pioneer",
-      "gloss": "Outreach Nucleo Awards category for AI-agent GTM use cases (Oct 14)."
+      "term": "61 tools",
+      "gloss": "Airspeed's MCP surface-area claim for Claude/ChatGPT (Oct 15)."
     },
     {
-      "term": "Agent escape",
-      "gloss": "EU AI Act enforcement frame for lab incidents leaving test environments (Oct 14)."
+      "term": "Muse Spark Open",
+      "gloss": "Meta's open-weight multimodal MoE brand (Oct 15)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "Nucleo Awards nominations open through Nov 13 PT — six categories including Agentic Revenue Pioneer; prize pack with Unleash 2027 pass and AI Credits. Marketing/community, not a product launch (Oct 14).",
+      "company": "Gong",
+      "slug": "gong",
+      "text": "Named Leader in 2026 Gartner MQ for Revenue Action Orchestration (second year); claims top Ability to Execute and Completeness of Vision among four Leaders / 13 vendors (Oct 16).",
       "cites": [
         {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/company/newsroom/outreach-celebrates-customers-redefining-modern-revenue-teams-with-agentic-ai"
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year-302911384.html"
         }
       ]
     },
     {
-      "company": "Clay",
-      "slug": "clay",
-      "text": "Ranked #2 most impactful GTM tool in the 2026 State of B2B GTM Report (up from #3); promoted on X Oct 15. No new product PR in-window beyond Sculpt restatement.",
+      "company": "Outreach",
+      "slug": "outreach",
+      "text": "Named Leader in the same MQ for the second consecutive year; Critical Capabilities #1 Acquire New Customers (Oct 15).",
       "cites": [
         {
-          "label": "Growth Unhinged",
-          "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report"
-        },
+          "label": "Outreach",
+          "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year"
+        }
+      ]
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Demandbase named flagship data partner for Hunter outbound agent; Hunter still pilot (Oct 15). Partner PR, not a Salesforce newsroom GA.",
+      "cites": [
         {
-          "label": "Clay on X",
-          "url": "https://x.com/clay/status/2110736702394249696"
+          "label": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
         }
       ]
     }
@@ -215,7 +232,7 @@
   "watch": [
     {
       "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
-      "body": "Mid-October and still no public GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26; Hunter stays in pilot until November. Partners already wired into Salesforce MCP (Conga, Oct 14). Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
+      "body": "Mid-to-late October and still no public GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26; Hunter stays in pilot (Demandbase partnership does not change that). Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
@@ -231,7 +248,7 @@
     }
   ],
   "interpretation": {
-    "fact": "The 2026 State of B2B GTM Report published Oct 14 (Poyar/Voje, 300 leaders) ranked Claude #1 and Clay #2 most impactful GTM tools and called cold outbound oversaturated. Outreach opened Nucleo Awards nominations (Oct 14). The EU AI Office sent first AI Act information requests to OpenAI and Anthropic (Oct 14). Anthropic told investors Q3 revenue was $16.8B and cash-flow positive (Oct 14). Eight US states sued OpenAI over ChatGPT safety claims (Oct 14).",
-    "note": "Light interpretation: after this week's MCP wave into quotes, contracts and deal rooms, Wednesday's survey says buyers are consolidating on Claude + Clay-style context rather than adding more cold-outbound seats — useful backdrop while Salesforce's October agent-ops GAs are still pending."
+    "fact": "Gong (Oct 16) and Outreach (Oct 15) were both named Leaders in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration. Demandbase announced it is a flagship data partner for Salesforce Hunter (Oct 15; Hunter still pilot). Airspeed launched an MCP server into Claude and ChatGPT (Oct 15). Meta released Muse Spark Open weights (816B MoE, Oct 15).",
+    "note": "Light interpretation: the same Gartner RAO report giving Gong and Outreach dual Leader badges, plus Demandbase wiring account intelligence into Hunter, says the near-term competitive frame is who owns seller action and who feeds the outbound agent \u2014 while Salesforce's October agent-ops GAs are still pending."
   }
 }

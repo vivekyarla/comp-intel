@@ -2,9 +2,16 @@
   "name": "Outreach",
   "slug": "outreach",
   "website": "https://www.outreach.ai/",
-  "as_of": "2026-10-15",
-  "positioning": "Agentic AI platform for revenue teams / revenue orchestration: Omni conversational agent, Agent Studio, purpose-built AI agents (Meeting Prep, Deal, Revenue/Research), Kaia CI, forecasting — insight to governed action. Primary web domain is outreach.ai (outreach.io 301s there).",
+  "as_of": "2026-10-16",
+  "positioning": "Agentic AI platform for revenue teams / revenue orchestration: Omni conversational agent, Agent Studio, purpose-built AI agents (Meeting Prep, Deal, Revenue/Research), Kaia CI, forecasting \u2014 insight to governed action. Primary web domain is outreach.ai (outreach.io 301s there).",
   "recent": [
+    {
+      "date": "2026-10-15",
+      "title": "Named Leader in 2026 Gartner Magic Quadrant for Revenue Action Orchestration (2nd year)",
+      "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year",
+      "summary": "Oct 15 newsroom + BusinessWire: Leader second consecutive year in 2026 Gartner MQ for Revenue Action Orchestration. Critical Capabilities: claims 1st for Acquire New Customers and 2nd for Retain and Grow Accounts. CPO Nithya Lakshmanan on operationalizing AI agents. Also cites prior Forrester Wave Leader. BW: https://www.businesswire.com/news/home/20261015501482/en/Outreach-Named-as-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for-Revenue-Action-Orchestration-for-the-Second-Consecutive-Year",
+      "source_type": "press"
+    },
     {
       "date": "2026-10-14",
       "title": "2026 Nucleo Awards nominations open",
@@ -30,21 +37,21 @@
       "date": "2026-10-01",
       "title": "Deal Agent product blog: evidence-linked opportunity field updates + custom deal summaries",
       "url": "https://www.outreach.ai/resources/blog/deal-agent-automate-deal-updates",
-      "summary": "Oct 1 blog: Deal Agent reviews recorded calls/meetings (incl. historical), surfaces AI-recommended opportunity field updates with meeting title + transcript excerpt + timestamp evidence, and generates custom AI deal summaries by opportunity type. Auto-apply or accept/edit/reject; Slack + Teams; CRM sync (Salesforce, Dynamics). Cites internal 90-day usage (~90.8% acceptance among actioned recommendations). Recent innovations: append/prepend/replace, historical/field backfill, Economic Buyer/Champion auto-accept options, deal-channel Slack. Product page: https://www.outreach.ai/ai-agents/deal-agent — available today. Note: Deal Agent existed earlier (Apr 2026 release mentions); this is a major product spotlight + enhancements push, not first invent.",
+      "summary": "Oct 1 blog: Deal Agent reviews recorded calls/meetings (incl. historical), surfaces AI-recommended opportunity field updates with meeting title + transcript excerpt + timestamp evidence, and generates custom AI deal summaries by opportunity type. Auto-apply or accept/edit/reject; Slack + Teams; CRM sync (Salesforce, Dynamics). Cites internal 90-day usage (~90.8% acceptance among actioned recommendations). Recent innovations: append/prepend/replace, historical/field backfill, Economic Buyer/Champion auto-accept options, deal-channel Slack. Product page: https://www.outreach.ai/ai-agents/deal-agent \u2014 available today. Note: Deal Agent existed earlier (Apr 2026 release mentions); this is a major product spotlight + enhancements push, not first invent.",
       "source_type": "company_blog"
     },
     {
       "date": "2026-09-28",
       "title": "GeekWire: HQ relocating to Fremont Adobe campus early 2027",
       "url": "https://www.geekwire.com/2026/seattle-based-sales-tech-company-outreach-to-move-hq-to-adobes-campus-in-fremont-neighborhood/",
-      "summary": "GeekWire Sep 28: Outreach confirms HQ move from Interbay (333 Elliott) to one floor at 701 N. 34th St., Fremont Lake Union Center (Adobe-anchored), early 2027. CEO Abhijit Mitra: more face-to-face collaboration. ~800 employees. Ops/real-estate signal — not product.",
+      "summary": "GeekWire Sep 28: Outreach confirms HQ move from Interbay (333 Elliott) to one floor at 701 N. 34th St., Fremont Lake Union Center (Adobe-anchored), early 2027. CEO Abhijit Mitra: more face-to-face collaboration. ~800 employees. Ops/real-estate signal \u2014 not product.",
       "source_type": "press"
     },
     {
       "date": "2026-09-28",
       "title": "MarketScale: Outreach earns Forrester's top score on 15 of 22 revenue platform criteria",
       "url": "https://www.marketscale.com/industries/marketing-tech/outreach-earns-forresters-top-score-on-15-of-22-revenue-platform-criteria",
-      "summary": "Third-party Sep 28 re-analysis of Outreach's Q3 2026 Forrester Wave Leader placement (company announced Sep 24); lists 15 criteria scoring 5/5 and highlights Forrester's agent-governance checklist. Secondary amplification — not a new company announcement.",
+      "summary": "Third-party Sep 28 re-analysis of Outreach's Q3 2026 Forrester Wave Leader placement (company announced Sep 24); lists 15 criteria scoring 5/5 and highlights Forrester's agent-governance checklist. Secondary amplification \u2014 not a new company announcement.",
       "source_type": "third_party"
     },
     {
@@ -56,7 +63,7 @@
     },
     {
       "date": "2026-09-24",
-      "title": "Named Leader in Forrester Wave™ Revenue Orchestration Platforms for B2B, Q3 2026",
+      "title": "Named Leader in Forrester Wave\u2122 Revenue Orchestration Platforms for B2B, Q3 2026",
       "url": "https://www.outreach.ai/resources/blog/forrester-wave-revenue-orchestration-2026",
       "summary": "CEO Abhijit Mitra blog: Outreach named a Leader; claims highest possible score in 15 of 22 criteria including Revenue Orchestration, Forecasting, Conversation Intelligence, Innovation, Roadmap, Adoption. Forrester quote emphasizes buyer engagement, CI, and increasingly agentic workflows.",
       "source_type": "company_blog"
@@ -79,7 +86,7 @@
       "date": "2026-09-10",
       "title": "September 2026 product release notes (rollout through Sep 24): Omni Slack, HITL widgets, ServiceNow Marketplace plugin",
       "url": "https://support.outreach.io/support/solutions/articles/159000435308-outreach-product-release-notes-september-2026",
-      "summary": "Support release notes Sep 10–24: Omni in Slack channels, mobile Omni surveys/create-update, Human-in-the-Loop confirmation widgets before CRM writes, extracted user preferences, Sequential Dialing status, Prospect side-panel customization, Kaia buyer/seller tagging for unlicensed internals, Outreach plugin for ServiceNow Marketplace.",
+      "summary": "Support release notes Sep 10\u201324: Omni in Slack channels, mobile Omni surveys/create-update, Human-in-the-Loop confirmation widgets before CRM writes, extracted user preferences, Sequential Dialing status, Prospect side-panel customization, Kaia buyer/seller tagging for unlicensed internals, Outreach plugin for ServiceNow Marketplace.",
       "source_type": "release_notes"
     },
     {
@@ -104,5 +111,5 @@
     "Kaia",
     "insight to action"
   ],
-  "notes": "Oct 5: Deal Agent (Oct 1) aged off Today. Oct 3 LinkedIn amplify of AgentExchange/Headless (Sep 15) only — no new product PR Oct 3–5."
+  "notes": "Oct 5: Deal Agent (Oct 1) aged off Today. Oct 3 LinkedIn amplify of AgentExchange/Headless (Sep 15) only \u2014 no new product PR Oct 3\u20135."
 }
