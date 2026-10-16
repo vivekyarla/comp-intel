@@ -663,3 +663,47 @@ section h2 {
 .ai-news .change-card {
   grid-template-columns: 1fr;
 }
+
+/* —— Get it daily (Instinct / Muse) —— */
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
+.md-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.4rem 0.8rem;
+  font: inherit; font-size: 0.85rem; font-weight: 500; color: #1a1a1a; background: #fff;
+  border: 1px solid #d6d6d2; border-radius: 6px; cursor: pointer; background-image: none; white-space: nowrap;
+}
+.md-btn:hover { border-color: #aaa; background-size: 0; }
+.md-btn.primary { background: #0b57d0; border-color: #0b57d0; color: #fff; }
+.md-btn.primary:hover { background: #0a4cb6; }
+.md-dlg {
+  width: min(34rem, calc(100vw - 2rem)); max-height: calc(100vh - 2rem); padding: 1.25rem;
+  border: 1px solid #e5e5e5; border-radius: 10px; background: #f7f7f5; color: #1a1a1a;
+}
+.md-dlg::backdrop { background: rgba(0, 0, 0, 0.35); }
+.md-head { display: flex; align-items: center; justify-content: space-between; }
+.md-head h2 { margin: 0; font-size: 1.15rem; font-weight: 600; }
+.md-x { border: 0; background: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #666; }
+.md-lede { margin: 0.35rem 0 1rem; font-size: 0.9rem; color: #555; }
+.md-card { background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; margin-bottom: 0.75rem; }
+.md-card summary { display: flex; align-items: center; gap: 0.7rem; padding: 0.75rem 0.9rem; cursor: pointer; list-style: none; }
+.md-card summary::-webkit-details-marker { display: none; }
+.md-logo {
+  width: 2rem; height: 2rem; border-radius: 6px; background: #1a1a1a; color: #fff;
+  display: grid; place-items: center; font-size: 0.8rem; font-weight: 600; flex: none;
+}
+.md-title { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.md-title small { color: #666; font-size: 0.8rem; }
+.md-pill { font-size: 0.75rem; color: #666; background: #f0f0ec; border-radius: 999px; padding: 0.15rem 0.55rem; white-space: nowrap; }
+.md-pill.ok { color: #1a7f3c; background: #e8f5ec; }
+.md-body { padding: 0 0.9rem 0.9rem; font-size: 0.9rem; }
+.md-body ol { margin: 0 0 0.75rem; padding-left: 1.2rem; }
+.md-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem; }
+.md-inp { font: inherit; font-size: 0.88rem; padding: 0.35rem 0.5rem; border: 1px solid #d6d6d2; border-radius: 6px; background: #fff; min-width: 0; }
+.md-row .md-inp[type="tel"] { flex: 1 1 12rem; }
+.md-check { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.88rem; }
+.md-preview {
+  white-space: pre-wrap; font-size: 0.82rem; color: #333; background: #f7f7f5; border: 1px solid #ececea;
+  border-radius: 6px; padding: 0.6rem 0.7rem; margin-bottom: 0.75rem; overflow-wrap: anywhere;
+}
+.md-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.md-note { margin: 0.6rem 0 0; font-size: 0.85rem; color: #1a7f3c; }
+.md-hint { margin: 0.75rem 0 0; font-size: 0.8rem; color: #666; }

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Market Intel — Today</title>
-  <link rel="stylesheet" href="styles.css?v=20260929b" />
+  <link rel="stylesheet" href="styles.css?v=20261016" />
 </head>
 <body>
   <div class="layout">
@@ -24,7 +24,10 @@
 
     <div class="main">
       <header class="page-header">
-        <h1>Today</h1>
+        <div class="header-row">
+          <h1>Today</h1>
+          <button class="md-btn" type="button" data-get-daily>Get it daily</button>
+        </div>
         <p class="meta" id="meta">Loading…</p>
       </header>
 
@@ -36,5 +39,6 @@
     </div>
   </div>
   <script src="today.js"></script>
+  <script src="daily.js?v=20261016"></script>
 </body>
 </html>
