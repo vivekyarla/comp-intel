@@ -28,3 +28,7 @@ Company logos live in `assets/logos/` (`gong`, `salesforce`, `clay`, `nooks`, `o
 
 From this directory: `python3 -m http.server 8765 --bind 127.0.0.1`  
 Open `http://127.0.0.1:8765/`.
+
+## Get it daily (Instinct / Muse)
+
+The **Get it daily** button on Today (`daily.js`) builds a setup message for Instinct or Muse: a recurring task that reads `data/today.json` and sends the highlights with source links. It needs no server; it just relies on the morning routine overwriting `data/today.json`. Setup choices are remembered in the browser (`localStorage`).
