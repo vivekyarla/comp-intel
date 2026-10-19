@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-19",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers \u2014 not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-10-19",
+      "title": "X amplify: retweet of third-party '20 AI x GTM hot takes | October 2026' Sculpt recap",
+      "url": "https://x.com/clay/status/2112186546598428863",
+      "summary": "Oct 19 14:18 UTC @clay retweeted @brendanjshort's '20 AI x GTM hot takes' from Sculpt (by The Signal); also RT of a territory-planning post (https://x.com/clay/status/2112212099531161757). Jev filter kept 0. Same weekend: third-party coverage restating the Sculpt self-learning agent \u2014 Pivot News Oct 18 (https://pivotnews.ai/five/clay-agent-assembles-outbound-plays-from-one-prompt) based on a single Oct 17 YouTube walkthrough, mentions CLI access for Codex/Claude Code users; Quota Brief Oct 18 re-reported the Sep 9 $115M Series D (not new). No Clay first-party PR Oct 16\u201319; blog still tops at Sculpt Oct 8.",
+      "source_type": "social"
+    },
     {
       "date": "2026-10-14",
       "title": "Ranked #2 most impactful GTM tool in 2026 State of B2B GTM Report",
@@ -128,5 +135,5 @@
     "Agent Plugin",
     "Claygent"
   ],
-  "notes": "Oct 7: no net-new Clay product PR Oct 6\u20137 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13\u201315."
+  "notes": "Oct 19: no first-party Clay PR Oct 16\u201319; X retweets only (Sculpt hot-takes recap); weekend third-party pieces restate Sculpt agent and the Sep 9 Series D. Oct 7: no net-new Clay product PR Oct 6\u20137 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13\u201315."
 }

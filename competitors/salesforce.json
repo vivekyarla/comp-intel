@@ -2,9 +2,30 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-19",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-19",
+      "title": "$1B investment in Spain; Madrid EMEA South HQ with AI Implementation Team (Forward Deployed Engineers)",
+      "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/",
+      "summary": "Oct 19 press release: $1B over five years; new five-floor Madrid HQ on Paseo de la Castellana named EMEA South hub; AI Implementation Team brings Forward Deployed Engineers who design and deploy agentic use cases with Spanish customers, plus a regional center that recruits and trains graduates for a year before deploying them back across EMEA South (90+ countries). Quotes from President & COO Miguel Milano. Customers cited: Repsol, CaixaBank, Telef\u00f3nica; Comunidad de Madrid (Madrid Digital) runs Agentforce in its employee support center. Footprint/services move, not a product launch.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Third-party: Agentforce skills demand +63% YoY while nearly half of customers still in pilot (10K report via Salesforce Ben)",
+      "url": "https://www.salesforceben.com/agentforce-jobs-are-booming-while-projects-stall-in-pilot/",
+      "summary": "Oct 19 Salesforce Ben (Thomas Morgan) citing 10K's Salesforce Ecosystem Report: Agentforce share of Salesforce job listings 5% \u2192 9%; demand +63% YoY globally (+87% North America, +132% India); overall Salesforce talent demand \u221213% in 2026 (Sales Cloud \u221213%, Service Cloud \u221221%, Marketing Cloud \u221228%). Earlier Salesforce Ben survey: 85% of customers have tested or deployed Agentforce but nearly half remain in testing/pilot. 10K measures skill mentions in listings, not net-new roles. Third-party read.",
+      "source_type": "third_party"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Quiet check: Agent Optimizer / AI Skills October GA still unconfirmed",
+      "url": "https://www.salesforce.com/blog/agent-optimizer/",
+      "summary": "Oct 19 morning scan: salesforce.com/news press releases top-line Spain $1B (Oct 19) then Tottenham Ask Spurs (Oct 15); no first-party Agentforce product/GA story Oct 16\u201319. Agent Optimizer still described as beta via account executives (Sep 21 post); AI Skills in Agentforce Coworker still pilot with October '26 GA promised; Hunter pilot, GA planned November. Third-party trackers (Cloudsheer, Mindblaze) also show no GA flag.",
+      "source_type": "watch"
+    },
     {
       "date": "2026-10-15",
       "title": "Ecosystem: Demandbase named flagship data partner for Hunter outbound agent",
@@ -18,6 +39,13 @@
       "url": "https://www.salesforce.com/blog/agent-optimizer/",
       "summary": "Oct 15 morning scan: salesforce.com/news still top-lines Loops (Oct 12) and older items; no Oct 14\u201315 first-party Agentforce product story. Agent Optimizer remains beta via account executives (Sep 21 post); AI Skills in Agentforce Coworker still described as pilot with October '26 GA promised. Conga Salesforce MCP ecosystem entry from Oct 14 unchanged. Hunter still pilot until November.",
       "source_type": "watch"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Ecosystem: ZoomInfo also named flagship data partner for Hunter (outside Today window)",
+      "url": "https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-named-flagship-data-partner-hunter-salesforces-new/",
+      "summary": "Oct 15 ZoomInfo IR / BusinessWire (https://www.businesswire.com/news/home/20261015320136/en/): ZoomInfo confirmed as one of the flagship data partners for Hunter; data reaches Hunter via GTM.AI (ZoomInfo's headless GTM context layer, which also powers Salesforce Prospecting Agent and integrations with Claude, ChatGPT, Copilot Studio, HubSpot Breeze, Gong). Salesforce VP PM Rohan Punamia quoted: ZoomInfo ships with Hunter out of the box, no separate contracts. Hunter GA expected later this year. Not covered in Oct 16 brief; logged here, not on Today.",
+      "source_type": "partner"
     },
     {
       "date": "2026-10-14",
@@ -137,7 +165,9 @@
     "Agent Skills and Plugins",
     "Third-Party Agent Orchestration (A2A)",
     "Momentum",
-    "Salesforce MCP (partner tools)"
+    "Salesforce MCP (partner tools)",
+    "Forward Deployed Engineers",
+    "AI Implementation Team"
   ],
-  "notes": "Oct 14: Conga CLM/Contracts for Salesforce support Salesforce MCP (partner/ecosystem). Oct 13: Docusign IAM native across Salesforce/Agentforce/Slack; @salesforce Tableau Knowledge promo (restatement). Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) \u2014 meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6\u20137 governed-autonomy and Zero Trust posts were messaging."
+  "notes": "Oct 19: $1B Spain investment with Madrid AI Implementation Team (Forward Deployed Engineers) \u2014 footprint/services, not product; Salesforce Ben/10K: Agentforce skills demand +63% YoY while nearly half of customers still pilot; Agent Optimizer / AI Skills October GA still unconfirmed; ZoomInfo (Oct 15) joins Demandbase as flagship Hunter data partner. Oct 14: Conga CLM/Contracts for Salesforce support Salesforce MCP (partner/ecosystem). Oct 13: Docusign IAM native across Salesforce/Agentforce/Slack; @salesforce Tableau Knowledge promo (restatement). Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) \u2014 meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6\u20137 governed-autonomy and Zero Trust posts were messaging."
 }

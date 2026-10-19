@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-10-16 morning ~8:45 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Oct 15 \u2013 Fri Oct 16 PT",
+  "as_of": "2026-10-19 morning ~9:14 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Sun Oct 18 \u2013 Mon Oct 19 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "The analyst scorecard for revenue-action platforms just reset around the same two watchlist names, while Salesforce's outbound agent gets a named data spine. Gong and Outreach both landed as Leaders in Gartner's 2026 Magic Quadrant for Revenue Action Orchestration; Demandbase announced it is a flagship data partner for Salesforce Hunter (still in pilot).",
+    "lede": "Agent governance moved from policy talk to identity-and-permission plumbing on Monday, while the enterprise adoption gap stayed wide. Microsoft introduced task-scoped Dynamic Permissions and risk-driven conditional access for agents, including locally run coding agents; a 10K ecosystem read shows Agentforce skills demand up 63% YoY even as nearly half of surveyed Salesforce customers remain in testing or pilot.",
     "bullets": [
       {
-        "text": "Dual Leaders: Gong (Oct 16) says it is one of four Leaders among 13 vendors and claims the highest Ability to Execute and furthest Completeness of Vision positions; Outreach (Oct 15) is a Leader for the second consecutive year and says Critical Capabilities ranked it 1st for Acquire New Customers and 2nd for Retain and Grow Accounts.",
+        "text": "Agents as insiders: Microsoft (Oct 19) is introducing Dynamic Permissions (task-scoped, time-bound, verified human approval for higher-impact actions), Dynamic Agent Risk and Dynamic Conditional Access for agents, extending Entra Agent ID to local and previously unknown agents, and expanding discovery to 60 local agent types including Claude Code, OpenAI Codex and GitHub Copilot.",
         "cites": [
           {
-            "label": "Gong / PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year-302911384.html"
+            "label": "Microsoft Security Blog",
+            "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+          }
+        ]
+      },
+      {
+        "text": "Hiring ahead of production: Agentforce now appears in 9% of Salesforce job listings (up from 5%) with demand up 63% YoY, while overall Salesforce talent demand fell 13% in 2026 and nearly half of surveyed customers are still testing or piloting (Oct 19). The 10K report counts skill mentions in listings, not net-new roles.",
+        "cites": [
+          {
+            "label": "Salesforce Ben",
+            "url": "https://www.salesforceben.com/agentforce-jobs-are-booming-while-projects-stall-in-pilot/"
+          }
+        ]
+      },
+      {
+        "text": "Voice sales agents get a public-company entrant: monday.com launched Harmony (Oct 19), which runs full sales calls on task-specific small LLMs (~200ms latency and up to 70% contact rate are company claims), with warm transfers to reps and native CRM write-back; live in the US, UK, Australia and Singapore.",
+        "cites": [
+          {
+            "label": "monday.com / BusinessWire",
+            "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue/default.aspx"
           },
           {
-            "label": "Outreach",
-            "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year"
-          }
-        ]
-      },
-      {
-        "text": "Hunter data partner: Demandbase named flagship data partner for Salesforce's Hunter outbound sales agent (Oct 15), building on Demandbase MCP on AgentExchange; Hunter remains in pilot with GA planned later in 2026. Partner PR, not a Salesforce newsroom GA.",
-        "cites": [
-          {
-            "label": "BusinessWire",
-            "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
-          }
-        ]
-      },
-      {
-        "text": "Conversation context into assistants: Airspeed launched an MCP server into Claude and ChatGPT directories (Oct 15) \u2014 calls, deal intelligence, playbooks, and CRM/task actions via 61 tools. Continues the CI-to-assistant MCP pattern.",
-        "cites": [
-          {
-            "label": "Airspeed",
-            "url": "https://www.goairspeed.com/blog/airspeed-mcp-claude-chatgpt"
+            "label": "Unite.AI",
+            "url": "https://www.unite.ai/monday-com-harmony-voice-ai-sales-agents/"
           }
         ]
       }
@@ -40,191 +40,168 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Meta releases Muse Spark Open (816B MoE, 1M context)",
-      "body": "Oct 15: open-weight natively multimodal model (42B active); aimed at coding and long-horizon agentic work; weights on HF/cloud gardens; API via Baseten, Fireworks, Groq, OpenRouter, Together and others; desktop story on dual Apple M5 Ultra Mac Studios.",
+      "title": "Microsoft treats agents as \u201cnewest insiders\u201d with dynamic permissions and risk",
+      "body": "Oct 19: Project Perception Guardian Agents plus Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access; Entra Agent ID extended to local and unknown agents; discovery now covers 60 local agent types (Claude Code, Codex, GitHub Copilot). No GA dates given in the post.",
       "new": true,
       "cites": [
         {
-          "label": "Meta AI Research",
-          "url": "https://research.meta.ai/blog/muse-spark-open"
+          "label": "Microsoft Security Blog",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
         }
       ]
     },
     {
-      "title": "Demandbase named flagship data partner for Salesforce Hunter",
-      "body": "Oct 15: partner announcement wires Demandbase account intelligence (and MCP on AgentExchange) into Hunter; Hunter still in pilot with GA later in 2026.",
+      "title": "Anthropic commits 5% of shares to a new Public Benefit Fund",
+      "body": "Oct 18: subject to stockholder approval, plus up to 2% more per 50% value increase above a baseline (board discretion); wholly-owned LLC, no lobbying or political giving; ~20% of shares dedicated to public good with prior pledges.",
       "new": true,
       "cites": [
         {
-          "label": "BusinessWire",
-          "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/public-benefit-fund"
         }
       ]
     },
     {
-      "title": "Airspeed MCP live in Claude and ChatGPT",
-      "body": "Oct 15: conversation + deal context and governed CRM/task actions for revenue teams inside the assistants (61 tools); Claude connector directory and ChatGPT plugin directory.",
+      "title": "Microsoft pulls out of Nscale's Essex AI datacentre",
+      "body": "Oct 18: anchor tenant exits after the grid operator said full power may not arrive until the early-to-mid 2030s; Nscale says it remains committed and Microsoft stays on its Norway project.",
       "new": true,
       "cites": [
         {
-          "label": "Airspeed",
-          "url": "https://www.goairspeed.com/blog/airspeed-mcp-claude-chatgpt"
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Gong named Leader in 2026 Gartner MQ for Revenue Action Orchestration",
-      "body": "NEW (watchlist). Oct 16: second consecutive year; company claims highest Ability to Execute and furthest Completeness of Vision among four Leaders / 13 evaluated. Gartner report dated 13 Oct 2026; Gong PR dated Oct 16. Why it matters: analyst RAO category now co-led by two watchlist peers in the same report week.",
+      "title": "Microsoft ships an agent-insider control model (identity, task-scoped permissions, dynamic risk)",
+      "body": "NEW (platform governance). Oct 19: Dynamic Permissions, Dynamic Agent Risk, Dynamic Conditional Access, Guardian Agents; Entra Agent ID for local/unknown agents; discovery of 60 local agent types. Why it matters: enterprise buyers get a concrete permission/approval pattern to hold every agent vendor to, including sales and CS agents acting in CRM.",
       "new": true,
-      "company": "Gong",
-      "logo": "assets/logos/gong.svg",
       "cites": [
         {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year-302911384.html"
-        },
-        {
-          "label": "Gong press",
-          "url": "https://www.gong.io/press/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year"
+          "label": "Microsoft Security Blog",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
         }
       ]
     },
     {
-      "title": "Outreach named Leader in the same 2026 Gartner MQ",
-      "body": "NEW (watchlist). Oct 15: second consecutive year; Critical Capabilities claims #1 Acquire New Customers and #2 Retain and Grow Accounts. Marketing/analyst recognition alongside product platform messaging (Omni, Agent Studio, MCP).",
-      "new": true,
-      "company": "Outreach",
-      "logo": "assets/logos/outreach.svg",
-      "cites": [
-        {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year"
-        },
-        {
-          "label": "BusinessWire",
-          "url": "https://www.businesswire.com/news/home/20261015501482/en/Outreach-Named-as-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for-Revenue-Action-Orchestration-for-the-Second-Consecutive-Year"
-        }
-      ]
-    },
-    {
-      "title": "Demandbase flagship data partner for Salesforce Hunter",
-      "body": "NEW (ecosystem). Oct 15: Demandbase partner PR; Hunter still pilot with GA planned later in 2026. Not a Salesforce newsroom GA.",
+      "title": "Salesforce commits $1B to Spain with a Forward Deployed Engineer team",
+      "body": "NEW (watchlist, soft). Oct 19: five-year investment; new Madrid EMEA South HQ hosts an AI Implementation Team of Forward Deployed Engineers for agentic use cases plus a regional graduate training center. Investment/footprint, not a product launch.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "BusinessWire",
-          "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/"
         }
       ]
     },
     {
-      "title": "Airspeed MCP for Claude and ChatGPT",
-      "body": "NEW (category). Oct 15: optional CI peer ships assistant connectors with call/deal context and governed actions.",
+      "title": "Agentforce skills demand outruns production adoption",
+      "body": "NEW (ecosystem read). Oct 19: Salesforce Ben on 10K's Salesforce Ecosystem Report \u2014 Agentforce demand +63% YoY, 9% of listings; overall Salesforce talent demand \u221213% in 2026; nearly half of surveyed customers still in testing/pilot. Third-party.",
       "new": true,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Airspeed",
-          "url": "https://www.goairspeed.com/blog/airspeed-mcp-claude-chatgpt"
+          "label": "Salesforce Ben",
+          "url": "https://www.salesforceben.com/agentforce-jobs-are-booming-while-projects-stall-in-pilot/"
         }
       ]
     },
     {
-      "title": "Meta Muse Spark Open weights (816B MoE)",
-      "body": "NEW (platform). Oct 15: open-weight multimodal MoE for coding and long-horizon agents; 1M context.",
+      "title": "monday.com launches Harmony voice AI sales agents",
+      "body": "NEW (category). Oct 19: built on OneAI voice tech and Twilio; prospecting through qualification, objection handling and warm transfer; branded caller ID, power/predictive dialing, consent controls, CRM write-back. Performance figures are company claims.",
       "new": true,
       "cites": [
         {
-          "label": "Meta AI Research",
-          "url": "https://research.meta.ai/blog/muse-spark-open"
+          "label": "monday.com / BusinessWire",
+          "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue/default.aspx"
+        },
+        {
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/monday-com-harmony-voice-ai-sales-agents/"
+        }
+      ]
+    },
+    {
+      "title": "WisdomAI Owls: always-on AI analysts assigned business goals",
+      "body": "NEW (category). Oct 19: e.g. close a quarterly revenue gap \u2014 finds at-risk deals, recommends focus, updates CRM and sends rep next steps after approval, reports weekly; Slack/Teams surface; beta early November.",
+      "new": true,
+      "cites": [
+        {
+          "label": "WisdomAI / PR Newswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/wisdomai-introduces-owls-first-kind-153000940.html"
         }
       ]
     }
   ],
-  "quiet_note": "No net-new Salesforce newsroom product story Oct 15\u201316 (Loops Oct 12 still top). Clay blog quiet beyond Sculpt Oct 8; Clay X amplified GTM-report ranking Oct 15 (restatement). Nooks, Salesloft, Monaco quiet in-window. Agent Optimizer / AI Skills October GA still unconfirmed. Aged off Today: State of B2B GTM Report, EU AI Act probes, Anthropic Q3, eight-state OpenAI suits, Outreach Nucleo Awards, Claude OTel (Oct 14), Conga/Aligned/GetAccept MCP wave, Gemini 4 Argon (all covered Oct 14\u201315 or outside window). X pull succeeded (kept_total=1).",
+  "quiet_note": "No net-new product PR Oct 18\u201319 from Gong (Gartner MQ Oct 16 still top), Clay (blog still Sculpt Oct 8; X retweeted a third-party \u201820 AI x GTM hot takes\u2019 Sculpt recap Oct 19 \u2014 amplify), Outreach (Gartner MQ Oct 15 still top), Nooks, Salesloft or Monaco. Agent Optimizer / AI Skills October GA still unconfirmed; Hunter still pilot. Aged off Today / outside window: ZoomInfo named flagship Hunter data partner (Oct 15), NVIDIA Nemotron 3.5 Super VL + Bolt (Oct 15), ServiceNow AI Passport (Oct 15), Copilot Studio agent accounts (Oct 15), Anthropic METR embedded evaluators (Oct 15), Anthropic draft federal AI safety bill (POLITICO Oct 16), Replit default switch to OpenAI (Oct 16\u201317), OpenCode API-key breach notice (Oct 17). X pull succeeded (kept_total=0).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (analyst recognition of revenue-action orchestration)",
-      "text": "Gong + Outreach dual Leaders in 2026 Gartner MQ for RAO (Oct 15\u201316)."
+      "label": "Accelerating (agent identity and task-scoped permissions)",
+      "text": "Microsoft Dynamic Permissions / Dynamic Agent Risk / Entra Agent ID for local agents (Oct 19)."
     },
     {
-      "kind": "up",
-      "label": "Accelerating (data partners for outbound agents)",
-      "text": "Demandbase as flagship Hunter data partner (Oct 15); Hunter still pilot."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (CI / deal context into coding assistants via MCP)",
-      "text": "Airspeed MCP into Claude and ChatGPT directories (Oct 15)."
+      "kind": "flat",
+      "label": "Steady (Agentforce pilot-to-production)",
+      "text": "Skills demand +63% YoY but nearly half of surveyed customers still testing/pilot (Oct 19)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (open-weight frontier MoE for on-desk agents)",
-      "text": "Meta Muse Spark Open 816B (Oct 15)."
+      "label": "Emerging (voice AI sales agents from work-platform vendors)",
+      "text": "monday.com Harmony launches for mid-market and enterprise sales teams (Oct 19)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (goal-assigned, always-on revenue agents)",
+      "text": "WisdomAI Owls take revenue-gap goals and act on approval (Oct 19)."
+    },
+    {
+      "kind": "down",
+      "label": "Cooling (AI datacentre certainty in grid-constrained markets)",
+      "text": "Microsoft exits Nscale's Essex site over power timing (Oct 18)."
     },
     {
       "kind": "flat",
       "label": "Steady (Salesforce October agent-ops GAs)",
-      "text": "Agent Optimizer / AI Skills still unconfirmed; newsroom quiet Oct 15\u201316."
+      "text": "Agent Optimizer / AI Skills still unconfirmed with 12 days left in October."
     }
   ],
   "language_pulse": [
     {
-      "term": "Revenue Action Orchestration (RAO)",
-      "gloss": "Gartner market noun reused by Gong and Outreach in the same MQ week (Oct 15\u201316)."
+      "term": "Agentic insider",
+      "gloss": "Microsoft's frame for agents holding enterprise access (Oct 19)."
     },
     {
-      "term": "Flagship data partner",
-      "gloss": "Demandbase's framing for the Hunter launch partnership (Oct 15)."
+      "term": "Dynamic Permissions",
+      "gloss": "Task-scoped, time-bound agent authority with human approval for higher-impact steps (Microsoft, Oct 19)."
     },
     {
-      "term": "System of seller action",
-      "gloss": "Gartner RAO definition quoted in Gong's PR (Oct 16)."
+      "term": "Forward Deployed Engineers",
+      "gloss": "Salesforce's Madrid AI Implementation Team for agentic use cases (Oct 19)."
     },
     {
-      "term": "61 tools",
-      "gloss": "Airspeed's MCP surface-area claim for Claude/ChatGPT (Oct 15)."
+      "term": "Hiring ahead of adoption",
+      "gloss": "Salesforce Ben's read on Agentforce skills demand vs pilots (Oct 19)."
     },
     {
-      "term": "Muse Spark Open",
-      "gloss": "Meta's open-weight multimodal MoE brand (Oct 15)."
+      "term": "Trusted autonomy",
+      "gloss": "WisdomAI CEO framing for goal-assigned Owls (Oct 19)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Gong",
-      "slug": "gong",
-      "text": "Named Leader in 2026 Gartner MQ for Revenue Action Orchestration (second year); claims top Ability to Execute and Completeness of Vision among four Leaders / 13 vendors (Oct 16).",
-      "cites": [
-        {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year-302911384.html"
-        }
-      ]
-    },
-    {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "Named Leader in the same MQ for the second consecutive year; Critical Capabilities #1 Acquire New Customers (Oct 15).",
-      "cites": [
-        {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/company/newsroom/outreach-named-as-a-leader-in-the-2026-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration-for-the-second-consecutive-year"
-        }
-      ]
-    },
-    {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "Demandbase named flagship data partner for Hunter outbound agent; Hunter still pilot (Oct 15). Partner PR, not a Salesforce newsroom GA.",
+      "text": "$1B Spain investment over five years; Madrid EMEA South HQ with an AI Implementation Team of Forward Deployed Engineers and a regional graduate training center (Oct 19). Footprint/services move, not a product launch.",
       "cites": [
         {
-          "label": "BusinessWire",
-          "url": "https://www.businesswire.com/news/home/20261015145924/en/Demandbase-Named-Flagship-Data-Partner-for-Hunter-Salesforces-New-Outbound-Sales-Agent"
+          "label": "Salesforce newsroom",
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/"
         }
       ]
     }
@@ -232,7 +209,7 @@
   "watch": [
     {
       "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
-      "body": "Mid-to-late October and still no public GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26; Hunter stays in pilot (Demandbase partnership does not change that). Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
+      "body": "Twelve days left in October and still no public GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26. Hunter stays in pilot with ZoomInfo and Demandbase now both named flagship data partners (Oct 15). Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
@@ -243,12 +220,16 @@
         {
           "label": "Salesforce blog",
           "url": "https://www.salesforce.com/blog/agent-optimizer/"
+        },
+        {
+          "label": "ZoomInfo IR",
+          "url": "https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-named-flagship-data-partner-hunter-salesforces-new/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Gong (Oct 16) and Outreach (Oct 15) were both named Leaders in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration. Demandbase announced it is a flagship data partner for Salesforce Hunter (Oct 15; Hunter still pilot). Airspeed launched an MCP server into Claude and ChatGPT (Oct 15). Meta released Muse Spark Open weights (816B MoE, Oct 15).",
-    "note": "Light interpretation: the same Gartner RAO report giving Gong and Outreach dual Leader badges, plus Demandbase wiring account intelligence into Hunter, says the near-term competitive frame is who owns seller action and who feeds the outbound agent \u2014 while Salesforce's October agent-ops GAs are still pending."
+    "fact": "Microsoft introduced Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access for agents and expanded local-agent discovery to 60 types (Oct 19). Salesforce committed $1B to Spain with a Forward Deployed Engineer team (Oct 19). Salesforce Ben, citing 10K, reported Agentforce skills demand +63% YoY while nearly half of surveyed customers remain in testing/pilot (Oct 19). monday.com launched Harmony voice AI sales agents and WisdomAI announced Owls (Oct 19). Anthropic created a Public Benefit Fund (Oct 18); Microsoft exited Nscale's Essex datacentre (Oct 18).",
+    "note": "Light interpretation: with Agentforce adoption stuck between skills hiring and production, and Microsoft now publishing a concrete task-scoped permission model for every agent, the procurement bar for GTM agents is shifting toward provable scoped authority, approvals and audit \u2014 and Salesforce is answering the deployment gap with forward-deployed services rather than a new SKU."
   }
 }
