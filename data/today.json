@@ -1,38 +1,34 @@
 {
-  "as_of": "2026-10-19 morning ~9:14 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Sun Oct 18 \u2013 Mon Oct 19 PT",
+  "as_of": "2026-10-20 morning ~8:47 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Oct 19 – Tue Oct 20 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Agent governance moved from policy talk to identity-and-permission plumbing on Monday, while the enterprise adoption gap stayed wide. Microsoft introduced task-scoped Dynamic Permissions and risk-driven conditional access for agents, including locally run coding agents; a 10K ecosystem read shows Agentforce skills demand up 63% YoY even as nearly half of surveyed Salesforce customers remain in testing or pilot.",
+    "lede": "Agent software is being repriced and re-plumbed around metered work. Notion folded all AI usage into one credit pool with a cost-routing default and promised per-agent spend limits, while quoting vendor Vendavo is opening its CPQ to calls from other agents, with field-level entitlements and an audit trail on every approval.",
     "bullets": [
       {
-        "text": "Agents as insiders: Microsoft (Oct 19) is introducing Dynamic Permissions (task-scoped, time-bound, verified human approval for higher-impact actions), Dynamic Agent Risk and Dynamic Conditional Access for agents, extending Entra Agent ID to local and previously unknown agents, and expanding discovery to 60 local agent types including Claude Code, OpenAI Codex and GitHub Copilot.",
+        "text": "Credits, routing and spend controls become the agent pricing model: Notion (Oct 19) moved all Notion AI usage onto a new credit system, made its Auto router the default (the company says results are similar to Opus 5.5 and Astra at about 90% lower average cost across 20+ tasks), gave agents their own computer and browser for tasks up to 24 hours, and announced an AI Command Center (coming soon) for usage by person and agent, spending limits and model allow-lists.",
         "cites": [
           {
-            "label": "Microsoft Security Blog",
-            "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+            "label": "Notion release notes",
+            "url": "https://www.notion.com/releases/2026-10-19"
           }
         ]
       },
       {
-        "text": "Hiring ahead of production: Agentforce now appears in 9% of Salesforce job listings (up from 5%) with demand up 63% YoY, while overall Salesforce talent demand fell 13% in 2026 and nearly half of surveyed customers are still testing or piloting (Oct 19). The 10K report counts skill mentions in listings, not net-new roles.",
+        "text": "Deal desks become agent-callable services: Vendavo's AI Deal Desk Assistant (Oct 20) answers renewal and pricing questions inside the quote, and Vendavo is extending it to draft quotes from call transcripts, run approvals against margin rules, and accept agent-to-agent quote requests from CRM, with field-level entitlements and audited approvals. Productivity and margin figures are company claims.",
         "cites": [
           {
-            "label": "Salesforce Ben",
-            "url": "https://www.salesforceben.com/agentforce-jobs-are-booming-while-projects-stall-in-pilot/"
+            "label": "Vendavo / PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/vendavo-launches-ai-deal-desk-assistant-bringing-deal-intelligence-directly-into-the-quoting-workflow-302911681.html"
           }
         ]
       },
       {
-        "text": "Voice sales agents get a public-company entrant: monday.com launched Harmony (Oct 19), which runs full sales calls on task-specific small LLMs (~200ms latency and up to 70% contact rate are company claims), with warm transfers to reps and native CRM write-back; live in the US, UK, Australia and Singapore.",
+        "text": "Inbound follow-up is where sales agents are landing in production: at Salesforce's AIforce Sydney event (Oct 20), Lawpath said it runs Agentforce SDR agents with a sales team of about 25 on an all-inbound model, for membership win-backs and enquiries left uncontacted for five days; voice agents are still in testing.",
         "cites": [
           {
-            "label": "monday.com / BusinessWire",
-            "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue/default.aspx"
-          },
-          {
-            "label": "Unite.AI",
-            "url": "https://www.unite.ai/monday-com-harmony-voice-ai-sales-agents/"
+            "label": "Salesforce ANZ newsroom",
+            "url": "https://www.salesforce.com/au/news/stories/aiforce-world-tour-essentials-sydney-2026/"
           }
         ]
       }
@@ -40,168 +36,160 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Microsoft treats agents as \u201cnewest insiders\u201d with dynamic permissions and risk",
-      "body": "Oct 19: Project Perception Guardian Agents plus Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access; Entra Agent ID extended to local and unknown agents; discovery now covers 60 local agent types (Claude Code, Codex, GitHub Copilot). No GA dates given in the post.",
+      "title": "OpenAI races to raise about $30B at a valuation above $1.4T",
+      "body": "Reuters (Oct 19, two sources): OpenAI wants commitments before Anthropic's expected mid-November IPO; SoftBank and MGX are in talks to join. OpenAI is pitching investors on $50B annualized revenue and expects $70B by year-end, according to one source. OpenAI and SoftBank declined to comment.",
       "new": true,
       "cites": [
         {
-          "label": "Microsoft Security Blog",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/exclusiveopenai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-4958511"
         }
       ]
     },
     {
-      "title": "Anthropic commits 5% of shares to a new Public Benefit Fund",
-      "body": "Oct 18: subject to stockholder approval, plus up to 2% more per 50% value increase above a baseline (board discretion); wholly-owned LLC, no lobbying or political giving; ~20% of shares dedicated to public good with prior pledges.",
+      "title": "Google packages Gemini for government services",
+      "body": "Oct 20: a preview agentic solution for US federal, state and local agencies, with prebuilt skills, connectors to agency systems, inherited identity and access controls, and third-party partner agents. It follows Gemini for legal and Gemini for financial services.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Google Public Sector / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/google-public-sector-launches-gemini-for-government-services-302913759.html"
+        }
+      ]
+    },
+    {
+      "title": "Claude runs a 64-hour, mostly autonomous protein-design campaign",
+      "body": "Oct 20: an internal Anthropic research model generated 318,484 designs against scorpion neurotoxins over 64 hours with four human follow-ups; 17 of 211 lab-tested designs met the binding criteria. Neutralization was not tested.",
       "new": true,
       "cites": [
         {
           "label": "Anthropic",
-          "url": "https://www.anthropic.com/news/public-benefit-fund"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft pulls out of Nscale's Essex AI datacentre",
-      "body": "Oct 18: anchor tenant exits after the grid operator said full power may not arrive until the early-to-mid 2030s; Nscale says it remains committed and Microsoft stays on its Norway project.",
-      "new": true,
-      "cites": [
-        {
-          "label": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Microsoft ships an agent-insider control model (identity, task-scoped permissions, dynamic risk)",
-      "body": "NEW (platform governance). Oct 19: Dynamic Permissions, Dynamic Agent Risk, Dynamic Conditional Access, Guardian Agents; Entra Agent ID for local/unknown agents; discovery of 60 local agent types. Why it matters: enterprise buyers get a concrete permission/approval pattern to hold every agent vendor to, including sales and CS agents acting in CRM.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Microsoft Security Blog",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce commits $1B to Spain with a Forward Deployed Engineer team",
-      "body": "NEW (watchlist, soft). Oct 19: five-year investment; new Madrid EMEA South HQ hosts an AI Implementation Team of Forward Deployed Engineers for agentic use cases plus a regional graduate training center. Investment/footprint, not a product launch.",
+      "title": "Salesforce signs definitive agreement to acquire Braze for about $5.66B",
+      "body": "NEW (watchlist, M&A). Oct 20: all cash at $47.50 per Braze share; Braze's real-time engagement and AI decisioning are expected to complement Data 360, Customer 360, Agentforce and SIForce and strengthen Marketing Cloud's cross-channel personalization. Braze has about 2,770 customers (Canva, Instacart, Venmo). Close expected in Salesforce's fiscal 2028; no change to FY27 guidance. Braze shares were up about 51% and Salesforce down 0.6% by 10:10 a.m. ET.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
           "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/"
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+        },
+        {
+          "label": "@salesforce on X",
+          "url": "https://x.com/salesforce/status/2112514575060881753"
+        },
+        {
+          "label": "The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/10/20/why-braze-stock-skyrocketed-today/"
         }
       ]
     },
     {
-      "title": "Agentforce skills demand outruns production adoption",
-      "body": "NEW (ecosystem read). Oct 19: Salesforce Ben on 10K's Salesforce Ecosystem Report \u2014 Agentforce demand +63% YoY, 9% of listings; overall Salesforce talent demand \u221213% in 2026; nearly half of surveyed customers still in testing/pilot. Third-party.",
+      "title": "Notion rebuilds its agents and moves AI to a single credit system",
+      "body": "NEW (category). Oct 19: agents get their own computer and browser, a \"Review for me\" mode with safety checks, and tasks up to 24 hours; Auto model router is the default; bring-your-own ChatGPT plan or API key (private alpha for Enterprise); Notion MCP overhaul with memory sync; AI Command Center for spend limits and model allow-lists is coming soon.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Notion release notes",
+          "url": "https://www.notion.com/releases/2026-10-19"
+        }
+      ]
+    },
+    {
+      "title": "Vendavo AI Deal Desk Assistant, with agent-to-agent quoting on the roadmap",
+      "body": "NEW (category). Oct 20: natural-language renewal and pricing answers inside Vendavo Quoting; being extended to transcript-to-quote drafting, AI-driven approvals and quotes started by other agents from CRM, with field-level entitlements and audit trails.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Vendavo / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/vendavo-launches-ai-deal-desk-assistant-bringing-deal-intelligence-directly-into-the-quoting-workflow-302911681.html"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce AIforce Sydney: Agentforce SDR agents in production at Lawpath",
+      "body": "NEW (watchlist, soft). Oct 20: Lawpath uses Agentforce SDR agents for win-backs and enquiries left uncontacted for five days, with voice agents in testing; Gumtree's Agentforce service agent replaced Einstein Bots in late September. Customer stories at an event, not a product launch.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Salesforce Ben",
-          "url": "https://www.salesforceben.com/agentforce-jobs-are-booming-while-projects-stall-in-pilot/"
-        }
-      ]
-    },
-    {
-      "title": "monday.com launches Harmony voice AI sales agents",
-      "body": "NEW (category). Oct 19: built on OneAI voice tech and Twilio; prospecting through qualification, objection handling and warm transfer; branded caller ID, power/predictive dialing, consent controls, CRM write-back. Performance figures are company claims.",
-      "new": true,
-      "cites": [
-        {
-          "label": "monday.com / BusinessWire",
-          "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue/default.aspx"
-        },
-        {
-          "label": "Unite.AI",
-          "url": "https://www.unite.ai/monday-com-harmony-voice-ai-sales-agents/"
-        }
-      ]
-    },
-    {
-      "title": "WisdomAI Owls: always-on AI analysts assigned business goals",
-      "body": "NEW (category). Oct 19: e.g. close a quarterly revenue gap \u2014 finds at-risk deals, recommends focus, updates CRM and sends rep next steps after approval, reports weekly; Slack/Teams surface; beta early November.",
-      "new": true,
-      "cites": [
-        {
-          "label": "WisdomAI / PR Newswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/wisdomai-introduces-owls-first-kind-153000940.html"
+          "label": "Salesforce ANZ newsroom",
+          "url": "https://www.salesforce.com/au/news/stories/aiforce-world-tour-essentials-sydney-2026/"
         }
       ]
     }
   ],
-  "quiet_note": "No net-new product PR Oct 18\u201319 from Gong (Gartner MQ Oct 16 still top), Clay (blog still Sculpt Oct 8; X retweeted a third-party \u201820 AI x GTM hot takes\u2019 Sculpt recap Oct 19 \u2014 amplify), Outreach (Gartner MQ Oct 15 still top), Nooks, Salesloft or Monaco. Agent Optimizer / AI Skills October GA still unconfirmed; Hunter still pilot. Aged off Today / outside window: ZoomInfo named flagship Hunter data partner (Oct 15), NVIDIA Nemotron 3.5 Super VL + Bolt (Oct 15), ServiceNow AI Passport (Oct 15), Copilot Studio agent accounts (Oct 15), Anthropic METR embedded evaluators (Oct 15), Anthropic draft federal AI safety bill (POLITICO Oct 16), Replit default switch to OpenAI (Oct 16\u201317), OpenCode API-key breach notice (Oct 17). X pull succeeded (kept_total=0).",
+  "quiet_note": "No first-party product PR Oct 19–20 from Gong (Gartner MQ Oct 16 still top of press), Clay (latest changelog items predate the window; X posts were retweets), Outreach (Gartner MQ Oct 15 still top), Nooks, Salesloft (Oct 6 CPO hire still top) or Monaco. Agent Optimizer / AI Skills October GA still not confirmed by Salesforce. Aged off Today: Microsoft agent-insider controls, Salesforce $1B Spain, Agentforce jobs-vs-pilots read, monday.com Harmony, WisdomAI Owls, Anthropic Public Benefit Fund, Microsoft exit from Nscale Essex (all covered Oct 19); Attio SQL Engine / Data Connectors / Agent Scale (about Oct 14–15, outside window); Meta Muse Wonder (Oct 12).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (agent identity and task-scoped permissions)",
-      "text": "Microsoft Dynamic Permissions / Dynamic Agent Risk / Entra Agent ID for local agents (Oct 19)."
-    },
-    {
-      "kind": "flat",
-      "label": "Steady (Agentforce pilot-to-production)",
-      "text": "Skills demand +63% YoY but nearly half of surveyed customers still testing/pilot (Oct 19)."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (voice AI sales agents from work-platform vendors)",
-      "text": "monday.com Harmony launches for mid-market and enterprise sales teams (Oct 19)."
+      "label": "Accelerating (CRM suites buying real-time engagement and decisioning)",
+      "text": "Salesforce agrees to acquire Braze for about $5.66B (Oct 20)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (goal-assigned, always-on revenue agents)",
-      "text": "WisdomAI Owls take revenue-gap goals and act on approval (Oct 19)."
+      "label": "Accelerating (pooled AI credits, model routing and spend governance)",
+      "text": "Notion moves all AI to one credit system with Auto routing and a coming Command Center (Oct 19)."
     },
     {
-      "kind": "down",
-      "label": "Cooling (AI datacentre certainty in grid-constrained markets)",
-      "text": "Microsoft exits Nscale's Essex site over power timing (Oct 18)."
+      "kind": "emerging",
+      "label": "Emerging (back-office systems exposed as agent-callable services)",
+      "text": "Vendavo plans agent-to-agent quoting with entitlements and audited approvals (Oct 20)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (frontier-lab capital race)",
+      "text": "OpenAI seeks about $30B ahead of Anthropic's expected mid-November IPO (Reuters, Oct 19)."
     },
     {
       "kind": "flat",
       "label": "Steady (Salesforce October agent-ops GAs)",
-      "text": "Agent Optimizer / AI Skills still unconfirmed with 12 days left in October."
+      "text": "Agent Optimizer / AI Skills still not confirmed GA by Salesforce with 11 days left in October."
     }
   ],
   "language_pulse": [
     {
-      "term": "Agentic insider",
-      "gloss": "Microsoft's frame for agents holding enterprise access (Oct 19)."
+      "term": "AI decisioning",
+      "gloss": "Braze's real-time choice of content, offer, channel and timing, now headed into Salesforce (Oct 20)."
     },
     {
-      "term": "Dynamic Permissions",
-      "gloss": "Task-scoped, time-bound agent authority with human approval for higher-impact steps (Microsoft, Oct 19)."
+      "term": "Agentic enterprise",
+      "gloss": "Salesforce's self-description in the Braze release and at AIforce Sydney (Oct 20)."
     },
     {
-      "term": "Forward Deployed Engineers",
-      "gloss": "Salesforce's Madrid AI Implementation Team for agentic use cases (Oct 19)."
+      "term": "Review for me",
+      "gloss": "Notion's agent mode that runs safety checks before acting (Oct 19)."
     },
     {
-      "term": "Hiring ahead of adoption",
-      "gloss": "Salesforce Ben's read on Agentforce skills demand vs pilots (Oct 19)."
+      "term": "Agent-to-agent quoting",
+      "gloss": "Vendavo's phrase for CPQ as a service other agents call (Oct 20)."
     },
     {
-      "term": "Trusted autonomy",
-      "gloss": "WisdomAI CEO framing for goal-assigned Owls (Oct 19)."
+      "term": "Trust it to act",
+      "gloss": "Salesforce ANZ CMO framing of the adoption question (Oct 20)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "$1B Spain investment over five years; Madrid EMEA South HQ with an AI Implementation Team of Forward Deployed Engineers and a regional graduate training center (Oct 19). Footprint/services move, not a product launch.",
+      "text": "Definitive agreement to acquire Braze for about $5.66B in enterprise value, $47.50 per share in cash; positioned across Data 360, Customer 360, Agentforce and SIForce, with Marketing Cloud personalization the first stated fit. Close expected in fiscal 2028, subject to Braze shareholder and regulatory approval (Oct 20).",
       "cites": [
         {
           "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/"
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+        },
+        {
+          "label": "The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/10/20/why-braze-stock-skyrocketed-today/"
         }
       ]
     }
@@ -209,7 +197,7 @@
   "watch": [
     {
       "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
-      "body": "Twelve days left in October and still no public GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot), both promised for October '26. Hunter stays in pilot with ZoomInfo and Demandbase now both named flagship data partners (Oct 15). Watch release notes and the newsroom for status and Flex Credit pricing before month-end.",
+      "body": "Eleven days left in October and Salesforce still hasn't published a GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot). A third-party Salesforce Diary post on Oct 19 repeats that Optimizer \"goes GA in October 2026\" but isn't confirmation. Watch release notes and the newsroom before month-end, and whether Braze decisioning shows up in Agentforce roadmap language.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
@@ -218,18 +206,18 @@
           "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
         },
         {
-          "label": "Salesforce blog",
+          "label": "Agent Optimizer post",
           "url": "https://www.salesforce.com/blog/agent-optimizer/"
         },
         {
-          "label": "ZoomInfo IR",
-          "url": "https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-named-flagship-data-partner-hunter-salesforces-new/"
+          "label": "Salesforce Diary (third-party)",
+          "url": "https://www.salesforcediary.com/2026/10/19/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Microsoft introduced Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access for agents and expanded local-agent discovery to 60 types (Oct 19). Salesforce committed $1B to Spain with a Forward Deployed Engineer team (Oct 19). Salesforce Ben, citing 10K, reported Agentforce skills demand +63% YoY while nearly half of surveyed customers remain in testing/pilot (Oct 19). monday.com launched Harmony voice AI sales agents and WisdomAI announced Owls (Oct 19). Anthropic created a Public Benefit Fund (Oct 18); Microsoft exited Nscale's Essex datacentre (Oct 18).",
-    "note": "Light interpretation: with Agentforce adoption stuck between skills hiring and production, and Microsoft now publishing a concrete task-scoped permission model for every agent, the procurement bar for GTM agents is shifting toward provable scoped authority, approvals and audit \u2014 and Salesforce is answering the deployment gap with forward-deployed services rather than a new SKU."
+    "fact": "Salesforce agreed to acquire Braze for about $5.66B (Oct 20). Notion moved all AI usage to one credit system with Auto routing and agents that have their own computer and browser (Oct 19). Vendavo launched an AI Deal Desk Assistant with agent-to-agent quoting planned (Oct 20). Lawpath described Agentforce SDR agents in production at AIforce Sydney (Oct 20). Reuters reported OpenAI is seeking about $30B at over $1.4T (Oct 19). Google launched Gemini for government services in preview (Oct 20). Anthropic published a 64-hour Claude protein-design campaign (Oct 20).",
+    "note": "Light interpretation: Salesforce is buying the real-time engagement and decisioning layer rather than building it, which widens the suite it can sell against point tools on the marketing side; on the sales side, the new pattern across Notion and Vendavo is metered agent work with spend limits, entitlements and audit built in, which is likely to become a standard buyer checklist."
   }
 }

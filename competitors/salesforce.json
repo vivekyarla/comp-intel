@@ -2,28 +2,49 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-20",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-20",
+      "title": "Definitive agreement to acquire Braze for ~$5.66B (all cash, $47.50/share)",
+      "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/",
+      "summary": "Oct 20 press release: ~$5.66B enterprise value; Braze's real-time engagement, event-streaming architecture and BrazeAI decisioning expected to complement Data 360, Customer 360, Agentforce and SIForce, starting with Marketing Cloud cross-channel personalization. ~2,770 Braze customers (Canva, Dairy Queen, Equinox, Instacart, Urban Outfitters, Venmo). Close expected in Salesforce FY28, subject to Braze shareholder and regulatory approvals; no change to FY27 guidance. Market: BRZE ~+51% and CRM −0.6% at 10:10 a.m. ET (Motley Fool). Announced on X by @salesforce.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "AIforce World Tour Essentials Sydney: customer stories (Lawpath SDR agents, Gumtree service agent, pay.com.au Data 360)",
+      "url": "https://www.salesforce.com/au/news/stories/aiforce-world-tour-essentials-sydney-2026/",
+      "summary": "Lawpath (~25-person sales team, all-inbound) runs Agentforce SDR agents for membership win-backs and enquiries left uncontacted for five days; voice agents in testing. Gumtree's Agentforce service agent replaced Einstein Bots in late September, targeting 25% of cases solved. pay.com.au cites onboarding down from days to hours via Data 360. Salesforce also cited a new CFO Priorities Report released the same day. Event/customer stories, not a product launch.",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Agent Optimizer / AI Skills October GA: still unconfirmed by Salesforce",
+      "url": "https://www.salesforcediary.com/2026/10/19/",
+      "summary": "No newsroom or release-note GA flag found Oct 19–20. Third-party Salesforce Diary (Oct 19) repeats that Agent Optimizer 'goes GA in October 2026' — restatement, not confirmation.",
+      "source_type": "third_party"
+    },
     {
       "date": "2026-10-19",
       "title": "$1B investment in Spain; Madrid EMEA South HQ with AI Implementation Team (Forward Deployed Engineers)",
       "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/",
-      "summary": "Oct 19 press release: $1B over five years; new five-floor Madrid HQ on Paseo de la Castellana named EMEA South hub; AI Implementation Team brings Forward Deployed Engineers who design and deploy agentic use cases with Spanish customers, plus a regional center that recruits and trains graduates for a year before deploying them back across EMEA South (90+ countries). Quotes from President & COO Miguel Milano. Customers cited: Repsol, CaixaBank, Telef\u00f3nica; Comunidad de Madrid (Madrid Digital) runs Agentforce in its employee support center. Footprint/services move, not a product launch.",
+      "summary": "Oct 19 press release: $1B over five years; new five-floor Madrid HQ on Paseo de la Castellana named EMEA South hub; AI Implementation Team brings Forward Deployed Engineers who design and deploy agentic use cases with Spanish customers, plus a regional center that recruits and trains graduates for a year before deploying them back across EMEA South (90+ countries). Quotes from President & COO Miguel Milano. Customers cited: Repsol, CaixaBank, Telefónica; Comunidad de Madrid (Madrid Digital) runs Agentforce in its employee support center. Footprint/services move, not a product launch.",
       "source_type": "press"
     },
     {
       "date": "2026-10-19",
       "title": "Third-party: Agentforce skills demand +63% YoY while nearly half of customers still in pilot (10K report via Salesforce Ben)",
       "url": "https://www.salesforceben.com/agentforce-jobs-are-booming-while-projects-stall-in-pilot/",
-      "summary": "Oct 19 Salesforce Ben (Thomas Morgan) citing 10K's Salesforce Ecosystem Report: Agentforce share of Salesforce job listings 5% \u2192 9%; demand +63% YoY globally (+87% North America, +132% India); overall Salesforce talent demand \u221213% in 2026 (Sales Cloud \u221213%, Service Cloud \u221221%, Marketing Cloud \u221228%). Earlier Salesforce Ben survey: 85% of customers have tested or deployed Agentforce but nearly half remain in testing/pilot. 10K measures skill mentions in listings, not net-new roles. Third-party read.",
+      "summary": "Oct 19 Salesforce Ben (Thomas Morgan) citing 10K's Salesforce Ecosystem Report: Agentforce share of Salesforce job listings 5% → 9%; demand +63% YoY globally (+87% North America, +132% India); overall Salesforce talent demand −13% in 2026 (Sales Cloud −13%, Service Cloud −21%, Marketing Cloud −28%). Earlier Salesforce Ben survey: 85% of customers have tested or deployed Agentforce but nearly half remain in testing/pilot. 10K measures skill mentions in listings, not net-new roles. Third-party read.",
       "source_type": "third_party"
     },
     {
       "date": "2026-10-19",
       "title": "Quiet check: Agent Optimizer / AI Skills October GA still unconfirmed",
       "url": "https://www.salesforce.com/blog/agent-optimizer/",
-      "summary": "Oct 19 morning scan: salesforce.com/news press releases top-line Spain $1B (Oct 19) then Tottenham Ask Spurs (Oct 15); no first-party Agentforce product/GA story Oct 16\u201319. Agent Optimizer still described as beta via account executives (Sep 21 post); AI Skills in Agentforce Coworker still pilot with October '26 GA promised; Hunter pilot, GA planned November. Third-party trackers (Cloudsheer, Mindblaze) also show no GA flag.",
+      "summary": "Oct 19 morning scan: salesforce.com/news press releases top-line Spain $1B (Oct 19) then Tottenham Ask Spurs (Oct 15); no first-party Agentforce product/GA story Oct 16–19. Agent Optimizer still described as beta via account executives (Sep 21 post); AI Skills in Agentforce Coworker still pilot with October '26 GA promised; Hunter pilot, GA planned November. Third-party trackers (Cloudsheer, Mindblaze) also show no GA flag.",
       "source_type": "watch"
     },
     {
@@ -37,7 +58,7 @@
       "date": "2026-10-15",
       "title": "Quiet check: Agent Optimizer / AI Skills October GA still unconfirmed",
       "url": "https://www.salesforce.com/blog/agent-optimizer/",
-      "summary": "Oct 15 morning scan: salesforce.com/news still top-lines Loops (Oct 12) and older items; no Oct 14\u201315 first-party Agentforce product story. Agent Optimizer remains beta via account executives (Sep 21 post); AI Skills in Agentforce Coworker still described as pilot with October '26 GA promised. Conga Salesforce MCP ecosystem entry from Oct 14 unchanged. Hunter still pilot until November.",
+      "summary": "Oct 15 morning scan: salesforce.com/news still top-lines Loops (Oct 12) and older items; no Oct 14–15 first-party Agentforce product story. Agent Optimizer remains beta via account executives (Sep 21 post); AI Skills in Agentforce Coworker still described as pilot with October '26 GA promised. Conga Salesforce MCP ecosystem entry from Oct 14 unchanged. Hunter still pilot until November.",
       "source_type": "watch"
     },
     {
@@ -51,7 +72,7 @@
       "date": "2026-10-14",
       "title": "Ecosystem: Conga CLM and Conga Contracts for Salesforce support Salesforce MCP",
       "url": "https://conga.com/press/conga-ai-innovations-press-release",
-      "summary": "Oct 14 Conga press release (Conga Connection, Amsterdam): Conga CLM for Salesforce and Conga Contracts for Salesforce now support Salesforce MCP, letting users create, generate, review, negotiate, sign, publish and manage contracts through natural-language requests without leaving Salesforce. Same release launched the Conga MCP Server for Claude/Copilot. Partner move, not a Salesforce launch. Same window: @salesforce promoted Tableau Knowledge (Oct 13, Winter '27 feature, https://x.com/salesforce/status/2110083302564508048) \u2014 restatement. Agent Optimizer / AI Skills October GA + pricing still unconfirmed as of Oct 14 morning.",
+      "summary": "Oct 14 Conga press release (Conga Connection, Amsterdam): Conga CLM for Salesforce and Conga Contracts for Salesforce now support Salesforce MCP, letting users create, generate, review, negotiate, sign, publish and manage contracts through natural-language requests without leaving Salesforce. Same release launched the Conga MCP Server for Claude/Copilot. Partner move, not a Salesforce launch. Same window: @salesforce promoted Tableau Knowledge (Oct 13, Winter '27 feature, https://x.com/salesforce/status/2110083302564508048) — restatement. Agent Optimizer / AI Skills October GA + pricing still unconfirmed as of Oct 14 morning.",
       "source_type": "partner"
     },
     {
@@ -84,16 +105,16 @@
     },
     {
       "date": "2026-10-07",
-      "title": "Newsroom: 'From Autonomy to Accountability' \u2014 zero-trust view of multi-agent systems (white paper)",
+      "title": "Newsroom: 'From Autonomy to Accountability' — zero-trust view of multi-agent systems (white paper)",
       "url": "https://www.salesforce.com/news/stories/trust-in-multi-agent-future/",
       "summary": "Oct 7 post by Kathy Baxter summarizing a white paper from workshops with 21 organizations: agents from third parties will act across company lines, so every interaction needs explicit, continuous verification (Zero Trust). Recommends deterministic guardrails outside the agent's reasoning loop (cites an NVIDIA study on thought-action disconnect), an 'owner's tag' on every memory item so memory isn't shared across users/agents, and defined human escalation points (large financial transactions, low confidence, prompt injection, failure loops). Thought leadership, not a launch.",
       "source_type": "company_blog"
     },
     {
       "date": "2026-10-06",
-      "title": "Newsroom Q&A: governed autonomy \u2014 LLM layer plus deterministic layer (Agent Fabric, Flow, Apex)",
+      "title": "Newsroom Q&A: governed autonomy — LLM layer plus deterministic layer (Agent Fabric, Flow, Apex)",
       "url": "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/",
-      "summary": "Oct 6 newsroom Q&A with Kathy Baxter (Principal Architect, Ethical AI Practice): Agentforce 'splits the agent brain into two layers' \u2014 probabilistic LLM for language/reasoning; consequential decisions routed through deterministic business logic, workflows and permissions with escalation to humans; audit trail of agent and human actions; Atlas Reasoning Engine explains actions; autonomy granted incrementally by policy; agents must identify as AI; Trust Layer toxicity and prompt-injection detection; Testing Center for bias checks; biggest gap cited is lack of post-launch monitoring. Messaging, not a launch.",
+      "summary": "Oct 6 newsroom Q&A with Kathy Baxter (Principal Architect, Ethical AI Practice): Agentforce 'splits the agent brain into two layers' — probabilistic LLM for language/reasoning; consequential decisions routed through deterministic business logic, workflows and permissions with escalation to humans; audit trail of agent and human actions; Atlas Reasoning Engine explains actions; autonomy granted incrementally by policy; agents must identify as AI; Trust Layer toxicity and prompt-injection detection; Testing Center for bias checks; biggest gap cited is lack of post-launch monitoring. Messaging, not a launch.",
       "source_type": "company_blog"
     },
     {
@@ -112,7 +133,7 @@
     },
     {
       "date": "2026-09-28",
-      "title": "Slack Admin Bridge for NVIDIA OpenShell \u2014 runtime HITL in Slack",
+      "title": "Slack Admin Bridge for NVIDIA OpenShell — runtime HITL in Slack",
       "url": "https://www.salesforce.com/blog/extending-admin-control-to-the-runtime-layer-with-nvidia-openshell-and-slack/",
       "summary": "Sep 28 company blog (+ X): with NVIDIA, Slack Admin Bridge for OpenShell. OpenShell enforces agent runtime policy; exceptions surface as Slack approval cards with audit trail and App Home analytics. Available for developers (slack-samples/openshell-slack-admin-bridge). Exploring OpenShell + MuleSoft Agent Fabric. Same day as NVIDIA Open Agent Safety Platform launch naming Salesforce among partners.",
       "source_type": "company_blog"
@@ -121,14 +142,14 @@
       "date": "2026-09-24",
       "title": "SalesBleed: Zenity discloses patched Agentforce 0-click CRM exfil / Slack phishing flaws",
       "url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
-      "summary": "Zenity Labs public write-up dated Sep 24, 2026 (also The Register same day): three Agentforce issues (indirect prompt injection via Web-to-Lead \u2192 Trusted URLs bypass \u2192 DNS/HTML-img or Slack-unfurl exfil; plus Slack Reply-to-Thread phishing under agent identity). Reported Jun 1; Trusted URLs fix confirmed Aug 19; Zenity says all three fixed as of Sep 21. No evidence of real-world exploitation stated. Companion: https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
+      "summary": "Zenity Labs public write-up dated Sep 24, 2026 (also The Register same day): three Agentforce issues (indirect prompt injection via Web-to-Lead → Trusted URLs bypass → DNS/HTML-img or Slack-unfurl exfil; plus Slack Reply-to-Thread phishing under agent identity). Reported Jun 1; Trusted URLs fix confirmed Aug 19; Zenity says all three fixed as of Sep 21. No evidence of real-world exploitation stated. Companion: https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
       "source_type": "press"
     },
     {
       "date": "2026-09-11",
       "title": "Job-ready Agentforce portfolio + long-horizon runtime; Hunter outbound sales agent pilot",
       "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
-      "summary": "Salesforce introduces job-ready agents across sales/service/commerce/workforce. Sales-relevant: Hunter (outbound sales agent) pilot now, GA November '26 \u2014 first on new long-horizon runtime (memory, durable execution, dynamic steering over days/weeks); Piper inbound pipe-gen agent GA now. Also Multi-Agent Orchestration GA; Agent Optimizer GA Oct '26; AI Skills in Coworker pilot/GA Oct '26. Claims 7B Agentic Work Units across Agentforce+Slack. Forbes coverage same day.",
+      "summary": "Salesforce introduces job-ready agents across sales/service/commerce/workforce. Sales-relevant: Hunter (outbound sales agent) pilot now, GA November '26 — first on new long-horizon runtime (memory, durable execution, dynamic steering over days/weeks); Piper inbound pipe-gen agent GA now. Also Multi-Agent Orchestration GA; Agent Optimizer GA Oct '26; AI Skills in Coworker pilot/GA Oct '26. Claims 7B Agentic Work Units across Agentforce+Slack. Forbes coverage same day.",
       "source_type": "press"
     },
     {
@@ -169,5 +190,5 @@
     "Forward Deployed Engineers",
     "AI Implementation Team"
   ],
-  "notes": "Oct 19: $1B Spain investment with Madrid AI Implementation Team (Forward Deployed Engineers) \u2014 footprint/services, not product; Salesforce Ben/10K: Agentforce skills demand +63% YoY while nearly half of customers still pilot; Agent Optimizer / AI Skills October GA still unconfirmed; ZoomInfo (Oct 15) joins Demandbase as flagship Hunter data partner. Oct 14: Conga CLM/Contracts for Salesforce support Salesforce MCP (partner/ecosystem). Oct 13: Docusign IAM native across Salesforce/Agentforce/Slack; @salesforce Tableau Knowledge promo (restatement). Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) \u2014 meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6\u20137 governed-autonomy and Zero Trust posts were messaging."
+  "notes": "Oct 20: definitive agreement to acquire Braze (~$5.66B, close FY28) — real-time engagement/AI decisioning for Marketing Cloud and Agentforce; AIforce Sydney customer stories (Lawpath Agentforce SDR agents in production); Agent Optimizer / AI Skills GA still unconfirmed. Oct 19: $1B Spain investment with Madrid AI Implementation Team (Forward Deployed Engineers) — footprint/services, not product; Salesforce Ben/10K: Agentforce skills demand +63% YoY while nearly half of customers still pilot; Agent Optimizer / AI Skills October GA still unconfirmed; ZoomInfo (Oct 15) joins Demandbase as flagship Hunter data partner. Oct 14: Conga CLM/Contracts for Salesforce support Salesforce MCP (partner/ecosystem). Oct 13: Docusign IAM native across Salesforce/Agentforce/Slack; @salesforce Tableau Knowledge promo (restatement). Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) — meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6–7 governed-autonomy and Zero Trust posts were messaging."
 }
