@@ -2,9 +2,37 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-20",
+  "as_of": "2026-10-21",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-21",
+      "title": "Opens talks with partners over agentic MCP/API billing",
+      "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/",
+      "summary": "Salesforce Ben (Oct 21): after LinkedIn backlash over charging Flex Credits per Headless Platform Interaction (every successful registered-agent call over MCP or API), senior Salesforce stakeholders contacted architect/ISV-SI owner Amnon Kruvi. Asks: predictable agent pricing, value beyond plain MCP, room for AI-assisted org setup/support, AppExchange partner billing control. Multiplier still TBA; 30 days' notice before metering; sandboxes/dev orgs not metered; existing API agents migrate at renewal (Help article).",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Named a Leader in inaugural IDC MarketScape: Worldwide Agentic AI Platforms",
+      "url": "https://www.salesforce.com/blog/idc-marketscape-agentic-ai-platforms/",
+      "summary": "25 vendors evaluated. Cited strengths: brand/distribution scale, hybrid reasoning with deterministic control (Atlas + Agent Script), native grounded data foundation (Data 360 / Customer 360, zero-copy). Customer proof: Vivint, Crocs, Southwest. Analyst ranking, not product.",
+      "source_type": "analyst"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "X: Donor Engagement Agent (Nonprofit, Winter '27) promo",
+      "url": "https://x.com/salesforce/status/2112620037093683513",
+      "summary": "@salesforce post: agent turns voice memos, photos or notes into donor-record updates, logged activity and next steps. Kept by X filter; industry-cloud feature, not used on Today.",
+      "source_type": "x"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Quiet check: Agent Optimizer / AI Skills October GA still unconfirmed",
+      "url": "https://www.salesforce.com/blog/agent-optimizer/",
+      "summary": "No Salesforce release-note or newsroom GA flag as of Oct 21 morning; Channel Post MEA (Oct 7) and Salesforce Diary (Oct 19, third-party) restate October GA plans.",
+      "source_type": "watch"
+    },
     {
       "date": "2026-10-20",
       "title": "Definitive agreement to acquire Braze for ~$5.66B (all cash, $47.50/share)",
@@ -188,7 +216,10 @@
     "Momentum",
     "Salesforce MCP (partner tools)",
     "Forward Deployed Engineers",
-    "AI Implementation Team"
+    "AI Implementation Team",
+    "Headless Platform Interaction",
+    "Agentic Identity",
+    "IDC MarketScape Leader (agentic AI platforms)"
   ],
-  "notes": "Oct 20: definitive agreement to acquire Braze (~$5.66B, close FY28) — real-time engagement/AI decisioning for Marketing Cloud and Agentforce; AIforce Sydney customer stories (Lawpath Agentforce SDR agents in production); Agent Optimizer / AI Skills GA still unconfirmed. Oct 19: $1B Spain investment with Madrid AI Implementation Team (Forward Deployed Engineers) — footprint/services, not product; Salesforce Ben/10K: Agentforce skills demand +63% YoY while nearly half of customers still pilot; Agent Optimizer / AI Skills October GA still unconfirmed; ZoomInfo (Oct 15) joins Demandbase as flagship Hunter data partner. Oct 14: Conga CLM/Contracts for Salesforce support Salesforce MCP (partner/ecosystem). Oct 13: Docusign IAM native across Salesforce/Agentforce/Slack; @salesforce Tableau Knowledge promo (restatement). Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) — meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6–7 governed-autonomy and Zero Trust posts were messaging."
+  "notes": "Oct 21: Salesforce opened partner talks over Flex Credit billing for agentic MCP/API calls (Salesforce Ben; multiplier TBA); named Leader in inaugural IDC MarketScape for agentic AI platforms; Agent Optimizer / AI Skills GA still unconfirmed. Oct 20: definitive agreement to acquire Braze (~$5.66B, close FY28) — real-time engagement/AI decisioning for Marketing Cloud and Agentforce; AIforce Sydney customer stories (Lawpath Agentforce SDR agents in production); Agent Optimizer / AI Skills GA still unconfirmed. Oct 19: $1B Spain investment with Madrid AI Implementation Team (Forward Deployed Engineers) — footprint/services, not product; Salesforce Ben/10K: Agentforce skills demand +63% YoY while nearly half of customers still pilot; Agent Optimizer / AI Skills October GA still unconfirmed; ZoomInfo (Oct 15) joins Demandbase as flagship Hunter data partner. Oct 14: Conga CLM/Contracts for Salesforce support Salesforce MCP (partner/ecosystem). Oct 13: Docusign IAM native across Salesforce/Agentforce/Slack; @salesforce Tableau Knowledge promo (restatement). Oct 12: definitive agreement to acquire Loops (Tableau, agentic analytics) — meaningful signal (M&A). Winter '27 GA Oct 12 (Agent Skills and Plugins, A2A orchestration). Agent Optimizer (beta via AE since Sep 21) and AI Skills in Agentforce Coworker (pilot) still lack public GA/pricing confirmation; Hunter GA planned November 2026. Oct 12 X: Benioff on All-In pod at Dreamforce (content, not news). Prior: Oct 6–7 governed-autonomy and Zero Trust posts were messaging."
 }

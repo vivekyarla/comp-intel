@@ -1,34 +1,42 @@
 {
-  "as_of": "2026-10-20 morning ~8:47 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Oct 19 – Tue Oct 20 PT",
+  "as_of": "2026-10-21 morning ~8:55 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Oct 20 – Wed Oct 21 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Agent software is being repriced and re-plumbed around metered work. Notion folded all AI usage into one credit pool with a cost-routing default and promised per-agent spend limits, while quoting vendor Vendavo is opening its CPQ to calls from other agents, with field-level entitlements and an audit trail on every approval.",
+    "lede": "The fight over AI agents is moving from what they can do to what it costs and who controls them inside the systems they touch. Salesforce is negotiating with partners over its plan to bill every agent call into the CRM, while ServiceNow shipped a personal enterprise agent whose actions are governed by IT policy and enforced in the runtime.",
     "bullets": [
       {
-        "text": "Credits, routing and spend controls become the agent pricing model: Notion (Oct 19) moved all Notion AI usage onto a new credit system, made its Auto router the default (the company says results are similar to Opus 5.5 and Astra at about 90% lower average cost across 20+ tasks), gave agents their own computer and browser for tasks up to 24 hours, and announced an AI Command Center (coming soon) for usage by person and agent, spending limits and model allow-lists.",
+        "text": "Metering agent access to the CRM meets pushback: Salesforce plans to charge Flex Credits for every successful MCP or API call made by a registered agent (a \"Headless Platform Interaction\"; rate still TBA, 30 days' notice before billing). On Oct 21 Salesforce Ben reported that senior Salesforce stakeholders opened talks with partners after a backlash; the asks are more predictable agent pricing, value beyond plain MCP access, and room for AI-assisted org setup and support. No change has been announced.",
         "cites": [
           {
-            "label": "Notion release notes",
-            "url": "https://www.notion.com/releases/2026-10-19"
+            "label": "Salesforce Ben",
+            "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
+          },
+          {
+            "label": "Salesforce Help: agent billing",
+            "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
           }
         ]
       },
       {
-        "text": "Deal desks become agent-callable services: Vendavo's AI Deal Desk Assistant (Oct 20) answers renewal and pricing questions inside the quote, and Vendavo is extending it to draft quotes from call transcripts, run approvals against margin rules, and accept agent-to-agent quote requests from CRM, with field-level entitlements and audited approvals. Productivity and margin figures are company claims.",
+        "text": "Agent governance moves into the runtime: ServiceNow made Arc GA on Oct 21, a personal long-running agent across ServiceNow, email and Teams that can build its own integrations, with actions governed by IT policy and enforced in NVIDIA OpenShell. It is included at no extra cost in Foundation, Advanced and Prime SKUs. AI Passport revocation in software and silicon comes in a future release.",
         "cites": [
           {
-            "label": "Vendavo / PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/vendavo-launches-ai-deal-desk-assistant-bringing-deal-intelligence-directly-into-the-quoting-workflow-302911681.html"
+            "label": "ServiceNow newsroom",
+            "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-delivers-industry-first-personal-enterprise-agent-and-policy-enforcement-with-NVIDIA-extending-AI-governance-across-software-and-silicon/default.aspx"
+          },
+          {
+            "label": "NVIDIA newsroom",
+            "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
           }
         ]
       },
       {
-        "text": "Inbound follow-up is where sales agents are landing in production: at Salesforce's AIforce Sydney event (Oct 20), Lawpath said it runs Agentforce SDR agents with a sales team of about 25 on an all-inbound model, for membership win-backs and enquiries left uncontacted for five days; voice agents are still in testing.",
+        "text": "AI that runs whole GTM programs, not single tasks, is getting funded: Different came out of stealth on Oct 20 with a $48M seed led by General Catalyst. It plans, launches and optimizes B2B demand-gen campaigns across ads, email, landing pages and answer-engine content, with marketers approving everything before it goes live. Customer results are company claims.",
         "cites": [
           {
-            "label": "Salesforce ANZ newsroom",
-            "url": "https://www.salesforce.com/au/news/stories/aiforce-world-tour-essentials-sydney-2026/"
+            "label": "Different / PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/different-emerges-from-stealth-with-48m-for-ai-that-runs-demand-generation-for-lean-b2b-marketing-teams-302913497.html"
           }
         ]
       }
@@ -36,188 +44,192 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI races to raise about $30B at a valuation above $1.4T",
-      "body": "Reuters (Oct 19, two sources): OpenAI wants commitments before Anthropic's expected mid-November IPO; SoftBank and MGX are in talks to join. OpenAI is pitching investors on $50B annualized revenue and expects $70B by year-end, according to one source. OpenAI and SoftBank declined to comment.",
+      "title": "OpenAI models and Codex are coming to Google Cloud",
+      "body": "Oct 21: OpenAI frontier models and Codex agentic workflows will be in Google Cloud's Model Garden, bought through Google Cloud Marketplace, and can draw down existing GCP spend commitments. OpenAI models will also come to Google Antigravity and the Gemini Agent. GA is planned in the coming weeks; Microsoft remains OpenAI's primary cloud partner.",
       "new": true,
       "cites": [
         {
-          "label": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/exclusiveopenai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-4958511"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/openai-models-google-cloud"
         }
       ]
     },
     {
-      "title": "Google packages Gemini for government services",
-      "body": "Oct 20: a preview agentic solution for US federal, state and local agencies, with prebuilt skills, connectors to agency systems, inherited identity and access controls, and third-party partner agents. It follows Gemini for legal and Gemini for financial services.",
+      "title": "Anthropic could file its public S-1 as soon as Friday",
+      "body": "Yahoo Finance (Oct 21, three sources): a public filing would clear the way for a possible November listing. The WSJ reported (Oct 20) that a draft prospectus shows $16.3B revenue and a net loss of more than $80B in H1 2026, driven by $72B in accounting charges on convertible notes and other instruments. Reuters says some investors are discussing a valuation near $1.5T, down from about $2T expected. Anthropic did not comment.",
       "new": true,
       "cites": [
         {
-          "label": "Google Public Sector / PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/google-public-sector-launches-gemini-for-government-services-302913759.html"
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html"
+        },
+        {
+          "label": "Al Jazeera / Reuters (citing WSJ)",
+          "url": "https://www.aljazeera.com/news/2026/10/21/anthropic-posts-80bn-loss-in-first-half-of-2026-wsj"
         }
       ]
     },
     {
-      "title": "Claude runs a 64-hour, mostly autonomous protein-design campaign",
-      "body": "Oct 20: an internal Anthropic research model generated 318,484 designs against scorpion neurotoxins over 64 hours with four human follow-ups; 17 of 211 lab-tested designs met the binding criteria. Neutralization was not tested.",
+      "title": "NVIDIA launches the OpenShell Reference Architecture for governed agents",
+      "body": "Oct 21 (GTC Berlin): a full-stack design for building, containing, observing and enforcing agents, with OpenShell runtime on Vera CPUs, inference on Vera Rubin, and BlueField-4 DPUs running NVIDIA Sentry to quarantine agents that leave their boundary. Anthropic, OpenAI, Google, Meta, Microsoft, SAP and ServiceNow are among those working with it. Available now.",
       "new": true,
       "cites": [
         {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+          "label": "NVIDIA newsroom",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce signs definitive agreement to acquire Braze for about $5.66B",
-      "body": "NEW (watchlist, M&A). Oct 20: all cash at $47.50 per Braze share; Braze's real-time engagement and AI decisioning are expected to complement Data 360, Customer 360, Agentforce and SIForce and strengthen Marketing Cloud's cross-channel personalization. Braze has about 2,770 customers (Canva, Instacart, Venmo). Close expected in Salesforce's fiscal 2028; no change to FY27 guidance. Braze shares were up about 51% and Salesforce down 0.6% by 10:10 a.m. ET.",
+      "title": "Salesforce opens talks with partners over agent billing",
+      "body": "NEW (watchlist, third-party report). Oct 21: after public partner pushback on charging Flex Credits for agentic MCP and API calls, Salesforce reached out to Salesforce architect and ISV/SI owner Amnon Kruvi; he says the call was with senior stakeholders and the discussions continue. The rate per call is still TBA and nothing is metered yet.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+          "label": "Salesforce Ben",
+          "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
         },
         {
-          "label": "@salesforce on X",
-          "url": "https://x.com/salesforce/status/2112514575060881753"
-        },
-        {
-          "label": "The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/10/20/why-braze-stock-skyrocketed-today/"
+          "label": "Salesforce Help: agent billing",
+          "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
         }
       ]
     },
     {
-      "title": "Notion rebuilds its agents and moves AI to a single credit system",
-      "body": "NEW (category). Oct 19: agents get their own computer and browser, a \"Review for me\" mode with safety checks, and tasks up to 24 hours; Auto model router is the default; bring-your-own ChatGPT plan or API key (private alpha for Enterprise); Notion MCP overhaul with memory sync; AI Command Center for spend limits and model allow-lists is coming soon.",
+      "title": "ServiceNow Arc goes GA, governed through NVIDIA OpenShell",
+      "body": "NEW (category). Oct 21: a personal, long-running enterprise agent that surfaces work from inbox, meetings and backlog, runs tasks for minutes or days, and is restricted at runtime by policies set in ServiceNow's Super Intelligence Control Tower. Mac now, Windows within weeks.",
       "new": true,
       "cites": [
         {
-          "label": "Notion release notes",
-          "url": "https://www.notion.com/releases/2026-10-19"
+          "label": "ServiceNow newsroom",
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-delivers-industry-first-personal-enterprise-agent-and-policy-enforcement-with-NVIDIA-extending-AI-governance-across-software-and-silicon/default.aspx"
         }
       ]
     },
     {
-      "title": "Vendavo AI Deal Desk Assistant, with agent-to-agent quoting on the roadmap",
-      "body": "NEW (category). Oct 20: natural-language renewal and pricing answers inside Vendavo Quoting; being extended to transcript-to-quote drafting, AI-driven approvals and quotes started by other agents from CRM, with field-level entitlements and audit trails.",
+      "title": "Different launches with a $48M seed for AI-run demand gen",
+      "body": "NEW (category). Oct 20: founded by ThoughtSpot and Nutanix co-founder Ajeet Singh; General Catalyst led, Lightspeed participated. Pitch: a marketing team of five does the work of 50. Available now.",
       "new": true,
       "cites": [
         {
-          "label": "Vendavo / PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/vendavo-launches-ai-deal-desk-assistant-bringing-deal-intelligence-directly-into-the-quoting-workflow-302911681.html"
+          "label": "Different / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/different-emerges-from-stealth-with-48m-for-ai-that-runs-demand-generation-for-lean-b2b-marketing-teams-302913497.html"
         }
       ]
     },
     {
-      "title": "Salesforce AIforce Sydney: Agentforce SDR agents in production at Lawpath",
-      "body": "NEW (watchlist, soft). Oct 20: Lawpath uses Agentforce SDR agents for win-backs and enquiries left uncontacted for five days, with voice agents in testing; Gumtree's Agentforce service agent replaced Einstein Bots in late September. Customer stories at an event, not a product launch.",
+      "title": "Salesforce named a Leader in the first IDC MarketScape for agentic AI platforms",
+      "body": "NEW (watchlist, soft). Oct 21: IDC evaluated 25 vendors. Salesforce cites the strengths IDC named: distribution scale, hybrid reasoning with deterministic control (Atlas plus Agent Script), and a native data foundation. This is an analyst ranking, not a product change.",
       "new": true,
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Salesforce ANZ newsroom",
-          "url": "https://www.salesforce.com/au/news/stories/aiforce-world-tour-essentials-sydney-2026/"
+          "label": "Salesforce blog",
+          "url": "https://www.salesforce.com/blog/idc-marketscape-agentic-ai-platforms/"
         }
       ]
     }
   ],
-  "quiet_note": "No first-party product PR Oct 19–20 from Gong (Gartner MQ Oct 16 still top of press), Clay (latest changelog items predate the window; X posts were retweets), Outreach (Gartner MQ Oct 15 still top), Nooks, Salesloft (Oct 6 CPO hire still top) or Monaco. Agent Optimizer / AI Skills October GA still not confirmed by Salesforce. Aged off Today: Microsoft agent-insider controls, Salesforce $1B Spain, Agentforce jobs-vs-pilots read, monday.com Harmony, WisdomAI Owls, Anthropic Public Benefit Fund, Microsoft exit from Nscale Essex (all covered Oct 19); Attio SQL Engine / Data Connectors / Agent Scale (about Oct 14–15, outside window); Meta Muse Wonder (Oct 12).",
+  "quiet_note": "No first-party news Oct 20–21 from Gong (Gartner MQ Oct 16 still top of press), Clay (X posts not brief-worthy), Outreach, Nooks, Salesloft (Oct 6 still top) or Monaco. Agent Optimizer / AI Skills October GA still not confirmed by Salesforce. Aged off Today: Salesforce–Braze, Notion AI credits, Vendavo Deal Desk, Lawpath Agentforce SDR (covered Oct 20).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (CRM suites buying real-time engagement and decisioning)",
-      "text": "Salesforce agrees to acquire Braze for about $5.66B (Oct 20)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (pooled AI credits, model routing and spend governance)",
-      "text": "Notion moves all AI to one credit system with Auto routing and a coming Command Center (Oct 19)."
+      "label": "Accelerating (metering agent access to systems of record)",
+      "text": "Salesforce's per-call agent billing is drawing partner pushback and direct talks (Oct 21)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (back-office systems exposed as agent-callable services)",
-      "text": "Vendavo plans agent-to-agent quoting with entitlements and audited approvals (Oct 20)."
+      "label": "Emerging (agent policy enforced in the runtime and hardware)",
+      "text": "ServiceNow Arc GA on NVIDIA OpenShell; NVIDIA OpenShell Reference Architecture (Oct 21)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (frontier-lab capital race)",
-      "text": "OpenAI seeks about $30B ahead of Anthropic's expected mid-November IPO (Reuters, Oct 19)."
+      "label": "Accelerating (frontier models sold through every cloud)",
+      "text": "OpenAI models and Codex are coming to Google Cloud Marketplace and GCP commitments (Oct 21)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (AI running full GTM programs for lean teams)",
+      "text": "Different raises a $48M seed for end-to-end demand gen (Oct 20)."
     },
     {
       "kind": "flat",
       "label": "Steady (Salesforce October agent-ops GAs)",
-      "text": "Agent Optimizer / AI Skills still not confirmed GA by Salesforce with 11 days left in October."
+      "text": "Agent Optimizer / AI Skills still not confirmed GA by Salesforce with 10 days left in October."
     }
   ],
   "language_pulse": [
     {
-      "term": "AI decisioning",
-      "gloss": "Braze's real-time choice of content, offer, channel and timing, now headed into Salesforce (Oct 20)."
+      "term": "Headless Platform Interaction",
+      "gloss": "Salesforce's billable unit for each successful agent call over MCP or API (Help article; debated Oct 21)."
     },
     {
-      "term": "Agentic enterprise",
-      "gloss": "Salesforce's self-description in the Braze release and at AIforce Sydney (Oct 20)."
+      "term": "Agentic Identity",
+      "gloss": "Salesforce's per-agent credentials and permissions, replacing agents acting under a user's login."
     },
     {
-      "term": "Review for me",
-      "gloss": "Notion's agent mode that runs safety checks before acting (Oct 19)."
+      "term": "AI Passport",
+      "gloss": "ServiceNow's attested record of what each agent or MCP server may do, to be read by NVIDIA enforcement layers (Oct 21)."
     },
     {
-      "term": "Agent-to-agent quoting",
-      "gloss": "Vendavo's phrase for CPQ as a service other agents call (Oct 20)."
+      "term": "Personal long-running agent",
+      "gloss": "ServiceNow's description of Arc (Oct 21)."
     },
     {
-      "term": "Trust it to act",
-      "gloss": "Salesforce ANZ CMO framing of the adoption question (Oct 20)."
+      "term": "Think on Rubin, act on Vera, governed on BlueField",
+      "gloss": "Jensen Huang's framing of the OpenShell stack (Oct 21)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "Definitive agreement to acquire Braze for about $5.66B in enterprise value, $47.50 per share in cash; positioned across Data 360, Customer 360, Agentforce and SIForce, with Marketing Cloud personalization the first stated fit. Close expected in fiscal 2028, subject to Braze shareholder and regulatory approval (Oct 20).",
+      "text": "Opened talks with partners over charging Flex Credits for agentic MCP and API calls; the rate is still TBA, with 30 days' notice before metering (Salesforce Ben, Oct 21). Also named a Leader in the inaugural IDC MarketScape for Worldwide Agentic AI Platforms (Oct 21).",
       "cites": [
         {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+          "label": "Salesforce Ben",
+          "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
         },
         {
-          "label": "The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/10/20/why-braze-stock-skyrocketed-today/"
+          "label": "Salesforce Help: agent billing",
+          "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
+        },
+        {
+          "label": "Salesforce blog",
+          "url": "https://www.salesforce.com/blog/idc-marketscape-agentic-ai-platforms/"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "Salesforce's October GAs: Agent Optimizer and AI Skills",
-      "body": "Eleven days left in October and Salesforce still hasn't published a GA flag or pricing for Agent Optimizer (beta through account executives since Sep 21) or AI Skills in Agentforce Coworker (pilot). A third-party Salesforce Diary post on Oct 19 repeats that Optimizer \"goes GA in October 2026\" but isn't confirmation. Watch release notes and the newsroom before month-end, and whether Braze decisioning shows up in Agentforce roadmap language.",
+      "title": "Salesforce's per-call rate for agent access",
+      "body": "Salesforce has not published the Flex Credit multiplier for Headless Platform Interactions. Watch for that number, the 30-day notice that starts billing, and whether partner talks change the model, for example a predictable bundle or an exemption for AI-assisted setup. Any agent that calls Salesforce over MCP or API would need to register under Agentic Identity and move to the new billing. Also open: Agent Optimizer / AI Skills October GA, with 10 days left.",
       "company": "Salesforce",
       "logo": "assets/logos/salesforce.svg",
       "cites": [
         {
-          "label": "Salesforce newsroom",
-          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
+          "label": "Salesforce Help: agent billing",
+          "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
+        },
+        {
+          "label": "Salesforce Ben",
+          "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
         },
         {
           "label": "Agent Optimizer post",
           "url": "https://www.salesforce.com/blog/agent-optimizer/"
-        },
-        {
-          "label": "Salesforce Diary (third-party)",
-          "url": "https://www.salesforcediary.com/2026/10/19/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Salesforce agreed to acquire Braze for about $5.66B (Oct 20). Notion moved all AI usage to one credit system with Auto routing and agents that have their own computer and browser (Oct 19). Vendavo launched an AI Deal Desk Assistant with agent-to-agent quoting planned (Oct 20). Lawpath described Agentforce SDR agents in production at AIforce Sydney (Oct 20). Reuters reported OpenAI is seeking about $30B at over $1.4T (Oct 19). Google launched Gemini for government services in preview (Oct 20). Anthropic published a 64-hour Claude protein-design campaign (Oct 20).",
-    "note": "Light interpretation: Salesforce is buying the real-time engagement and decisioning layer rather than building it, which widens the suite it can sell against point tools on the marketing side; on the sales side, the new pattern across Notion and Vendavo is metered agent work with spend limits, entitlements and audit built in, which is likely to become a standard buyer checklist."
+    "fact": "Salesforce Ben reported Salesforce opened talks with partners over agentic MCP/API billing (Oct 21). ServiceNow made Arc GA, governed via NVIDIA OpenShell (Oct 21). NVIDIA launched the OpenShell Reference Architecture (Oct 21). Different raised a $48M seed (Oct 20). Salesforce was named a Leader in IDC's first agentic AI platforms MarketScape (Oct 21). OpenAI models and Codex are coming to Google Cloud (Oct 21). Anthropic may file its public S-1 as soon as Friday (Yahoo Finance, Oct 21).",
+    "note": "Light interpretation: the systems of record are setting prices for agent access just as third-party agents multiply. How Salesforce prices and enforces Agentic Identity will shape the cost of any agent that works on top of the CRM. Governance is shifting from dashboards to enforcement points (runtime, identity, hardware) that buyers can name in a procurement checklist."
   }
 }
