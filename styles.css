@@ -707,3 +707,54 @@ section h2 {
 .md-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .md-note { margin: 0.6rem 0 0; font-size: 0.85rem; color: #1a7f3c; }
 .md-hint { margin: 0.75rem 0 0; font-size: 0.8rem; color: #666; }
+
+/* —— Posts from company channels & founders —— */
+.feed-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e8e8e6;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+.feed-row {
+  display: grid;
+  grid-template-columns: 1.4rem 1fr;
+  gap: 0.7rem;
+  align-items: start;
+  padding: 0.7rem 0.85rem;
+  border-bottom: 1px solid #eee;
+}
+.feed-row:last-child { border-bottom: none; }
+.feed-row .logo {
+  width: 1.35rem;
+  height: 1.35rem;
+  object-fit: contain;
+  border-radius: 3px;
+  border: 1px solid #ececec;
+  background: #fafafa;
+  margin-top: 0.1rem;
+}
+.feed-body { min-width: 0; }
+.feed-meta {
+  margin: 0 0 0.15rem;
+  font-size: 0.8rem;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.45rem;
+}
+.feed-meta > * + *::before { content: "·"; color: #bbb; margin-right: 0.45rem; }
+.feed-meta .co { font-weight: 600; color: #1a1a1a; }
+.feed-meta .who { color: #333; }
+.feed-meta .handle { color: #777; }
+.feed-text { margin: 0; font-size: 0.92rem; color: #222; }
+.feed-links {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.6rem;
+  align-items: baseline;
+}
+.feed-links .eng { color: #888; }

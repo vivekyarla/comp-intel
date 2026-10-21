@@ -295,6 +295,9 @@
             : "")
       )
     );
+    if (window.MIFeed && data.feed && data.feed.length) {
+      parts.push(section("Posts from company channels & founders", window.MIFeed.render(data.feed, { base: "" })));
+    }
     parts.push(section("Market direction", renderDirection(data.market_direction)));
     parts.push(section("Category language pulse", renderPulse(data.language_pulse)));
     var movesHtml = renderMoves(data.competitive_moves);

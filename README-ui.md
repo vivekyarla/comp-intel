@@ -15,6 +15,7 @@ The Today page (`index.html` + `today.js`) fetches JSON and renders. You do **no
 - `market_direction[]` — `{kind: up|flat|down|emerging, label, text}`
 - `language_pulse[]` — `{term, gloss}`
 - `competitive_moves[]` — `{company, slug, text, cites[]}`
+- `feed[]` — posts from company channels & founders (last 1–2 PT days), written by `scripts/pull_feed.py`: `{company, slug, author:{name, handle, url}, kind: company|founder, source: X|LinkedIn, ts (ISO, PT offset), category, summary, url, also?:{LinkedIn|X: url}, engagement:{likes, reposts, replies, views | reactions, comments}}`. Rendered by `feed.js` as "Posts from company channels & founders"; omitted when empty, no filler line. `data/feed_recent.json` (rolling 14 days) feeds the "Recent posts" block on competitor pages.
 - `watch[]` — `{title, body, company?, logo?, image?, cites[]}`
 - `quiet_note`, `interpretation?: {fact, note}`
 
