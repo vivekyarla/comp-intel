@@ -280,6 +280,9 @@
     if (briefingHtml) {
       parts.push(section("Market briefing", briefingHtml));
     }
+    if (window.MIFeed && data.feed && data.feed.length) {
+      parts.push(section("Posts from company channels & founders", window.MIFeed.render(data.feed, { base: "" })));
+    }
     var aiHtml = renderAiNews(data.biggest_ai_news);
     if (aiHtml) {
       parts.push(section("Biggest AI news", aiHtml));
@@ -295,9 +298,6 @@
             : "")
       )
     );
-    if (window.MIFeed && data.feed && data.feed.length) {
-      parts.push(section("Posts from company channels & founders", window.MIFeed.render(data.feed, { base: "" })));
-    }
     parts.push(section("Market direction", renderDirection(data.market_direction)));
     parts.push(section("Category language pulse", renderPulse(data.language_pulse)));
     var movesHtml = renderMoves(data.competitive_moves);
