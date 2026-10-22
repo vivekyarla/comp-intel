@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-22",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-21",
+      "title": "X: customizing NVIDIA Nemotron 3.5 Super VL for Missionforce Operations agents",
+      "url": "https://x.com/salesforce/status/2113026598543016105",
+      "summary": "@salesforce says it is customizing NVIDIA's Nemotron 3.5 Super VL to power AI agents in Missionforce Operations for government workflows in secure customer environments (X post, Oct 21). Jev kept (relevance 2.27). Not brief-worthy for Today. Still no published per-call rate for Headless Platform Interactions and no Agent Optimizer / AI Skills GA confirmation as of Oct 22.",
+      "source_type": "social"
+    },
     {
       "date": "2026-10-21",
       "title": "Opens talks with partners over agentic MCP/API billing",

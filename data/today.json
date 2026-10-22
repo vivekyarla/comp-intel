@@ -1,42 +1,29 @@
 {
-  "as_of": "2026-10-21 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Oct 20 – Wed Oct 21 PT",
+  "as_of": "2026-10-22 morning ~9:00 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Oct 21 – Thu Oct 22 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "The fight over AI agents is moving from what they can do to what it costs and who controls them inside the systems they touch. Salesforce is negotiating with partners over its plan to bill every agent call into the CRM, while ServiceNow shipped a personal enterprise agent whose actions are governed by IT policy and enforced in the runtime.",
+    "lede": "Sales context is being opened up to outside agents, and model vendors now want to know exactly who those agents serve. Zoom turned its meeting record into a layer any agent can query, while OpenAI and Anthropic both moved to identify the end customers behind apps built on their models.",
     "bullets": [
       {
-        "text": "Metering agent access to the CRM meets pushback: Salesforce plans to charge Flex Credits for every successful MCP or API call made by a registered agent (a \"Headless Platform Interaction\"; rate still TBA, 30 days' notice before billing). On Oct 21 Salesforce Ben reported that senior Salesforce stakeholders opened talks with partners after a backlash; the asks are more predictable agent pricing, value beyond plain MCP access, and room for AI-assisted org setup and support. No change has been announced.",
+        "text": "Meeting data becomes agent infrastructure: on Oct 21 Zoom introduced a Unified Context Layer that links meetings, phone, chat and documents, plus MCP servers and Search & Ask APIs (available now) so Claude, Codex, Copilot, Gemini, Slackbot and other MCP agents can query it. My Notes Workflows will turn meeting summaries into follow-up work in Salesforce and Zoom Chat, with ready-made sales workflows (expected October).",
         "cites": [
           {
-            "label": "Salesforce Ben",
-            "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
-          },
-          {
-            "label": "Salesforce Help: agent billing",
-            "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
+            "label": "Zoom / Business Wire",
+            "url": "https://www.businesswire.com/news/home/20261021498160/en/Zoom-Advances-Its-AI-Strategy-With-a-New-Unified-Context-Layer-That-Helps-Turn-Meeting-Conversations-Into-Completed-Work"
           }
         ]
       },
       {
-        "text": "Agent governance moves into the runtime: ServiceNow made Arc GA on Oct 21, a personal long-running agent across ServiceNow, email and Teams that can build its own integrations, with actions governed by IT policy and enforced in NVIDIA OpenShell. It is included at no extra cost in Foundation, Advanced and Prime SKUs. AI Passport revocation in software and silicon comes in a future release.",
+        "text": "Apps built on frontier models now carry end-customer identity duties: OpenAI's updated Usage Policies (effective Nov 20) require routers and gateways that offer direct model access to get OpenAI's approval, and it is introducing SafetyIDs to tell end users apart in investigations. Anthropic launched user profiles (Oct 20) and, on Oct 21, enforcement status fields showing whether one of your end customers has been restricted or banned.",
         "cites": [
           {
-            "label": "ServiceNow newsroom",
-            "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-delivers-industry-first-personal-enterprise-agent-and-policy-enforcement-with-NVIDIA-extending-AI-governance-across-software-and-silicon/default.aspx"
+            "label": "OpenAI",
+            "url": "https://openai.com/index/broad-access-through-consistent-standards/"
           },
           {
-            "label": "NVIDIA newsroom",
-            "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
-          }
-        ]
-      },
-      {
-        "text": "AI that runs whole GTM programs, not single tasks, is getting funded: Different came out of stealth on Oct 20 with a $48M seed led by General Catalyst. It plans, launches and optimizes B2B demand-gen campaigns across ads, email, landing pages and answer-engine content, with marketers approving everything before it goes live. Customer results are company claims.",
-        "cites": [
-          {
-            "label": "Different / PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/different-emerges-from-stealth-with-48m-for-ai-that-runs-demand-generation-for-lean-b2b-marketing-teams-302913497.html"
+            "label": "Claude Platform release notes",
+            "url": "https://docs.claude.com/en/release-notes/api"
           }
         ]
       }
@@ -44,182 +31,190 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI models and Codex are coming to Google Cloud",
-      "body": "Oct 21: OpenAI frontier models and Codex agentic workflows will be in Google Cloud's Model Garden, bought through Google Cloud Marketplace, and can draw down existing GCP spend commitments. OpenAI models will also come to Google Antigravity and the Gemini Agent. GA is planned in the coming weeks; Microsoft remains OpenAI's primary cloud partner.",
+      "title": "Anthropic previews Claude Duet, a proactive agent app",
+      "body": "Oct 21: a standalone iOS, Android and web app on Claude Opus 5.5 that sends a morning brief, watches connected apps, works tasks on its own cloud computer while you're away, and asks before sending, paying, signing or deleting. Waitlist only, for US Pro and Max subscribers; not yet on Team or Enterprise.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-duet"
+        },
+        {
+          "label": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI will require approval for model routers and gateways",
+      "body": "Oct 21: updated Usage Policies, effective Nov 20, require services that give direct access to OpenAI models, such as routers or AI gateways, to get review and approval first. Partners that host or resell the models must keep matching safeguards.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/openai-models-google-cloud"
+          "url": "https://openai.com/index/broad-access-through-consistent-standards/"
         }
       ]
     },
     {
-      "title": "Anthropic could file its public S-1 as soon as Friday",
-      "body": "Yahoo Finance (Oct 21, three sources): a public filing would clear the way for a possible November listing. The WSJ reported (Oct 20) that a draft prospectus shows $16.3B revenue and a net loss of more than $80B in H1 2026, driven by $72B in accounting charges on convertible notes and other instruments. Reuters says some investors are discussing a valuation near $1.5T, down from about $2T expected. Anthropic did not comment.",
+      "title": "Claude API version 2026-10-21 and new major SDKs",
+      "body": "Oct 21: new API version plus major SDK and ant CLI releases that send it by default. The SDK releases carry their own breaking changes and move from the MIT License to Apache 2.0.",
       "new": true,
       "cites": [
         {
-          "label": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html"
-        },
-        {
-          "label": "Al Jazeera / Reuters (citing WSJ)",
-          "url": "https://www.aljazeera.com/news/2026/10/21/anthropic-posts-80bn-loss-in-first-half-of-2026-wsj"
-        }
-      ]
-    },
-    {
-      "title": "NVIDIA launches the OpenShell Reference Architecture for governed agents",
-      "body": "Oct 21 (GTC Berlin): a full-stack design for building, containing, observing and enforcing agents, with OpenShell runtime on Vera CPUs, inference on Vera Rubin, and BlueField-4 DPUs running NVIDIA Sentry to quarantine agents that leave their boundary. Anthropic, OpenAI, Google, Meta, Microsoft, SAP and ServiceNow are among those working with it. Available now.",
-      "new": true,
-      "cites": [
-        {
-          "label": "NVIDIA newsroom",
-          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
+          "label": "Claude Platform release notes",
+          "url": "https://docs.claude.com/en/release-notes/api"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce opens talks with partners over agent billing",
-      "body": "NEW (watchlist, third-party report). Oct 21: after public partner pushback on charging Flex Credits for agentic MCP and API calls, Salesforce reached out to Salesforce architect and ISV/SI owner Amnon Kruvi; he says the call was with senior stakeholders and the discussions continue. The rate per call is still TBA and nothing is metered yet.",
+      "title": "Monaco launches Agent Matrix",
+      "body": "NEW (watchlist launch). Oct 21: CEO Sam Blond announced Agent Matrix, many goal-seeking agents working together around the clock with one aim, accelerating revenue growth. Early access is by application. Co-founder Shek Viswanathan says it ships Monaco's own prebuilt agents plus the ability to build your own, such as lead routing, inline call and email coaching in Slack, and pre-meeting account research, and an @monaco Slack bot to create, run and monitor agents. He says its re-engagement agent gets 25–35% response rates from warm leads that went cold (company claim). No product page or pricing was published.",
       "new": true,
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.svg",
+      "company": "Monaco",
+      "logo": "assets/logos/monaco.png",
       "cites": [
         {
-          "label": "Salesforce Ben",
-          "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
+          "label": "Sam Blond on X",
+          "url": "https://x.com/samdblond/status/2112936538711683315"
         },
         {
-          "label": "Salesforce Help: agent billing",
-          "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
+          "label": "Sam Blond on LinkedIn",
+          "url": "https://www.linkedin.com/posts/sam-blond-791026b_today-monaco-is-launching-agent-matrix-activity-7518702749442813952-Wmzi"
+        },
+        {
+          "label": "Shek Viswanathan on LinkedIn",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/"
+        },
+        {
+          "label": "Shek Viswanathan on X",
+          "url": "https://x.com/abishekv/status/2112996547235557782"
         }
       ]
     },
     {
-      "title": "ServiceNow Arc goes GA, governed through NVIDIA OpenShell",
-      "body": "NEW (category). Oct 21: a personal, long-running enterprise agent that surfaces work from inbox, meetings and backlog, runs tasks for minutes or days, and is restricted at runtime by policies set in ServiceNow's Super Intelligence Control Tower. Mac now, Windows within weeks.",
+      "title": "Clay describes GTM CI/CD for agent-run sales plays",
+      "body": "NEW (watchlist, soft). Oct 21: Clay says its GTM engineers now run plays like software. An agent proposes a change, a person approves it, and the Clay CLI deploys it, with every workflow run logged and a snapshot before each edit. Clay says SDR drafting fell from about seven minutes to one, and CLI/API calls reached a million a day within two months of release (company figures). It plans to bring these self-learning loops into the product, with no date given.",
       "new": true,
+      "company": "Clay",
+      "logo": "assets/logos/clay.png",
       "cites": [
         {
-          "label": "ServiceNow newsroom",
-          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-delivers-industry-first-personal-enterprise-agent-and-policy-enforcement-with-NVIDIA-extending-AI-governance-across-software-and-silicon/default.aspx"
+          "label": "Clay blog",
+          "url": "https://www.clay.com/blog/gtm-self-learning-loops"
         }
       ]
     },
     {
-      "title": "Different launches with a $48M seed for AI-run demand gen",
-      "body": "NEW (category). Oct 20: founded by ThoughtSpot and Nutanix co-founder Ajeet Singh; General Catalyst led, Lightspeed participated. Pitch: a marketing team of five does the work of 50. Available now.",
+      "title": "Zoom opens its meeting context to outside agents",
+      "body": "NEW (category). Oct 21 (Zoomtopia): Unified Context Layer, MCP servers across the portfolio, Search & Ask APIs, and ZoomMate Agent Teams are available now. My Notes Workflows into Salesforce are expected in October, and AI Guardrails in Q1 2027.",
       "new": true,
       "cites": [
         {
-          "label": "Different / PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/different-emerges-from-stealth-with-48m-for-ai-that-runs-demand-generation-for-lean-b2b-marketing-teams-302913497.html"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce named a Leader in the first IDC MarketScape for agentic AI platforms",
-      "body": "NEW (watchlist, soft). Oct 21: IDC evaluated 25 vendors. Salesforce cites the strengths IDC named: distribution scale, hybrid reasoning with deterministic control (Atlas plus Agent Script), and a native data foundation. This is an analyst ranking, not a product change.",
-      "new": true,
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.svg",
-      "cites": [
-        {
-          "label": "Salesforce blog",
-          "url": "https://www.salesforce.com/blog/idc-marketscape-agentic-ai-platforms/"
+          "label": "Zoom / Business Wire",
+          "url": "https://www.businesswire.com/news/home/20261021498160/en/Zoom-Advances-Its-AI-Strategy-With-a-New-Unified-Context-Layer-That-Helps-Turn-Meeting-Conversations-Into-Completed-Work"
         }
       ]
     }
   ],
-  "quiet_note": "No first-party news Oct 20–21 from Gong (Gartner MQ Oct 16 still top of press), Clay (X posts not brief-worthy), Outreach, Nooks, Salesloft (Oct 6 still top) or Monaco. Agent Optimizer / AI Skills October GA still not confirmed by Salesforce. Aged off Today: Salesforce–Braze, Notion AI credits, Vendavo Deal Desk, Lawpath Agentforce SDR (covered Oct 20).",
+  "quiet_note": "No first-party news Oct 21–22 from Gong (Gartner MQ Oct 16 still top of press), Outreach (Oct 21 GeekWire mention only), Salesloft or Nooks. Salesforce: no new word on the per-call agent rate, and Agent Optimizer / AI Skills October GA is still not confirmed with 9 days left. Aged off Today: ServiceNow Arc, NVIDIA OpenShell, Different seed, OpenAI on Google Cloud, Anthropic S-1 timing (covered Oct 21).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (metering agent access to systems of record)",
-      "text": "Salesforce's per-call agent billing is drawing partner pushback and direct talks (Oct 21)."
+      "label": "Accelerating (fleets of coordinated revenue agents)",
+      "text": "Monaco launches Agent Matrix for goal-seeking agents working together (Oct 21)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (conversation data exposed to outside agents over MCP)",
+      "text": "Zoom's Unified Context Layer, MCP servers and Search & Ask APIs (Oct 21)."
     },
     {
       "kind": "emerging",
-      "label": "Emerging (agent policy enforced in the runtime and hardware)",
-      "text": "ServiceNow Arc GA on NVIDIA OpenShell; NVIDIA OpenShell Reference Architecture (Oct 21)."
+      "label": "Emerging (version control and review for agent-edited GTM plays)",
+      "text": "Clay's GTM CI/CD: agent proposes, human approves, CLI deploys (Oct 21)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (frontier models sold through every cloud)",
-      "text": "OpenAI models and Codex are coming to Google Cloud Marketplace and GCP commitments (Oct 21)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (AI running full GTM programs for lean teams)",
-      "text": "Different raises a $48M seed for end-to-end demand gen (Oct 20)."
+      "label": "Accelerating (model vendors policing resellers and end users)",
+      "text": "OpenAI router/gateway approval from Nov 20; Anthropic user profiles and enforcement status (Oct 20–21)."
     },
     {
       "kind": "flat",
-      "label": "Steady (Salesforce October agent-ops GAs)",
-      "text": "Agent Optimizer / AI Skills still not confirmed GA by Salesforce with 10 days left in October."
+      "label": "Steady (Salesforce agent pricing and October GAs)",
+      "text": "Per-call agent rate still TBA; Agent Optimizer / AI Skills GA unconfirmed."
     }
   ],
   "language_pulse": [
     {
-      "term": "Headless Platform Interaction",
-      "gloss": "Salesforce's billable unit for each successful agent call over MCP or API (Help article; debated Oct 21)."
+      "term": "Agent Matrix",
+      "gloss": "Monaco's name for many goal-seeking agents working together toward revenue growth (Oct 21)."
     },
     {
-      "term": "Agentic Identity",
-      "gloss": "Salesforce's per-agent credentials and permissions, replacing agents acting under a user's login."
+      "term": "GTM CI/CD",
+      "gloss": "Clay's practice of reviewing, versioning and deploying changes to sales plays like code (Oct 21)."
     },
     {
-      "term": "AI Passport",
-      "gloss": "ServiceNow's attested record of what each agent or MCP server may do, to be read by NVIDIA enforcement layers (Oct 21)."
+      "term": "Self-healing workflows",
+      "gloss": "Clay's term for workflows where an agent reads run logs and proposes fixes for a person to approve (Oct 21)."
     },
     {
-      "term": "Personal long-running agent",
-      "gloss": "ServiceNow's description of Arc (Oct 21)."
+      "term": "Unified Context Layer",
+      "gloss": "Zoom's layer linking conversations, documents and data for people and agents (Oct 21)."
     },
     {
-      "term": "Think on Rubin, act on Vera, governed on BlueField",
-      "gloss": "Jensen Huang's framing of the OpenShell stack (Oct 21)."
+      "term": "System of action",
+      "gloss": "Zoom's framing for turning conversations into completed work (Oct 21)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Opened talks with partners over charging Flex Credits for agentic MCP and API calls; the rate is still TBA, with 30 days' notice before metering (Salesforce Ben, Oct 21). Also named a Leader in the inaugural IDC MarketScape for Worldwide Agentic AI Platforms (Oct 21).",
+      "company": "Monaco",
+      "slug": "monaco",
+      "text": "Launched Agent Matrix, a fleet of goal-seeking revenue agents, prebuilt and build-your-own agents run from an @monaco Slack bot, with early access by application (Oct 21).",
       "cites": [
         {
-          "label": "Salesforce Ben",
-          "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
+          "label": "Sam Blond on X",
+          "url": "https://x.com/samdblond/status/2112936538711683315"
         },
         {
-          "label": "Salesforce Help: agent billing",
-          "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
-        },
+          "label": "Shek Viswanathan on LinkedIn",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/"
+        }
+      ]
+    },
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "text": "Published how its GTM team runs agent-proposed, human-approved changes to plays through logged runs, snapshots and the Clay CLI, and said these self-learning loops will come to the product (Oct 21).",
+      "cites": [
         {
-          "label": "Salesforce blog",
-          "url": "https://www.salesforce.com/blog/idc-marketscape-agentic-ai-platforms/"
+          "label": "Clay blog",
+          "url": "https://www.clay.com/blog/gtm-self-learning-loops"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "Salesforce's per-call rate for agent access",
-      "body": "Salesforce has not published the Flex Credit multiplier for Headless Platform Interactions. Watch for that number, the 30-day notice that starts billing, and whether partner talks change the model, for example a predictable bundle or an exemption for AI-assisted setup. Any agent that calls Salesforce over MCP or API would need to register under Agentic Identity and move to the new billing. Also open: Agent Optimizer / AI Skills October GA, with 10 days left.",
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.svg",
+      "title": "What Monaco's Agent Matrix actually ships",
+      "body": "So far the detail comes from founder posts: prebuilt and custom agents, a Slack bot to run them, and early access by application. Watch for a product page or docs listing the agents, how they avoid working the same account at once, and whether Agent Matrix is priced separately from the Monaco platform. Also still open: Salesforce's per-call agent rate and Agent Optimizer / AI Skills GA before October ends.",
+      "company": "Monaco",
+      "logo": "assets/logos/monaco.png",
       "cites": [
+        {
+          "label": "Sam Blond on X",
+          "url": "https://x.com/samdblond/status/2112936538711683315"
+        },
+        {
+          "label": "Shek Viswanathan on LinkedIn",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/"
+        },
         {
           "label": "Salesforce Help: agent billing",
           "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
-        },
-        {
-          "label": "Salesforce Ben",
-          "url": "https://www.salesforceben.com/salesforce-opens-talks-with-partners-over-ai-agent-billing-concerns/"
         },
         {
           "label": "Agent Optimizer post",
@@ -229,10 +224,29 @@
     }
   ],
   "interpretation": {
-    "fact": "Salesforce Ben reported Salesforce opened talks with partners over agentic MCP/API billing (Oct 21). ServiceNow made Arc GA, governed via NVIDIA OpenShell (Oct 21). NVIDIA launched the OpenShell Reference Architecture (Oct 21). Different raised a $48M seed (Oct 20). Salesforce was named a Leader in IDC's first agentic AI platforms MarketScape (Oct 21). OpenAI models and Codex are coming to Google Cloud (Oct 21). Anthropic may file its public S-1 as soon as Friday (Yahoo Finance, Oct 21).",
-    "note": "Light interpretation: the systems of record are setting prices for agent access just as third-party agents multiply. How Salesforce prices and enforces Agentic Identity will shape the cost of any agent that works on top of the CRM. Governance is shifting from dashboards to enforcement points (runtime, identity, hardware) that buyers can name in a procurement checklist."
+    "fact": "Monaco announced Agent Matrix (Oct 21). Clay published its GTM CI/CD approach (Oct 21). Zoom introduced its Unified Context Layer, MCP servers and Search & Ask APIs (Oct 21). OpenAI updated Usage Policies effective Nov 20 to require approval for routers and gateways (Oct 21). Anthropic launched user profiles (Oct 20), enforcement status fields and API version 2026-10-21 (Oct 21), and previewed Claude Duet (Oct 21).",
+    "note": "Light interpretation: conversation and CRM data are being exposed through MCP so any agent can act on them, which puts pressure on vendors whose value was owning that data. At the same time, model vendors are pushing accountability down to apps, so a GTM AI app needs per-customer identity and clean audit trails to keep model access."
   },
   "feed": [
+    {
+      "company": "Monaco",
+      "slug": "monaco",
+      "author": {
+        "name": "Shek Viswanathan",
+        "handle": "linkedin.com/in/abishekv",
+        "url": "https://www.linkedin.com/in/abishekv"
+      },
+      "kind": "founder",
+      "source": "LinkedIn",
+      "ts": "2026-10-21T14:28:58.867000-07:00",
+      "category": "launch",
+      "summary": "Co-founder says Agent Matrix ships Monaco's prebuilt sales agents, lets customers build their own, and adds an @monaco Slack bot to run them.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/",
+      "engagement": {
+        "reactions": 73,
+        "comments": 8
+      }
+    },
     {
       "company": "Monaco",
       "slug": "monaco",
@@ -248,10 +262,10 @@
       "summary": "Co-founder says Monaco's re-engagement agent, part of Agent Matrix, is getting 25–35% response rates reviving leads that went cold.",
       "url": "https://x.com/abishekv/status/2112996547235557782",
       "engagement": {
-        "likes": 2,
+        "likes": 8,
         "reposts": 0,
         "replies": 0,
-        "views": 46
+        "views": 272
       }
     },
     {
@@ -269,7 +283,7 @@
       "summary": "Nooks says TechCrunch named it one of the top 5 sales tools revenue teams are adopting in 2026; cites a 24% per-rep pipeline lift at HubSpot.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518710202259378176/",
       "engagement": {
-        "reactions": 56,
+        "reactions": 69,
         "comments": 5
       }
     },
@@ -288,98 +302,13 @@
       "summary": "Monaco launched Agent Matrix, multiple goal-seeking agents working together on revenue growth; early access is by application.",
       "url": "https://x.com/samdblond/status/2112936538711683315",
       "engagement": {
-        "likes": 1638,
-        "reposts": 69,
-        "replies": 116,
-        "views": 1160986
+        "likes": 2363,
+        "reposts": 84,
+        "replies": 153,
+        "views": 1413183
       },
       "also": {
         "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7518704095030009856/"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "@salesforce",
-        "url": "https://x.com/salesforce"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-20T12:00:42-07:00",
-      "category": "launch",
-      "summary": "Salesforce added a Donor Engagement Agent in Winter '27 that turns voice memos, photos or notes into donor-record updates and next steps.",
-      "url": "https://x.com/salesforce/status/2112620037093683513",
-      "engagement": {
-        "likes": 6,
-        "reposts": 1,
-        "replies": 1,
-        "views": 2785
-      },
-      "also": {
-        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7518385775093190656/"
-      }
-    },
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "author": {
-        "name": "Gong",
-        "handle": "linkedin.com/company/gong-io",
-        "url": "https://www.linkedin.com/company/gong-io/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-10-20T11:56:33.857000-07:00",
-      "category": "recognition",
-      "summary": "Gong is promoting its second straight Leader placement in the Gartner Magic Quadrant for Revenue Action Orchestration.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518384685505282048/",
-      "engagement": {
-        "reactions": 144,
-        "comments": 6
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce Developers",
-        "handle": "@SalesforceDevs",
-        "url": "https://x.com/SalesforceDevs"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-20T09:15:11-07:00",
-      "category": "launch",
-      "summary": "Winter '27 lets admins keep manual record shares through ownership changes and use custom row causes on standard objects.",
-      "url": "https://x.com/SalesforceDevs/status/2112578385373225072",
-      "engagement": {
-        "likes": 11,
-        "reposts": 0,
-        "replies": 0,
-        "views": 1500
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "@salesforce",
-        "url": "https://x.com/salesforce"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-20T05:01:37-07:00",
-      "category": "mna",
-      "summary": "Salesforce signed a definitive agreement to acquire Braze, the customer engagement platform, to complement Data 360, Customer 360, Agentforce and SIforce.",
-      "url": "https://x.com/salesforce/status/2112514575060881753",
-      "engagement": {
-        "likes": 274,
-        "reposts": 66,
-        "replies": 11,
-        "views": 150983
       }
     }
   ]

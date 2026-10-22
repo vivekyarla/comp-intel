@@ -1,7 +1,26 @@
 {
-  "as_of": "2026-10-21T14:06:27.023421-07:00",
+  "as_of": "2026-10-22T08:41:10.405304-07:00",
   "days": 14,
   "items": [
+    {
+      "company": "Monaco",
+      "slug": "monaco",
+      "author": {
+        "name": "Shek Viswanathan",
+        "handle": "linkedin.com/in/abishekv",
+        "url": "https://www.linkedin.com/in/abishekv"
+      },
+      "kind": "founder",
+      "source": "LinkedIn",
+      "ts": "2026-10-21T14:28:58.867000-07:00",
+      "category": "launch",
+      "summary": "Co-founder says Agent Matrix ships Monaco's prebuilt sales agents, lets customers build their own, and adds an @monaco Slack bot to run them.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/",
+      "engagement": {
+        "reactions": 73,
+        "comments": 8
+      }
+    },
     {
       "company": "Monaco",
       "slug": "monaco",
@@ -17,10 +36,10 @@
       "summary": "Co-founder says Monaco's re-engagement agent, part of Agent Matrix, is getting 25–35% response rates reviving leads that went cold.",
       "url": "https://x.com/abishekv/status/2112996547235557782",
       "engagement": {
-        "likes": 2,
+        "likes": 8,
         "reposts": 0,
         "replies": 0,
-        "views": 46
+        "views": 272
       }
     },
     {
@@ -38,7 +57,7 @@
       "summary": "Nooks says TechCrunch named it one of the top 5 sales tools revenue teams are adopting in 2026; cites a 24% per-rep pipeline lift at HubSpot.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518710202259378176/",
       "engagement": {
-        "reactions": 56,
+        "reactions": 69,
         "comments": 5
       }
     },
@@ -57,10 +76,10 @@
       "summary": "Monaco launched Agent Matrix, multiple goal-seeking agents working together on revenue growth; early access is by application.",
       "url": "https://x.com/samdblond/status/2112936538711683315",
       "engagement": {
-        "likes": 1638,
-        "reposts": 69,
-        "replies": 116,
-        "views": 1160986
+        "likes": 2363,
+        "reposts": 84,
+        "replies": 153,
+        "views": 1413183
       },
       "also": {
         "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7518704095030009856/"

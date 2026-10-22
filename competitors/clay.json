@@ -2,21 +2,28 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-10-19",
-  "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers \u2014 not classic AI SDR or AI CRM.",
+  "as_of": "2026-10-22",
+  "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-10-21",
+      "title": "Blog: 'In an Agentic GTM Era, Sales Plays Will Ship Like Software' (GTM CI/CD)",
+      "url": "https://www.clay.com/blog/gtm-self-learning-loops",
+      "summary": "Clay describes internal GTM CI/CD: agent proposes change → human approves → Clay CLI deploys; every workflow run logged per step with snapshots before edits. Examples: SDR message generator with A/B prompt branches (drafting ~7 min → 1 min, company figure), 'self-healing workflows' (nightly review found 47 of 159 leads mis-segmented), Terra rep tool. Says Clay CLI/API calls hit 1M/day within two months of release. Plans to bring self-learning loops (next-best message/play/strategy) into the product; no date.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-10-19",
       "title": "X amplify: retweet of third-party '20 AI x GTM hot takes | October 2026' Sculpt recap",
       "url": "https://x.com/clay/status/2112186546598428863",
-      "summary": "Oct 19 14:18 UTC @clay retweeted @brendanjshort's '20 AI x GTM hot takes' from Sculpt (by The Signal); also RT of a territory-planning post (https://x.com/clay/status/2112212099531161757). Jev filter kept 0. Same weekend: third-party coverage restating the Sculpt self-learning agent \u2014 Pivot News Oct 18 (https://pivotnews.ai/five/clay-agent-assembles-outbound-plays-from-one-prompt) based on a single Oct 17 YouTube walkthrough, mentions CLI access for Codex/Claude Code users; Quota Brief Oct 18 re-reported the Sep 9 $115M Series D (not new). No Clay first-party PR Oct 16\u201319; blog still tops at Sculpt Oct 8.",
+      "summary": "Oct 19 14:18 UTC @clay retweeted @brendanjshort's '20 AI x GTM hot takes' from Sculpt (by The Signal); also RT of a territory-planning post (https://x.com/clay/status/2112212099531161757). Jev filter kept 0. Same weekend: third-party coverage restating the Sculpt self-learning agent — Pivot News Oct 18 (https://pivotnews.ai/five/clay-agent-assembles-outbound-plays-from-one-prompt) based on a single Oct 17 YouTube walkthrough, mentions CLI access for Codex/Claude Code users; Quota Brief Oct 18 re-reported the Sep 9 $115M Series D (not new). No Clay first-party PR Oct 16–19; blog still tops at Sculpt Oct 8.",
       "source_type": "social"
     },
     {
       "date": "2026-10-14",
       "title": "Ranked #2 most impactful GTM tool in 2026 State of B2B GTM Report",
       "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report",
-      "summary": "Oct 14 Growth Unhinged / GTM Strategist survey of 300 B2B software GTM leaders (Sep 2026 fielding): Clay #2 most impactful GTM tool (up from #3), behind Claude (#1) and ahead of HubSpot (#3). Clay promoted the ranking on X Oct 15 (https://x.com/clay/status/2110736702394249696). Same window: @clay posted a self-learning revenue system framing video (Oct 14) restating Sculpt language \u2014 not a new launch. No Clay first-party product PR Oct 14\u201315. Additional Clay X amplify Oct 15 22:00 UTC (https://x.com/clay/status/2110853230229848530) \u2014 same ranking restatement.",
+      "summary": "Oct 14 Growth Unhinged / GTM Strategist survey of 300 B2B software GTM leaders (Sep 2026 fielding): Clay #2 most impactful GTM tool (up from #3), behind Claude (#1) and ahead of HubSpot (#3). Clay promoted the ranking on X Oct 15 (https://x.com/clay/status/2110736702394249696). Same window: @clay posted a self-learning revenue system framing video (Oct 14) restating Sculpt language — not a new launch. No Clay first-party product PR Oct 14–15. Additional Clay X amplify Oct 15 22:00 UTC (https://x.com/clay/status/2110853230229848530) — same ranking restatement.",
       "source_type": "press"
     },
     {
@@ -49,16 +56,16 @@
     },
     {
       "date": "2026-10-02",
-      "title": "TechCrunch: Kareem Amin to speak on 'The GTM Engineer' at Disrupt (Oct 13\u201315)",
+      "title": "TechCrunch: Kareem Amin to speak on 'The GTM Engineer' at Disrupt (Oct 13–15)",
       "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-      "summary": "Event announcement: AI Stage session 'The GTM Engineer: How AI Created Tech's Next Big Job Category' at TechCrunch Disrupt, Oct 13\u201315, Moscone West. Clay's own Sculpt conference is Oct 8 in San Francisco (clay.com banner). Category-language signal, not a product ship.",
+      "summary": "Event announcement: AI Stage session 'The GTM Engineer: How AI Created Tech's Next Big Job Category' at TechCrunch Disrupt, Oct 13–15, Moscone West. Clay's own Sculpt conference is Oct 8 in San Francisco (clay.com banner). Category-language signal, not a product ship.",
       "source_type": "press"
     },
     {
       "date": "2026-09-30",
-      "title": "Engineering: monty \u2014 internal Slack analytics agent (how-we-build)",
+      "title": "Engineering: monty — internal Slack analytics agent (how-we-build)",
       "url": "https://www.clay.com/blog/building-everyones-personal-data-scientist",
-      "summary": "Sep 30 engineering blog (also lists Sep 28): Clay built monty, an in-house Slack analytics agent over governed Snowflake/dbt models (Vercel eve + Opus). Internal tooling narrative \u2014 not a customer product launch.",
+      "summary": "Sep 30 engineering blog (also lists Sep 28): Clay built monty, an in-house Slack analytics agent over governed Snowflake/dbt models (Vercel eve + Opus). Internal tooling narrative — not a customer product launch.",
       "source_type": "company_blog"
     },
     {
@@ -72,7 +79,7 @@
       "date": "2026-09-29",
       "title": "24 new and updated marketplace integrations (EMEA/APAC, public sector, signals, Nooks sink)",
       "url": "https://www.clay.com/blog/clay-integrations-september-2026",
-      "summary": "Sep 29 blog by Karishma Rajaratnam: 24 new/updated providers \u2014 EMEA/APAC coverage, GovSpend/Pursuit public sector, Actovia CRE, Magellan PE hierarchy, G2/Sequel intent, action sinks including Nooks dialer, Canva, ClickHouse, Twain, HubSpot list. Available on every plan + free trial.",
+      "summary": "Sep 29 blog by Karishma Rajaratnam: 24 new/updated providers — EMEA/APAC coverage, GovSpend/Pursuit public sector, Actovia CRE, Magellan PE hierarchy, G2/Sequel intent, action sinks including Nooks dialer, Canva, ClickHouse, Twain, HubSpot list. Available on every plan + free trial.",
       "source_type": "company_blog"
     },
     {
@@ -105,7 +112,7 @@
     },
     {
       "date": "2026-08-11",
-      "title": "Workflows open beta \u2014 node-based GTM orchestration on Audiences",
+      "title": "Workflows open beta — node-based GTM orchestration on Audiences",
       "url": "https://www.clay.com/blog/introducing-workflows",
       "summary": "Introduces Workflows as orchestration layer on Audiences: triggers, branching, code nodes, Claygents, record-level observability/cost, unlimited steps/records. Open beta; free indefinitely on Launch/Growth/Enterprise.",
       "source_type": "company_blog"
@@ -135,5 +142,5 @@
     "Agent Plugin",
     "Claygent"
   ],
-  "notes": "Oct 19: no first-party Clay PR Oct 16\u201319; X retweets only (Sculpt hot-takes recap); weekend third-party pieces restate Sculpt agent and the Sep 9 Series D. Oct 7: no net-new Clay product PR Oct 6\u20137 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13\u201315."
+  "notes": "Oct 19: no first-party Clay PR Oct 16–19; X retweets only (Sculpt hot-takes recap); weekend third-party pieces restate Sculpt agent and the Sep 9 Series D. Oct 7: no net-new Clay product PR Oct 6–7 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13–15."
 }

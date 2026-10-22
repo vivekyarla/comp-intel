@@ -1,0 +1,57 @@
+{
+  "name": "Monaco",
+  "slug": "monaco",
+  "website": "https://www.monaco.com/",
+  "as_of": "2026-10-22",
+  "positioning": "AI-native revenue engine / all-in-one sales platform for startups (seed–Series A): replaces legacy CRM + point solutions; agents build TAM, run outbound, capture interactions, manage pipeline; white-glove / forward-deployed sales exec onboarding. Domain: monaco.com (NOT monaco.ai, which is a different site).",
+  "recent": [
+    {
+      "date": "2026-10-21",
+      "title": "Launches Agent Matrix (early access by application)",
+      "url": "https://x.com/samdblond/status/2112936538711683315",
+      "summary": "CEO Sam Blond announced Agent Matrix: goal-seeking agents working together 24/7 to accelerate revenue growth; early access by application (also on LinkedIn: https://www.linkedin.com/posts/sam-blond-791026b_today-monaco-is-launching-agent-matrix-activity-7518702749442813952-Wmzi). Co-founder Shek Viswanathan (LinkedIn https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/) says it includes Monaco's own prebuilt agents plus build-your-own (examples: lead routing, inline call/email coaching in Slack, pre-meeting account research), an @monaco Slack bot to create/run/monitor agents, a custom harness with shared memory, outcome tracking and feedback loops, and sales experts in R&D labeling outcomes. Claims 25–35% response rates from re-engaged cold warm leads (company claim; X https://x.com/abishekv/status/2112996547235557782). No product page or pricing as of Oct 22.",
+      "source_type": "social"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Acquires Bengaluru sales-intelligence startup Overlayy",
+      "url": "https://financewire.com/2026/09/04/bengaluru-based-sales-intelligence-startup-overlayy-becomes-a-part-of-benchmark-backed-monaco/",
+      "summary": "FinanceWire Sep 4 (also CIOL Sep 7): Monaco acquires Overlayy (B2B sales conversation intelligence / SalesQA benchmark). Founders Anmol Chaman and Snehil Saluja join Monaco in senior product/engineering roles; terms undisclosed. Overlayy PR: https://overlayy.com/acquisition-pr. Companion: https://www.ciol.com/news/monaco-acquires-bengaluru-sales-ai-startup-overlayy-12501164",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Homepage: 'first revenue engine for startups' / AI-native platform replacing CRM + point solutions",
+      "url": "https://www.monaco.com/",
+      "summary": "As of 2026-09-27, monaco.com markets all-in-one revenue platform as system of record: TAM, signals, sequences, pipeline, call recording; agents research accounts, draft outreach, update records. Investor quotes on site from Garry Tan, Peter Thiel, Ryan Petersen.",
+      "source_type": "company_website"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Series B: $50M led by Benchmark (total capital >$85M per coverage)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/12/3293132/0/en/monaco-secures-50-million-in-series-b-funding-to-grow-ai-powered-sales-platform-amid-strong-customer-demand.html",
+      "summary": "GlobeNewswire May 12, 2026: Monaco secures $50M Series B led by Benchmark with Founders Fund / Human Capital participation; third-party coverage notes Jack Altman joining board and total funding >$85M. (GlobeNewswire body timed out on re-fetch; date/title/lead confirmed via search + secondary coverage.)",
+      "source_type": "press"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Exits stealth / public beta; >$35M raised led by Founders Fund",
+      "url": "https://finance.yahoo.com/news/monaco-launches-ai-native-sales-160000462.html",
+      "summary": "Launch: public beta of AI-native sales platform for early-stage startups; Series A led by Founders Fund; angels include Collison brothers, Garry Tan, Neil Mehta. Co-founders Sam Blond, Brian Blond, Abishek Viswanathan, Malay Desai. TechCrunch same day: https://techcrunch.com/2026/02/11/former-founders-fund-vc-sam-blond-launches-ai-sales-startup-to-upend-salesforce/",
+      "source_type": "press"
+    }
+  ],
+  "language_pulse": [
+    "AI-native revenue engine",
+    "revenue engine for startups",
+    "replace CRM",
+    "agents work you close",
+    "system of record",
+    "forward deployed sales",
+    "TAM scoring",
+    "Overlayy",
+    "conversation intelligence",
+    "SalesQA"
+  ],
+  "notes": "Domain: monaco.com (NOT monaco.ai). Sep 28 refresh: added Overlayy acquisition Sep 4 (critical missing history) — FinanceWire/CIOL/Overlayy PR. Outside Today window. Series B May 12 and Feb launch remain durable. LinkedIn GA (~Aug 25) login-walled. Sep 29 scan: no primary in-window company signal."
+}
