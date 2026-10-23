@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-22",
+      "title": "Marketing Cloud Winter '27: Account Discovery Agent, Campaign Agent GA, Headless Marketing via Headless 360 MCP Server",
+      "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/",
+      "summary": "Oct 22 blog (Annie Howell): 60+ releases. Account Discovery Agent reads CRM data to summarize accounts/opportunities and flag who on the buying committee is engaging or going dark, shared view for sales and marketing (GA Oct '26). Campaign Agent: Agentic Campaigns GA now; Agentic Content across Email/SMS/RCS/MMS. Headless Marketing: run campaigns, loyalty, personalization and Data 360 pipelines from ChatGPT, Gemini, Claude, Slack etc. via the Headless 360 MCP Server (GA Oct '26). Also Personalized Paths in Flow, Mobile App Flash Sending, Sender Rating alerts (GA Oct '26). Same day, Spanish-language press re-reported the Oct 13 Service Cloud blog (Contact Center Europe GA Oct 16, Casey self-optimization Nov, Core/Advanced/Max editions) — not new. Agent Optimizer / AI Skills GA and per-call agent rate still unconfirmed as of Oct 23.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-10-21",
       "title": "X: customizing NVIDIA Nemotron 3.5 Super VL for Missionforce Operations agents",

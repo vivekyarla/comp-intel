@@ -1,315 +1,173 @@
 {
-  "as_of": "2026-10-22 morning ~9:00 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Oct 21 – Thu Oct 22 PT",
+  "as_of": "2026-10-23 morning ~9:25 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Oct 22 – Fri Oct 23 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Sales context is being opened up to outside agents, and model vendors now want to know exactly who those agents serve. Zoom turned its meeting record into a layer any agent can query, while OpenAI and Anthropic both moved to identify the end customers behind apps built on their models.",
+    "lede": "Agent skills are becoming shared infrastructure, while the systems agents act on are tightening who gets in. Anthropic handed the Agent Skills standard to a neutral foundation, and US banks began restricting third-party agents they cannot verify inside customer accounts.",
     "bullets": [
       {
-        "text": "Meeting data becomes agent infrastructure: on Oct 21 Zoom introduced a Unified Context Layer that links meetings, phone, chat and documents, plus MCP servers and Search & Ask APIs (available now) so Claude, Codex, Copilot, Gemini, Slackbot and other MCP agents can query it. My Notes Workflows will turn meeting summaries into follow-up work in Salesforce and Zoom Chat, with ready-made sales workflows (expected October).",
+        "text": "Skills move to neutral governance: on Oct 22 Anthropic donated Agent Skills (the SKILL.md folder format) to the Linux Foundation's Agentic AI Foundation, home of MCP. It says 70+ agent platforms including ChatGPT, Cursor, GitHub Copilot and VS Code support it, with 1 million skills published and nearly 280 million installed. First roadmap: versioned releases, a formal proposal process and security guidance for people who write and install skills.",
         "cites": [
-          {
-            "label": "Zoom / Business Wire",
-            "url": "https://www.businesswire.com/news/home/20261021498160/en/Zoom-Advances-Its-AI-Strategy-With-a-New-Unified-Context-Layer-That-Helps-Turn-Meeting-Conversations-Into-Completed-Work"
-          }
+          {"label": "Anthropic", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"},
+          {"label": "Linux Foundation", "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"}
         ]
       },
       {
-        "text": "Apps built on frontier models now carry end-customer identity duties: OpenAI's updated Usage Policies (effective Nov 20) require routers and gateways that offer direct model access to get OpenAI's approval, and it is introducing SafetyIDs to tell end users apart in investigations. Anthropic launched user profiles (Oct 20) and, on Oct 21, enforcement status fields showing whether one of your end customers has been restricted or banned.",
+        "text": "Systems of record push back on unverified agents: Axios reported Oct 22 that major US banks are detecting unauthorized third-party AI agents inside customer accounts, some acting beyond user instructions, and are restricting access because they struggle to tell agents from people or confirm the customer authorized them.",
         "cites": [
-          {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/broad-access-through-consistent-standards/"
-          },
-          {
-            "label": "Claude Platform release notes",
-            "url": "https://docs.claude.com/en/release-notes/api"
-          }
+          {"label": "Axios", "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"},
+          {"label": "Reuters via US News", "url": "https://money.usnews.com/investing/news/articles/2026-10-22/us-banks-detect-unauthorized-ai-agents-in-customer-accounts-axios-reports"}
+        ]
+      },
+      {
+        "text": "Approval prompts give way to automated checks: Claude said Oct 22 that starting next week its web, desktop and mobile apps will run in auto mode by default on Pro, Max and Team, with an automated check blocking risky actions instead of asking at each step.",
+        "cites": [
+          {"label": "Claude on X", "url": "https://x.com/claudeai/status/2113360845409583307"}
         ]
       }
     ]
   },
   "biggest_ai_news": [
     {
-      "title": "Anthropic previews Claude Duet, a proactive agent app",
-      "body": "Oct 21: a standalone iOS, Android and web app on Claude Opus 5.5 that sends a morning brief, watches connected apps, works tasks on its own cloud computer while you're away, and asks before sending, paying, signing or deleting. Waitlist only, for US Pro and Max subscribers; not yet on Team or Enterprise.",
+      "title": "Full Claude Platform goes GA on Google Cloud, run by Anthropic",
+      "body": "Oct 22: an Anthropic-managed option on Google Cloud with Google IAM, billing and commitment drawdown, and new Claude features on the day they ship (Managed Agents beta, skills, code execution, MCP connector). Anthropic is the data processor; the Google-managed option remains for residency and native Google tooling.",
       "new": true,
       "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/claude-duet"
-        },
-        {
-          "label": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
-        }
+        {"label": "Claude", "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"},
+        {"label": "Google Cloud blog", "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"}
       ]
     },
     {
-      "title": "OpenAI will require approval for model routers and gateways",
-      "body": "Oct 21: updated Usage Policies, effective Nov 20, require services that give direct access to OpenAI models, such as routers or AI gateways, to get review and approval first. Partners that host or resell the models must keep matching safeguards.",
+      "title": "OpenAI makes the Decisions API generally available",
+      "body": "Oct 22: a dedicated endpoint on GPT-6 Luna for bounded classification, routing and scoring calls inside apps and agents. Up to 400 questions per request, $0.10 per million input tokens and no output-token charge; OpenAI claims up to 10x faster than the same model via the Responses API (company figure).",
       "new": true,
       "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards/"
-        }
+        {"label": "OpenAI", "url": "https://openai.com/index/decisions-api"},
+        {"label": "OpenAI docs", "url": "https://developers.openai.com/api/docs/guides/decisions"}
       ]
     },
     {
-      "title": "Claude API version 2026-10-21 and new major SDKs",
-      "body": "Oct 21: new API version plus major SDK and ant CLI releases that send it by default. The SDK releases carry their own breaking changes and move from the MIT License to Apache 2.0.",
+      "title": "OpenAI reportedly nears up to $30B at a $1.25T valuation",
+      "body": "Oct 22 (reported, not confirmed by OpenAI): CNBC says UAE investors and Coatue lead a round of up to $30B at a $1.25T pre-money valuation, framed as a bridge ahead of a possible IPO; terms could change.",
       "new": true,
       "cites": [
-        {
-          "label": "Claude Platform release notes",
-          "url": "https://docs.claude.com/en/release-notes/api"
-        }
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"},
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"}
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Monaco launches Agent Matrix",
-      "body": "NEW (watchlist launch). Oct 21: CEO Sam Blond announced Agent Matrix, many goal-seeking agents working together around the clock with one aim, accelerating revenue growth. Early access is by application. Co-founder Shek Viswanathan says it ships Monaco's own prebuilt agents plus the ability to build your own, such as lead routing, inline call and email coaching in Slack, and pre-meeting account research, and an @monaco Slack bot to create, run and monitor agents. He says its re-engagement agent gets 25–35% response rates from warm leads that went cold (company claim). No product page or pricing was published.",
+      "title": "Salesforce ships Marketing Cloud agents and a headless MCP path",
+      "body": "NEW (watchlist release). Oct 22: Marketing Cloud Winter '27 lists Account Discovery Agent, which reads CRM data to show who on an account's buying committee is engaging or going dark, for sales and marketing (GA October '26); Campaign Agent for goal-driven campaigns (GA now); and Headless Marketing, which lets ChatGPT, Gemini, Claude, Slack and other agents run campaigns and Data 360 pipelines through the Headless 360 MCP Server (GA October '26).",
+      "new": true,
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.png",
+      "cites": [
+        {"label": "Salesforce blog", "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/"}
+      ]
+    },
+    {
+      "title": "Monaco publishes Agent Matrix docs naming its agents",
+      "body": "UPDATE (follow-up to Oct 21 launch). Monaco's help-center article (last updated Oct 22) lists seven ready-made agents: Lookalikes, Re-engagement, Inbound Qualification, Meeting Prep, Tasks, Pipeline Review and Product Feedback. Re-engagement (Monday drafts for quiet conversations) and Meeting Prep are already on for every account. Custom agents are described in chat and run on a schedule or trigger, with an approve-first option. Lookalikes and Inbound Qualification are set up with a Monaco FDAE. No pricing.",
       "new": true,
       "company": "Monaco",
       "logo": "assets/logos/monaco.png",
       "cites": [
-        {
-          "label": "Sam Blond on X",
-          "url": "https://x.com/samdblond/status/2112936538711683315"
-        },
-        {
-          "label": "Sam Blond on LinkedIn",
-          "url": "https://www.linkedin.com/posts/sam-blond-791026b_today-monaco-is-launching-agent-matrix-activity-7518702749442813952-Wmzi"
-        },
-        {
-          "label": "Shek Viswanathan on LinkedIn",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/"
-        },
-        {
-          "label": "Shek Viswanathan on X",
-          "url": "https://x.com/abishekv/status/2112996547235557782"
-        }
+        {"label": "Monaco Knowledge Base", "url": "https://help.monaco.com/articles/8069446249-agent-matrix"}
       ]
     },
     {
-      "title": "Clay describes GTM CI/CD for agent-run sales plays",
-      "body": "NEW (watchlist, soft). Oct 21: Clay says its GTM engineers now run plays like software. An agent proposes a change, a person approves it, and the Clay CLI deploys it, with every workflow run logged and a snapshot before each edit. Clay says SDR drafting fell from about seven minutes to one, and CLI/API calls reached a million a day within two months of release (company figures). It plans to bring these self-learning loops into the product, with no date given.",
+      "title": "Clay teams with SpaceXAI to run Grok Bot inside Clay",
+      "body": "NEW (watchlist, soft). Oct 23: Clay says it is collaborating with SpaceXAI so Grok Bot can build Clay workflows from natural language, research companies, enrich contacts and draft emails for rep review; a build session is set for Oct 29. Announcement only; no integration docs yet.",
       "new": true,
       "company": "Clay",
       "logo": "assets/logos/clay.png",
       "cites": [
-        {
-          "label": "Clay blog",
-          "url": "https://www.clay.com/blog/gtm-self-learning-loops"
-        }
+        {"label": "Clay on X", "url": "https://x.com/clay/status/2113651089253769245"}
       ]
     },
     {
-      "title": "Zoom opens its meeting context to outside agents",
-      "body": "NEW (category). Oct 21 (Zoomtopia): Unified Context Layer, MCP servers across the portfolio, Search & Ask APIs, and ZoomMate Agent Teams are available now. My Notes Workflows into Salesforce are expected in October, and AI Guardrails in Q1 2027.",
+      "title": "Agent Skills standard moves to the Agentic AI Foundation",
+      "body": "NEW (category). Oct 22: Anthropic donated Agent Skills to AAIF; the foundation added OpenAI's Open Responses, Hugging Face's OpenEnv and Alibaba's OpenSandbox the same day.",
       "new": true,
       "cites": [
-        {
-          "label": "Zoom / Business Wire",
-          "url": "https://www.businesswire.com/news/home/20261021498160/en/Zoom-Advances-Its-AI-Strategy-With-a-New-Unified-Context-Layer-That-Helps-Turn-Meeting-Conversations-Into-Completed-Work"
-        }
+        {"label": "Anthropic", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"},
+        {"label": "Linux Foundation", "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"}
+      ]
+    },
+    {
+      "title": "Dapta raises $6M for AI sales agents priced per qualified meeting",
+      "body": "NEW (category). Oct 22: Colombian startup Dapta raised a $6M seed led by Chingona Ventures for Spanish-language sales agents that handle lead response, qualification and scheduling. Its Dapti agent charges per qualified meeting; it reports $4M ARR (company figure).",
+      "new": true,
+      "cites": [
+        {"label": "HeyStartup", "url": "https://www.heystartup.com/en/colombian-startup-raises-us6-million-to-scale-ai-sales-agents-for-spanishspeaking-market"}
       ]
     }
   ],
-  "quiet_note": "No first-party news Oct 21–22 from Gong (Gartner MQ Oct 16 still top of press), Outreach (Oct 21 GeekWire mention only), Salesloft or Nooks. Salesforce: no new word on the per-call agent rate, and Agent Optimizer / AI Skills October GA is still not confirmed with 9 days left. Aged off Today: ServiceNow Arc, NVIDIA OpenShell, Different seed, OpenAI on Google Cloud, Anthropic S-1 timing (covered Oct 21).",
+  "quiet_note": "No first-party news Oct 22–23 from Gong (Gartner MQ Oct 16 still top of press), Outreach (October release notes Oct 8), Salesloft (last newsroom item Oct 6) or Nooks. Not new: Salesforce Service Cloud Europe/Casey coverage on Oct 22 restates the Oct 13 blog; Slack Frontline is Oct 19. Salesforce Agent Optimizer / AI Skills GA and the per-call agent rate are still unconfirmed. Aged off Today: Monaco Agent Matrix launch, Clay GTM CI/CD, Zoom Unified Context Layer, OpenAI router policy, Anthropic user profiles, Claude Duet (covered Oct 22).",
   "market_direction": [
-    {
-      "kind": "up",
-      "label": "Accelerating (fleets of coordinated revenue agents)",
-      "text": "Monaco launches Agent Matrix for goal-seeking agents working together (Oct 21)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (conversation data exposed to outside agents over MCP)",
-      "text": "Zoom's Unified Context Layer, MCP servers and Search & Ask APIs (Oct 21)."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (version control and review for agent-edited GTM plays)",
-      "text": "Clay's GTM CI/CD: agent proposes, human approves, CLI deploys (Oct 21)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (model vendors policing resellers and end users)",
-      "text": "OpenAI router/gateway approval from Nov 20; Anthropic user profiles and enforcement status (Oct 20–21)."
-    },
-    {
-      "kind": "flat",
-      "label": "Steady (Salesforce agent pricing and October GAs)",
-      "text": "Per-call agent rate still TBA; Agent Optimizer / AI Skills GA unconfirmed."
-    }
+    {"kind": "up", "label": "Accelerating (skills and MCP as the portable agent layer)", "text": "Agent Skills to AAIF; Salesforce Headless Marketing via Headless 360 MCP Server (Oct 22)."},
+    {"kind": "up", "label": "Accelerating (systems of record gating third-party agents)", "text": "US banks restricting unverified agents in customer accounts (Axios, Oct 22)."},
+    {"kind": "up", "label": "Accelerating (agents on by default in sales platforms)", "text": "Monaco's Re-engagement and Meeting Prep agents already on for every account (docs, Oct 22)."},
+    {"kind": "emerging", "label": "Emerging (outcome pricing for AI sales agents)", "text": "Dapta charges per qualified meeting (Oct 22)."},
+    {"kind": "flat", "label": "Steady (Salesforce October GAs and agent pricing)", "text": "Agent Optimizer / AI Skills GA and per-call rate still unconfirmed with 8 days left."}
   ],
   "language_pulse": [
-    {
-      "term": "Agent Matrix",
-      "gloss": "Monaco's name for many goal-seeking agents working together toward revenue growth (Oct 21)."
-    },
-    {
-      "term": "GTM CI/CD",
-      "gloss": "Clay's practice of reviewing, versioning and deploying changes to sales plays like code (Oct 21)."
-    },
-    {
-      "term": "Self-healing workflows",
-      "gloss": "Clay's term for workflows where an agent reads run logs and proposes fixes for a person to approve (Oct 21)."
-    },
-    {
-      "term": "Unified Context Layer",
-      "gloss": "Zoom's layer linking conversations, documents and data for people and agents (Oct 21)."
-    },
-    {
-      "term": "System of action",
-      "gloss": "Zoom's framing for turning conversations into completed work (Oct 21)."
-    }
+    {"term": "Headless Marketing", "gloss": "Salesforce's term for running Marketing Cloud from any outside agent or interface through the Headless 360 MCP Server (Oct 22)."},
+    {"term": "Buying committee", "gloss": "Salesforce's Account Discovery Agent framing: track engagement across everyone on an account, not single contacts (Oct 22)."},
+    {"term": "FDAE", "gloss": "Monaco's name for the Monaco expert who sets up agents with a customer's team (docs, Oct 22)."},
+    {"term": "Auto mode", "gloss": "Claude's default where an automated check blocks risky agent actions instead of per-step approval (Oct 22)."}
   ],
   "competitive_moves": [
     {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Marketing Cloud Winter '27: Account Discovery Agent for buying-committee signals from CRM, Campaign Agent GA, and Headless Marketing over the Headless 360 MCP Server (Oct 22).",
+      "cites": [{"label": "Salesforce blog", "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/"}]
+    },
+    {
       "company": "Monaco",
       "slug": "monaco",
-      "text": "Launched Agent Matrix, a fleet of goal-seeking revenue agents, prebuilt and build-your-own agents run from an @monaco Slack bot, with early access by application (Oct 21).",
-      "cites": [
-        {
-          "label": "Sam Blond on X",
-          "url": "https://x.com/samdblond/status/2112936538711683315"
-        },
-        {
-          "label": "Shek Viswanathan on LinkedIn",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/"
-        }
-      ]
+      "text": "Published Agent Matrix docs: seven ready-made agents, two on by default, plus chat-built custom agents with an approve-first option (Oct 22).",
+      "cites": [{"label": "Monaco Knowledge Base", "url": "https://help.monaco.com/articles/8069446249-agent-matrix"}]
     },
     {
       "company": "Clay",
       "slug": "clay",
-      "text": "Published how its GTM team runs agent-proposed, human-approved changes to plays through logged runs, snapshots and the Clay CLI, and said these self-learning loops will come to the product (Oct 21).",
-      "cites": [
-        {
-          "label": "Clay blog",
-          "url": "https://www.clay.com/blog/gtm-self-learning-loops"
-        }
-      ]
+      "text": "Announced a collaboration with SpaceXAI to put Grok Bot to work in Clay; build session Oct 29 (Oct 23).",
+      "cites": [{"label": "Clay on X", "url": "https://x.com/clay/status/2113651089253769245"}]
     }
   ],
   "watch": [
     {
-      "title": "What Monaco's Agent Matrix actually ships",
-      "body": "So far the detail comes from founder posts: prebuilt and custom agents, a Slack bot to run them, and early access by application. Watch for a product page or docs listing the agents, how they avoid working the same account at once, and whether Agent Matrix is priced separately from the Monaco platform. Also still open: Salesforce's per-call agent rate and Agent Optimizer / AI Skills GA before October ends.",
-      "company": "Monaco",
-      "logo": "assets/logos/monaco.png",
+      "title": "Whether Salesforce's October GA promises land by Oct 31",
+      "body": "Account Discovery Agent and Headless Marketing are dated GA October '26, alongside the still-unconfirmed Agent Optimizer / AI Skills GA and the per-call agent rate. Watch release notes and pricing pages for which actually ship this month and whether MCP access to Marketing Cloud carries its own metering.",
+      "company": "Salesforce",
+      "logo": "assets/logos/salesforce.png",
       "cites": [
-        {
-          "label": "Sam Blond on X",
-          "url": "https://x.com/samdblond/status/2112936538711683315"
-        },
-        {
-          "label": "Shek Viswanathan on LinkedIn",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/"
-        },
-        {
-          "label": "Salesforce Help: agent billing",
-          "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"
-        },
-        {
-          "label": "Agent Optimizer post",
-          "url": "https://www.salesforce.com/blog/agent-optimizer/"
-        }
+        {"label": "Salesforce blog", "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/"},
+        {"label": "Agent Optimizer post", "url": "https://www.salesforce.com/blog/agent-optimizer/"},
+        {"label": "Salesforce Help: agent billing", "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"}
       ]
     }
   ],
   "interpretation": {
-    "fact": "Monaco announced Agent Matrix (Oct 21). Clay published its GTM CI/CD approach (Oct 21). Zoom introduced its Unified Context Layer, MCP servers and Search & Ask APIs (Oct 21). OpenAI updated Usage Policies effective Nov 20 to require approval for routers and gateways (Oct 21). Anthropic launched user profiles (Oct 20), enforcement status fields and API version 2026-10-21 (Oct 21), and previewed Claude Duet (Oct 21).",
-    "note": "Light interpretation: conversation and CRM data are being exposed through MCP so any agent can act on them, which puts pressure on vendors whose value was owning that data. At the same time, model vendors are pushing accountability down to apps, so a GTM AI app needs per-customer identity and clean audit trails to keep model access."
+    "fact": "Salesforce published Marketing Cloud Winter '27 agents and Headless Marketing (Oct 22). Monaco's Agent Matrix help article lists seven agents (updated Oct 22). Clay announced a SpaceXAI / Grok Bot collaboration (Oct 23). Anthropic donated Agent Skills to AAIF (Oct 22). Axios reported banks restricting third-party agents (Oct 22). Claude Platform on Google Cloud (Anthropic-managed) and OpenAI's Decisions API went GA (Oct 22). CNBC reported OpenAI's ~$30B raise (Oct 22). Dapta raised $6M (Oct 22).",
+    "note": "Light interpretation: with skills and MCP becoming neutral, portable standards, a GTM agent's edge shifts to the data and permissions it can reach. Salesforce is opening Marketing Cloud to outside agents on its own terms, while banks show that systems of record will block agents that cannot prove who authorized them."
   },
   "feed": [
     {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Shek Viswanathan",
-        "handle": "linkedin.com/in/abishekv",
-        "url": "https://www.linkedin.com/in/abishekv"
-      },
-      "kind": "founder",
-      "source": "LinkedIn",
-      "ts": "2026-10-21T14:28:58.867000-07:00",
-      "category": "launch",
-      "summary": "Co-founder says Agent Matrix ships Monaco's prebuilt sales agents, lets customers build their own, and adds an @monaco Slack bot to run them.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/",
-      "engagement": {
-        "reactions": 73,
-        "comments": 8
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Shek Viswanathan",
-        "handle": "@abishekv",
-        "url": "https://x.com/abishekv"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-10-21T12:56:49-07:00",
-      "category": "launch",
-      "summary": "Co-founder says Monaco's re-engagement agent, part of Agent Matrix, is getting 25–35% response rates reviving leads that went cold.",
-      "url": "https://x.com/abishekv/status/2112996547235557782",
-      "engagement": {
-        "likes": 8,
-        "reposts": 0,
-        "replies": 0,
-        "views": 272
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
-      },
+      "company": "Clay",
+      "slug": "clay",
+      "author": {"name": "Clay", "handle": "@clay", "url": "https://x.com/clay"},
       "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-10-21T09:30:03.099000-07:00",
-      "category": "recognition",
-      "summary": "Nooks says TechCrunch named it one of the top 5 sales tools revenue teams are adopting in 2026; cites a 24% per-rep pipeline lift at HubSpot.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518710202259378176/",
-      "engagement": {
-        "reactions": 69,
-        "comments": 5
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Sam Blond",
-        "handle": "@samdblond",
-        "url": "https://x.com/samdblond"
-      },
-      "kind": "founder",
       "source": "X",
-      "ts": "2026-10-21T08:58:21-07:00",
-      "category": "launch",
-      "summary": "Monaco launched Agent Matrix, multiple goal-seeking agents working together on revenue growth; early access is by application.",
-      "url": "https://x.com/samdblond/status/2112936538711683315",
-      "engagement": {
-        "likes": 2363,
-        "reposts": 84,
-        "replies": 153,
-        "views": 1413183
-      },
-      "also": {
-        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7518704095030009856/"
-      }
+      "ts": "2026-10-23T08:17:44-07:00",
+      "category": "partnership",
+      "summary": "Clay says it is collaborating with SpaceXAI to run Grok Bot inside Clay, with a build session on Oct 29.",
+      "url": "https://x.com/clay/status/2113651089253769245",
+      "engagement": {"likes": 12, "reposts": 1, "replies": 1, "views": 319}
     }
   ]
 }

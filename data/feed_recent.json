@@ -1,7 +1,28 @@
 {
-  "as_of": "2026-10-22T08:41:10.405304-07:00",
+  "as_of": "2026-10-23T09:25:00-07:00",
   "days": 14,
   "items": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "author": {
+        "name": "Clay",
+        "handle": "@clay",
+        "url": "https://x.com/clay"
+      },
+      "kind": "company",
+      "source": "X",
+      "ts": "2026-10-23T08:17:44-07:00",
+      "category": "partnership",
+      "summary": "Clay says it is collaborating with SpaceXAI to run Grok Bot inside Clay, with a build session on Oct 29.",
+      "url": "https://x.com/clay/status/2113651089253769245",
+      "engagement": {
+        "likes": 12,
+        "reposts": 1,
+        "replies": 1,
+        "views": 319
+      }
+    },
     {
       "company": "Monaco",
       "slug": "monaco",

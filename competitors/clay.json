@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-10-23",
+      "title": "X: collaborating with SpaceXAI to put Grok Bot to work in Clay (build session Oct 29)",
+      "url": "https://x.com/clay/status/2113651089253769245",
+      "summary": "@clay says it is collaborating with SpaceXAI: Grok Bot builds Clay workflows from natural language, researches companies, enriches contacts, drafts emails for rep review, and can fill web forms, log into apps and pull Clay data from a phone. Live session Oct 29, 2:30–3:30pm ET with Alex Lindahl (Clay) and Matt Silberman (SpaceXSI). Announcement only; no integration docs. Also Oct 22: blog announcing 2026 Data Partner Awards (recognition, not product).",
+      "source_type": "social"
+    },
     {
       "date": "2026-10-21",
       "title": "Blog: 'In an Agentic GTM Era, Sales Plays Will Ship Like Software' (GTM CI/CD)",
