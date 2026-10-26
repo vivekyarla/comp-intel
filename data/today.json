@@ -1,173 +1,90 @@
 {
-  "as_of": "2026-10-23 morning ~9:25 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Oct 22 – Fri Oct 23 PT",
+  "as_of": "2026-10-26 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Sun Oct 25 – Mon Oct 26 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Agent skills are becoming shared infrastructure, while the systems agents act on are tightening who gets in. Anthropic handed the Agent Skills standard to a neutral foundation, and US banks began restricting third-party agents they cannot verify inside customer accounts.",
+    "lede": "Systems of record are turning their apps into back ends that agents call from wherever work starts, with permissions and approvals enforced underneath.",
     "bullets": [
       {
-        "text": "Skills move to neutral governance: on Oct 22 Anthropic donated Agent Skills (the SKILL.md folder format) to the Linux Foundation's Agentic AI Foundation, home of MCP. It says 70+ agent platforms including ChatGPT, Cursor, GitHub Copilot and VS Code support it, with 1 million skills published and nearly 280 million installed. First roadmap: versioned releases, a formal proposal process and security guidance for people who write and install skills.",
+        "text": "Oracle's new Fusion Companion selects and coordinates the transactions, workflows, approvals, agents and agentic applications needed for a request, and users can reach it from ChatGPT as well as Oracle's own Agentic Home.",
         "cites": [
-          {"label": "Anthropic", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"},
-          {"label": "Linux Foundation", "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"}
+          {"label": "Oracle", "url": "https://www.oracle.com/news/announcement/ai-world-oracle-introduces-new-ai-powered-ways-to-execute-work-across-oracle-fusion-applications-2026-10-26/"}
         ]
       },
       {
-        "text": "Systems of record push back on unverified agents: Axios reported Oct 22 that major US banks are detecting unauthorized third-party AI agents inside customer accounts, some acting beyond user instructions, and are restricting access because they struggle to tell agents from people or confirm the customer authorized them.",
+        "text": "Oracle also shipped 25 Fusion Claw-powered agentic applications across ERP, HCM, supply chain and CX, including CPQ configuration migration and service health checks, framed as a \"system of outcomes\" where people set objectives and authority.",
         "cites": [
-          {"label": "Axios", "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"},
-          {"label": "Reuters via US News", "url": "https://money.usnews.com/investing/news/articles/2026-10-22/us-banks-detect-unauthorized-ai-agents-in-customer-accounts-axios-reports"}
-        ]
-      },
-      {
-        "text": "Approval prompts give way to automated checks: Claude said Oct 22 that starting next week its web, desktop and mobile apps will run in auto mode by default on Pro, Max and Team, with an automated check blocking risky actions instead of asking at each step.",
-        "cites": [
-          {"label": "Claude on X", "url": "https://x.com/claudeai/status/2113360845409583307"}
+          {"label": "Oracle", "url": "https://www.oracle.com/news/announcement/ai-world-oracle-advances-outcome-driven-ai-across-fusion-applications-2026-10-26/"}
         ]
       }
     ]
   },
   "biggest_ai_news": [
     {
-      "title": "Full Claude Platform goes GA on Google Cloud, run by Anthropic",
-      "body": "Oct 22: an Anthropic-managed option on Google Cloud with Google IAM, billing and commitment drawdown, and new Claude features on the day they ship (Managed Agents beta, skills, code execution, MCP connector). Anthropic is the data processor; the Google-managed option remains for residency and native Google tooling.",
+      "title": "Anthropic files S-1 for Nasdaq IPO",
+      "body": "Anthropic publicly filed its S-1 on Oct 26 to list Class A shares on Nasdaq as ANT; share count and price range are not yet set. CNBC reports an $80.7B first-half loss and $6.2B of debt, with data-center moratoriums flagged as a key risk.",
       "new": true,
       "cites": [
-        {"label": "Claude", "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"},
-        {"label": "Google Cloud blog", "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"}
-      ]
-    },
-    {
-      "title": "OpenAI makes the Decisions API generally available",
-      "body": "Oct 22: a dedicated endpoint on GPT-6 Luna for bounded classification, routing and scoring calls inside apps and agents. Up to 400 questions per request, $0.10 per million input tokens and no output-token charge; OpenAI claims up to 10x faster than the same model via the Responses API (company figure).",
-      "new": true,
-      "cites": [
-        {"label": "OpenAI", "url": "https://openai.com/index/decisions-api"},
-        {"label": "OpenAI docs", "url": "https://developers.openai.com/api/docs/guides/decisions"}
-      ]
-    },
-    {
-      "title": "OpenAI reportedly nears up to $30B at a $1.25T valuation",
-      "body": "Oct 22 (reported, not confirmed by OpenAI): CNBC says UAE investors and Coatue lead a round of up to $30B at a $1.25T pre-money valuation, framed as a bridge ahead of a possible IPO; terms could change.",
-      "new": true,
-      "cites": [
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"},
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"}
+        {"label": "Anthropic", "url": "https://www.anthropic.com/news/s1-sec"},
+        {"label": "SEC filing", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm"},
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"}
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce ships Marketing Cloud agents and a headless MCP path",
-      "body": "NEW (watchlist release). Oct 22: Marketing Cloud Winter '27 lists Account Discovery Agent, which reads CRM data to show who on an account's buying committee is engaging or going dark, for sales and marketing (GA October '26); Campaign Agent for goal-driven campaigns (GA now); and Headless Marketing, which lets ChatGPT, Gemini, Claude, Slack and other agents run campaigns and Data 360 pipelines through the Headless 360 MCP Server (GA October '26).",
+      "title": "Anthropic files its S-1",
+      "body": "NEW. Oct 26, 2026: Anthropic, PBC filed a Form S-1 for a proposed IPO of Class A common stock on the Nasdaq Global Select Market under the symbol ANT. Share count and price range are not yet set. Goldman Sachs and Morgan Stanley are named for prospectus requests.",
       "new": true,
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.png",
       "cites": [
-        {"label": "Salesforce blog", "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/"}
+        {"label": "Anthropic", "url": "https://www.anthropic.com/news/s1-sec"},
+        {"label": "SEC filing", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm"}
       ]
     },
     {
-      "title": "Monaco publishes Agent Matrix docs naming its agents",
-      "body": "UPDATE (follow-up to Oct 21 launch). Monaco's help-center article (last updated Oct 22) lists seven ready-made agents: Lookalikes, Re-engagement, Inbound Qualification, Meeting Prep, Tasks, Pipeline Review and Product Feedback. Re-engagement (Monday drafts for quiet conversations) and Meeting Prep are already on for every account. Custom agents are described in chat and run on a schedule or trigger, with an approve-first option. Lookalikes and Inbound Qualification are set up with a Monaco FDAE. No pricing.",
+      "title": "Oracle announces Fusion Companion and Fusion Agentic Home",
+      "body": "NEW (adjacent). Oct 26, Oracle AI World, Las Vegas: Companion is reachable through supported AI tools such as ChatGPT, and through Oracle Fusion Agentic Home. It coordinates actions across Fusion and other enterprise systems within existing identity, permissions and approval controls.",
       "new": true,
-      "company": "Monaco",
-      "logo": "assets/logos/monaco.png",
       "cites": [
-        {"label": "Monaco Knowledge Base", "url": "https://help.monaco.com/articles/8069446249-agent-matrix"}
+        {"label": "Oracle", "url": "https://www.oracle.com/news/announcement/ai-world-oracle-introduces-new-ai-powered-ways-to-execute-work-across-oracle-fusion-applications-2026-10-26/"}
       ]
     },
     {
-      "title": "Clay teams with SpaceXAI to run Grok Bot inside Clay",
-      "body": "NEW (watchlist, soft). Oct 23: Clay says it is collaborating with SpaceXAI so Grok Bot can build Clay workflows from natural language, research companies, enrich contacts and draft emails for rep review; a build session is set for Oct 29. Announcement only; no integration docs yet.",
-      "new": true,
-      "company": "Clay",
-      "logo": "assets/logos/clay.png",
-      "cites": [
-        {"label": "Clay on X", "url": "https://x.com/clay/status/2113651089253769245"}
-      ]
-    },
-    {
-      "title": "Agent Skills standard moves to the Agentic AI Foundation",
-      "body": "NEW (category). Oct 22: Anthropic donated Agent Skills to AAIF; the foundation added OpenAI's Open Responses, Hugging Face's OpenEnv and Alibaba's OpenSandbox the same day.",
+      "title": "Oracle makes 25 Claw-powered Agentic Applications available",
+      "body": "NEW (adjacent). Oct 26: 25 applications across Fusion ERP, HCM, SCM and CX. Named examples include Ledger, Procurement Spend, CPQ Test-to-Production Setup & Configuration Migration, Service Health Check and Strategic Field Demand Planning.",
       "new": true,
       "cites": [
-        {"label": "Anthropic", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"},
-        {"label": "Linux Foundation", "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"}
-      ]
-    },
-    {
-      "title": "Dapta raises $6M for AI sales agents priced per qualified meeting",
-      "body": "NEW (category). Oct 22: Colombian startup Dapta raised a $6M seed led by Chingona Ventures for Spanish-language sales agents that handle lead response, qualification and scheduling. Its Dapti agent charges per qualified meeting; it reports $4M ARR (company figure).",
-      "new": true,
-      "cites": [
-        {"label": "HeyStartup", "url": "https://www.heystartup.com/en/colombian-startup-raises-us6-million-to-scale-ai-sales-agents-for-spanishspeaking-market"}
+        {"label": "Oracle", "url": "https://www.oracle.com/news/announcement/ai-world-oracle-advances-outcome-driven-ai-across-fusion-applications-2026-10-26/"}
       ]
     }
   ],
-  "quiet_note": "No first-party news Oct 22–23 from Gong (Gartner MQ Oct 16 still top of press), Outreach (October release notes Oct 8), Salesloft (last newsroom item Oct 6) or Nooks. Not new: Salesforce Service Cloud Europe/Casey coverage on Oct 22 restates the Oct 13 blog; Slack Frontline is Oct 19. Salesforce Agent Optimizer / AI Skills GA and the per-call agent rate are still unconfirmed. Aged off Today: Monaco Agent Matrix launch, Clay GTM CI/CD, Zoom Unified Context Layer, OpenAI router policy, Anthropic user profiles, Claude Duet (covered Oct 22).",
+  "quiet_note": "Aged off Today (outside the Oct 25–26 window; covered Oct 22–23): Salesforce Marketing Cloud Winter '27 and Headless Marketing, Monaco Agent Matrix docs, Clay × SpaceXAI, Agent Skills donation to AAIF, Axios on bank limits for unverified agents, Claude auto mode, Claude Platform on Google Cloud, OpenAI Decisions API, the reported OpenAI raise, and Dapta's seed.",
   "market_direction": [
-    {"kind": "up", "label": "Accelerating (skills and MCP as the portable agent layer)", "text": "Agent Skills to AAIF; Salesforce Headless Marketing via Headless 360 MCP Server (Oct 22)."},
-    {"kind": "up", "label": "Accelerating (systems of record gating third-party agents)", "text": "US banks restricting unverified agents in customer accounts (Axios, Oct 22)."},
-    {"kind": "up", "label": "Accelerating (agents on by default in sales platforms)", "text": "Monaco's Re-engagement and Meeting Prep agents already on for every account (docs, Oct 22)."},
-    {"kind": "emerging", "label": "Emerging (outcome pricing for AI sales agents)", "text": "Dapta charges per qualified meeting (Oct 22)."},
-    {"kind": "flat", "label": "Steady (Salesforce October GAs and agent pricing)", "text": "Agent Optimizer / AI Skills GA and per-call rate still unconfirmed with 8 days left."}
+    {"kind": "up", "label": "Accelerating (agents reaching enterprise apps from third-party AI clients)", "text": "Oracle Fusion Companion via ChatGPT, coordinating work inside existing identity, permissions and approval controls (Oct 26)."},
+    {"kind": "emerging", "label": "Emerging (Oracle agentic sales and CX workflows)", "text": "Claw-powered apps in Fusion CX, including CPQ configuration migration and Service Health Check (Oct 26)."},
+    {"kind": "up", "label": "Accelerating (frontier-lab capital markets)", "text": "Anthropic S-1 for Nasdaq ticker ANT (Oct 26)."},
+    {"kind": "flat", "label": "Steady (core watchlist activity)", "text": "Quiet weekend. No launches, pricing, funding or M&A from the watchlist in the Oct 25–26 window."}
   ],
   "language_pulse": [
-    {"term": "Headless Marketing", "gloss": "Salesforce's term for running Marketing Cloud from any outside agent or interface through the Headless 360 MCP Server (Oct 22)."},
-    {"term": "Buying committee", "gloss": "Salesforce's Account Discovery Agent framing: track engagement across everyone on an account, not single contacts (Oct 22)."},
-    {"term": "FDAE", "gloss": "Monaco's name for the Monaco expert who sets up agents with a customer's team (docs, Oct 22)."},
-    {"term": "Auto mode", "gloss": "Claude's default where an automated check blocks risky agent actions instead of per-step approval (Oct 22)."}
+    {"term": "system of outcomes", "gloss": "Oracle's framing for Fusion Agentic Applications: people define the objectives, authority and accountability, and the applications coordinate the work to an outcome (Oct 26)."},
+    {"term": "governed autonomy", "gloss": "Oracle's term for what Fusion Claw adds to that runtime: longer-running specialist work with more autonomy inside the controls the organization already set (Oct 26)."},
+    {"term": "intelligent layer", "gloss": "Oracle's name for Fusion Companion, the layer that executes work from AI clients such as ChatGPT while Fusion keeps permissions and approvals (Oct 26)."}
   ],
-  "competitive_moves": [
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Marketing Cloud Winter '27: Account Discovery Agent for buying-committee signals from CRM, Campaign Agent GA, and Headless Marketing over the Headless 360 MCP Server (Oct 22).",
-      "cites": [{"label": "Salesforce blog", "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/"}]
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "text": "Published Agent Matrix docs: seven ready-made agents, two on by default, plus chat-built custom agents with an approve-first option (Oct 22).",
-      "cites": [{"label": "Monaco Knowledge Base", "url": "https://help.monaco.com/articles/8069446249-agent-matrix"}]
-    },
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "text": "Announced a collaboration with SpaceXAI to put Grok Bot to work in Clay; build session Oct 29 (Oct 23).",
-      "cites": [{"label": "Clay on X", "url": "https://x.com/clay/status/2113651089253769245"}]
-    }
-  ],
+  "competitive_moves": [],
   "watch": [
     {
-      "title": "Whether Salesforce's October GA promises land by Oct 31",
-      "body": "Account Discovery Agent and Headless Marketing are dated GA October '26, alongside the still-unconfirmed Agent Optimizer / AI Skills GA and the per-call agent rate. Watch release notes and pricing pages for which actually ship this month and whether MCP access to Marketing Cloud carries its own metering.",
-      "company": "Salesforce",
-      "logo": "assets/logos/salesforce.png",
+      "title": "Oracle AI World through Oct 28, and Anthropic's listing terms",
+      "body": "Oracle AI World runs through Oct 28; watch for sales and CX agent pricing or Salesforce-competitive positioning, and for Anthropic's price range and listing date.",
       "cites": [
-        {"label": "Salesforce blog", "url": "https://www.salesforce.com/blog/marketing-cloud-winter-27-release-what-you-need-to-know/"},
-        {"label": "Agent Optimizer post", "url": "https://www.salesforce.com/blog/agent-optimizer/"},
-        {"label": "Salesforce Help: agent billing", "url": "https://help.salesforce.com/s/articleView?id=005360285&language=en_US&type=1"}
+        {"label": "Oracle", "url": "https://www.oracle.com/news/announcement/ai-world-oracle-introduces-new-ai-powered-ways-to-execute-work-across-oracle-fusion-applications-2026-10-26/"},
+        {"label": "Oracle AI World", "url": "https://www.oracle.com/ai-world/"},
+        {"label": "Anthropic", "url": "https://www.anthropic.com/news/s1-sec"}
       ]
     }
   ],
   "interpretation": {
-    "fact": "Salesforce published Marketing Cloud Winter '27 agents and Headless Marketing (Oct 22). Monaco's Agent Matrix help article lists seven agents (updated Oct 22). Clay announced a SpaceXAI / Grok Bot collaboration (Oct 23). Anthropic donated Agent Skills to AAIF (Oct 22). Axios reported banks restricting third-party agents (Oct 22). Claude Platform on Google Cloud (Anthropic-managed) and OpenAI's Decisions API went GA (Oct 22). CNBC reported OpenAI's ~$30B raise (Oct 22). Dapta raised $6M (Oct 22).",
-    "note": "Light interpretation: with skills and MCP becoming neutral, portable standards, a GTM agent's edge shifts to the data and permissions it can reach. Salesforce is opening Marketing Cloud to outside agents on its own terms, while banks show that systems of record will block agents that cannot prove who authorized them."
+    "fact": "Anthropic filed its S-1 on Oct 26, 2026, for Class A shares on Nasdaq as ANT; Goldman Sachs and Morgan Stanley are named for prospectus requests; share count and price range are not set. Oracle announced Fusion Companion and Fusion Agentic Home at Oracle AI World in Las Vegas on Oct 26; Companion is reachable through tools such as ChatGPT and coordinates actions across Fusion and other enterprise systems within existing identity, permissions and approval controls. Oracle made 25 Claw-powered Agentic Applications available across Fusion ERP, HCM, SCM and CX, including Ledger, Procurement Spend, CPQ Test-to-Production Setup & Configuration Migration, Service Health Check and Strategic Field Demand Planning. CNBC reports an $80.7B first-half loss, $6.2B of debt, and data-center moratoriums as a key risk.",
+    "note": "Light interpretation: watchlist vendors (Salesforce, Gong, Clay, Nooks, Outreach, Salesloft, Monaco) had no launches, pricing, funding or M&A in the Oct 25–26 window; the day's movement came from adjacent platforms."
   },
-  "feed": [
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "author": {"name": "Clay", "handle": "@clay", "url": "https://x.com/clay"},
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-23T08:17:44-07:00",
-      "category": "partnership",
-      "summary": "Clay says it is collaborating with SpaceXAI to run Grok Bot inside Clay, with a build session on Oct 29.",
-      "url": "https://x.com/clay/status/2113651089253769245",
-      "engagement": {"likes": 12, "reposts": 1, "replies": 1, "views": 319}
-    }
-  ]
+  "feed": []
 }
