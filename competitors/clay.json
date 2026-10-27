@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-10-23",
+  "as_of": "2026-10-27",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-10-27",
+      "title": "Claygent auto-mode becomes the default model setting (router post-trained with Applied Compute)",
+      "url": "https://www.clay.com/blog/automode-for-claygent",
+      "summary": "Oct 27 blog: auto-mode routes each Claygent task to a model by predicted quality vs cost, with a per-category quality floor; router AC-001 is a post-trained open-weight model served on Applied Compute's AC2, deciding in under a second at hundreds of millions of queries a month. Clay reports 47% lower cost on production traffic than always using the most capable model. No extra charge; default for new Claygent columns, workflow nodes and Claygent Builder; existing Claygents keep their model.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-10-23",
       "title": "X: collaborating with SpaceXAI to put Grok Bot to work in Clay (build session Oct 29)",

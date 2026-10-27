@@ -1,7 +1,68 @@
 {
-  "as_of": "2026-10-26T08:50:00-07:00",
+  "as_of": "2026-10-27T08:49:10.932352-07:00",
   "days": 14,
   "items": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Salesforce News & Insights",
+        "handle": "@SalesforceNews",
+        "url": "https://x.com/SalesforceNews"
+      },
+      "kind": "company",
+      "source": "X",
+      "ts": "2026-10-27T06:09:15-07:00",
+      "category": "launch",
+      "summary": "Salesforce posts its Oct 27 Agent Fabric update: Agent Evals, API Evals and cost controls.",
+      "url": "https://x.com/SalesforceNews/status/2115068309510959279",
+      "engagement": {
+        "likes": 2,
+        "reposts": 0,
+        "replies": 0,
+        "views": 204
+      }
+    },
+    {
+      "company": "Monaco",
+      "slug": "monaco",
+      "author": {
+        "name": "Shek Viswanathan",
+        "handle": "@abishekv",
+        "url": "https://x.com/abishekv"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-10-26T19:41:19-07:00",
+      "category": "take",
+      "summary": "Co-founder says Monaco is building a shared model of the buyer journey that tracks buyer commitments rather than seller activity.",
+      "url": "https://x.com/abishekv/status/2114910285706506252",
+      "engagement": {
+        "likes": 7,
+        "reposts": 0,
+        "replies": 1,
+        "views": 280
+      }
+    },
+    {
+      "company": "Nooks",
+      "slug": "nooks",
+      "author": {
+        "name": "Dan Lee",
+        "handle": "linkedin.com/in/dan9lee",
+        "url": "https://www.linkedin.com/in/dan9lee"
+      },
+      "kind": "founder",
+      "source": "LinkedIn",
+      "ts": "2026-10-26T09:30:03.265000-07:00",
+      "category": "milestone",
+      "summary": "Co-founder says Nooks signed its 2,000th customer, doubled customers year over year, and 40% of enterprise customers use Outbound Agent 10 months after launch.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520522142283796480/",
+      "engagement": {
+        "reactions": 519,
+        "comments": 36
+      }
+    },
     {
       "company": "Clay",
       "slug": "clay",

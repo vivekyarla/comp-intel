@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-23",
+  "as_of": "2026-10-27",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-10-27",
+      "title": "Agent Fabric: Agent Kill Switch, FinOps Dashboard, Model Wallet and Cost Optimization Policies GA; Agent Evals / API Evals beta Nov",
+      "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/",
+      "summary": "Oct 27 newsroom: Agent Kill Switch, FinOps Dashboard, Model Wallet (hard spending limits), Cost Optimization Policies (up to 75% fewer tokens in Salesforce test scenarios via semantic caching, payload compression, response trimming) and Open Policies for Federated API Gateways (Azure, Apigee, Kong) GA today. Custom Agent Scanner beta today, GA Jan 2027. Agent Evals and API Evals beta Nov 2026, GA Jan 2027; Triggered-Agent Kill Switch GA Jan 2027. Agent Fabric handles 1.2B+ requests/day. Same day @SalesforceNews posted it on X. Also Oct 26: @salesforce Spring '27 logo poll (noise).",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-10-22",
       "title": "Marketing Cloud Winter '27: Account Discovery Agent, Campaign Agent GA, Headless Marketing via Headless 360 MCP Server",
