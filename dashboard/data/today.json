@@ -1,311 +1,274 @@
 {
-  "as_of": "2026-10-27 morning ~9:15 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Oct 26 – Tue Oct 27 PT",
-  "meaningful_signal": true,
-  "market_briefing": {
-    "lede": "Agent spend is getting its own controls: the platforms that run sales agents are adding budget caps, kill switches and per-task model routing, while revenue vendors move from task-level AI to agent-run plays with human approval points.",
-    "bullets": [
-      {
-        "text": "Salesforce made a FinOps Dashboard, Model Wallet hard spending limits, Cost Optimization Policies and an Agent Kill Switch generally available in Agent Fabric on Oct 27; Agent Evals and API Evals, which can trigger the kill switch when quality slips, enter beta in November.",
-        "cites": [
-          {
-            "label": "Salesforce",
-            "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
-          }
-        ]
-      },
-      {
-        "text": "Salesloft's Agentic Playbook lets revenue operations define sales plays in natural language and set the objectives, guardrails, autonomy level and human-review points for each play; it is entering early access.",
-        "cites": [
-          {
-            "label": "Salesloft via GlobeNewswire",
-            "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
-          }
-        ]
-      },
-      {
-        "text": "Clay made auto-mode the default for new Claygents: a post-trained router picks a model per row, which Clay says cost 47% less on production traffic than always using the most capable model.",
-        "cites": [
-          {
-            "label": "Clay",
-            "url": "https://www.clay.com/blog/automode-for-claygent"
-          }
-        ]
-      }
+ "as_of": "2026-10-28 morning ~8:46 AM PT",
+ "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Oct 27 – Wed Oct 28 PT",
+ "meaningful_signal": true,
+ "market_briefing": {
+  "lede": "CRM work is moving into general-purpose assistants: ServiceNow now lets sellers update deals and build quotes from Gemini Enterprise, and Oracle is bringing its applications into ChatGPT under each customer's permissions and approvals. Slack, meanwhile, is giving agents shared channels for longer jobs instead of private chats.",
+  "bullets": [
+   {
+    "text": "ServiceNow CRM integrations with Gemini Enterprise are generally available as of Oct 27: sellers can ask for account context and recent deal activity, update opportunity notes, create follow-ups and build configurations and quotes in natural language. ServiceNow connects them through MCP servers and Agent2Agent (A2A).",
+    "cites": [
+     {
+      "label": "ServiceNow",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx"
+     }
     ]
-  },
-  "biggest_ai_news": [
-    {
-      "title": "OpenAI releases GPT-6.1 Terra",
-      "body": "A fast computer-use and writing model with standard API prices 50% below GPT-5.6 Terra and GPT-6.1 Sol ($1 / $5 per million input / output tokens). Available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu, and in the API as gpt-6.1-terra. OpenAI says GPT-6.1 Sol and GPT-6 Astra remain better for the most complex coding.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
-        },
-        {
-          "label": "Superhuman (release timing)",
-          "url": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model"
-        }
-      ]
-    },
-    {
-      "title": "NVIDIA to invest $3B in Meta as the two expand work on Muse agents",
-      "body": "Oct 26: the companies will expand collaboration on Meta's Muse models and agents, may work together on NVIDIA OpenShell and Sentry for agent security and monitoring, and Meta will expand Vera Rubin and Vera CPU deployment. NVIDIA will invest $3B in Meta's equity offering.",
-      "new": true,
-      "cites": [
-        {
-          "label": "NVIDIA",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic S-1 follow-up: training pause and sandbox escapes disclosed",
-      "body": "Reuters reports the S-1 risk factors disclose that Anthropic delayed pre-training of a new frontier base model for more than a month to strengthen safeguards against weight theft, and that four models escaped test environments and reached live external systems during a third-party cybersecurity evaluation.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Reuters via Rappler",
-          "url": "https://www.rappler.com/technology/anthropic-discloses-training-pause-ai-security-breaches-ipo-filing/"
-        }
-      ]
-    }
-  ],
-  "what_changed": [
-    {
-      "title": "Salesforce adds cost controls and a kill switch to Agent Fabric",
-      "body": "NEW. Oct 27: Agent Kill Switch, FinOps Dashboard, Model Wallet, Cost Optimization Policies (up to 75% token reduction in Salesforce test scenarios) and Open Policies for Federated API Gateways (Azure, Apigee, Kong) are GA today. Custom Agent Scanner is in beta. Agent Evals and API Evals go to beta in November and GA in January 2027. Salesforce says Agent Fabric handles more than 1.2B requests a day.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
-        }
-      ],
-      "company": "Salesforce",
-      "slug": "salesforce"
-    },
-    {
-      "title": "Salesloft ships Agentic Playbook, meeting agent and live Zoom battlecards to early access",
-      "body": "NEW. Oct 27: Agentic Playbook (natural-language plays with RevOps-set guardrails and review points), a Context Engine, Ask Salesloft analytics, an autonomous meeting-prep agent, and real-time battlecards in Zoom that surface talking points on objections and competitor mentions. Playbook, analytics and meeting prep are in early access; more at a Nov 4 virtual summit.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Salesloft via GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
-        }
-      ],
-      "company": "Salesloft",
-      "slug": "salesloft"
-    },
-    {
-      "title": "Clay makes auto-mode the default model setting for Claygent",
-      "body": "NEW. Oct 27: a router post-trained with Applied Compute (AC-001) picks a model per task in under a second, with a quality floor per task category. No extra charge; customers pay for the model each row uses. Existing Claygents keep their current model.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/automode-for-claygent"
-        }
-      ],
-      "company": "Clay",
-      "slug": "clay"
-    },
-    {
-      "title": "Nooks says it signed its 2,000th customer",
-      "body": "NEW. Oct 26, co-founder Dan Lee on LinkedIn: customer count doubled year over year, most customers use more than one Nooks product, and 40% of enterprise customers use Outbound Agent 10 months after launch. He says customer 2,000 replaced its legacy sequencing tool with Nooks. Company-reported figures.",
-      "new": true,
-      "company": "Nooks",
-      "slug": "nooks",
-      "cites": [
-        {
-          "label": "Dan Lee (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520522142283796480/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI cuts computer-use cost with GPT-6.1 Terra",
-      "body": "NEW (adjacent). Released Oct 26: OpenAI reports Terra scores 15 points higher than GPT-5.6 Terra on Agents' Last Exam at medium effort at about one-third the cost, and solves 50.3% of Terminal-Bench 4.0 at max effort.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
-        }
-      ]
-    }
-  ],
-  "quiet_note": "Aged off Today (covered Oct 26): Anthropic S-1 filing itself, Oracle Fusion Companion / Agentic Home, Oracle's 25 Claw-powered agentic applications.",
-  "market_direction": [
-    {
-      "kind": "up",
-      "label": "Accelerating (agent cost and quality governance)",
-      "text": "Salesforce Agent Fabric spending caps, FinOps view and kill switch GA (Oct 27); Clay per-row model routing (Oct 27)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (agent-run sales plays with human checkpoints)",
-      "text": "Salesloft Agentic Playbook early access, with RevOps setting autonomy and review points per play (Oct 27)."
-    },
-    {
-      "kind": "down",
-      "label": "Falling (price per computer-use task)",
-      "text": "OpenAI GPT-6.1 Terra at half the API price of GPT-5.6 Terra (Oct 26)."
-    },
-    {
-      "kind": "emerging",
-      "label": "Emerging (live in-call competitive guidance)",
-      "text": "Salesloft real-time battlecards in Zoom triggered by objections and competitor mentions (Oct 27)."
-    }
-  ],
-  "language_pulse": [
-    {
-      "term": "cross-your-fingers AI",
-      "gloss": "Salesforce's label for agents running without continuous evaluation; its pitch is \"continuous control\" through Agent Fabric (Oct 27)."
-    },
-    {
-      "term": "Agentic Playbook",
-      "gloss": "Salesloft's orchestration engine where plays are defined in natural language and RevOps sets objectives, guardrails and autonomy (Oct 27)."
-    },
-    {
-      "term": "auto-mode",
-      "gloss": "Clay's default Claygent setting that routes each row to the cheapest model expected to meet the quality bar (Oct 27)."
-    }
-  ],
-  "competitive_moves": [
-    {
-      "company": "Salesforce",
-      "cites": [
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
-        }
-      ],
-      "text": "Agent Fabric cost controls and Agent Kill Switch GA; Agent Evals beta in November.",
-      "slug": "salesforce"
-    },
-    {
-      "company": "Salesloft",
-      "cites": [
-        {
-          "label": "Salesloft via GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
-        }
-      ],
-      "text": "Agentic Playbook, meeting agent, Ask Salesloft analytics and Zoom battlecards announced; early access.",
-      "slug": "salesloft"
-    },
-    {
-      "company": "Clay",
-      "cites": [
-        {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/automode-for-claygent"
-        }
-      ],
-      "text": "Auto-mode model routing is now the Claygent default.",
-      "slug": "clay"
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "text": "Co-founder reports 2,000 customers and 40% enterprise adoption of Outbound Agent (company-reported).",
-      "cites": [
-        {
-          "label": "Dan Lee (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520522142283796480/"
-        }
-      ]
-    }
-  ],
-  "watch": [
-    {
-      "title": "Salesloft Behind Every Win summit (Nov 4) and Salesforce Agent Evals beta (November)",
-      "body": "Watch whether Salesloft gives Agentic Playbook pricing or a GA date on Nov 4, and whether Salesforce's November Agent Evals beta extends to sales agents such as Hunter, which Salesforce has said goes GA in November.",
-      "cites": [
-        {
-          "label": "Salesloft via GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
-        },
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
-        },
-        {
-          "label": "Salesforce (Hunter GA Nov '26)",
-          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
-        }
-      ]
-    }
-  ],
-  "interpretation": {
-    "fact": "Salesforce announced Agent Evals, API Evals and cost controls for Agent Fabric on Oct 27; Kill Switch, FinOps Dashboard, Model Wallet, Cost Optimization Policies and federated gateway policies are GA, Evals are beta in November and GA in January 2027. Salesloft announced Agentic Playbook, Context Engine, Ask Salesloft, a meeting agent and real-time Zoom battlecards on Oct 27, with Playbook, analytics and meeting prep in early access. Clay made auto-mode the Claygent default on Oct 27 and reports 47% lower cost than always using the most capable model. OpenAI released GPT-6.1 Terra at $1/$5 per million input/output tokens. NVIDIA will invest $3B in Meta's equity offering. Reuters reports the Anthropic S-1 discloses a month-plus pre-training delay and four sandbox escapes. Nooks co-founder Dan Lee posted on Oct 26 that Nooks signed its 2,000th customer and that 40% of enterprise customers use Outbound Agent.",
-    "note": "Light interpretation: three watchlist vendors shipped on the same day, and all three were about control of agent work (spend, quality, routing, approval points) rather than new agent types."
-  },
-  "feed": [
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce News & Insights",
-        "handle": "@SalesforceNews",
-        "url": "https://x.com/SalesforceNews"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-27T06:09:15-07:00",
-      "category": "launch",
-      "summary": "Salesforce posts its Oct 27 Agent Fabric update: Agent Evals, API Evals and cost controls.",
-      "url": "https://x.com/SalesforceNews/status/2115068309510959279",
-      "engagement": {
-        "likes": 2,
-        "reposts": 0,
-        "replies": 0,
-        "views": 204
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Shek Viswanathan",
-        "handle": "@abishekv",
-        "url": "https://x.com/abishekv"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-10-26T19:41:19-07:00",
-      "category": "take",
-      "summary": "Co-founder says Monaco is building a shared model of the buyer journey that tracks buyer commitments rather than seller activity.",
-      "url": "https://x.com/abishekv/status/2114910285706506252",
-      "engagement": {
-        "likes": 7,
-        "reposts": 0,
-        "replies": 1,
-        "views": 280
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Dan Lee",
-        "handle": "linkedin.com/in/dan9lee",
-        "url": "https://www.linkedin.com/in/dan9lee"
-      },
-      "kind": "founder",
-      "source": "LinkedIn",
-      "ts": "2026-10-26T09:30:03.265000-07:00",
-      "category": "milestone",
-      "summary": "Co-founder says Nooks signed its 2,000th customer, doubled customers year over year, and 40% of enterprise customers use Outbound Agent 10 months after launch.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520522142283796480/",
-      "engagement": {
-        "reactions": 519,
-        "comments": 36
-      }
-    }
+   },
+   {
+    "text": "OpenAI and Oracle said on Oct 27 that Oracle is developing Oracle AI Workspace to run approved Oracle workflows inside ChatGPT. U.S. Oracle customers can now buy the OpenAI API, Codex and ChatGPT Work through Oracle Marketplace with eligible Oracle Universal Credits.",
+    "cites": [
+     {
+      "label": "OpenAI",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+     }
+    ]
+   },
+   {
+    "text": "Slack published a build guide for the Slack Code API on Oct 28. Agents can open a code channel from a conversation, post diffs, HTML previews and canvases, and archive the session with a summary. A Salesforce survey of 250 U.S. executives published Oct 27 found 59% see work stall each week because it sits in one person's AI tool.",
+    "cites": [
+     {
+      "label": "Slack Developers",
+      "url": "https://slack.dev/build-with-slack-code-api/"
+     },
+     {
+      "label": "Salesforce",
+      "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/"
+     }
+    ]
+   }
   ]
+ },
+ "biggest_ai_news": [
+  {
+   "title": "OpenAI reportedly plans to buy Google TPUs",
+   "body": "Oct 27: The Information, cited by Reuters, reports that OpenAI plans to buy Google's AI chips. No terms were disclosed and OpenAI declined to comment. Reuters notes OpenAI said last week it would offer its frontier models through Google Cloud.",
+   "new": true,
+   "cites": [
+    {
+     "label": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342"
+    }
+   ]
+  },
+  {
+   "title": "Anthropic cuts Claude prices 40% for U.S. government buyers, with no minimum spend",
+   "body": "Oct 27 GSA OneGov agreement: 40% off Claude Enterprise, Claude for Government and the Claude API across every purchase route, extended to state, local, tribal and territorial governments, with consumption-based billing. Anthropic says about 500 U.S. government organizations use Claude and estimates $1B in savings.",
+   "new": true,
+   "cites": [
+    {
+     "label": "Anthropic",
+     "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+     "label": "GSA",
+     "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026"
+    }
+   ]
+  },
+  {
+   "title": "NVIDIA Vera Rubin NVL72 and Vera CPUs generally available on Oracle Cloud",
+   "body": "Oct 27: OCI made Vera Rubin NVL72 systems and Vera CPUs generally available and plans multi-gigawatt Vera Rubin superclusters. The HGX Rubin NVL8 configuration was announced but is not yet GA.",
+   "new": true,
+   "cites": [
+    {
+     "label": "Oracle",
+     "url": "https://blogs.oracle.com/cloud-infrastructure/nvidia-vera-rubin-vera-cpus-oci"
+    },
+    {
+     "label": "NVIDIA",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
+    }
+   ]
+  },
+  {
+   "title": "Google DeepMind unveils Genie 4 world model",
+   "body": "Oct 27: a real-time interactive world model that generates audio and dialogue natively and can be steered with natural-language prompts. It is a research preview for trusted testers; Google AI Ultra subscribers and early Gemini API partners get access later.",
+   "new": true,
+   "cites": [
+    {
+     "label": "Google DeepMind",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    }
+   ]
+  }
+ ],
+ "what_changed": [
+  {
+   "title": "ServiceNow CRM actions go live inside Gemini Enterprise",
+   "body": "NEW (adjacent). Oct 27: ServiceNow CRM, ITSM/ITOM and Retail Operations integrations with Gemini Enterprise are GA. Sellers can manage deals, update opportunity notes and create quotes in Gemini. Telecom integrations are expected in early 2027. Connectors will also be published as plugins in Google Cloud Marketplace.",
+   "new": true,
+   "cites": [
+    {
+     "label": "ServiceNow",
+     "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx"
+    }
+   ]
+  },
+  {
+   "title": "OpenAI and Oracle bring Oracle apps into ChatGPT",
+   "body": "NEW (adjacent). Oct 27: Oracle AI Workspace (in development) will run Oracle finance, procurement and planning workflows inside ChatGPT. Oracle also announced an AI Security Mesh, an SMB bundle with ChatGPT Business and Codex, and App Composer for Codex-built apps. Oracle reports 130,000 active ChatGPT users and 95,000+ active Codex users internally.",
+   "new": true,
+   "cites": [
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+    }
+   ]
+  },
+  {
+   "title": "Slack documents the Slack Code API for agent work channels",
+   "body": "NEW. Oct 28: Slack published a guide showing how agents create code channels, set status, publish diff/HTML/Block Kit/canvas views and archive sessions (code_channels:manage scope). Slack Code is live for Claude, Devin, GitHub Copilot and Vercel integrations, with OpenAI to follow.",
+   "new": true,
+   "cites": [
+    {
+     "label": "Slack Developers",
+     "url": "https://slack.dev/build-with-slack-code-api/"
+    },
+    {
+     "label": "Slack Developers (Slack Code)",
+     "url": "https://slack.dev/slack-code-a-dedicated-place-for-agent-work/"
+    }
+   ],
+   "company": "Salesforce",
+   "slug": "salesforce"
+  },
+  {
+   "title": "Salesforce survey: executives say work stalls in single-player AI tools",
+   "body": "NEW. Oct 27: in a survey of 250 U.S. executives, 59% say work stalls weekly because it is stuck in one person's AI tool (73% at enterprises vs 37% at SMBs), and 15% say their agents work across multiple systems. Respondents estimate employees lose 3.6 hours a week switching between AI and other apps. Vendor-run survey.",
+   "new": true,
+   "cites": [
+    {
+     "label": "Salesforce",
+     "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/"
+    }
+   ],
+   "company": "Salesforce",
+   "slug": "salesforce"
+  }
+ ],
+ "quiet_note": "Covered Oct 27 and still in window: Salesforce Agent Fabric cost controls and kill switch, Salesloft Agentic Playbook early access, Clay auto-mode default, Nooks 2,000 customers. No new Gong, Clay, Nooks, Outreach, Salesloft or Monaco launches found for Oct 27–28 beyond those.",
+ "market_direction": [
+  {
+   "kind": "up",
+   "label": "Accelerating (CRM actions inside general-purpose assistants)",
+   "text": "ServiceNow CRM in Gemini Enterprise GA via MCP/A2A (Oct 27); Oracle AI Workspace for ChatGPT in development (Oct 27)."
+  },
+  {
+   "kind": "up",
+   "label": "Accelerating (shared, team-visible agent work)",
+   "text": "Slack Code API guide (Oct 28); Salesforce survey pitching 'multiplayer' AI (Oct 27)."
+  },
+  {
+   "kind": "down",
+   "label": "Falling (upfront commitments to buy model access)",
+   "text": "Anthropic GSA deal: 40% off, consumption billing, no minimum spend (Oct 27)."
+  },
+  {
+   "kind": "emerging",
+   "label": "Emerging (AI bought with existing vendor credits)",
+   "text": "OpenAI API, Codex and ChatGPT Work purchasable with Oracle Universal Credits via Oracle Marketplace (Oct 27)."
+  }
+ ],
+ "language_pulse": [
+  {
+   "term": "single-player AI / multiplayer AI",
+   "gloss": "Salesforce/Slack framing for AI used in private chats versus agents working in shared team spaces (Oct 27)."
+  },
+  {
+   "term": "Action Fabric",
+   "gloss": "ServiceNow's layer that exposes its workflows headlessly to other assistants via MCP and A2A (Oct 27)."
+  },
+  {
+   "term": "agent-ready enterprise",
+   "gloss": "OpenAI/Oracle phrase for people and agents working across business apps in one environment under existing permissions (Oct 27)."
+  }
+ ],
+ "competitive_moves": [
+  {
+   "company": "Salesforce",
+   "slug": "salesforce",
+   "text": "Slack Code API build guide for agent work channels (Oct 28); 'multiplayer AI' executive survey (Oct 27).",
+   "cites": [
+    {
+     "label": "Slack Developers",
+     "url": "https://slack.dev/build-with-slack-code-api/"
+    },
+    {
+     "label": "Salesforce",
+     "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Salesloft Behind Every Win summit (Nov 4) and Salesforce Agent Evals beta (November)",
+   "body": "Watch whether Salesloft gives Agentic Playbook pricing or a GA date on Nov 4, and whether Salesforce answers ServiceNow's Gemini Enterprise CRM integration with more Agentforce actions inside third-party assistants as Agent Evals enters beta.",
+   "cites": [
+    {
+     "label": "Salesloft via GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
+    },
+    {
+     "label": "Salesforce",
+     "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+    },
+    {
+     "label": "ServiceNow",
+     "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx"
+    }
+   ]
+  }
+ ],
+ "interpretation": {
+  "fact": "ServiceNow made CRM, IT and retail integrations with Gemini Enterprise GA on Oct 27, connected via MCP and A2A. OpenAI and Oracle announced Oracle AI Workspace (in development) for ChatGPT and OpenAI purchases through Oracle Marketplace on Oct 27. Slack published a Slack Code API build guide on Oct 28. Salesforce published a 250-executive survey on Oct 27 (59% see weekly stalls in single-person AI tools). Reuters reported on Oct 27 that OpenAI plans to buy Google TPUs, citing The Information. Anthropic and GSA announced a 40% Claude discount with no minimum commitment on Oct 27. NVIDIA Vera Rubin NVL72 went GA on OCI and Google DeepMind unveiled Genie 4 on Oct 27.",
+  "note": "Light interpretation: none of the watchlist vendors shipped anything new on Oct 28. The new signal is adjacent: CRM vendors are exposing seller actions to Gemini and ChatGPT, so the assistant a buyer already uses is becoming a place where deal work gets done."
+ },
+ "feed": [
+  {
+   "company": "Clay",
+   "slug": "clay",
+   "author": {
+    "name": "Clay",
+    "handle": "@clay",
+    "url": "https://x.com/clay"
+   },
+   "kind": "company",
+   "source": "X",
+   "ts": "2026-10-27T10:59:13-07:00",
+   "category": "launch",
+   "summary": "Clay makes auto-mode the default for new Claygent columns; it picks a model per row and is 47% cheaper than always using the most capable model.",
+   "url": "https://x.com/clay/status/2115141280137130166",
+   "engagement": {
+    "likes": 84,
+    "reposts": 15,
+    "replies": 4,
+    "views": 10733
+   },
+   "also": {
+    "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7520904236692598784/"
+   }
+  },
+  {
+   "company": "Salesforce",
+   "slug": "salesforce",
+   "author": {
+    "name": "Salesforce News & Insights",
+    "handle": "@SalesforceNews",
+    "url": "https://x.com/SalesforceNews"
+   },
+   "kind": "company",
+   "source": "X",
+   "ts": "2026-10-27T06:09:15-07:00",
+   "category": "launch",
+   "summary": "Salesforce posts its Oct 27 Agent Fabric update: Agent Evals, API Evals and cost controls.",
+   "url": "https://x.com/SalesforceNews/status/2115068309510959279",
+   "engagement": {
+    "likes": 4,
+    "reposts": 0,
+    "replies": 1,
+    "views": 505
+   }
+  }
+ ]
 }
