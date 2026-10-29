@@ -1,274 +1,228 @@
 {
- "as_of": "2026-10-28 morning ~8:46 AM PT",
- "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Oct 27 – Wed Oct 28 PT",
- "meaningful_signal": true,
- "market_briefing": {
-  "lede": "CRM work is moving into general-purpose assistants: ServiceNow now lets sellers update deals and build quotes from Gemini Enterprise, and Oracle is bringing its applications into ChatGPT under each customer's permissions and approvals. Slack, meanwhile, is giving agents shared channels for longer jobs instead of private chats.",
-  "bullets": [
-   {
-    "text": "ServiceNow CRM integrations with Gemini Enterprise are generally available as of Oct 27: sellers can ask for account context and recent deal activity, update opportunity notes, create follow-ups and build configurations and quotes in natural language. ServiceNow connects them through MCP servers and Agent2Agent (A2A).",
-    "cites": [
-     {
-      "label": "ServiceNow",
-      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx"
-     }
+  "as_of": "2026-10-29 morning ~8:55 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Oct 28 – Thu Oct 29 PT",
+  "meaningful_signal": true,
+  "market_briefing": {
+    "lede": "AI tools are moving from per-seat licenses to shared, metered budgets: GitHub now includes Copilot with every GitHub Enterprise seat and meters usage against one enterprise budget, and Claude Enterprise lets admins give each team a single pooled monthly budget. Governed workflow actions also keep moving into assistants, with ServiceNow's plugin now live in ChatGPT.",
+    "bullets": [
+      {
+        "text": "Claude Enterprise smart reports, in-app surveys and pooled group budgets became generally available on Oct 28. Reports group a team's sessions into workstreams with spend and friction per workstream and recommend recurring workflows to turn into skills; budget alerts go to billing admins at 50%, 75%, 95% and 100%.",
+        "cites": [
+          {
+            "label": "Claude",
+            "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
+          }
+        ]
+      },
+      {
+        "text": "From Oct 28, eligible GitHub Enterprise Cloud customers can get Copilot for every licensed user, with AI usage metered against the enterprise budget. Shared Copilot Automations, team-owned workflows with prompts, triggers and allowed tools, are rolling out and bill to the repository owner.",
+        "cites": [
+          {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot/"
+          },
+          {
+            "label": "GitHub Changelog (Automations)",
+            "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/"
+          }
+        ]
+      },
+      {
+        "text": "OpenAI and ServiceNow expanded their partnership on Oct 28. A ServiceNow MCP plugin is in the OpenAI marketplace now, letting users update ServiceNow records from ChatGPT while ServiceNow's Action Fabric applies each customer's existing rules and permissions.",
+        "cites": [
+          {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "text": "OpenAI and Oracle said on Oct 27 that Oracle is developing Oracle AI Workspace to run approved Oracle workflows inside ChatGPT. U.S. Oracle customers can now buy the OpenAI API, Codex and ChatGPT Work through Oracle Marketplace with eligible Oracle Universal Credits.",
-    "cites": [
-     {
-      "label": "OpenAI",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
-     }
-    ]
-   },
-   {
-    "text": "Slack published a build guide for the Slack Code API on Oct 28. Agents can open a code channel from a conversation, post diffs, HTML previews and canvases, and archive the session with a summary. A Salesforce survey of 250 U.S. executives published Oct 27 found 59% see work stall each week because it sits in one person's AI tool.",
-    "cites": [
-     {
-      "label": "Slack Developers",
-      "url": "https://slack.dev/build-with-slack-code-api/"
-     },
-     {
-      "label": "Salesforce",
-      "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/"
-     }
-    ]
-   }
-  ]
- },
- "biggest_ai_news": [
-  {
-   "title": "OpenAI reportedly plans to buy Google TPUs",
-   "body": "Oct 27: The Information, cited by Reuters, reports that OpenAI plans to buy Google's AI chips. No terms were disclosed and OpenAI declined to comment. Reuters notes OpenAI said last week it would offer its frontier models through Google Cloud.",
-   "new": true,
-   "cites": [
-    {
-     "label": "Reuters via Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342"
-    }
-   ]
   },
-  {
-   "title": "Anthropic cuts Claude prices 40% for U.S. government buyers, with no minimum spend",
-   "body": "Oct 27 GSA OneGov agreement: 40% off Claude Enterprise, Claude for Government and the Claude API across every purchase route, extended to state, local, tribal and territorial governments, with consumption-based billing. Anthropic says about 500 U.S. government organizations use Claude and estimates $1B in savings.",
-   "new": true,
-   "cites": [
+  "biggest_ai_news": [
     {
-     "label": "Anthropic",
-     "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+      "title": "Google unveils Gemini 4 Carbon",
+      "body": "Oct 28: Google's new frontier model leads on cybersecurity and long-running coding benchmarks. It goes first to a subset of cyber defenders through the Fairwind Program, with wider developer and business access later, at an introductory $2/$10 per million input/output tokens (then $4/$20).",
+      "new": true,
+      "cites": [
+        {
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-4980426"
+        }
+      ]
     },
     {
-     "label": "GSA",
-     "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026"
-    }
-   ]
-  },
-  {
-   "title": "NVIDIA Vera Rubin NVL72 and Vera CPUs generally available on Oracle Cloud",
-   "body": "Oct 27: OCI made Vera Rubin NVL72 systems and Vera CPUs generally available and plans multi-gigawatt Vera Rubin superclusters. The HGX Rubin NVL8 configuration was announced but is not yet GA.",
-   "new": true,
-   "cites": [
-    {
-     "label": "Oracle",
-     "url": "https://blogs.oracle.com/cloud-infrastructure/nvidia-vera-rubin-vera-cpus-oci"
+      "title": "Microsoft opens its Copilot harness to enterprise developers",
+      "body": "Oct 28: the multi-model harness behind GitHub Copilot and Copilot Studio is in public preview in Microsoft Foundry, handling tools, sandboxing, policy and model routing across 20+ OpenAI and Anthropic models. Free through Nov 30, then billed on compute and memory, with no per-seat charge.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+        },
+        {
+          "label": "Tech Times",
+          "url": "https://www.techtimes.com/articles/329667/20261029/microsoft-copilot-harness-opens-enterprise-developers-model-flexibility-platform-lock.htm"
+        }
+      ]
     },
     {
-     "label": "NVIDIA",
-     "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
-    }
-   ]
-  },
-  {
-   "title": "Google DeepMind unveils Genie 4 world model",
-   "body": "Oct 27: a real-time interactive world model that generates audio and dialogue natively and can be steered with natural-language prompts. It is a research preview for trusted testers; Google AI Ultra subscribers and early Gemini API partners get access later.",
-   "new": true,
-   "cites": [
-    {
-     "label": "Google DeepMind",
-     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-    }
-   ]
-  }
- ],
- "what_changed": [
-  {
-   "title": "ServiceNow CRM actions go live inside Gemini Enterprise",
-   "body": "NEW (adjacent). Oct 27: ServiceNow CRM, ITSM/ITOM and Retail Operations integrations with Gemini Enterprise are GA. Sellers can manage deals, update opportunity notes and create quotes in Gemini. Telecom integrations are expected in early 2027. Connectors will also be published as plugins in Google Cloud Marketplace.",
-   "new": true,
-   "cites": [
-    {
-     "label": "ServiceNow",
-     "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx"
-    }
-   ]
-  },
-  {
-   "title": "OpenAI and Oracle bring Oracle apps into ChatGPT",
-   "body": "NEW (adjacent). Oct 27: Oracle AI Workspace (in development) will run Oracle finance, procurement and planning workflows inside ChatGPT. Oracle also announced an AI Security Mesh, an SMB bundle with ChatGPT Business and Codex, and App Composer for Codex-built apps. Oracle reports 130,000 active ChatGPT users and 95,000+ active Codex users internally.",
-   "new": true,
-   "cites": [
-    {
-     "label": "OpenAI",
-     "url": "https://openai.com/index/oracle-apps-in-chatgpt"
-    }
-   ]
-  },
-  {
-   "title": "Slack documents the Slack Code API for agent work channels",
-   "body": "NEW. Oct 28: Slack published a guide showing how agents create code channels, set status, publish diff/HTML/Block Kit/canvas views and archive sessions (code_channels:manage scope). Slack Code is live for Claude, Devin, GitHub Copilot and Vercel integrations, with OpenAI to follow.",
-   "new": true,
-   "cites": [
-    {
-     "label": "Slack Developers",
-     "url": "https://slack.dev/build-with-slack-code-api/"
+      "title": "ChatGPT Business and Pro subscriptions now carry API credits",
+      "body": "Eligible subscribers can link a paid ChatGPT plan to an API organization they own and claim monthly API credits: $20 per Standard seat and $100 per Premium seat, capped at $500 per Business workspace, expiring each billing cycle.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
+        }
+      ]
     },
     {
-     "label": "Slack Developers (Slack Code)",
-     "url": "https://slack.dev/slack-code-a-dedicated-place-for-agent-work/"
+      "title": "Nadella pitches Microsoft Execution Containers as the agent control layer",
+      "body": "On Microsoft's Oct 28 earnings call, Satya Nadella called MXC a policy-driven layer that \"governs and contains agents\" across Windows and other platforms and said OpenAI, Anthropic and Meta's Muse are adopting it.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Benzinga",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62683384/microsoft-ai-agents-gatekeeper-mxc-openai-anthropic-meta"
+        }
+      ]
     }
-   ],
-   "company": "Salesforce",
-   "slug": "salesforce"
-  },
-  {
-   "title": "Salesforce survey: executives say work stalls in single-player AI tools",
-   "body": "NEW. Oct 27: in a survey of 250 U.S. executives, 59% say work stalls weekly because it is stuck in one person's AI tool (73% at enterprises vs 37% at SMBs), and 15% say their agents work across multiple systems. Respondents estimate employees lose 3.6 hours a week switching between AI and other apps. Vendor-run survey.",
-   "new": true,
-   "cites": [
+  ],
+  "what_changed": [
     {
-     "label": "Salesforce",
-     "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/"
-    }
-   ],
-   "company": "Salesforce",
-   "slug": "salesforce"
-  }
- ],
- "quiet_note": "Covered Oct 27 and still in window: Salesforce Agent Fabric cost controls and kill switch, Salesloft Agentic Playbook early access, Clay auto-mode default, Nooks 2,000 customers. No new Gong, Clay, Nooks, Outreach, Salesloft or Monaco launches found for Oct 27–28 beyond those.",
- "market_direction": [
-  {
-   "kind": "up",
-   "label": "Accelerating (CRM actions inside general-purpose assistants)",
-   "text": "ServiceNow CRM in Gemini Enterprise GA via MCP/A2A (Oct 27); Oracle AI Workspace for ChatGPT in development (Oct 27)."
-  },
-  {
-   "kind": "up",
-   "label": "Accelerating (shared, team-visible agent work)",
-   "text": "Slack Code API guide (Oct 28); Salesforce survey pitching 'multiplayer' AI (Oct 27)."
-  },
-  {
-   "kind": "down",
-   "label": "Falling (upfront commitments to buy model access)",
-   "text": "Anthropic GSA deal: 40% off, consumption billing, no minimum spend (Oct 27)."
-  },
-  {
-   "kind": "emerging",
-   "label": "Emerging (AI bought with existing vendor credits)",
-   "text": "OpenAI API, Codex and ChatGPT Work purchasable with Oracle Universal Credits via Oracle Marketplace (Oct 27)."
-  }
- ],
- "language_pulse": [
-  {
-   "term": "single-player AI / multiplayer AI",
-   "gloss": "Salesforce/Slack framing for AI used in private chats versus agents working in shared team spaces (Oct 27)."
-  },
-  {
-   "term": "Action Fabric",
-   "gloss": "ServiceNow's layer that exposes its workflows headlessly to other assistants via MCP and A2A (Oct 27)."
-  },
-  {
-   "term": "agent-ready enterprise",
-   "gloss": "OpenAI/Oracle phrase for people and agents working across business apps in one environment under existing permissions (Oct 27)."
-  }
- ],
- "competitive_moves": [
-  {
-   "company": "Salesforce",
-   "slug": "salesforce",
-   "text": "Slack Code API build guide for agent work channels (Oct 28); 'multiplayer AI' executive survey (Oct 27).",
-   "cites": [
-    {
-     "label": "Slack Developers",
-     "url": "https://slack.dev/build-with-slack-code-api/"
+      "title": "OpenAI and ServiceNow put governed ServiceNow actions inside ChatGPT",
+      "body": "NEW (adjacent). Oct 28: a ServiceNow MCP plugin is available in the OpenAI marketplace, with enhanced capabilities by end of 2026. Customers choose which capabilities to expose, and ServiceNow's Action Fabric enforces existing rules and permissions. Codex in AI Workflow Factory is planned for 2027, and all ServiceNow employees will get ChatGPT Work and Codex.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+        },
+        {
+          "label": "ServiceNow via Business Wire",
+          "url": "https://www.businesswire.com/news/home/20261028776113/en/ServiceNow-and-OpenAI-accelerate-enterprise-AI-from-models-and-operations-to-cybersecurity-and-agentic-development"
+        }
+      ]
     },
     {
-     "label": "Salesforce",
-     "url": "https://www.salesforce.com/news/stories/work-stalls-isolated-ai-tools/"
-    }
-   ]
-  }
- ],
- "watch": [
-  {
-   "title": "Salesloft Behind Every Win summit (Nov 4) and Salesforce Agent Evals beta (November)",
-   "body": "Watch whether Salesloft gives Agentic Playbook pricing or a GA date on Nov 4, and whether Salesforce answers ServiceNow's Gemini Enterprise CRM integration with more Agentforce actions inside third-party assistants as Agent Evals enters beta.",
-   "cites": [
-    {
-     "label": "Salesloft via GlobeNewswire",
-     "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
+      "title": "Claude Enterprise adds pooled team budgets and usage reports",
+      "body": "NEW (adjacent). Oct 28: smart reports, in-app surveys and pooled group budgets are GA. A group shares one monthly budget while per-member limits still apply; members can request more from inside Claude, and setup suggests an amount from recent usage.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Claude",
+          "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
+        }
+      ]
     },
     {
-     "label": "Salesforce",
-     "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+      "title": "GitHub bundles Copilot into GitHub Enterprise and adds shared Automations",
+      "body": "NEW (adjacent). Oct 28 at GitHub Universe: eligible Enterprise Cloud customers can include Copilot for every licensed user, with usage against the enterprise budget; self-serve availability is staged. Shared Copilot Automations let anyone with write access edit team workflows, which run in the cloud and bill to the repository owner.",
+      "new": true,
+      "cites": [
+        {
+          "label": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot/"
+        },
+        {
+          "label": "GitHub Changelog (Automations)",
+          "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/"
+        }
+      ]
     },
     {
-     "label": "ServiceNow",
-     "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx"
+      "title": "Salesforce publishes Pronto, an open-source sample app for its Headless Toolkit",
+      "body": "NEW. Oct 28: Pronto shows two Agentforce agents with 16+ actions, hosted MCP servers and multi-agent orchestration, with Salesforce data and workflows surfaced in Claude, Slack and Agentforce Coworker.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Salesforce Developers",
+          "url": "https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app"
+        }
+      ]
     }
-   ]
-  }
- ],
- "interpretation": {
-  "fact": "ServiceNow made CRM, IT and retail integrations with Gemini Enterprise GA on Oct 27, connected via MCP and A2A. OpenAI and Oracle announced Oracle AI Workspace (in development) for ChatGPT and OpenAI purchases through Oracle Marketplace on Oct 27. Slack published a Slack Code API build guide on Oct 28. Salesforce published a 250-executive survey on Oct 27 (59% see weekly stalls in single-person AI tools). Reuters reported on Oct 27 that OpenAI plans to buy Google TPUs, citing The Information. Anthropic and GSA announced a 40% Claude discount with no minimum commitment on Oct 27. NVIDIA Vera Rubin NVL72 went GA on OCI and Google DeepMind unveiled Genie 4 on Oct 27.",
-  "note": "Light interpretation: none of the watchlist vendors shipped anything new on Oct 28. The new signal is adjacent: CRM vendors are exposing seller actions to Gemini and ChatGPT, so the assistant a buyer already uses is becoming a place where deal work gets done."
- },
- "feed": [
-  {
-   "company": "Clay",
-   "slug": "clay",
-   "author": {
-    "name": "Clay",
-    "handle": "@clay",
-    "url": "https://x.com/clay"
-   },
-   "kind": "company",
-   "source": "X",
-   "ts": "2026-10-27T10:59:13-07:00",
-   "category": "launch",
-   "summary": "Clay makes auto-mode the default for new Claygent columns; it picks a model per row and is 47% cheaper than always using the most capable model.",
-   "url": "https://x.com/clay/status/2115141280137130166",
-   "engagement": {
-    "likes": 84,
-    "reposts": 15,
-    "replies": 4,
-    "views": 10733
-   },
-   "also": {
-    "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7520904236692598784/"
-   }
+  ],
+  "quiet_note": "No new Gong, Clay, Nooks, Outreach, Salesloft or Monaco launches found for Oct 28–29. Oct 28 press about Salesloft Agentic Playbook recaps the Oct 27 announcement already covered.",
+  "market_direction": [
+    {
+      "kind": "down",
+      "label": "Falling (per-seat licensing as the main AI meter)",
+      "text": "GitHub Enterprise includes Copilot for every licensed user and meters usage against one budget (Oct 28); Microsoft's Copilot harness has no per-seat charge (Oct 28)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (team-level AI spend controls)",
+      "text": "Claude Enterprise pooled group budgets and smart reports GA (Oct 28); Copilot Automations add cost controls and bill to the repository owner (Oct 28)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (governed business actions inside ChatGPT)",
+      "text": "ServiceNow MCP plugin in the OpenAI marketplace with Action Fabric permissions (Oct 28), a day after Oracle AI Workspace for ChatGPT (Oct 27)."
+    },
+    {
+      "kind": "emerging",
+      "label": "Emerging (managed multi-model agent harnesses)",
+      "text": "Microsoft Copilot harness in Foundry public preview with built-in model routing (Oct 28)."
+    }
+  ],
+  "language_pulse": [
+    {
+      "term": "pooled group budgets",
+      "gloss": "Anthropic's term for one shared monthly AI budget per team, with individual limits kept as guardrails (Oct 28)."
+    },
+    {
+      "term": "harness",
+      "gloss": "Microsoft's word for the layer above the model that manages context, tools, sandboxing, policy and model routing (Oct 28)."
+    },
+    {
+      "term": "Super Intelligence Control Tower",
+      "gloss": "ServiceNow's name for its layer that orchestrates and governs AI across the enterprise, used in the OpenAI announcement (Oct 28)."
+    }
+  ],
+  "competitive_moves": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Pronto open-source sample app for the Headless Toolkit (Oct 28); Agentforce Coworker explainer for startups and SMBs stressing confirm-before-save record edits (Oct 28).",
+      "cites": [
+        {
+          "label": "Salesforce Developers",
+          "url": "https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app"
+        },
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/did-you-know-agentforce-coworker-can-do-this/"
+        }
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "Salesloft Behind Every Win summit (Nov 4) and Salesforce Agent Evals beta (November)",
+      "body": "Watch whether Salesloft gives Agentic Playbook pricing or a GA date on Nov 4, and whether Salesforce or the revenue vendors answer ServiceNow's ChatGPT plugin with their own governed actions inside ChatGPT, or move to pooled, metered AI budgets the way GitHub and Anthropic just did.",
+      "cites": [
+        {
+          "label": "Salesloft via GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
+        },
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+        }
+      ]
+    }
+  ],
+  "interpretation": {
+    "fact": "On Oct 28, OpenAI and ServiceNow expanded their partnership and put a ServiceNow MCP plugin in the OpenAI marketplace; Claude Enterprise made smart reports, surveys and pooled group budgets GA; GitHub began including Copilot with GitHub Enterprise and rolled out shared Copilot Automations; Microsoft opened its Copilot harness in Foundry; Google unveiled Gemini 4 Carbon; and Salesforce published the Pronto sample app. OpenAI's help center describes API credits of up to $500 per ChatGPT Business workspace.",
+    "note": "Light interpretation: none of the watchlist vendors shipped anything new on Oct 28–29. The adjacent signal is about how AI gets bought and controlled: budgets are moving from seats to shared, metered pools managed per team, which is likely to shape how buyers expect to pay for agent work in sales tools too."
   },
-  {
-   "company": "Salesforce",
-   "slug": "salesforce",
-   "author": {
-    "name": "Salesforce News & Insights",
-    "handle": "@SalesforceNews",
-    "url": "https://x.com/SalesforceNews"
-   },
-   "kind": "company",
-   "source": "X",
-   "ts": "2026-10-27T06:09:15-07:00",
-   "category": "launch",
-   "summary": "Salesforce posts its Oct 27 Agent Fabric update: Agent Evals, API Evals and cost controls.",
-   "url": "https://x.com/SalesforceNews/status/2115068309510959279",
-   "engagement": {
-    "likes": 4,
-    "reposts": 0,
-    "replies": 1,
-    "views": 505
-   }
-  }
- ]
+  "feed": []
 }
