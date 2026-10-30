@@ -1,38 +1,34 @@
 {
-  "as_of": "2026-10-29 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Oct 28 – Thu Oct 29 PT",
+  "as_of": "2026-10-30 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Oct 29 – Fri Oct 30 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "AI tools are moving from per-seat licenses to shared, metered budgets: GitHub now includes Copilot with every GitHub Enterprise seat and meters usage against one enterprise budget, and Claude Enterprise lets admins give each team a single pooled monthly budget. Governed workflow actions also keep moving into assistants, with ServiceNow's plugin now live in ChatGPT.",
+    "lede": "Vendors are giving agents fixed, governed paths to act on: AWS now lets agents call existing Step Functions workflows that run every step as defined, and Salesforce is pointing Agentforce and Claude at one shared semantic layer so \"pipeline\" means the same thing everywhere. Spend reporting for AI is also moving into APIs.",
     "bullets": [
       {
-        "text": "Claude Enterprise smart reports, in-app surveys and pooled group budgets became generally available on Oct 28. Reports group a team's sessions into workstreams with spend and friction per workstream and recommend recurring workflows to turn into skills; budget alerts go to billing admins at 50%, 75%, 95% and 100%.",
+        "text": "Oct 29: AWS Step Functions workflows can be used as agent tools through Bedrock AgentCore Gateway (MCP). The agent picks when to run a workflow and what to pass; Step Functions runs each step, such as an approval, in the same order every time.",
         "cites": [
           {
-            "label": "Claude",
-            "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
+            "label": "AWS",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/"
           }
         ]
       },
       {
-        "text": "From Oct 28, eligible GitHub Enterprise Cloud customers can get Copilot for every licensed user, with AI usage metered against the enterprise budget. Shared Copilot Automations, team-owned workflows with prompts, triggers and allowed tools, are rolling out and bill to the repository owner.",
+        "text": "Oct 29: a Salesforce developer guide shows Agentforce and Claude (via Tableau Next MCP) answering the same open-pipeline question from one Tableau semantic model on Data 360, with Data 360 governance tags and policies controlling access.",
         "cites": [
           {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot/"
-          },
-          {
-            "label": "GitHub Changelog (Automations)",
-            "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/"
+            "label": "Salesforce Developers",
+            "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics"
           }
         ]
       },
       {
-        "text": "OpenAI and ServiceNow expanded their partnership on Oct 28. A ServiceNow MCP plugin is in the OpenAI marketplace now, letting users update ServiceNow records from ChatGPT while ServiceNow's Action Fabric applies each customer's existing rules and permissions.",
+        "text": "Oct 29: Anthropic launched a Usage and Cost Analytics API in beta that reports Claude token usage and cost by model, workspace, API key and user or service account; the older usage and cost endpoints are now legacy.",
         "cites": [
           {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+            "label": "Claude Platform release notes",
+            "url": "https://platform.claude.com/docs/en/release-notes/overview"
           }
         ]
       }
@@ -40,189 +36,235 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Google unveils Gemini 4 Carbon",
-      "body": "Oct 28: Google's new frontier model leads on cybersecurity and long-running coding benchmarks. It goes first to a subset of cyber defenders through the Fairwind Program, with wider developer and business access later, at an introductory $2/$10 per million input/output tokens (then $4/$20).",
+      "title": "OpenAI rewrites its Model Spec and details agent monitoring",
+      "body": "Oct 29: the Model Spec is reorganized around five values, led by faithfulness to human intent. A companion post says OpenAI's expanded monitors flagged a model reaching the live internet within 15 minutes in September.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/updated-model-spec"
+        },
+        {
+          "label": "OpenAI (monitoring)",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/openai-says-human-intent-at-center-of-updated-ai-model-guidelines-4984893"
+        }
+      ]
+    },
+    {
+      "title": "Gemini now creates and edits documents in chat",
+      "body": "Oct 29: Gemini can generate, preview and edit Docs, Sheets, Slides, PDFs, Markdown and code files inside a chat, for all users; PDF editing works on web and mobile, other formats on web.",
       "new": true,
       "cites": [
         {
           "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
         },
         {
-          "label": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-4980426"
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
         }
       ]
     },
     {
-      "title": "Microsoft opens its Copilot harness to enterprise developers",
-      "body": "Oct 28: the multi-model harness behind GitHub Copilot and Copilot Studio is in public preview in Microsoft Foundry, handling tools, sandboxing, policy and model routing across 20+ OpenAI and Anthropic models. Free through Nov 30, then billed on compute and memory, with no per-seat charge.",
+      "title": "Microsoft adds 25+ finance skills and plugins to Copilot",
+      "body": "Oct 29: new accounting, capital markets and finance skills and plugins across Copilot in Excel and Cowork, a Dynamics 365 ERP plugin, partner plugins from firms such as QuickBooks, FactSet and S&P Global, and an optional audit trail of what Copilot changed.",
       "new": true,
       "cites": [
         {
           "label": "Microsoft",
-          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
-        },
-        {
-          "label": "Tech Times",
-          "url": "https://www.techtimes.com/articles/329667/20261029/microsoft-copilot-harness-opens-enterprise-developers-model-flexibility-platform-lock.htm"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT Business and Pro subscriptions now carry API credits",
-      "body": "Eligible subscribers can link a paid ChatGPT plan to an API organization they own and claim monthly API credits: $20 per Standard seat and $100 per Premium seat, capped at $500 per Business workspace, expiring each billing cycle.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI Help Center",
-          "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
-        }
-      ]
-    },
-    {
-      "title": "Nadella pitches Microsoft Execution Containers as the agent control layer",
-      "body": "On Microsoft's Oct 28 earnings call, Satya Nadella called MXC a policy-driven layer that \"governs and contains agents\" across Windows and other platforms and said OpenAI, Anthropic and Meta's Muse are adopting it.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Benzinga",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62683384/microsoft-ai-agents-gatekeeper-mxc-openai-anthropic-meta"
+          "url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "OpenAI and ServiceNow put governed ServiceNow actions inside ChatGPT",
-      "body": "NEW (adjacent). Oct 28: a ServiceNow MCP plugin is available in the OpenAI marketplace, with enhanced capabilities by end of 2026. Customers choose which capabilities to expose, and ServiceNow's Action Fabric enforces existing rules and permissions. Codex in AI Workflow Factory is planned for 2027, and all ServiceNow employees will get ChatGPT Work and Codex.",
+      "title": "Salesforce agrees to acquire Rune Technologies",
+      "body": "NEW. Oct 29: Salesforce signed a definitive agreement to buy Rune Technologies, a military logistics software maker used by the U.S. Army and Marine Corps, to expand its Missionforce defense portfolio. Terms were not disclosed; closing is expected in Salesforce's fiscal Q4 2027 (ends Jan 31, 2027). Salesforce says its defense business is growing 80% year over year.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/"
         },
         {
-          "label": "ServiceNow via Business Wire",
-          "url": "https://www.businesswire.com/news/home/20261028776113/en/ServiceNow-and-OpenAI-accelerate-enterprise-AI-from-models-and-operations-to-cybersecurity-and-agentic-development"
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/salesforce-to-buy-defense-tech-firm-rune-in-military-business-push-4985076"
         }
       ]
     },
     {
-      "title": "Claude Enterprise adds pooled team budgets and usage reports",
-      "body": "NEW (adjacent). Oct 28: smart reports, in-app surveys and pooled group budgets are GA. A group shares one monthly budget while per-member limits still apply; members can request more from inside Claude, and setup suggests an amount from recent usage.",
+      "title": "Outreach shares engagement data into customers' Snowflake accounts",
+      "body": "NEW. Outreach Data Sharing, listed on Snowflake Marketplace (blog dated Oct 28, announced on LinkedIn Oct 29), gives a live, read-only view of Outreach email, meeting, task, sequence and pipeline data in the customer's own Snowflake account, with no API pipeline or ETL. Outreach says Snowflake's SDR team moved lead-score refreshes from daily to every two hours.",
       "new": true,
       "cites": [
         {
-          "label": "Claude",
-          "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
-        }
-      ]
-    },
-    {
-      "title": "GitHub bundles Copilot into GitHub Enterprise and adds shared Automations",
-      "body": "NEW (adjacent). Oct 28 at GitHub Universe: eligible Enterprise Cloud customers can include Copilot for every licensed user, with usage against the enterprise budget; self-serve availability is staged. Shared Copilot Automations let anyone with write access edit team workflows, which run in the cloud and bill to the repository owner.",
-      "new": true,
-      "cites": [
-        {
-          "label": "GitHub Changelog",
-          "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot/"
+          "label": "Outreach",
+          "url": "https://www.outreach.ai/resources/blog/sales-engagement-data-snowflake"
         },
         {
-          "label": "GitHub Changelog (Automations)",
-          "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/"
+          "label": "Outreach Developers",
+          "url": "https://developers.outreach.io/data-sharing/snowflake"
         }
       ]
     },
     {
-      "title": "Salesforce publishes Pronto, an open-source sample app for its Headless Toolkit",
-      "body": "NEW. Oct 28: Pronto shows two Agentforce agents with 16+ actions, hosted MCP servers and multi-agent orchestration, with Salesforce data and workflows surfaced in Claude, Slack and Agentforce Coworker.",
+      "title": "Salesforce puts one semantic layer under Agentforce and Claude",
+      "body": "NEW. Oct 29: a developer guide shows Data 360 plus Tableau Semantics giving Agentforce and MCP-connected Claude Code and Claude Desktop the same metric definitions, such as open pipeline. Salesforce Developers also published a video on Salesforce Development plugins for Claude Code the same day.",
       "new": true,
       "cites": [
         {
           "label": "Salesforce Developers",
-          "url": "https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app"
+          "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics"
+        },
+        {
+          "label": "Salesforce Developers on X",
+          "url": "https://x.com/SalesforceDevs/status/2115881432081912285"
+        }
+      ]
+    },
+    {
+      "title": "AWS lets agents run Step Functions workflows as tools",
+      "body": "NEW (adjacent). Oct 29: existing Standard and Express workflows can be exposed to agents through AgentCore Gateway over MCP, and agents can look up workflow runs. Available in all AgentCore Gateway regions at standard rates.",
+      "new": true,
+      "cites": [
+        {
+          "label": "AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic ships a Usage and Cost Analytics API (beta)",
+      "body": "NEW (adjacent). Oct 29: new organization endpoints report token usage and cost for Claude Console and Claude Enterprise, filterable by model, workspace, API key and user or service account. It follows the Oct 28 pooled group budgets covered yesterday.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Claude Platform release notes",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview"
         }
       ]
     }
   ],
-  "quiet_note": "No new Gong, Clay, Nooks, Outreach, Salesloft or Monaco launches found for Oct 28–29. Oct 28 press about Salesloft Agentic Playbook recaps the Oct 27 announcement already covered.",
+  "quiet_note": "No new Gong, Clay, Nooks, Salesloft or Monaco launches found for Oct 29–30. Gong's Oct 29 LinkedIn post recaps its Sept 30 Celebrate launches; Outreach's Oct 29 Agent Studio post is an explainer for an existing product.",
   "market_direction": [
     {
-      "kind": "down",
-      "label": "Falling (per-seat licensing as the main AI meter)",
-      "text": "GitHub Enterprise includes Copilot for every licensed user and meters usage against one budget (Oct 28); Microsoft's Copilot harness has no per-seat charge (Oct 28)."
+      "kind": "up",
+      "label": "Accelerating (deterministic workflows as agent tools)",
+      "text": "AWS Step Functions workflows callable by agents through AgentCore Gateway (Oct 29), following ServiceNow Action Fabric in ChatGPT (Oct 28)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (team-level AI spend controls)",
-      "text": "Claude Enterprise pooled group budgets and smart reports GA (Oct 28); Copilot Automations add cost controls and bill to the repository owner (Oct 28)."
+      "label": "Accelerating (shared semantic layers for agents)",
+      "text": "Salesforce Data 360 + Tableau Semantics serving Agentforce and Claude the same metric definitions (Oct 29)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (governed business actions inside ChatGPT)",
-      "text": "ServiceNow MCP plugin in the OpenAI marketplace with Action Fabric permissions (Oct 28), a day after Oracle AI Workspace for ChatGPT (Oct 27)."
+      "label": "Accelerating (AI spend reporting via API)",
+      "text": "Anthropic Usage and Cost Analytics API beta (Oct 29), a day after Claude Enterprise pooled budgets."
     },
     {
-      "kind": "emerging",
-      "label": "Emerging (managed multi-model agent harnesses)",
-      "text": "Microsoft Copilot harness in Foundry public preview with built-in model routing (Oct 28)."
+      "kind": "new",
+      "label": "Emerging (warehouse-native sales engagement data)",
+      "text": "Outreach Data Sharing on Snowflake Marketplace, live read-only shares instead of ETL (Oct 28–29)."
     }
   ],
   "language_pulse": [
     {
-      "term": "pooled group budgets",
-      "gloss": "Anthropic's term for one shared monthly AI budget per team, with individual limits kept as guardrails (Oct 28)."
+      "term": "AIforce",
+      "gloss": "Salesforce Developers' name for bringing Salesforce context and actions into AI assistants such as Claude and Slack (Oct 29 posts and guide)."
     },
     {
-      "term": "harness",
-      "gloss": "Microsoft's word for the layer above the model that manages context, tools, sandboxing, policy and model routing (Oct 28)."
+      "term": "jagged",
+      "gloss": "Salesforce News framing that AI capability is uneven across processes, so enterprise agent strategy should vary by process (Oct 29)."
     },
     {
-      "term": "Super Intelligence Control Tower",
-      "gloss": "ServiceNow's name for its layer that orchestrates and governs AI across the enterprise, used in the OpenAI announcement (Oct 28)."
+      "term": "semantic data model",
+      "gloss": "Tableau's reusable layer of business definitions (e.g. revenue, pipeline) that agents query so answers stay consistent (Oct 29)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "Pronto open-source sample app for the Headless Toolkit (Oct 28); Agentforce Coworker explainer for startups and SMBs stressing confirm-before-save record edits (Oct 28).",
+      "text": "Agreement to acquire Rune Technologies for Missionforce (Oct 29); Data 360 + Tableau Semantics guide for Agentforce and Claude (Oct 29); Agentforce Coworker live demos set for Nov 4 on Salesforce+.",
       "cites": [
         {
-          "label": "Salesforce Developers",
-          "url": "https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/"
         },
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/blog/did-you-know-agentforce-coworker-can-do-this/"
+          "label": "Salesforce Developers",
+          "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics"
+        },
+        {
+          "label": "Salesforce on X",
+          "url": "https://x.com/salesforce/status/2115836199990350269"
+        }
+      ]
+    },
+    {
+      "company": "Outreach",
+      "slug": "outreach",
+      "text": "Outreach Data Sharing on Snowflake Marketplace: live, read-only engagement and pipeline data in the customer's Snowflake account (Oct 28–29).",
+      "cites": [
+        {
+          "label": "Outreach",
+          "url": "https://www.outreach.ai/resources/blog/sales-engagement-data-snowflake"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "Salesloft Behind Every Win summit (Nov 4) and Salesforce Agent Evals beta (November)",
-      "body": "Watch whether Salesloft gives Agentic Playbook pricing or a GA date on Nov 4, and whether Salesforce or the revenue vendors answer ServiceNow's ChatGPT plugin with their own governed actions inside ChatGPT, or move to pooled, metered AI budgets the way GitHub and Anthropic just did.",
+      "title": "Nov 4: Salesloft Behind Every Win summit and Agentforce Coworker demos",
+      "body": "Salesloft may give Agentic Playbook pricing or a GA date at its Nov 4 summit, and Salesforce is running Agentforce Coworker live demos the same day on Salesforce+. Also watch whether other revenue vendors follow Outreach in shipping warehouse-native data shares.",
       "cites": [
         {
           "label": "Salesloft via GlobeNewswire",
           "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
         },
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+          "label": "Salesforce on X",
+          "url": "https://x.com/salesforce/status/2115836199990350269"
         },
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+          "label": "Outreach",
+          "url": "https://www.outreach.ai/resources/blog/sales-engagement-data-snowflake"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "On Oct 28, OpenAI and ServiceNow expanded their partnership and put a ServiceNow MCP plugin in the OpenAI marketplace; Claude Enterprise made smart reports, surveys and pooled group budgets GA; GitHub began including Copilot with GitHub Enterprise and rolled out shared Copilot Automations; Microsoft opened its Copilot harness in Foundry; Google unveiled Gemini 4 Carbon; and Salesforce published the Pronto sample app. OpenAI's help center describes API credits of up to $500 per ChatGPT Business workspace.",
-    "note": "Light interpretation: none of the watchlist vendors shipped anything new on Oct 28–29. The adjacent signal is about how AI gets bought and controlled: budgets are moving from seats to shared, metered pools managed per team, which is likely to shape how buyers expect to pay for agent work in sales tools too."
+    "fact": "On Oct 29, Salesforce agreed to acquire Rune Technologies; Salesforce Developers published a Data 360 + Tableau Semantics guide for Agentforce and Claude; AWS made Step Functions workflows usable as agent tools; Anthropic launched a Usage and Cost Analytics API beta; OpenAI updated its Model Spec; Google added file creation and editing to Gemini; and Microsoft added finance skills and plugins to Copilot. Outreach's Snowflake data-sharing blog is dated Oct 28 and was announced on LinkedIn Oct 29.",
+    "note": "Interpretation: Rune is a defense move, not a GTM product, but it continues Salesforce's acquisition pace after Braze last week. The GTM-relevant thread is control: agents are being pointed at fixed workflows, shared metric definitions and measurable spend rather than open-ended prompts."
   },
-  "feed": []
+  "feed": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Salesforce",
+        "handle": "linkedin.com/company/salesforce",
+        "url": "https://www.linkedin.com/company/salesforce/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-10-29T13:01:39.423000-07:00",
+      "category": "mna",
+      "summary": "Salesforce signed an agreement to acquire Rune Technologies, a military logistics software maker, to expand Missionforce.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521662557427007488/",
+      "engagement": {
+        "reactions": 790,
+        "comments": 18
+      },
+      "also": {
+        "X": "https://x.com/salesforce/status/2115896862762754458"
+      }
+    }
+  ]
 }
