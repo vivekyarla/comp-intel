@@ -1,34 +1,42 @@
 {
-  "as_of": "2026-10-30 morning ~8:50 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Oct 29 – Fri Oct 30 PT",
-  "meaningful_signal": true,
+  "as_of": "2026-11-02 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Sun Nov 1 – Mon Nov 2 PT (Sat Oct 31 items only where still current)",
+  "meaningful_signal": false,
   "market_briefing": {
-    "lede": "Vendors are giving agents fixed, governed paths to act on: AWS now lets agents call existing Step Functions workflows that run every step as defined, and Salesforce is pointing Agentforce and Claude at one shared semantic layer so \"pipeline\" means the same thing everywhere. Spend reporting for AI is also moving into APIs.",
+    "lede": "AI usage is being sold as one metered pool across chat and agent work: OpenAI will put ChatGPT and Codex on a single token allowance in December. Model vendors are also switching on invisible text watermarks by default ahead of the EU AI Act's December deadline.",
     "bullets": [
       {
-        "text": "Oct 29: AWS Step Functions workflows can be used as agent tools through Bedrock AgentCore Gateway (MCP). The agent picks when to run a workflow and what to pass; Step Functions runs each step, such as an approval, in the same order every time.",
+        "text": "Nov 1: OpenAI's updated help page says that from December, Plus, Pro and Business usage will be shared across ChatGPT and Codex and measured in tokens. Instant chat does not count; users who hit the limit can wait, upgrade or buy credits.",
         "cites": [
           {
-            "label": "AWS",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/"
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+          },
+          {
+            "label": "The Decoder",
+            "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
           }
         ]
       },
       {
-        "text": "Oct 29: a Salesforce developer guide shows Agentforce and Claude (via Tableau Next MCP) answering the same open-pipeline question from one Tableau semantic model on Data 360, with Data 360 governance tags and policies controlling access.",
+        "text": "Oct 31: Anthropic told API customers it will watermark Claude Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6 (newer models already carry it); customers can't turn it off, and on Opus 4.6 and Sonnet 4.6 it applies only at default sampling settings. xAI's docs say Grok API text is watermarked by default from Nov 7, with a per-model admin opt-out.",
         "cites": [
           {
-            "label": "Salesforce Developers",
-            "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics"
+            "label": "The Decoder",
+            "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
+          },
+          {
+            "label": "xAI docs",
+            "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
           }
         ]
       },
       {
-        "text": "Oct 29: Anthropic launched a Usage and Cost Analytics API in beta that reports Claude token usage and cost by model, workspace, API key and user or service account; the older usage and cost endpoints are now legacy.",
+        "text": "Oct 30–Nov 2: Anthropic confirmed it added two sentences to Claude Code's Opus 5.5 prompt to steer it away from recreating specific existing games; developers report reverse-engineering refusals since Oct 31, which Anthropic has not addressed.",
         "cites": [
           {
-            "label": "Claude Platform release notes",
-            "url": "https://platform.claude.com/docs/en/release-notes/overview"
+            "label": "Tom's Hardware",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
           }
         ]
       }
@@ -36,235 +44,158 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI rewrites its Model Spec and details agent monitoring",
-      "body": "Oct 29: the Model Spec is reorganized around five values, led by faithfulness to human intent. A companion post says OpenAI's expanded monitors flagged a model reaching the live internet within 15 minutes in September.",
+      "title": "OpenAI reportedly cuts its funding round to $20B",
+      "body": "Oct 30–31: the FT reports OpenAI lowered its target from $30B to $20B, led by UAE investors; the WSJ says $11B is secured so far. OpenAI has not confirmed.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/updated-model-spec"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
         },
         {
-          "label": "OpenAI (monitoring)",
-          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
-        },
-        {
-          "label": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/openai-says-human-intent-at-center-of-updated-ai-model-guidelines-4984893"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
         }
       ]
     },
     {
-      "title": "Gemini now creates and edits documents in chat",
-      "body": "Oct 29: Gemini can generate, preview and edit Docs, Sheets, Slides, PDFs, Markdown and code files inside a chat, for all users; PDF editing works on web and mobile, other formats on web.",
+      "title": "OpenAI to merge ChatGPT and Codex usage limits",
+      "body": "Nov 1: one token-based allowance across ChatGPT and Codex for Plus, Pro and Business from December, viewable in Settings → Usage.",
       "new": true,
       "cites": [
         {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
-        },
-        {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
+          "label": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
         }
       ]
     },
     {
-      "title": "Microsoft adds 25+ finance skills and plugins to Copilot",
-      "body": "Oct 29: new accounting, capital markets and finance skills and plugins across Copilot in Excel and Cowork, a Dynamics 365 ERP plugin, partner plugins from firms such as QuickBooks, FactSet and S&P Global, and an optional audit trail of what Copilot changed.",
+      "title": "Meituan releases LongCat-2.5",
+      "body": "Nov 2: a 1.6T-parameter multimodal model (~48B active per token) for long-running agent and coding tasks, live in Meituan's chat and API, with GitHub and Hugging Face releases planned.",
       "new": true,
       "cites": [
         {
-          "label": "Microsoft",
-          "url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/"
+          "label": "TechNode",
+          "url": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/"
+        },
+        {
+          "label": "LongCat",
+          "url": "https://longcat.ai/blog/longcat-2.5/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce agrees to acquire Rune Technologies",
-      "body": "NEW. Oct 29: Salesforce signed a definitive agreement to buy Rune Technologies, a military logistics software maker used by the U.S. Army and Marine Corps, to expand its Missionforce defense portfolio. Terms were not disclosed; closing is expected in Salesforce's fiscal Q4 2027 (ends Jan 31, 2027). Salesforce says its defense business is growing 80% year over year.",
+      "title": "ChatGPT and Codex move to one token allowance in December",
+      "body": "NEW (adjacent). Nov 1: OpenAI's support page says Plus, Pro and Business plans will draw ChatGPT and Codex usage from one token-measured allowance, with heavier models and tasks using more. Instant chat is excluded; extra credits can be bought. OpenAI has not published allowance sizes or an exact date.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/"
+          "label": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
         },
         {
-          "label": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/salesforce-to-buy-defense-tech-firm-rune-in-military-business-push-4985076"
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
         }
       ]
     },
     {
-      "title": "Outreach shares engagement data into customers' Snowflake accounts",
-      "body": "NEW. Outreach Data Sharing, listed on Snowflake Marketplace (blog dated Oct 28, announced on LinkedIn Oct 29), gives a live, read-only view of Outreach email, meeting, task, sequence and pipeline data in the customer's own Snowflake account, with no API pipeline or ETL. Outreach says Snowflake's SDR team moved lead-score refreshes from daily to every two hours.",
+      "title": "Anthropic extends its text watermark to four more Claude models",
+      "body": "NEW (adjacent). Oct 31: an email to API customers says Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6 will be watermarked, citing the EU AI Act December deadline; Bedrock may lag a few days. On Opus 4.6 and Sonnet 4.6 the mark applies only with default temperature, top_p and top_k. Detection API is in private preview.",
       "new": true,
       "cites": [
         {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/resources/blog/sales-engagement-data-snowflake"
-        },
-        {
-          "label": "Outreach Developers",
-          "url": "https://developers.outreach.io/data-sharing/snowflake"
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
         }
       ]
     },
     {
-      "title": "Salesforce puts one semantic layer under Agentforce and Claude",
-      "body": "NEW. Oct 29: a developer guide shows Data 360 plus Tableau Semantics giving Agentforce and MCP-connected Claude Code and Claude Desktop the same metric definitions, such as open pipeline. Salesforce Developers also published a video on Salesforce Development plugins for Claude Code the same day.",
+      "title": "xAI turns on Grok API watermarking by default from Nov 7",
+      "body": "NEW (adjacent). xAI's docs say text from seven Grok models, including structured outputs and tool-call arguments, is watermarked from Nov 7. Team admins can opt out per model, except models locked on; changes are audit-logged.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce Developers",
-          "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics"
-        },
-        {
-          "label": "Salesforce Developers on X",
-          "url": "https://x.com/SalesforceDevs/status/2115881432081912285"
+          "label": "xAI docs",
+          "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
         }
       ]
     },
     {
-      "title": "AWS lets agents run Step Functions workflows as tools",
-      "body": "NEW (adjacent). Oct 29: existing Standard and Express workflows can be exposed to agents through AgentCore Gateway over MCP, and agents can look up workflow runs. Available in all AgentCore Gateway regions at standard rates.",
+      "title": "Anthropic confirms a prompt-level guardrail in Claude Code",
+      "body": "NEW (adjacent). Anthropic's Addy Osmani said on Oct 30 that two sentences were added to Claude Code's Opus 5.5 prompt to avoid recreating someone else's specific game. Tom's Hardware (Nov 2) has direct reports of reverse-engineering refusals from Oct 31 that went away on Opus 4.8.",
       "new": true,
       "cites": [
         {
-          "label": "AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic ships a Usage and Cost Analytics API (beta)",
-      "body": "NEW (adjacent). Oct 29: new organization endpoints report token usage and cost for Claude Console and Claude Enterprise, filterable by model, workspace, API key and user or service account. It follows the Oct 28 pooled group budgets covered yesterday.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Claude Platform release notes",
-          "url": "https://platform.claude.com/docs/en/release-notes/overview"
+          "label": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
         }
       ]
     }
   ],
-  "quiet_note": "No new Gong, Clay, Nooks, Salesloft or Monaco launches found for Oct 29–30. Gong's Oct 29 LinkedIn post recaps its Sept 30 Celebrate launches; Outreach's Oct 29 Agent Studio post is an explainer for an existing product.",
+  "quiet_note": "No new launches, pricing, funding or M&A from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco found for Nov 1–2. Company LinkedIn and X posts in the window were event recaps, culture posts, workshop promos, an internal Clay workflow write-up and founder opinion threads. Salesforce has not yet announced the start of the Agent Evals beta.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (deterministic workflows as agent tools)",
-      "text": "AWS Step Functions workflows callable by agents through AgentCore Gateway (Oct 29), following ServiceNow Action Fabric in ChatGPT (Oct 28)."
+      "label": "Accelerating (pooled, metered AI budgets)",
+      "text": "OpenAI ChatGPT + Codex shared token allowance from December (Nov 1), after Claude Enterprise pooled group budgets and GitHub Enterprise Copilot usage against one enterprise budget (Oct 28)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (shared semantic layers for agents)",
-      "text": "Salesforce Data 360 + Tableau Semantics serving Agentforce and Claude the same metric definitions (Oct 29)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (AI spend reporting via API)",
-      "text": "Anthropic Usage and Cost Analytics API beta (Oct 29), a day after Claude Enterprise pooled budgets."
+      "label": "Accelerating (default output watermarking)",
+      "text": "Anthropic adds four more Claude models (Oct 31); xAI Grok API on by default Nov 7; both cite the EU AI Act."
     },
     {
       "kind": "new",
-      "label": "Emerging (warehouse-native sales engagement data)",
-      "text": "Outreach Data Sharing on Snowflake Marketplace, live read-only shares instead of ETL (Oct 28–29)."
+      "label": "Emerging (vendor-side prompt guardrails in coding agents)",
+      "text": "Claude Code's Opus 5.5 prompt change on game recreation, confirmed Oct 30, with user reports of reverse-engineering refusals (Oct 31–Nov 2)."
+    },
+    {
+      "kind": "flat",
+      "label": "Steady (watchlist)",
+      "text": "No watchlist launches over the weekend; Salesloft summit and Agentforce Coworker demos on Nov 4."
     }
   ],
   "language_pulse": [
     {
-      "term": "AIforce",
-      "gloss": "Salesforce Developers' name for bringing Salesforce context and actions into AI assistants such as Claude and Slack (Oct 29 posts and guide)."
+      "term": "usage allowance",
+      "gloss": "OpenAI's term for the single token-measured budget shared across ChatGPT and Codex from December (Nov 1)."
     },
     {
-      "term": "jagged",
-      "gloss": "Salesforce News framing that AI capability is uneven across processes, so enterprise agent strategy should vary by process (Oct 29)."
+      "term": "imperceptible pattern in word choice",
+      "gloss": "Anthropic's description of its Claude text watermark, which adds no characters or tokens (Oct 31, via The Decoder)."
     },
     {
-      "term": "semantic data model",
-      "gloss": "Tableau's reusable layer of business definitions (e.g. revenue, pipeline) that agents query so answers stay consistent (Oct 29)."
+      "term": "locked on",
+      "gloss": "xAI's label for Grok models where a team cannot opt out of watermarking."
     }
   ],
-  "competitive_moves": [
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Agreement to acquire Rune Technologies for Missionforce (Oct 29); Data 360 + Tableau Semantics guide for Agentforce and Claude (Oct 29); Agentforce Coworker live demos set for Nov 4 on Salesforce+.",
-      "cites": [
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/"
-        },
-        {
-          "label": "Salesforce Developers",
-          "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics"
-        },
-        {
-          "label": "Salesforce on X",
-          "url": "https://x.com/salesforce/status/2115836199990350269"
-        }
-      ]
-    },
-    {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "Outreach Data Sharing on Snowflake Marketplace: live, read-only engagement and pipeline data in the customer's Snowflake account (Oct 28–29).",
-      "cites": [
-        {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/resources/blog/sales-engagement-data-snowflake"
-        }
-      ]
-    }
-  ],
+  "competitive_moves": [],
   "watch": [
     {
       "title": "Nov 4: Salesloft Behind Every Win summit and Agentforce Coworker demos",
-      "body": "Salesloft may give Agentic Playbook pricing or a GA date at its Nov 4 summit, and Salesforce is running Agentforce Coworker live demos the same day on Salesforce+. Also watch whether other revenue vendors follow Outreach in shipping warehouse-native data shares.",
+      "body": "Salesloft's virtual summit runs 11 AM–1 PM ET (8–10 AM PT) and may give Agentic Playbook pricing or a GA date; Salesforce runs Agentforce Coworker live demos on Salesforce+ the same day. Agent Evals and API Evals are still due to enter beta in November.",
       "cites": [
         {
-          "label": "Salesloft via GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389102/0/en/salesloft-advances-agentic-revenue-vision-with-new-ai-capabilities-for-sales-teams.html"
+          "label": "Salesloft",
+          "url": "https://www.salesloft.com/events"
         },
         {
-          "label": "Salesforce on X",
-          "url": "https://x.com/salesforce/status/2115836199990350269"
+          "label": "Salesforce+",
+          "url": "https://www.salesforce.com/plus/experience/meet_your_new_coworker_-_now_your_crm_works_for_you"
         },
         {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/resources/blog/sales-engagement-data-snowflake"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "On Oct 29, Salesforce agreed to acquire Rune Technologies; Salesforce Developers published a Data 360 + Tableau Semantics guide for Agentforce and Claude; AWS made Step Functions workflows usable as agent tools; Anthropic launched a Usage and Cost Analytics API beta; OpenAI updated its Model Spec; Google added file creation and editing to Gemini; and Microsoft added finance skills and plugins to Copilot. Outreach's Snowflake data-sharing blog is dated Oct 28 and was announced on LinkedIn Oct 29.",
-    "note": "Interpretation: Rune is a defense move, not a GTM product, but it continues Salesforce's acquisition pace after Braze last week. The GTM-relevant thread is control: agents are being pointed at fixed workflows, shared metric definitions and measurable spend rather than open-ended prompts."
+    "fact": "OpenAI's help page (updated Nov 1) says ChatGPT and Codex will share one token allowance from December. Anthropic emailed API customers (reported Oct 31) that four more Claude models will be watermarked; xAI's docs say Grok API watermarking is on by default from Nov 7. Anthropic confirmed a Claude Code prompt change on Oct 30. The FT and WSJ reported OpenAI cut its round target to $20B. Meituan released LongCat-2.5 on Nov 2. No watchlist launches were found for Nov 1–2.",
+    "note": "Interpretation: agent work is now priced from the same pool as chat, so buyers will compare tools by tokens per task rather than seats. Default watermarking means AI-drafted outbound text from Claude and Grok APIs is detectable by those vendors' tools unless settings or opt-outs change it."
   },
-  "feed": [
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "linkedin.com/company/salesforce",
-        "url": "https://www.linkedin.com/company/salesforce/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-10-29T13:01:39.423000-07:00",
-      "category": "mna",
-      "summary": "Salesforce signed an agreement to acquire Rune Technologies, a military logistics software maker, to expand Missionforce.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521662557427007488/",
-      "engagement": {
-        "reactions": 790,
-        "comments": 18
-      },
-      "also": {
-        "X": "https://x.com/salesforce/status/2115896862762754458"
-      }
-    }
-  ]
+  "feed": []
 }
