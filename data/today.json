@@ -1,42 +1,38 @@
 {
-  "as_of": "2026-11-02 morning ~8:50 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Sun Nov 1 – Mon Nov 2 PT (Sat Oct 31 items only where still current)",
-  "meaningful_signal": false,
+  "as_of": "2026-11-03 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Nov 2 – Tue Nov 3 PT",
+  "meaningful_signal": true,
   "market_briefing": {
-    "lede": "AI usage is being sold as one metered pool across chat and agent work: OpenAI will put ChatGPT and Codex on a single token allowance in December. Model vendors are also switching on invisible text watermarks by default ahead of the EU AI Act's December deadline.",
+    "lede": "Salesforce is folding Cresta's voice agents into Service Cloud, while Clay published a head-to-head showing GTM agents win more on organized account data than on model size. Anthropic's new message threads cut first-token wait for long agent sessions without changing token bill.",
     "bullets": [
       {
-        "text": "Nov 1: OpenAI's updated help page says that from December, Plus, Pro and Business usage will be shared across ChatGPT and Codex and measured in tokens. Instant chat does not count; users who hit the limit can wait, upgrade or buy credits.",
+        "text": "Nov 2: Salesforce signed a definitive agreement to acquire Cresta, whose voice agents handle complex calls end to end and coach human reps in real time; terms are undisclosed in the newsroom post (The Information reports about $2.7B). Close is aimed for Salesforce's fiscal Q1 2028, subject to approvals. Cresta will keep supporting customers' existing contact-center and telephony stacks after close.",
         "cites": [
           {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+            "label": "Salesforce",
+            "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
           },
           {
-            "label": "The Decoder",
-            "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
+            "label": "The Information",
+            "url": "https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion"
           }
         ]
       },
       {
-        "text": "Oct 31: Anthropic told API customers it will watermark Claude Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6 (newer models already carry it); customers can't turn it off, and on Opus 4.6 and Sonnet 4.6 it applies only at default sampling settings. xAI's docs say Grok API text is watermarked by default from Nov 7, with a per-model admin opt-out.",
+        "text": "Nov 3: Clay's Linda Ye and Nisola Shobayo blog says Account Agents on Clay's Audiences data layer used 6.4× fewer input tokens and answered 2.6× faster than a general-purpose agent on the same Salesforce/Gong facts, and caught a planted duplicate-account threat in 30/30 runs vs 18/30.",
         "cites": [
           {
-            "label": "The Decoder",
-            "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
-          },
-          {
-            "label": "xAI docs",
-            "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+            "label": "Clay",
+            "url": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
           }
         ]
       },
       {
-        "text": "Oct 30–Nov 2: Anthropic confirmed it added two sentences to Claude Code's Opus 5.5 prompt to steer it away from recreating specific existing games; developers report reverse-engineering refusals since Oct 31, which Anthropic has not addressed.",
+        "text": "Nov 3: Anthropic put Messages API message threads in public beta — send the full history once, then only new turns plus the prior response id. Median time-to-first-token for 500k–1M-token requests drops about 35%; most Claude Code users have it on by default. Token usage is unchanged; threads expire five minutes after the last request.",
         "cites": [
           {
-            "label": "Tom's Hardware",
-            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
+            "label": "Anthropic",
+            "url": "https://claude.com/resources/articles/message-threads"
           }
         ]
       }
@@ -44,139 +40,158 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI reportedly cuts its funding round to $20B",
-      "body": "Oct 30–31: the FT reports OpenAI lowered its target from $30B to $20B, led by UAE investors; the WSJ says $11B is secured so far. OpenAI has not confirmed.",
+      "title": "Anthropic amends S-1 with $17B Q3 revenue and $895.4B compute commitments",
+      "body": "Nov 2: CNBC reports the amended Form S-1 shows ~$17B Q3 revenue (+47% QoQ), $33.24B for the nine months ended Sept. 30, a $23.29B Q3 net loss, and ~$895.4B in purchase commitments and leases substantially for compute and infrastructure.",
       "new": true,
       "cites": [
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
-        },
         {
           "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI to merge ChatGPT and Codex usage limits",
-      "body": "Nov 1: one token-based allowance across ChatGPT and Codex for Plus, Pro and Business from December, viewable in Settings → Usage.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI Help Center",
-          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
-        }
-      ]
-    },
-    {
-      "title": "Meituan releases LongCat-2.5",
-      "body": "Nov 2: a 1.6T-parameter multimodal model (~48B active per token) for long-running agent and coding tasks, live in Meituan's chat and API, with GitHub and Hugging Face releases planned.",
-      "new": true,
-      "cites": [
-        {
-          "label": "TechNode",
-          "url": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/"
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
         },
         {
-          "label": "LongCat",
-          "url": "https://longcat.ai/blog/longcat-2.5/"
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic ships message threads beta for long-running agents",
+      "body": "Nov 3: public beta on the Claude Platform (also AWS, Microsoft Foundry, Google Cloud Anthropic-managed). Median TTFT falls ~35% on 500k–1M-token requests; Claude still reads the full conversation each turn.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/message-threads"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI launches Grid Protectors for flexible campus power demand",
+      "body": "Nov 2: future compute campuses are meant to cut electricity draw when grids are strained. Georgia Effingham County pilot includes up to 1,000 MW of demand response with Georgia Power; OpenAI says it will pay full project infrastructure and service costs.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/grid-protectors-program"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "ChatGPT and Codex move to one token allowance in December",
-      "body": "NEW (adjacent). Nov 1: OpenAI's support page says Plus, Pro and Business plans will draw ChatGPT and Codex usage from one token-measured allowance, with heavier models and tasks using more. Instant chat is excluded; extra credits can be bought. OpenAI has not published allowance sizes or an exact date.",
+      "title": "Salesforce to acquire Cresta for voice agents in Service Cloud",
+      "body": "NEW. Nov 2 newsroom: definitive agreement to buy Cresta, the \"voice-first operating system for customer experience.\" Cresta's agents resolve complex calls, coach human reps, and analyze interactions; named customers include Marriott, Comcast and Alaska Airlines. Expected close fiscal Q1 2028, subject to regulatory approvals. Purchase price not in the Salesforce post; The Information reports about $2.7B.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI Help Center",
-          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
         },
         {
-          "label": "The Decoder",
-          "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
+          "label": "The Information",
+          "url": "https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion"
+        },
+        {
+          "label": "X @salesforce",
+          "url": "https://x.com/salesforce/status/2117361573492605148"
         }
       ]
     },
     {
-      "title": "Anthropic extends its text watermark to four more Claude models",
-      "body": "NEW (adjacent). Oct 31: an email to API customers says Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6 will be watermarked, citing the EU AI Act December deadline; Bedrock may lag a few days. On Opus 4.6 and Sonnet 4.6 the mark applies only with default temperature, top_p and top_k. Detection API is in private preview.",
+      "title": "Clay: GTM agent ceiling is the data layer, not the model",
+      "body": "NEW (adjacent / product proof). Nov 3 blog: five synthetic enterprise accounts, same Salesforce+Gong facts for a generic MCP agent vs Clay Account Agents. Clay: 39K vs 250K average input tokens, 23s vs 60s answers, duplicate-account threat caught 30/30 vs 18/30. Framed as Audiences (canonical account + all fields + pre-organized context) beating retrieval luck.",
       "new": true,
       "cites": [
         {
-          "label": "The Decoder",
-          "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
+          "label": "Clay",
+          "url": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
         }
       ]
     },
     {
-      "title": "xAI turns on Grok API watermarking by default from Nov 7",
-      "body": "NEW (adjacent). xAI's docs say text from seven Grok models, including structured outputs and tool-call arguments, is watermarked from Nov 7. Team admins can opt out per model, except models locked on; changes are audit-logged.",
+      "title": "Anthropic message threads cut agent TTFT on long sessions",
+      "body": "NEW (adjacent). Nov 3 public beta: thread create/continue on Messages API so clients send only new messages after the first turn. ~35% median TTFT drop at 500k–1M tokens; on by default for most Claude Code users; 5-minute idle expiry.",
       "new": true,
       "cites": [
         {
-          "label": "xAI docs",
-          "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/message-threads"
         }
       ]
     },
     {
-      "title": "Anthropic confirms a prompt-level guardrail in Claude Code",
-      "body": "NEW (adjacent). Anthropic's Addy Osmani said on Oct 30 that two sentences were added to Claude Code's Opus 5.5 prompt to avoid recreating someone else's specific game. Tom's Hardware (Nov 2) has direct reports of reverse-engineering refusals from Oct 31 that went away on Opus 4.8.",
+      "title": "Anthropic IPO amendment details Q3 run-rate and near-$900B compute book",
+      "body": "NEW (adjacent). Nov 2 amended S-1 (via CNBC/Axios): ~$17B Q3 revenue, $33.24B YTD revenue, $895.4B aggregate compute/infrastructure commitments (~$70B due within 12 months per Axios).",
       "new": true,
       "cites": [
         {
-          "label": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge"
         }
       ]
     }
   ],
-  "quiet_note": "No new launches, pricing, funding or M&A from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco found for Nov 1–2. Company LinkedIn and X posts in the window were event recaps, culture posts, workshop promos, an internal Clay workflow write-up and founder opinion threads. Salesforce has not yet announced the start of the Agent Evals beta.",
+  "quiet_note": "No new launches, pricing or M&A from Gong, Outreach, Salesloft, Monaco or Nooks in the Nov 2–3 window. Gong and Outreach newsrooms still top out in mid-October. Nooks' company LinkedIn (Nov 2) claimed ~400 new customers in Q3, 49% Sequencing growth QoQ and \"big announcements this week,\" without naming the products. Salesloft summit and Agentforce Coworker demos are tomorrow (Nov 4).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (pooled, metered AI budgets)",
-      "text": "OpenAI ChatGPT + Codex shared token allowance from December (Nov 1), after Claude Enterprise pooled group budgets and GitHub Enterprise Copilot usage against one enterprise budget (Oct 28)."
+      "label": "Accelerating (CRM platforms buying specialized voice agents)",
+      "text": "Salesforce definitive agreement for Cresta (Nov 2), after prior Agentforce Voice / contact-center pushes; close targeted fiscal Q1 2028."
     },
     {
       "kind": "up",
-      "label": "Accelerating (default output watermarking)",
-      "text": "Anthropic adds four more Claude models (Oct 31); xAI Grok API on by default Nov 7; both cite the EU AI Act."
+      "label": "Accelerating (GTM agents sold on data infrastructure, not model size)",
+      "text": "Clay's Nov 3 Account Agent vs generic Salesforce/Gong agent benchmark (6.4× fewer tokens, 2.6× faster)."
     },
     {
-      "kind": "new",
-      "label": "Emerging (vendor-side prompt guardrails in coding agents)",
-      "text": "Claude Code's Opus 5.5 prompt change on game recreation, confirmed Oct 30, with user reports of reverse-engineering refusals (Oct 31–Nov 2)."
+      "kind": "up",
+      "label": "Accelerating (long-session agent API latency)",
+      "text": "Anthropic message threads public beta (Nov 3) with ~35% median TTFT cut on 500k–1M-token requests."
     },
     {
       "kind": "flat",
-      "label": "Steady (watchlist)",
-      "text": "No watchlist launches over the weekend; Salesloft summit and Agentforce Coworker demos on Nov 4."
+      "label": "Steady (watchlist peers)",
+      "text": "Gong, Outreach, Salesloft, Monaco quiet on launches; Nooks teasing product news this week; Salesloft summit + Agentforce Coworker demos Nov 4."
     }
   ],
   "language_pulse": [
     {
-      "term": "usage allowance",
-      "gloss": "OpenAI's term for the single token-measured budget shared across ChatGPT and Codex from December (Nov 1)."
+      "term": "voice-first operating system",
+      "gloss": "Salesforce/Cresta's label for Cresta's platform that runs voice agents, real-time human coaching and conversation analytics together (Nov 2)."
     },
     {
-      "term": "imperceptible pattern in word choice",
-      "gloss": "Anthropic's description of its Claude text watermark, which adds no characters or tokens (Oct 31, via The Decoder)."
+      "term": "message threads",
+      "gloss": "Anthropic Messages API beta: send full history once, then only new turns plus previous_message_id; TTFT optimization, not a token discount (Nov 3)."
     },
     {
-      "term": "locked on",
-      "gloss": "xAI's label for Grok models where a team cannot opt out of watermarking."
+      "term": "Grid Protectors",
+      "gloss": "OpenAI's Nov 2 program for compute campuses that can cut electricity demand when utilities call for demand response."
     }
   ],
-  "competitive_moves": [],
+  "competitive_moves": [
+    {
+      "title": "Salesforce → Cresta (definitive agreement)",
+      "body": "Nov 2: Salesforce to acquire Cresta to unite voice agents and conversation intelligence with Service Cloud / Agentforce. Terms undisclosed officially; The Information reports ~$2.7B. Expected close fiscal Q1 2028.",
+      "cites": [
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+        },
+        {
+          "label": "The Information",
+          "url": "https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion"
+        }
+      ]
+    }
+  ],
   "watch": [
     {
-      "title": "Nov 4: Salesloft Behind Every Win summit and Agentforce Coworker demos",
-      "body": "Salesloft's virtual summit runs 11 AM–1 PM ET (8–10 AM PT) and may give Agentic Playbook pricing or a GA date; Salesforce runs Agentforce Coworker live demos on Salesforce+ the same day. Agent Evals and API Evals are still due to enter beta in November.",
+      "title": "Nov 4: Salesloft Behind Every Win summit and Agentforce Coworker demos; Nooks product teases",
+      "body": "Salesloft's virtual summit runs 11 AM–1 PM ET (8–10 AM PT) with Forrester's Anthony McPartlin and Pixar storyteller Matthew Luhn — watch for Agentic Playbook pricing/GA. Salesforce+ runs Agentforce Coworker live demos the same day; Agent Evals / API Evals remain due for November beta. Nooks LinkedIn (Nov 2) said \"some big announcements this week\" after claiming ~400 new Q3 customers.",
       "cites": [
         {
           "label": "Salesloft",
@@ -187,15 +202,77 @@
           "url": "https://www.salesforce.com/plus/experience/meet_your_new_coworker_-_now_your_crm_works_for_you"
         },
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+          "label": "Nooks LinkedIn",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523074092183474176/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "OpenAI's help page (updated Nov 1) says ChatGPT and Codex will share one token allowance from December. Anthropic emailed API customers (reported Oct 31) that four more Claude models will be watermarked; xAI's docs say Grok API watermarking is on by default from Nov 7. Anthropic confirmed a Claude Code prompt change on Oct 30. The FT and WSJ reported OpenAI cut its round target to $20B. Meituan released LongCat-2.5 on Nov 2. No watchlist launches were found for Nov 1–2.",
-    "note": "Interpretation: agent work is now priced from the same pool as chat, so buyers will compare tools by tokens per task rather than seats. Default watermarking means AI-drafted outbound text from Claude and Grok APIs is detectable by those vendors' tools unless settings or opt-outs change it."
+    "fact": "Salesforce announced a definitive agreement to acquire Cresta on Nov 2 (price not in the newsroom; The Information reports ~$2.7B). Clay published a Nov 3 benchmark claiming Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same facts. Anthropic's amended S-1 (Nov 2) shows ~$17B Q3 revenue and $895.4B compute commitments; Anthropic launched message threads public beta (Nov 3). OpenAI launched Grid Protectors (Nov 2). No product launches from Gong, Outreach, Salesloft, Monaco or Nooks were found for Nov 2–3.",
+    "note": "Interpretation: Salesforce is buying conversation-native voice agents rather than only building them, which raises the bar for \"AI CS\" attach in CRM deals. Clay is arguing buyers should judge GTM agents by retrieval/data layer quality, not model brand — useful framing against MCP-to-CRM demos. Message threads make long coding/GTM agent sessions feel snappier without changing spend."
   },
-  "feed": []
+  "feed": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "author": {
+        "name": "Clay",
+        "handle": "linkedin.com/company/grow-with-clay",
+        "url": "https://www.linkedin.com/company/grow-with-clay/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-03T08:43:00.984000-08:00",
+      "category": "take",
+      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
+      "engagement": {},
+      "also": {
+        "Blog": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
+      }
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Salesforce",
+        "handle": "linkedin.com/company/salesforce",
+        "url": "https://www.linkedin.com/company/salesforce/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-02T13:01:53.654000-08:00",
+      "category": "mna",
+      "summary": "Salesforce signed a definitive agreement to acquire Cresta, a voice-first customer-experience platform, to connect voice agents with Service Cloud.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523127268072783872/",
+      "engagement": {
+        "reactions": 1180,
+        "comments": 25
+      },
+      "also": {
+        "X": "https://x.com/salesforce/status/2117361573492605148",
+        "Newsroom": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+      }
+    },
+    {
+      "company": "Nooks",
+      "slug": "nooks",
+      "author": {
+        "name": "Nooks",
+        "handle": "linkedin.com/company/nooksapp",
+        "url": "https://www.linkedin.com/company/nooksapp/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-02T09:30:35.534000-08:00",
+      "category": "funding",
+      "summary": "Nooks said it signed about 400 new customers in Q3, grew Sequencing 49% over Q2, and teased product announcements later this week.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523074092183474176/",
+      "engagement": {
+        "reactions": 317,
+        "comments": 2
+      }
+    }
+  ]
 }

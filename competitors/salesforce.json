@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-03",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-02",
+      "title": "Definitive agreement to acquire Cresta (voice agents → Service Cloud)",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "summary": "Nov 2 newsroom: Salesforce signed a definitive agreement to acquire Cresta, a voice-first CX platform whose agents resolve complex calls, coach human reps in real time and analyze interactions (customers named: Marriott, Comcast, Alaska Airlines). Kishan Chetan (EVP/GM Agentforce and Service Cloud) framed it as uniting customer, conversation and outcome with Service Cloud. Cresta continues supporting existing contact-center/telephony stacks after close. Expected close fiscal Q1 2028 (subject to regulatory approvals). Price not disclosed by Salesforce; The Information reports ~$2.7B (https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion). X: https://x.com/salesforce/status/2117361573492605148",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-10-29",
       "title": "Definitive agreement to acquire Rune Technologies (Missionforce)",

@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-10-27",
+  "as_of": "2026-11-03",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-03",
+      "title": "Blog: 'The ceiling on your GTM agent is the data, not the model' (Account Agent vs generic MCP)",
+      "url": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data",
+      "summary": "Nov 3 (Linda Ye, Nisola Shobayo): five synthetic enterprise accounts with planted risks; Clay Account Agents on Audiences vs a general-purpose agent with Salesforce+Gong tools. Clay averaged 39K vs 250K input tokens, 23s vs 60s answers, caught duplicate-account procurement threat 30/30 vs 18/30, and conflicting risk fields 16/30 vs 0/30. Filesystem-style account browse scored 0.92 vs 0.82 typed tools on account-history questions. Thought leadership / product proof, not a new GA.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-10-27",
       "title": "Claygent auto-mode becomes the default model setting (router post-trained with Applied Compute)",
