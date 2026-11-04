@@ -1,0 +1,63 @@
+{
+  "name": "Nooks",
+  "slug": "nooks",
+  "website": "https://www.nooks.ai/",
+  "as_of": "2026-11-04",
+  "positioning": "Revenue Agent Platform / revenue infrastructure for reps and agents: AI prospecting, dialing, sequencing, deal follow-up, coaching, with Nooks Labs research on long-horizon agents. Self-label: Revenue Agent Platform; execution layer for humans + AI agents.",
+  "recent": [
+    {
+      "date": "2026-11-04",
+      "title": "$500M General Catalyst CVF + Node (AI sales assistant) + Revenue Agent Platform",
+      "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
+      "summary": "Nov 4 blog (Dan Lee) + PR Newswire: GC Customer Value Fund commits $500M non-dilutive growth capital (repaid from customer value). Launches Node \u2014 proactive AI personal assistant for sales / \"EA for the AE\"; deal management first; reps approve sends; early access now, GA early 2027. Unifies Revenue Agent Platform: Deal, Outbound, Expansion, Coaching Agents live; Inbound Agents Q1 2027. Claims: 2,000+ companies (Glean, Notion, Deel, Factory, Replit), ~3\u00d7 YoY growth, 135% NRR, 96% agent emails unedited, early Node users up to 80% productivity / ~2 hrs/day saved (method not detailed). Also: https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Nooks Labs: Cracking the hard problem \u2014 sales agents that actually work",
+      "url": "https://www.nooks.ai/blog-posts/building-agents-for-sales",
+      "summary": "Nooks Labs technical post (Narahari Bharadwaj): why coding-agent playbooks fail for sales (fact resolution, strategy selection, style/taste). Claims SalesBench Verified accuracy lift to 72\u201379%, 96% of emails sent autonomously without edits, and ~2x meetings booked per rep for internal team / early beta. First in a series.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "CMO Loreal Lynch on GTM Now podcast \u2014 stop counting agents per rep",
+      "url": "https://www.nooks.ai/blog-posts/loreal-lynch-gtm-now-ai-sales",
+      "summary": "Company blog recap of GTM Now podcast: expects AI to prompt reps within 1\u20132 years; frames 10x productivity as a hiring argument; stresses infrastructure (data, governance, dialing) as the hard part of scaling agents.",
+      "source_type": "company_blog"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Homepage: 'Revenue infrastructure for reps and agents'; Nooks Labs",
+      "url": "https://www.nooks.ai/",
+      "summary": "As of 2026-09-27, nooks.ai positions as one execution layer across outbound/inbound/deal/expansion/coaching; highlights Nooks Labs applied AI research trained on 1B+ sales interactions; AI Prospecting/Dialing/Sequencing product pillars.",
+      "source_type": "company_website"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Acquires FullyRamped; Aaron Marks joins Product",
+      "url": "https://www.prnewswire.com/news-releases/nooks-acquires-fullyramped-founder-aaron-marks-joins-nooks-to-advance-revenue-agent-platform-302860798.html",
+      "summary": "PR Newswire Aug 26: Nooks acquires FullyRamped (AI sales coaching / roleplay voice agents). Founder Aaron Marks joins Nooks Product. CEO Dan Lee frames Revenue Agent Platform spanning lifecycle beyond outbound. Company blog dated Aug 25: https://www.nooks.ai/blog-posts/nooks-acquires-fullyramped. Claims 1,800+ companies (Deel, Intercom, HubSpot, Rippling, Miro, Replit).",
+      "source_type": "press"
+    }
+  ],
+  "language_pulse": [
+    "Inbound Agents",
+    "Deal Agent",
+    "Customer Value Fund",
+    "EA for the AE",
+    "Node",
+    "Revenue Agent Platform",
+    "revenue infrastructure",
+    "reps and agents",
+    "Nooks Labs",
+    "AI Dialing",
+    "AI Sequencing",
+    "AI Prospecting",
+    "agentic revenue execution",
+    "learning loop",
+    "SalesBench",
+    "building agents for sales"
+  ],
+  "notes": "Nov 4: major triple announce \u2014 $500M GC CVF, Node early access (GA early 2027), Revenue Agent Platform. Prior FullyRamped Aug 26 and Nooks Labs Sep 24 remain background."
+}

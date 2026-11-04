@@ -1,7 +1,53 @@
 {
-  "as_of": "2026-11-03T08:48:15.593586-08:00",
+  "as_of": "2026-11-04T08:42:48.077346-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Salesforce",
+        "handle": "linkedin.com/company/salesforce",
+        "url": "https://www.linkedin.com/company/salesforce/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-04T16:21:55.139000+00:00",
+      "category": "launch",
+      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21\u00d7 in three months, as it expanded Coworker surfaces and packaging.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
+      "engagement": {
+        "reactions": 22,
+        "comments": 3
+      },
+      "also": {
+        "X": "https://x.com/salesforce/status/2118015893334536642",
+        "Newsroom": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
+      }
+    },
+    {
+      "company": "Nooks",
+      "slug": "nooks",
+      "author": {
+        "name": "Nooks",
+        "handle": "linkedin.com/company/nooksapp",
+        "url": "https://www.linkedin.com/company/nooksapp/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-04T07:42:05.609000-08:00",
+      "category": "funding",
+      "summary": "Nooks said General Catalyst's Customer Value Fund committed $500M in growth capital and pointed to its Node / Revenue Agent Platform push.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523771563309977600/",
+      "engagement": {
+        "reactions": 94,
+        "comments": 10
+      },
+      "also": {
+        "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
+        "PR": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+      }
+    },
     {
       "company": "Clay",
       "slug": "clay",
@@ -14,7 +60,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-03T08:43:00.984000-08:00",
       "category": "take",
-      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
+      "summary": "Clay says its Account Agents used 6.4\u00d7 fewer tokens and answered 2.6\u00d7 faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
       "engagement": {},
       "also": {
@@ -222,99 +268,13 @@
       "source": "X",
       "ts": "2026-10-21T12:56:49-07:00",
       "category": "launch",
-      "summary": "Co-founder says Monaco's re-engagement agent, part of Agent Matrix, is getting 25–35% response rates reviving leads that went cold.",
+      "summary": "Co-founder says Monaco's re-engagement agent, part of Agent Matrix, is getting 25\u201335% response rates reviving leads that went cold.",
       "url": "https://x.com/abishekv/status/2112996547235557782",
       "engagement": {
         "likes": 8,
         "reposts": 0,
         "replies": 0,
         "views": 272
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-10-21T09:30:03.099000-07:00",
-      "category": "recognition",
-      "summary": "Nooks says TechCrunch named it one of the top 5 sales tools revenue teams are adopting in 2026; cites a 24% per-rep pipeline lift at HubSpot.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518710202259378176/",
-      "engagement": {
-        "reactions": 69,
-        "comments": 5
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Sam Blond",
-        "handle": "@samdblond",
-        "url": "https://x.com/samdblond"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-10-21T08:58:21-07:00",
-      "category": "launch",
-      "summary": "Monaco launched Agent Matrix, multiple goal-seeking agents working together on revenue growth; early access is by application.",
-      "url": "https://x.com/samdblond/status/2112936538711683315",
-      "engagement": {
-        "likes": 2363,
-        "reposts": 84,
-        "replies": 153,
-        "views": 1413183
-      },
-      "also": {
-        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7518704095030009856/"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "@salesforce",
-        "url": "https://x.com/salesforce"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-20T12:00:42-07:00",
-      "category": "launch",
-      "summary": "Salesforce added a Donor Engagement Agent in Winter '27 that turns voice memos, photos or notes into donor-record updates and next steps.",
-      "url": "https://x.com/salesforce/status/2112620037093683513",
-      "engagement": {
-        "likes": 6,
-        "reposts": 1,
-        "replies": 1,
-        "views": 2785
-      },
-      "also": {
-        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7518385775093190656/"
-      }
-    },
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "author": {
-        "name": "Gong",
-        "handle": "linkedin.com/company/gong-io",
-        "url": "https://www.linkedin.com/company/gong-io/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-10-20T11:56:33.857000-07:00",
-      "category": "recognition",
-      "summary": "Gong is promoting its second straight Leader placement in the Gartner Magic Quadrant for Revenue Action Orchestration.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518384685505282048/",
-      "engagement": {
-        "reactions": 144,
-        "comments": 6
       }
     }
   ]

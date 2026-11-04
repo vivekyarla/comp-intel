@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-11-03 morning ~8:50 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Nov 2 – Tue Nov 3 PT",
+  "as_of": "2026-11-04 morning ~8:45 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Nov 3 \u2013 Wed Nov 4 PT",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Salesforce is folding Cresta's voice agents into Service Cloud, while Clay published a head-to-head showing GTM agents win more on organized account data than on model size. Anthropic's new message threads cut first-token wait for long agent sessions without changing token bill.",
+    "lede": "Nooks put a $500M growth-capital commitment behind a proactive sales assistant and a full-lifecycle Revenue Agent Platform, while Salesforce priced Agentforce Coworker at $50 per user per month and pushed it into Teams, mobile, and desktop. Slack says half of messages now come from apps and agents, with MCP tool calls doubling quarter over quarter.",
     "bullets": [
       {
-        "text": "Nov 2: Salesforce signed a definitive agreement to acquire Cresta, whose voice agents handle complex calls end to end and coach human reps in real time; terms are undisclosed in the newsroom post (The Information reports about $2.7B). Close is aimed for Salesforce's fiscal Q1 2028, subject to approvals. Cresta will keep supporting customers' existing contact-center and telephony stacks after close.",
+        "text": "Nov 4: Nooks announced a $500 million commitment from General Catalyst's Customer Value Fund (non-dilutive growth capital repaid from customer value), launched Node (AI personal assistant for sales; early access now, GA early 2027), and framed the Nooks Revenue Agent Platform with Deal, Outbound, Expansion and Coaching Agents live and Inbound Agents due Q1 2027. Company claims 2,000+ customers, ~3\u00d7 YoY growth and 135% NRR.",
+        "cites": [
+          {
+            "label": "Nooks",
+            "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
+          },
+          {
+            "label": "PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+          }
+        ]
+      },
+      {
+        "text": "Nov 4: Salesforce said Agentforce Coworker usage hit more than 185,000 users (21\u00d7 in three months) and added a $50 per-user, per-month SKU, reusable Skills, Conversation History, Google Workspace and Microsoft 365 connections; Teams, iOS, and Mac/Windows apps are generally available in November 2026.",
         "cites": [
           {
             "label": "Salesforce",
-            "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
-          },
-          {
-            "label": "The Information",
-            "url": "https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion"
+            "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
           }
         ]
       },
       {
-        "text": "Nov 3: Clay's Linda Ye and Nisola Shobayo blog says Account Agents on Clay's Audiences data layer used 6.4× fewer input tokens and answered 2.6× faster than a general-purpose agent on the same Salesforce/Gong facts, and caught a planted duplicate-account threat in 30/30 runs vs 18/30.",
+        "text": "Nov 3: Slack (Salesforce newsroom) reported that 50% of Slack messages are from apps and agents, with 127 million MCP tool calls per week (doubling QoQ) and 1.9 million weekly users interacting with third-party agents.",
         "cites": [
           {
-            "label": "Clay",
-            "url": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
-          }
-        ]
-      },
-      {
-        "text": "Nov 3: Anthropic put Messages API message threads in public beta — send the full history once, then only new turns plus the prior response id. Median time-to-first-token for 500k–1M-token requests drops about 35%; most Claude Code users have it on by default. Token usage is unchanged; threads expire five minutes after the last request.",
-        "cites": [
-          {
-            "label": "Anthropic",
-            "url": "https://claude.com/resources/articles/message-threads"
+            "label": "Salesforce / Slack",
+            "url": "https://www.salesforce.com/news/stories/slack-stats/"
           }
         ]
       }
@@ -40,158 +40,161 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Anthropic amends S-1 with $17B Q3 revenue and $895.4B compute commitments",
-      "body": "Nov 2: CNBC reports the amended Form S-1 shows ~$17B Q3 revenue (+47% QoQ), $33.24B for the nine months ended Sept. 30, a $23.29B Q3 net loss, and ~$895.4B in purchase commitments and leases substantially for compute and infrastructure.",
-      "new": true,
-      "cites": [
-        {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
-        },
-        {
-          "label": "Axios",
-          "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic ships message threads beta for long-running agents",
-      "body": "Nov 3: public beta on the Claude Platform (also AWS, Microsoft Foundry, Google Cloud Anthropic-managed). Median TTFT falls ~35% on 500k–1M-token requests; Claude still reads the full conversation each turn.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/message-threads"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI launches Grid Protectors for flexible campus power demand",
-      "body": "Nov 2: future compute campuses are meant to cut electricity draw when grids are strained. Georgia Effingham County pilot includes up to 1,000 MW of demand response with Georgia Power; OpenAI says it will pay full project infrastructure and service costs.",
+      "title": "OpenAI shows GPT-6 Astra designing physical hardware and expands Mazda / Chip Ganassi engineering work",
+      "body": "Nov 3: two employees used Astra to design a Codex-connected device (enclosure, PCB, firmware) in under a week; a contract manufacturer built a small prototype batch in under a month, with manufacturing-tolerance gaps still needing human review. OpenAI also expanded Chip Ganassi Racing CAD-from-scan workflows and announced a Mazda research collaboration on aerodynamics and crash safety.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/grid-protectors-program"
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+        }
+      ]
+    },
+    {
+      "title": "Slack: half of messages are from apps and agents; 127M MCP tool calls/week",
+      "body": "Nov 3: Salesforce published Slack-by-the-numbers as agents move into production channels via MCP; Slackbot called the fastest-adopted AI product in Salesforce history.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Salesforce / Slack",
+          "url": "https://www.salesforce.com/news/stories/slack-stats/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce to acquire Cresta for voice agents in Service Cloud",
-      "body": "NEW. Nov 2 newsroom: definitive agreement to buy Cresta, the \"voice-first operating system for customer experience.\" Cresta's agents resolve complex calls, coach human reps, and analyze interactions; named customers include Marriott, Comcast and Alaska Airlines. Expected close fiscal Q1 2028, subject to regulatory approvals. Purchase price not in the Salesforce post; The Information reports about $2.7B.",
+      "title": "Nooks: $500M GC CVF + Node + Revenue Agent Platform",
+      "body": "NEW. Nov 4 company blog and PR: General Catalyst Customer Value Fund commits $500M growth capital (not a conventional equity round; repaid from customer value created). Node is positioned as a proactive \"EA for the AE\" (deal management first; reps approve sends; early access now, GA early 2027). Platform agents: Deal, Outbound, Expansion, Coaching now; Inbound Q1 2027. Metrics claimed: 2,000+ companies, ~3\u00d7 YoY growth, 135% NRR, 96% of agent emails sent without edits, early Node users up to 80% higher productivity / ~2 hours saved per day (methodology not detailed).",
+      "new": true,
+      "cites": [
+        {
+          "label": "Nooks",
+          "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce expands Agentforce Coworker: 185k users, $50/user/mo, Teams + mobile/desktop",
+      "body": "NEW. Nov 4 newsroom: 21\u00d7 usage growth in three months; new Skills, Conversation History, Google Workspace / Microsoft 365 connectivity; $50 per-user per-month SKU available now. GA in November 2026: Coworker in Microsoft Teams, iOS app, Mac/Windows desktop apps, Coworker MCP server, Flex Credits free trial. December expected: Daily Digest, scheduled tasks, industry-cloud mobile apps. Named customers/use cases: Fulton Bank, Adecco Group, BACA Systems. Salesforce+ \"Meet your new coworker\" demos also run today.",
       "new": true,
       "cites": [
         {
           "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+          "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
         },
         {
-          "label": "The Information",
-          "url": "https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion"
+          "label": "Salesforce+",
+          "url": "https://www.salesforce.com/plus/experience/meet_your_new_coworker_-_now_your_crm_works_for_you"
         },
         {
           "label": "X @salesforce",
-          "url": "https://x.com/salesforce/status/2117361573492605148"
+          "url": "https://x.com/salesforce/status/2118015893334536642"
         }
       ]
     },
     {
-      "title": "Clay: GTM agent ceiling is the data layer, not the model",
-      "body": "NEW (adjacent / product proof). Nov 3 blog: five synthetic enterprise accounts, same Salesforce+Gong facts for a generic MCP agent vs Clay Account Agents. Clay: 39K vs 250K average input tokens, 23s vs 60s answers, duplicate-account threat caught 30/30 vs 18/30. Framed as Audiences (canonical account + all fields + pre-organized context) beating retrieval luck.",
+      "title": "Gong names Chief R&D Officer and CISO",
+      "body": "NEW (org). Nov 4 press: Liron Shtraichman (ex-monday.com engineering lead) as Chief R&D Officer to expand agentic capabilities across Revenue Graph / Harness / Operating Surfaces; Guy Havusha (ex-VP Platform Security at Gong; formerly monday.com Global CISO) as CISO.",
       "new": true,
       "cites": [
         {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic message threads cut agent TTFT on long sessions",
-      "body": "NEW (adjacent). Nov 3 public beta: thread create/continue on Messages API so clients send only new messages after the first turn. ~35% median TTFT drop at 500k–1M tokens; on by default for most Claude Code users; 5-minute idle expiry.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/message-threads"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic IPO amendment details Q3 run-rate and near-$900B compute book",
-      "body": "NEW (adjacent). Nov 2 amended S-1 (via CNBC/Axios): ~$17B Q3 revenue, $33.24B YTD revenue, $895.4B aggregate compute/infrastructure commitments (~$70B due within 12 months per Axios).",
-      "new": true,
-      "cites": [
-        {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+          "label": "Gong",
+          "url": "https://www.gong.io/press/gong-leadership-liron-shtraichman-chief-r-and-d-officer"
         },
         {
-          "label": "Axios",
-          "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge"
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/gong-strengthens-leadership-team-with-appointment-of-liron-shtraichman-as-chief-rd-officer-302928796.html"
+        }
+      ]
+    },
+    {
+      "title": "Slack publishes agent-era usage stats",
+      "body": "NEW (adjacent). Nov 3: 50% of messages from apps/agents; 127M weekly MCP tool calls; 1.9M weekly users of third-party agents; Slackbot fastest-adopted AI product in Salesforce history.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Salesforce / Slack",
+          "url": "https://www.salesforce.com/news/stories/slack-stats/"
         }
       ]
     }
   ],
-  "quiet_note": "No new launches, pricing or M&A from Gong, Outreach, Salesloft, Monaco or Nooks in the Nov 2–3 window. Gong and Outreach newsrooms still top out in mid-October. Nooks' company LinkedIn (Nov 2) claimed ~400 new customers in Q3, 49% Sequencing growth QoQ and \"big announcements this week,\" without naming the products. Salesloft summit and Agentforce Coworker demos are tomorrow (Nov 4).",
+  "quiet_note": "No new product launches, pricing or M&A from Clay, Outreach or Monaco in the Nov 3\u20134 window. Salesloft's Behind Every Win virtual summit is live today 11 AM\u20131 PM ET (8\u201310 AM PT); as of the morning cutoff no new GA, pricing or Agentic Playbook update beyond the Oct 27 early-access announcement had posted to the newsroom. Agent Evals / API Evals remain scheduled for November beta (announced Oct 27).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (CRM platforms buying specialized voice agents)",
-      "text": "Salesforce definitive agreement for Cresta (Nov 2), after prior Agentforce Voice / contact-center pushes; close targeted fiscal Q1 2028."
+      "label": "Accelerating (AI sales assistants / revenue agents as platform bets)",
+      "text": "Nooks Node + Revenue Agent Platform with $500M GC CVF (Nov 4)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (GTM agents sold on data infrastructure, not model size)",
-      "text": "Clay's Nov 3 Account Agent vs generic Salesforce/Gong agent benchmark (6.4× fewer tokens, 2.6× faster)."
+      "label": "Accelerating (per-seat AI teammate packaging inside CRM)",
+      "text": "Salesforce Agentforce Coworker $50/user/mo SKU and surface expansion to Teams/mobile/desktop (Nov 4)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (long-session agent API latency)",
-      "text": "Anthropic message threads public beta (Nov 3) with ~35% median TTFT cut on 500k–1M-token requests."
+      "label": "Accelerating (agents as first-class collaborators in work chat)",
+      "text": "Slack reports half of messages from apps/agents and 127M MCP tool calls/week (Nov 3)."
     },
     {
       "kind": "flat",
-      "label": "Steady (watchlist peers)",
-      "text": "Gong, Outreach, Salesloft, Monaco quiet on launches; Nooks teasing product news this week; Salesloft summit + Agentforce Coworker demos Nov 4."
+      "label": "Steady (orchestration peers)",
+      "text": "Gong leadership deepen for agentic R&D/security; Salesloft summit in progress; Clay/Outreach/Monaco quiet on launches this window."
     }
   ],
   "language_pulse": [
     {
-      "term": "voice-first operating system",
-      "gloss": "Salesforce/Cresta's label for Cresta's platform that runs voice agents, real-time human coaching and conversation analytics together (Nov 2)."
+      "term": "Node / EA for the AE",
+      "gloss": "Nooks' label for a proactive AI personal assistant that works deals in the background and brings actions to the rep for approval (Nov 4)."
     },
     {
-      "term": "message threads",
-      "gloss": "Anthropic Messages API beta: send full history once, then only new turns plus previous_message_id; TTFT optimization, not a token discount (Nov 3)."
+      "term": "Revenue Agent Platform",
+      "gloss": "Nooks' framing for shared-context agents across Deal, Outbound, Expansion and Coaching (Inbound Q1 2027) (Nov 4)."
     },
     {
-      "term": "Grid Protectors",
-      "gloss": "OpenAI's Nov 2 program for compute campuses that can cut electricity demand when utilities call for demand response."
+      "term": "Skills (Agentforce Coworker)",
+      "gloss": "Salesforce reusable one-line workflows employees can run under their own permissions (Nov 4)."
+    },
+    {
+      "term": "Customer Value Fund (CVF)",
+      "gloss": "General Catalyst growth capital repaid from customer value created, not a standard equity round (Nooks, Nov 4)."
     }
   ],
   "competitive_moves": [
     {
-      "title": "Salesforce → Cresta (definitive agreement)",
-      "body": "Nov 2: Salesforce to acquire Cresta to unite voice agents and conversation intelligence with Service Cloud / Agentforce. Terms undisclosed officially; The Information reports ~$2.7B. Expected close fiscal Q1 2028.",
+      "title": "Nooks \u2192 $500M GC CVF + Node launch",
+      "body": "Nov 4: non-dilutive $500M growth commitment; Node early access (GA early 2027); Revenue Agent Platform positioned against sequencing/outbound incumbents.",
+      "cites": [
+        {
+          "label": "Nooks",
+          "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce \u2192 Agentforce Coworker expansion + $50/user/mo",
+      "body": "Nov 4: predictable per-seat pricing, Teams/mobile/desktop GA path, Skills and Conversation History.",
       "cites": [
         {
           "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
-        },
-        {
-          "label": "The Information",
-          "url": "https://www.theinformation.com/briefings/exclusive-salesforce-acquires-startup-cresta-2-7-billion"
+          "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "Nov 4: Salesloft Behind Every Win summit and Agentforce Coworker demos; Nooks product teases",
-      "body": "Salesloft's virtual summit runs 11 AM–1 PM ET (8–10 AM PT) with Forrester's Anthony McPartlin and Pixar storyteller Matthew Luhn — watch for Agentic Playbook pricing/GA. Salesforce+ runs Agentforce Coworker live demos the same day; Agent Evals / API Evals remain due for November beta. Nooks LinkedIn (Nov 2) said \"some big announcements this week\" after claiming ~400 new Q3 customers.",
+      "title": "Salesloft Behind Every Win summit wrap + Agentic Playbook GA/pricing; Agentforce Coworker demos; Agent Evals beta start",
+      "body": "Summit runs through 1 PM ET today; watch for any live Agentic Playbook pricing or GA beyond Oct 27 early access. Salesforce+ Coworker demos continue today. Agent Evals / API Evals remain due for November beta (Oct 27 Agent Fabric note).",
       "cites": [
         {
           "label": "Salesloft",
@@ -202,36 +205,17 @@
           "url": "https://www.salesforce.com/plus/experience/meet_your_new_coworker_-_now_your_crm_works_for_you"
         },
         {
-          "label": "Nooks LinkedIn",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523074092183474176/"
+          "label": "Agent Fabric",
+          "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Salesforce announced a definitive agreement to acquire Cresta on Nov 2 (price not in the newsroom; The Information reports ~$2.7B). Clay published a Nov 3 benchmark claiming Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same facts. Anthropic's amended S-1 (Nov 2) shows ~$17B Q3 revenue and $895.4B compute commitments; Anthropic launched message threads public beta (Nov 3). OpenAI launched Grid Protectors (Nov 2). No product launches from Gong, Outreach, Salesloft, Monaco or Nooks were found for Nov 2–3.",
-    "note": "Interpretation: Salesforce is buying conversation-native voice agents rather than only building them, which raises the bar for \"AI CS\" attach in CRM deals. Clay is arguing buyers should judge GTM agents by retrieval/data layer quality, not model brand — useful framing against MCP-to-CRM demos. Message threads make long coding/GTM agent sessions feel snappier without changing spend."
+    "fact": "On Nov 4 Nooks announced a $500M General Catalyst CVF commitment, Node (early access; GA early 2027), and the Revenue Agent Platform. Salesforce announced Agentforce Coworker at >185k users with a new $50/user/mo SKU and Teams/mobile/desktop expansion. Gong appointed a Chief R&D Officer and CISO. Slack (Nov 3) said 50% of messages are from apps/agents and reported 127M weekly MCP tool calls. OpenAI (Nov 3) published physical-engineering demos with Astra and Mazda/CGR collaborations. Salesloft's Nov 4 summit was underway at morning cutoff with no new newsroom product/pricing post found beyond Oct 27 early access.",
+    "note": "Interpretation: Nooks is betting that a proactive deal assistant plus owned dialing/sending infrastructure \u2014 funded by outcome-tied growth capital \u2014 can take share from sequencing suites. Salesforce is packaging the \"one teammate that orchestrates many agents\" story with predictable per-seat price, which makes budget conversations easier than Flex-only metering. Slack's stats support the thesis that agent work is consolidating where humans already collaborate."
   },
   "feed": [
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "author": {
-        "name": "Clay",
-        "handle": "linkedin.com/company/grow-with-clay",
-        "url": "https://www.linkedin.com/company/grow-with-clay/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-03T08:43:00.984000-08:00",
-      "category": "take",
-      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
-      "engagement": {},
-      "also": {
-        "Blog": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
-      }
-    },
     {
       "company": "Salesforce",
       "slug": "salesforce",
@@ -242,17 +226,17 @@
       },
       "kind": "company",
       "source": "LinkedIn",
-      "ts": "2026-11-02T13:01:53.654000-08:00",
-      "category": "mna",
-      "summary": "Salesforce signed a definitive agreement to acquire Cresta, a voice-first customer-experience platform, to connect voice agents with Service Cloud.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523127268072783872/",
+      "ts": "2026-11-04T16:21:55.139000+00:00",
+      "category": "launch",
+      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21\u00d7 in three months, as it expanded Coworker surfaces and packaging.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
       "engagement": {
-        "reactions": 1180,
-        "comments": 25
+        "reactions": 22,
+        "comments": 3
       },
       "also": {
-        "X": "https://x.com/salesforce/status/2117361573492605148",
-        "Newsroom": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+        "X": "https://x.com/salesforce/status/2118015893334536642",
+        "Newsroom": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
       }
     },
     {
@@ -265,13 +249,17 @@
       },
       "kind": "company",
       "source": "LinkedIn",
-      "ts": "2026-11-02T09:30:35.534000-08:00",
+      "ts": "2026-11-04T07:42:05.609000-08:00",
       "category": "funding",
-      "summary": "Nooks said it signed about 400 new customers in Q3, grew Sequencing 49% over Q2, and teased product announcements later this week.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523074092183474176/",
+      "summary": "Nooks said General Catalyst's Customer Value Fund committed $500M in growth capital and pointed to its Node / Revenue Agent Platform push.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523771563309977600/",
       "engagement": {
-        "reactions": 317,
-        "comments": 2
+        "reactions": 94,
+        "comments": 10
+      },
+      "also": {
+        "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
+        "PR": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
       }
     }
   ]

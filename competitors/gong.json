@@ -2,9 +2,16 @@
   "name": "Gong",
   "slug": "gong",
   "website": "https://www.gong.io/",
-  "as_of": "2026-10-16",
+  "as_of": "2026-11-04",
   "positioning": "Gong markets itself as a Revenue AI Operating System (Revenue AI OS): conversation/interaction data via the Gong Revenue Graph, applications (Engage, Forecast, Enable, Agents), and an agentic execution layer (Gong Revenue Harness) for governed custom agents. Self-label is Revenue AI / Revenue AI OS, not AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-04",
+      "title": "Liron Shtraichman named Chief R&D Officer; Guy Havusha named CISO",
+      "url": "https://www.gong.io/press/gong-leadership-liron-shtraichman-chief-r-and-d-officer",
+      "summary": "Nov 4 Gong press + PR Newswire: Shtraichman (ex-monday.com global engineering / AI-native transition) joins as Chief R&D Officer to expand agentic capabilities across Revenue Graph, Revenue Harness and Revenue Operating Surfaces. Havusha (ex-VP Platform Security at Gong; formerly monday.com Global CISO) appointed CISO for security/privacy/compliance as agents take more revenue-cycle work. Org move, not a product launch. Also: https://www.prnewswire.com/news-releases/gong-strengthens-leadership-team-with-appointment-of-liron-shtraichman-as-chief-rd-officer-302928796.html",
+      "source_type": "press"
+    },
     {
       "date": "2026-10-16",
       "title": "Named Leader in 2026 Gartner Magic Quadrant for Revenue Action Orchestration (2nd year)",
@@ -104,5 +111,5 @@
     "system of engagement",
     "aim before you automate"
   ],
-  "notes": "Oct 7: no net-new Gong press Oct 6\u20137. Oct 6 customer-ROI blog filed. ARR Club Oct 7 cites $550M+ ARR / ~50% YoY from the conference \u2014 third-party, unverified, kept off Today. Mission Callisto (Sep 30) remains the latest launch; auto-triggered Custom Agents later 2026."
+  "notes": "Nov 4: leadership only (Chief R&D + CISO). Latest product still Celebrate '26 / Mission Callisto (Sep 30) and Gartner RAO Leader (Oct 16)."
 }
