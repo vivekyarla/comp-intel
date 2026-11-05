@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-11-04 morning ~8:45 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Nov 3 \u2013 Wed Nov 4 PT",
-  "meaningful_signal": true,
+  "as_of": "2026-11-05 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 4 – Thu Nov 5 PT",
+  "meaningful_signal": false,
   "market_briefing": {
-    "lede": "Nooks put a $500M growth-capital commitment behind a proactive sales assistant and a full-lifecycle Revenue Agent Platform, while Salesforce priced Agentforce Coworker at $50 per user per month and pushed it into Teams, mobile, and desktop. Slack says half of messages now come from apps and agents, with MCP tool calls doubling quarter over quarter.",
+    "lede": "Platform vendors spent Nov 4 scaling agent ops and grounding: OpenAI published an autonomous pipeline that validated and patched hundreds of Linux privilege-escalation bugs, Meta bought multi-agent coding startup Conductor, and Google expanded its Agentic Data Cloud so agents can query Iceberg data across clouds — including zero-copy paths to Salesforce — under a shared Knowledge Catalog.",
     "bullets": [
       {
-        "text": "Nov 4: Nooks announced a $500 million commitment from General Catalyst's Customer Value Fund (non-dilutive growth capital repaid from customer value), launched Node (AI personal assistant for sales; early access now, GA early 2027), and framed the Nooks Revenue Agent Platform with Deal, Outbound, Expansion and Coaching Agents live and Inbound Agents due Q1 2027. Company claims 2,000+ customers, ~3\u00d7 YoY growth and 135% NRR.",
+        "text": "Nov 4: OpenAI said a mid-October run of its upcoming cyber model dynamically reproduced 1,724 Linux kernel vulnerabilities and produced 948 working local privilege-escalation exploits plus candidate patches, at about $1.2M in API cost; findings are being reported with Patch the Planet partners.",
         "cites": [
           {
-            "label": "Nooks",
-            "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
+            "label": "OpenAI",
+            "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+          }
+        ]
+      },
+      {
+        "text": "Nov 4: Meta acquired Conductor, an AI coding product for running multiple coding agents in parallel workspaces; Conductor Cloud shuts down Nov 20, with the local app supported into early 2027. Deal terms undisclosed.",
+        "cites": [
+          {
+            "label": "Conductor",
+            "url": "https://www.conductor.build/announcement"
           },
           {
-            "label": "PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
           }
         ]
       },
       {
-        "text": "Nov 4: Salesforce said Agentforce Coworker usage hit more than 185,000 users (21\u00d7 in three months) and added a $50 per-user, per-month SKU, reusable Skills, Conversation History, Google Workspace and Microsoft 365 connections; Teams, iOS, and Mac/Windows apps are generally available in November 2026.",
+        "text": "Nov 4: Google Cloud expanded the Agentic Data Cloud — Gemini on the borderless Lakehouse, Knowledge Catalog self-learning enrichment (preview), AlloyDB direct Iceberg access, and Data Agent Kit GA — with zero-copy / federation paths that include Salesforce, SAP, and Workday.",
         "cites": [
           {
-            "label": "Salesforce",
-            "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
-          }
-        ]
-      },
-      {
-        "text": "Nov 3: Slack (Salesforce newsroom) reported that 50% of Slack messages are from apps and agents, with 127 million MCP tool calls per week (doubling QoQ) and 1.9 million weekly users interacting with third-party agents.",
-        "cites": [
-          {
-            "label": "Salesforce / Slack",
-            "url": "https://www.salesforce.com/news/stories/slack-stats/"
+            "label": "Google Cloud",
+            "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud"
           }
         ]
       }
@@ -40,205 +40,175 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI shows GPT-6 Astra designing physical hardware and expands Mazda / Chip Ganassi engineering work",
-      "body": "Nov 3: two employees used Astra to design a Codex-connected device (enclosure, PCB, firmware) in under a week; a contract manufacturer built a small prototype batch in under a month, with manufacturing-tolerance gaps still needing human review. OpenAI also expanded Chip Ganassi Racing CAD-from-scan workflows and announced a Mazda research collaboration on aerodynamics and crash safety.",
+      "title": "OpenAI publishes an autonomous Linux vulnerability discovery, exploit, and patching pipeline",
+      "body": "Nov 4: mid-October run with an upcoming cyber model reproduced 1,724 vulns and generated 948 LPE exploits plus patches (~$1.21M API cost); ≥10 novel exploitation techniques claimed in a sampled set. OpenAI is upstreaming critical patches via Patch the Planet.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
         }
       ]
     },
     {
-      "title": "Slack: half of messages are from apps and agents; 127M MCP tool calls/week",
-      "body": "Nov 3: Salesforce published Slack-by-the-numbers as agents move into production channels via MCP; Slackbot called the fastest-adopted AI product in Salesforce history.",
+      "title": "Meta acquires Conductor",
+      "body": "Nov 4: Conductor (multi-agent parallel coding workspaces; agents from Anthropic/OpenAI) joins Meta. Cloud product winds down by Nov 20; local app continues to early 2027. Terms not disclosed.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce / Slack",
-          "url": "https://www.salesforce.com/news/stories/slack-stats/"
+          "label": "Conductor",
+          "url": "https://www.conductor.build/announcement"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        }
+      ]
+    },
+    {
+      "title": "Google expands Agentic Data Cloud for production agents",
+      "body": "Nov 4: borderless Lakehouse + Knowledge Catalog upgrades, AlloyDB↔Iceberg, Spanner Omni GA, AlloyDB Express preview, BigQuery Graph GA, TimesFM 3.0 / TabFM preview. Named customers include PayPal, Siemens, Walmart.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA CUDA 13.5 GA with Vera Rubin support",
+      "body": "Nov 4: production Vera Rubin GPU support, MPS v3, CUDA Tile multi-GPU, Nsight Perf SDK for AI preview.",
+      "new": true,
+      "cites": [
+        {
+          "label": "NVIDIA",
+          "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Nooks: $500M GC CVF + Node + Revenue Agent Platform",
-      "body": "NEW. Nov 4 company blog and PR: General Catalyst Customer Value Fund commits $500M growth capital (not a conventional equity round; repaid from customer value created). Node is positioned as a proactive \"EA for the AE\" (deal management first; reps approve sends; early access now, GA early 2027). Platform agents: Deal, Outbound, Expansion, Coaching now; Inbound Q1 2027. Metrics claimed: 2,000+ companies, ~3\u00d7 YoY growth, 135% NRR, 96% of agent emails sent without edits, early Node users up to 80% higher productivity / ~2 hours saved per day (methodology not detailed).",
+      "title": "Salesloft Behind Every Win summit ran; no newsroom GA/pricing",
+      "body": "NEW (negative confirm). Nov 4 virtual summit (11 AM–1 PM ET) completed. Newsroom latest remains Oct 27 early access for Agentic Playbook, Ask Salesloft analytics, and meeting prep — no Nov 4–5 post with GA date or pricing. Event page still lists the summit without a wrap/recording link at morning cutoff.",
       "new": true,
       "cites": [
         {
-          "label": "Nooks",
-          "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
+          "label": "Salesloft events",
+          "url": "https://www.salesloft.com/events/behind-every-win-salesloft-virtual-summit"
         },
         {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+          "label": "Newsroom",
+          "url": "https://www.salesloft.com/company/newsroom"
+        },
+        {
+          "label": "Oct 27 announce",
+          "url": "https://www.salesloft.com/company/newsroom/agentic-revenue-ai-capabilities"
         }
       ]
     },
     {
-      "title": "Salesforce expands Agentforce Coworker: 185k users, $50/user/mo, Teams + mobile/desktop",
-      "body": "NEW. Nov 4 newsroom: 21\u00d7 usage growth in three months; new Skills, Conversation History, Google Workspace / Microsoft 365 connectivity; $50 per-user per-month SKU available now. GA in November 2026: Coworker in Microsoft Teams, iOS app, Mac/Windows desktop apps, Coworker MCP server, Flex Credits free trial. December expected: Daily Digest, scheduled tasks, industry-cloud mobile apps. Named customers/use cases: Fulton Bank, Adecco Group, BACA Systems. Salesforce+ \"Meet your new coworker\" demos also run today.",
+      "title": "OpenAI autonomous cyber research pipeline",
+      "body": "NEW (adjacent). Nov 4 research post: Scout/Analyst → validation → ExploitDev → patch generation; 948 unique LPEs on a stock desktop Linux threat model; kernelCTF side run produced 21 LPE exploits.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
-        },
-        {
-          "label": "Salesforce+",
-          "url": "https://www.salesforce.com/plus/experience/meet_your_new_coworker_-_now_your_crm_works_for_you"
-        },
-        {
-          "label": "X @salesforce",
-          "url": "https://x.com/salesforce/status/2118015893334536642"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
         }
       ]
     },
     {
-      "title": "Gong names Chief R&D Officer and CISO",
-      "body": "NEW (org). Nov 4 press: Liron Shtraichman (ex-monday.com engineering lead) as Chief R&D Officer to expand agentic capabilities across Revenue Graph / Harness / Operating Surfaces; Guy Havusha (ex-VP Platform Security at Gong; formerly monday.com Global CISO) as CISO.",
+      "title": "Meta acquires Conductor",
+      "body": "NEW (adjacent). Nov 4 company + press: multi-agent coding workspace startup joins Meta Superintelligence Labs orbit; Cloud sunset Nov 20.",
       "new": true,
       "cites": [
         {
-          "label": "Gong",
-          "url": "https://www.gong.io/press/gong-leadership-liron-shtraichman-chief-r-and-d-officer"
+          "label": "Conductor",
+          "url": "https://www.conductor.build/announcement"
         },
         {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/gong-strengthens-leadership-team-with-appointment-of-liron-shtraichman-as-chief-rd-officer-302928796.html"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
         }
       ]
     },
     {
-      "title": "Slack publishes agent-era usage stats",
-      "body": "NEW (adjacent). Nov 3: 50% of messages from apps/agents; 127M weekly MCP tool calls; 1.9M weekly users of third-party agents; Slackbot fastest-adopted AI product in Salesforce history.",
+      "title": "Google Agentic Data Cloud wave",
+      "body": "NEW (adjacent). Nov 4: agents grounded via Knowledge Catalog; Iceberg federation across AWS/Azure with zero variable egress fees; Salesforce among zero-copy SaaS integrations.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce / Slack",
-          "url": "https://www.salesforce.com/news/stories/slack-stats/"
+          "label": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud"
         }
       ]
     }
   ],
-  "quiet_note": "No new product launches, pricing or M&A from Clay, Outreach or Monaco in the Nov 3\u20134 window. Salesloft's Behind Every Win virtual summit is live today 11 AM\u20131 PM ET (8\u201310 AM PT); as of the morning cutoff no new GA, pricing or Agentic Playbook update beyond the Oct 27 early-access announcement had posted to the newsroom. Agent Evals / API Evals remain scheduled for November beta (announced Oct 27).",
+  "quiet_note": "No new product launches, pricing, funding or M&A from Salesforce, Gong, Clay, Nooks, Outreach or Monaco in the Nov 4–5 window beyond items already led on Nov 4. Salesforce X amplified Coworker customer scale (Accenture ~16k users overnight; Adecco Group ~27k employees) as follow-on packaging of the Nov 4 Coworker story — not a new launch. Nooks posted a Nasdaq Times Square feature for the same $500M / Node announce. Agent Evals / API Evals remain \"Beta in November 2026\" per the Oct 27 Agent Fabric post; no separate beta-start notice found Nov 4–5.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (AI sales assistants / revenue agents as platform bets)",
-      "text": "Nooks Node + Revenue Agent Platform with $500M GC CVF (Nov 4)."
+      "label": "Accelerating (autonomous security / cyber agents at frontier-model cost)",
+      "text": "OpenAI's end-to-end Linux LPE discovery→patch pipeline at ~$1.3k per exploit (Nov 4)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (per-seat AI teammate packaging inside CRM)",
-      "text": "Salesforce Agentforce Coworker $50/user/mo SKU and surface expansion to Teams/mobile/desktop (Nov 4)."
+      "label": "Accelerating (multi-agent coding workspaces consolidating into labs)",
+      "text": "Meta acquires Conductor (Nov 4), after Muse Code / Muse agents push."
     },
     {
       "kind": "up",
-      "label": "Accelerating (agents as first-class collaborators in work chat)",
-      "text": "Slack reports half of messages from apps/agents and 127M MCP tool calls/week (Nov 3)."
+      "label": "Accelerating (enterprise agent grounding in governed data lakes)",
+      "text": "Google Agentic Data Cloud / Knowledge Catalog wave with SaaS zero-copy including Salesforce (Nov 4)."
     },
     {
       "kind": "flat",
-      "label": "Steady (orchestration peers)",
-      "text": "Gong leadership deepen for agentic R&D/security; Salesloft summit in progress; Clay/Outreach/Monaco quiet on launches this window."
+      "label": "Steady (watchlist)",
+      "text": "Salesloft summit produced no newsroom product/pricing update; peers quiet on new launches after yesterday's Nooks / Coworker / Gong leadership day."
     }
   ],
   "language_pulse": [
     {
-      "term": "Node / EA for the AE",
-      "gloss": "Nooks' label for a proactive AI personal assistant that works deals in the background and brings actions to the rep for approval (Nov 4)."
+      "term": "borderless Lakehouse",
+      "gloss": "Google's Iceberg-based layer for querying multi-cloud / SaaS data in place for agents (Nov 4)."
     },
     {
-      "term": "Revenue Agent Platform",
-      "gloss": "Nooks' framing for shared-context agents across Deal, Outbound, Expansion and Coaching (Inbound Q1 2027) (Nov 4)."
+      "term": "Knowledge Catalog / Open Knowledge Format (OKF)",
+      "gloss": "Google's universal context engine and reusable context-set format for grounding agents (Nov 4)."
     },
     {
-      "term": "Skills (Agentforce Coworker)",
-      "gloss": "Salesforce reusable one-line workflows employees can run under their own permissions (Nov 4)."
+      "term": "cyber model",
+      "gloss": "OpenAI's label for the upcoming model powering its vuln discovery / exploit / patch pipeline (Nov 4)."
     },
     {
-      "term": "Customer Value Fund (CVF)",
-      "gloss": "General Catalyst growth capital repaid from customer value created, not a standard equity round (Nooks, Nov 4)."
+      "term": "Conductor Cloud",
+      "gloss": "Conductor's hosted multi-agent workspace product shutting down Nov 20 post-Meta deal (Nov 4)."
     }
   ],
-  "competitive_moves": [
-    {
-      "title": "Nooks \u2192 $500M GC CVF + Node launch",
-      "body": "Nov 4: non-dilutive $500M growth commitment; Node early access (GA early 2027); Revenue Agent Platform positioned against sequencing/outbound incumbents.",
-      "cites": [
-        {
-          "label": "Nooks",
-          "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
-        },
-        {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce \u2192 Agentforce Coworker expansion + $50/user/mo",
-      "body": "Nov 4: predictable per-seat pricing, Teams/mobile/desktop GA path, Skills and Conversation History.",
-      "cites": [
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
-        }
-      ]
-    }
-  ],
+  "competitive_moves": [],
   "watch": [
     {
-      "title": "Salesloft Behind Every Win summit wrap + Agentic Playbook GA/pricing; Agentforce Coworker demos; Agent Evals beta start",
-      "body": "Summit runs through 1 PM ET today; watch for any live Agentic Playbook pricing or GA beyond Oct 27 early access. Salesforce+ Coworker demos continue today. Agent Evals / API Evals remain due for November beta (Oct 27 Agent Fabric note).",
+      "title": "Agent Evals / API Evals November beta start; any post-summit Salesloft Agentic Playbook GA or pricing",
+      "body": "Oct 27 Agent Fabric post still lists Agent Evals and API Evals as \"Beta in November 2026\" (GA Jan 2027) with no separate start notice found Nov 4–5. Salesloft newsroom remains on Oct 27 early access after yesterday's summit.",
       "cites": [
-        {
-          "label": "Salesloft",
-          "url": "https://www.salesloft.com/events"
-        },
-        {
-          "label": "Salesforce+",
-          "url": "https://www.salesforce.com/plus/experience/meet_your_new_coworker_-_now_your_crm_works_for_you"
-        },
         {
           "label": "Agent Fabric",
           "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+        },
+        {
+          "label": "Salesloft newsroom",
+          "url": "https://www.salesloft.com/company/newsroom"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "On Nov 4 Nooks announced a $500M General Catalyst CVF commitment, Node (early access; GA early 2027), and the Revenue Agent Platform. Salesforce announced Agentforce Coworker at >185k users with a new $50/user/mo SKU and Teams/mobile/desktop expansion. Gong appointed a Chief R&D Officer and CISO. Slack (Nov 3) said 50% of messages are from apps/agents and reported 127M weekly MCP tool calls. OpenAI (Nov 3) published physical-engineering demos with Astra and Mazda/CGR collaborations. Salesloft's Nov 4 summit was underway at morning cutoff with no new newsroom product/pricing post found beyond Oct 27 early access.",
-    "note": "Interpretation: Nooks is betting that a proactive deal assistant plus owned dialing/sending infrastructure \u2014 funded by outcome-tied growth capital \u2014 can take share from sequencing suites. Salesforce is packaging the \"one teammate that orchestrates many agents\" story with predictable per-seat price, which makes budget conversations easier than Flex-only metering. Slack's stats support the thesis that agent work is consolidating where humans already collaborate."
+    "fact": "Salesloft's Nov 4 Behind Every Win summit ran; as of Nov 5 morning, newsroom still shows Oct 27 as the latest product post (Agentic Playbook early access, no GA/pricing). OpenAI (Nov 4) published results of an autonomous Linux vuln pipeline (948 LPEs, ~$1.2M API cost). Meta (Nov 4) acquired Conductor; Cloud sunsets Nov 20. Google (Nov 4) expanded Agentic Data Cloud / Knowledge Catalog. NVIDIA (Nov 4) shipped CUDA 13.5 with Vera Rubin GA. No new watchlist launch/funding/M&A beyond Nov 4 items already covered yesterday. Agent Evals November beta start not confirmed in a new post.",
+    "note": "Interpretation: After a heavy watchlist day on Nov 4, the market's next moves are governance and grounding — evals, cost caps, and shared context catalogs — more than another sales-assistant launch. Salesloft leaving Agentic Playbook in early access through a named summit suggests pricing/GA is still being staged, not slipped live."
   },
   "feed": [
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "linkedin.com/company/salesforce",
-        "url": "https://www.linkedin.com/company/salesforce/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-04T16:21:55.139000+00:00",
-      "category": "launch",
-      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21\u00d7 in three months, as it expanded Coworker surfaces and packaging.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
-      "engagement": {
-        "reactions": 22,
-        "comments": 3
-      },
-      "also": {
-        "X": "https://x.com/salesforce/status/2118015893334536642",
-        "Newsroom": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
-      }
-    },
     {
       "company": "Nooks",
       "slug": "nooks",
@@ -249,17 +219,17 @@
       },
       "kind": "company",
       "source": "LinkedIn",
-      "ts": "2026-11-04T07:42:05.609000-08:00",
-      "category": "funding",
-      "summary": "Nooks said General Catalyst's Customer Value Fund committed $500M in growth capital and pointed to its Node / Revenue Agent Platform push.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523771563309977600/",
+      "ts": "2026-11-04T14:00:01.274000-08:00",
+      "category": "other",
+      "summary": "Nooks said Nasdaq featured its Node / Revenue Agent Platform announcement on the Times Square screen.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523866671942627328/",
       "engagement": {
-        "reactions": 94,
+        "reactions": 180,
         "comments": 10
       },
       "also": {
         "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
-        "PR": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+        "X": "https://x.com/NooksHQ/status/2118099505023512847"
       }
     }
   ]

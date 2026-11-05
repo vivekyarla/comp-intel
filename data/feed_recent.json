@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04T08:42:48.077346-08:00",
+  "as_of": "2026-11-05T08:48:57.121059-08:00",
   "days": 14,
   "items": [
     {
@@ -14,7 +14,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-04T16:21:55.139000+00:00",
       "category": "launch",
-      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21\u00d7 in three months, as it expanded Coworker surfaces and packaging.",
+      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21× in three months, as it expanded Coworker surfaces and packaging.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
       "engagement": {
         "reactions": 22,
@@ -35,17 +35,36 @@
       },
       "kind": "company",
       "source": "LinkedIn",
-      "ts": "2026-11-04T07:42:05.609000-08:00",
-      "category": "funding",
-      "summary": "Nooks said General Catalyst's Customer Value Fund committed $500M in growth capital and pointed to its Node / Revenue Agent Platform push.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523771563309977600/",
+      "ts": "2026-11-04T14:00:01.274000-08:00",
+      "category": "other",
+      "summary": "Nooks said Nasdaq featured its Node / Revenue Agent Platform announcement on the Times Square screen.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523866671942627328/",
       "engagement": {
-        "reactions": 94,
+        "reactions": 180,
         "comments": 10
       },
       "also": {
         "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
-        "PR": "https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html"
+        "X": "https://x.com/NooksHQ/status/2118099505023512847"
+      }
+    },
+    {
+      "company": "Nooks",
+      "slug": "nooks",
+      "author": {
+        "name": "Nooks",
+        "handle": "linkedin.com/company/nooksapp",
+        "url": "https://www.linkedin.com/company/nooksapp/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-04T07:42:05.609000-08:00",
+      "category": "launch",
+      "summary": "General Catalyst committed $500M in growth capital to Nooks for revenue agents.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523771563309977600/",
+      "engagement": {
+        "reactions": 243,
+        "comments": 17
       }
     },
     {
@@ -60,7 +79,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-03T08:43:00.984000-08:00",
       "category": "take",
-      "summary": "Clay says its Account Agents used 6.4\u00d7 fewer tokens and answered 2.6\u00d7 faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
+      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
       "engagement": {},
       "also": {
@@ -235,46 +254,6 @@
         "reposts": 1,
         "replies": 1,
         "views": 319
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Shek Viswanathan",
-        "handle": "linkedin.com/in/abishekv",
-        "url": "https://www.linkedin.com/in/abishekv"
-      },
-      "kind": "founder",
-      "source": "LinkedIn",
-      "ts": "2026-10-21T14:28:58.867000-07:00",
-      "category": "launch",
-      "summary": "Co-founder says Agent Matrix ships Monaco's prebuilt sales agents, lets customers build their own, and adds an @monaco Slack bot to run them.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518785430322929666/",
-      "engagement": {
-        "reactions": 73,
-        "comments": 8
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Shek Viswanathan",
-        "handle": "@abishekv",
-        "url": "https://x.com/abishekv"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-10-21T12:56:49-07:00",
-      "category": "launch",
-      "summary": "Co-founder says Monaco's re-engagement agent, part of Agent Matrix, is getting 25\u201335% response rates reviving leads that went cold.",
-      "url": "https://x.com/abishekv/status/2112996547235557782",
-      "engagement": {
-        "likes": 8,
-        "reposts": 0,
-        "replies": 0,
-        "views": 272
       }
     }
   ]
