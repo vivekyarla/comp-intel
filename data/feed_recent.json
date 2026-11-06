@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05T08:48:57.121059-08:00",
+  "as_of": "2026-11-06T08:41:48.881903-08:00",
   "days": 14,
   "items": [
     {
@@ -14,7 +14,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-04T16:21:55.139000+00:00",
       "category": "launch",
-      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21× in three months, as it expanded Coworker surfaces and packaging.",
+      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21\u00d7 in three months, as it expanded Coworker surfaces and packaging.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
       "engagement": {
         "reactions": 22,
@@ -79,7 +79,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-03T08:43:00.984000-08:00",
       "category": "take",
-      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
+      "summary": "Clay says its Account Agents used 6.4\u00d7 fewer tokens and answered 2.6\u00d7 faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
       "engagement": {},
       "also": {
@@ -233,27 +233,6 @@
       "engagement": {
         "reactions": 519,
         "comments": 36
-      }
-    },
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "author": {
-        "name": "Clay",
-        "handle": "@clay",
-        "url": "https://x.com/clay"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-23T08:17:44-07:00",
-      "category": "partnership",
-      "summary": "Clay says it is collaborating with SpaceXAI to run Grok Bot inside Clay, with a build session on Oct 29.",
-      "url": "https://x.com/clay/status/2113651089253769245",
-      "engagement": {
-        "likes": 12,
-        "reposts": 1,
-        "replies": 1,
-        "views": 319
       }
     }
   ]

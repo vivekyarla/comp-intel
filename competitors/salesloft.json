@@ -2,19 +2,26 @@
   "name": "Salesloft",
   "slug": "salesloft",
   "website": "https://www.salesloft.com/",
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "positioning": "Revenue Orchestration via the Predictive Revenue System (Clari + Salesloft): connects forecasting intelligence with seller execution, Conversation Intelligence, and MCP Server exposing revenue context to external AI tools. Roadmap language: Agentic Forecasting, Agentic Playbook, Context Intelligence.",
   "recent": [
     {
+      "date": "2026-11-06",
+      "title": "Post-summit: newsroom still Oct 27 early access (no GA/pricing)",
+      "url": "https://www.salesloft.com/company/newsroom",
+      "summary": "As of Nov 6 morning PT, Salesloft newsroom latest remains Oct 27 Agentic Playbook / Ask Salesloft / meeting-prep early access. Nov 4 Behind Every Win summit produced no newsroom GA date or pricing post.",
+      "source_type": "newsroom"
+    },
+    {
       "date": "2026-11-05",
-      "title": "Behind Every Win summit completed — still no newsroom GA/pricing",
+      "title": "Behind Every Win summit completed \u2014 still no newsroom GA/pricing",
       "url": "https://www.salesloft.com/events/behind-every-win-salesloft-virtual-summit",
-      "summary": "Nov 4 Behind Every Win virtual summit (11 AM–1 PM ET) ran as scheduled. As of Nov 5 morning brief, Salesloft newsroom still lists Oct 27 Agentic Playbook / Ask Salesloft / meeting prep early-access announce as latest product post — no GA date, pricing, or summit wrap release found. Event page has no public recording/wrap link at cutoff.",
+      "summary": "Nov 4 Behind Every Win virtual summit (11 AM\u20131 PM ET) ran as scheduled. As of Nov 5 morning brief, Salesloft newsroom still lists Oct 27 Agentic Playbook / Ask Salesloft / meeting prep early-access announce as latest product post \u2014 no GA date, pricing, or summit wrap release found. Event page has no public recording/wrap link at cutoff.",
       "source_type": "events"
     },
     {
       "date": "2026-10-27",
-      "title": "Agentic Playbook, Ask Salesloft analytics, meeting agent, Zoom battlecards — early access",
+      "title": "Agentic Playbook, Ask Salesloft analytics, meeting agent, Zoom battlecards \u2014 early access",
       "url": "https://www.salesloft.com/company/newsroom/agentic-revenue-ai-capabilities",
       "summary": "Oct 27 newsroom: Agentic Playbook orchestration engine (natural-language plays, RevOps guardrails, human review); Context Engine; Ask Salesloft AI analytics; autonomous meeting-prep agent; real-time Zoom battlecards. Agentic Playbook, AI analytics and meeting prep entering early access (not GA; pricing not stated). Summit tease for Nov 4.",
       "source_type": "company_press"
@@ -30,19 +37,19 @@
       "date": "2026-10-05",
       "title": "GZ Consulting: Salesloft outlines its Predictive Revenue System vision (third-party re-analysis)",
       "url": "https://gzconsulting.substack.com/p/salesloft-outlines-its-predictive",
-      "summary": "Oct 5 analysis by Michael R. Levy (GZ Consulting / RevTech Intelligence) of Salesloft's agentic-era roadmap: Agentic Forecasting, Agentic Playbook, expanded real-time Conversation Intelligence, Context Intelligence (outcome/learning layer on Rhythm). Notes already-shipped pieces (forecasting tied to execution, CI, MCP Server, Rhythm) and Salesloft's 2026 benchmark stat (20.6% of 500 US revenue leaders report production-ready AI with measurable outcomes). Restates the Sep 24 vision — not a new company announcement.",
+      "summary": "Oct 5 analysis by Michael R. Levy (GZ Consulting / RevTech Intelligence) of Salesloft's agentic-era roadmap: Agentic Forecasting, Agentic Playbook, expanded real-time Conversation Intelligence, Context Intelligence (outcome/learning layer on Rhythm). Notes already-shipped pieces (forecasting tied to execution, CI, MCP Server, Rhythm) and Salesloft's 2026 benchmark stat (20.6% of 500 US revenue leaders report production-ready AI with measurable outcomes). Restates the Sep 24 vision \u2014 not a new company announcement.",
       "source_type": "third_party"
     },
     {
       "date": "2026-09-25",
-      "title": "Sales Tech Edition: Revenue platforms all claim unification — none prove it (covers Salesloft Sep 24 vision)",
+      "title": "Sales Tech Edition: Revenue platforms all claim unification \u2014 none prove it (covers Salesloft Sep 24 vision)",
       "url": "https://salestechedition.com/articles/revenue-platforms-all-claim-unification-none-prove-it/",
       "summary": "Sep 25 third-party critique grouping Salesloft's Sep 24 agentic-era vision with Zoom Revenue OS and HubSpot Fall release. Notes Salesloft names shipped pieces (Predictive Revenue System, CI, MCP, Agentic Forecasting/Playbook) but finds no independent proof of forecast updating from engagement data in a named account.",
       "source_type": "third_party"
     },
     {
       "date": "2026-09-24",
-      "title": "Vision: Reinvent revenue for the agentic era — next Predictive Revenue System",
+      "title": "Vision: Reinvent revenue for the agentic era \u2014 next Predictive Revenue System",
       "url": "https://www.salesloft.com/company/newsroom/agentic-era-revenue-vision",
       "summary": "Newsroom Sep 24: unveils product vision for agentic era. Already delivered: connected forecasting+execution, Conversation Intelligence, MCP Server. What's next: Agentic Forecasting, Agentic Playbook, expanded real-time CI into workflows, Context Intelligence. CEO Steve Cox: next era defined by whether AI changes how the business operates, not task count. Cites 2026 Revenue Benchmark: only 20.6% of leaders report production-ready AI with measurable outcomes.",
       "source_type": "press"

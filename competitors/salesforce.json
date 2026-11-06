@@ -2,9 +2,30 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-06",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-05",
+      "title": "Builder Central (beta): plain-language no-code app + agent builder",
+      "url": "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central",
+      "summary": "Nov 5 Salesforce Admins blog: Builder Central beta builds/deploys apps, data models, flows, and agents from plain language using org metadata and permissions; ephemeral Preview Orgs + Interactive Metadata Visualizations; deploys via Lifecycle Center; complements Setup with Agentforce and existing builders. Enable Access Builder Central permission, beta feature, Metadata Experts MCP Server (prefer Developer sandbox).",
+      "source_type": "blog"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Quick Pages (Beta): governed user-built single-page apps",
+      "url": "https://www.salesforce.com/blog/introducing-quick-pages-builder-tool/",
+      "summary": "Nov 5 Salesforce blog: Quick Pages beta lets users describe and share interactive single-page apps (charts, tables, tabs, actions) on live CRM data without changing org metadata; Create/View Quick Pages permission sets; Headless Toolkit; read-only in beta; AI chat free in beta, metered at GA. Roadmap: record writes, Apex/Connect REST, Data 360, Claude integration.",
+      "source_type": "blog"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "APAC press reissue of Agentforce Coworker expansion (same Nov 4 package)",
+      "url": "https://www.salesforce.com/ap/news/press-releases/2026/11/05/sg-salesforces-agentforce-coworker-usage-soars-21x-in-three-months-as-enterprises-delegate-real-work-to-ai/",
+      "summary": "Nov 5 Singapore press: restates Nov 4 Coworker story (>185k users, 21x growth, $50/user/mo, Teams/mobile/desktop, Skills, Conversation History, Workspace/365 connectivity). Not a new launch vs Nov 4 newsroom.",
+      "source_type": "press"
+    },
     {
       "date": "2026-11-04",
       "title": "Agentforce Coworker: 185k users, $50/user/mo SKU, Teams/mobile/desktop expansion",
@@ -256,6 +277,9 @@
     }
   ],
   "language_pulse": [
+    "Headless Toolkit",
+    "Quick Pages",
+    "Builder Central",
     "$50 per user per month",
     "Coworker MCP server",
     "Conversation History",

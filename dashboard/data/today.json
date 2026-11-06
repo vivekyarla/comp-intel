@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-11-05 morning ~8:50 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 4 – Thu Nov 5 PT",
-  "meaningful_signal": false,
+  "as_of": "2026-11-06 morning ~8:45 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 4 evening \u2013 Fri Nov 6 morning PT",
+  "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Platform vendors spent Nov 4 scaling agent ops and grounding: OpenAI published an autonomous pipeline that validated and patched hundreds of Linux privilege-escalation bugs, Meta bought multi-agent coding startup Conductor, and Google expanded its Agentic Data Cloud so agents can query Iceberg data across clouds — including zero-copy paths to Salesforce — under a shared Knowledge Catalog.",
+    "lede": "Platform vendors pushed agent build tooling and enterprise control planes on Nov 5: Salesforce put Builder Central and Quick Pages into beta so admins and end users can stand up apps, agents, and governed views in plain language, Anthropic made Claude Enterprise inference hooks generally available for prompt and tool-call policy checks, and OpenAI productized its cyber research stack as GPT-6 Cyber for approved Daybreak Red defenders.",
     "bullets": [
       {
-        "text": "Nov 4: OpenAI said a mid-October run of its upcoming cyber model dynamically reproduced 1,724 Linux kernel vulnerabilities and produced 948 working local privilege-escalation exploits plus candidate patches, at about $1.2M in API cost; findings are being reported with Patch the Planet partners.",
+        "text": "Nov 5: Salesforce launched Builder Central (beta), a no-code hub that builds and deploys apps and agents from plain language against existing org metadata, permissions, Lifecycle Center pipelines, and ephemeral preview orgs; admins enable via Access Builder Central permission + Metadata Experts MCP Server.",
+        "cites": [
+          {
+            "label": "Salesforce Admins",
+            "url": "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central"
+          }
+        ]
+      },
+      {
+        "text": "Nov 5: Anthropic shipped a Claude Enterprise security center (beta) and made inference hooks GA \u2014 prompt hooks and pre-tool-call hooks that send traffic to customer DLP/security tools before Claude responds or runs a tool \u2014 plus centralized parent-org management and Desktop shadow-IT controls.",
+        "cites": [
+          {
+            "label": "Anthropic",
+            "url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
+          },
+          {
+            "label": "Release notes",
+            "url": "https://support.claude.com/en/articles/12138966-release-notes"
+          }
+        ]
+      },
+      {
+        "text": "Nov 5: OpenAI introduced GPT-6 Cyber (Preparedness: Critical), citing 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), 81 novel high-severity Firefox vulns with Mozilla patches landing, and the same 948 Linux LPEs disclosed Nov 4; initial API/Codex access is limited to approved Daybreak Red customers.",
         "cites": [
           {
             "label": "OpenAI",
-            "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
-          }
-        ]
-      },
-      {
-        "text": "Nov 4: Meta acquired Conductor, an AI coding product for running multiple coding agents in parallel workspaces; Conductor Cloud shuts down Nov 20, with the local app supported into early 2027. Deal terms undisclosed.",
-        "cites": [
-          {
-            "label": "Conductor",
-            "url": "https://www.conductor.build/announcement"
-          },
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
-          }
-        ]
-      },
-      {
-        "text": "Nov 4: Google Cloud expanded the Agentic Data Cloud — Gemini on the borderless Lakehouse, Knowledge Catalog self-learning enrichment (preview), AlloyDB direct Iceberg access, and Data Agent Kit GA — with zero-copy / federation paths that include Salesforce, SAP, and Workday.",
-        "cites": [
-          {
-            "label": "Google Cloud",
-            "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud"
+            "url": "https://openai.com/index/introducing-gpt-6-cyber"
           }
         ]
       }
@@ -40,64 +40,105 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI publishes an autonomous Linux vulnerability discovery, exploit, and patching pipeline",
-      "body": "Nov 4: mid-October run with an upcoming cyber model reproduced 1,724 vulns and generated 948 LPE exploits plus patches (~$1.21M API cost); ≥10 novel exploitation techniques claimed in a sampled set. OpenAI is upstreaming critical patches via Patch the Planet.",
+      "title": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity agents",
+      "body": "Nov 5: specialized model for authorized vuln discovery/exploit validation; Critical under Preparedness Framework; 51% relative ExploitGym gain vs GPT-5.6 Cyber; powers Daybreak Red; Cisco, Calif, CodeRabbit, Palo Alto Networks, CrowdStrike, SentinelOne, Perplexity among named users; Cyber at the Frontier livestream Nov 12.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
-        }
-      ]
-    },
-    {
-      "title": "Meta acquires Conductor",
-      "body": "Nov 4: Conductor (multi-agent parallel coding workspaces; agents from Anthropic/OpenAI) joins Meta. Cloud product winds down by Nov 20; local app continues to early 2027. Terms not disclosed.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Conductor",
-          "url": "https://www.conductor.build/announcement"
+          "url": "https://openai.com/index/introducing-gpt-6-cyber"
         },
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+          "label": "X",
+          "url": "https://x.com/OpenAI/status/2118390190246879554"
         }
       ]
     },
     {
-      "title": "Google expands Agentic Data Cloud for production agents",
-      "body": "Nov 4: borderless Lakehouse + Knowledge Catalog upgrades, AlloyDB↔Iceberg, Spanner Omni GA, AlloyDB Express preview, BigQuery Graph GA, TimesFM 3.0 / TabFM preview. Named customers include PayPal, Siemens, Walmart.",
+      "title": "Anthropic expands Claude Enterprise security controls; inference hooks GA",
+      "body": "Nov 5: security center (beta) compares org settings to Anthropic recommendations; prompt + pre-tool-call inference hooks GA for customer-hosted policy checks; centralized management console (beta) at admin.claude.com; Admin API member sign-out, self-serve IP allowlist, Desktop personal-account block, and EDR-in-Cowork VM (beta) also shipped.",
       "new": true,
       "cites": [
         {
-          "label": "Google Cloud",
-          "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud"
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
+        },
+        {
+          "label": "Release notes",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
         }
       ]
     },
     {
-      "title": "NVIDIA CUDA 13.5 GA with Vera Rubin support",
-      "body": "Nov 4: production Vera Rubin GPU support, MPS v3, CUDA Tile multi-GPU, Nsight Perf SDK for AI preview.",
+      "title": "Google Antigravity confirms Remote Agents cloud rollout",
+      "body": "Nov 5 evening PT / Nov 6 media: @antigravity said Remote Agents are rolling out this week \u2014 tasks run in independent cloud VMs, controllable from phone at antigravity.google.com/remote. Changelog dates v2.29 (Voice Mode + Remote Agents for Google AI Pro/Ultra) Nov 3; company amplification is Nov 5\u20136.",
       "new": true,
       "cites": [
         {
-          "label": "NVIDIA",
-          "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/"
+          "label": "X",
+          "url": "https://x.com/antigravity/status/2118530564428833010"
+        },
+        {
+          "label": "Changelog",
+          "url": "https://antigravity.google/docs/changelog/"
+        },
+        {
+          "label": "9to5Google",
+          "url": "https://9to5google.com/2026/11/06/google-antigravity-remote-agents-voice-mode/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesloft Behind Every Win summit ran; no newsroom GA/pricing",
-      "body": "NEW (negative confirm). Nov 4 virtual summit (11 AM–1 PM ET) completed. Newsroom latest remains Oct 27 early access for Agentic Playbook, Ask Salesloft analytics, and meeting prep — no Nov 4–5 post with GA date or pricing. Event page still lists the summit without a wrap/recording link at morning cutoff.",
+      "title": "Salesforce Builder Central enters beta",
+      "body": "NEW. Nov 5 Admins blog: no-code plain-language builder for apps, data models, flows, and agents that inherits org security/permissions; complements Setup with Agentforce (direct admin edits) and existing Flow/Lightning/Agentforce Builders; deploys via Lifecycle Center; Interactive Metadata Visualizations + ephemeral Preview Orgs for safe review. Enable: Access Builder Central permission, beta feature, Metadata Experts MCP Server (prefer Developer/Developer Pro sandbox).",
       "new": true,
       "cites": [
         {
-          "label": "Salesloft events",
-          "url": "https://www.salesloft.com/events/behind-every-win-salesloft-virtual-summit"
-        },
+          "label": "Salesforce Admins",
+          "url": "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce Quick Pages (Beta) lets users build governed single-page apps",
+      "body": "NEW. Nov 5 Salesforce blog: natural-language Quick Pages with charts, tables, tabs, and actions on live CRM data; creation does not change org metadata; Create/View Quick Pages (Beta) permission sets; Headless Toolkit underneath; beta pages are read-only (no record writes yet); AI chat free in beta, metered at GA. Roadmap tease: record writes, Apex/Connect REST, Data 360, Claude integration.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/introducing-quick-pages-builder-tool/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI ships GPT-6 Cyber",
+      "body": "NEW (adjacent). Nov 5 productization of the cyber stack behind the Nov 4 Linux LPE research; Daybreak Blue (Astra) vs Daybreak Red (Cyber) split; Critical cyber classification; Firefox 81 novel high-severity findings with Mozilla fixes landing.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic Claude Enterprise security wave",
+      "body": "NEW (adjacent). Nov 5: security center + inference hooks GA + centralized parent-org management + Desktop/EDR controls aimed at enterprise GTM buyers running Claude alongside CRM/agent stacks.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
+        }
+      ]
+    },
+    {
+      "title": "Salesloft newsroom still on Oct 27 after Behind Every Win",
+      "body": "Negative confirm (unchanged). As of Nov 6 morning, newsroom latest remains Oct 27 Agentic Playbook / Ask Salesloft / meeting-prep early access \u2014 no GA date or pricing post after the Nov 4 summit.",
+      "new": true,
+      "cites": [
         {
           "label": "Newsroom",
           "url": "https://www.salesloft.com/company/newsroom"
@@ -107,95 +148,66 @@
           "url": "https://www.salesloft.com/company/newsroom/agentic-revenue-ai-capabilities"
         }
       ]
-    },
-    {
-      "title": "OpenAI autonomous cyber research pipeline",
-      "body": "NEW (adjacent). Nov 4 research post: Scout/Analyst → validation → ExploitDev → patch generation; 948 unique LPEs on a stock desktop Linux threat model; kernelCTF side run produced 21 LPE exploits.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
-        }
-      ]
-    },
-    {
-      "title": "Meta acquires Conductor",
-      "body": "NEW (adjacent). Nov 4 company + press: multi-agent coding workspace startup joins Meta Superintelligence Labs orbit; Cloud sunset Nov 20.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Conductor",
-          "url": "https://www.conductor.build/announcement"
-        },
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
-        }
-      ]
-    },
-    {
-      "title": "Google Agentic Data Cloud wave",
-      "body": "NEW (adjacent). Nov 4: agents grounded via Knowledge Catalog; Iceberg federation across AWS/Azure with zero variable egress fees; Salesforce among zero-copy SaaS integrations.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Google Cloud",
-          "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud"
-        }
-      ]
     }
   ],
-  "quiet_note": "No new product launches, pricing, funding or M&A from Salesforce, Gong, Clay, Nooks, Outreach or Monaco in the Nov 4–5 window beyond items already led on Nov 4. Salesforce X amplified Coworker customer scale (Accenture ~16k users overnight; Adecco Group ~27k employees) as follow-on packaging of the Nov 4 Coworker story — not a new launch. Nooks posted a Nasdaq Times Square feature for the same $500M / Node announce. Agent Evals / API Evals remain \"Beta in November 2026\" per the Oct 27 Agent Fabric post; no separate beta-start notice found Nov 4–5.",
+  "quiet_note": "No new launch/funding/M&A/pricing from Gong, Clay, Nooks, Outreach, or Monaco in the Nov 4 evening\u2013Nov 6 morning window beyond items already led Nov 4\u20135. Salesforce's Nov 5 APAC Coworker press (185k users / $50/user/mo / Teams+mobile+desktop) is the regional reissue of the Nov 4 Coworker story already on Today \u2014 not a new launch. Agent Optimizer X promo Nov 5 packages October GA, not a fresh ship. Monaco (Sam Blond) promoted a Nov 18 Vertical Agent Meetup in SF. Outreach published a Nov 5 coaching-models thought-leadership blog (no product/pricing). Nooks/Dan Lee amplified the Nov 4 Node/$500M story via MTS interview follow-ons. Agent Evals / API Evals still listed \"Beta in November 2026\" on the Oct 27 Agent Fabric post with no separate start notice found Nov 5\u20136.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (autonomous security / cyber agents at frontier-model cost)",
-      "text": "OpenAI's end-to-end Linux LPE discovery→patch pipeline at ~$1.3k per exploit (Nov 4)."
+      "label": "Accelerating (plain-language agent/app builders inside the CRM)",
+      "text": "Salesforce Builder Central + Quick Pages betas (Nov 5) push build and share of agents/views onto admins and end users without leaving the platform."
     },
     {
       "kind": "up",
-      "label": "Accelerating (multi-agent coding workspaces consolidating into labs)",
-      "text": "Meta acquires Conductor (Nov 4), after Muse Code / Muse agents push."
+      "label": "Accelerating (enterprise agent runtime governance)",
+      "text": "Anthropic inference hooks GA + security center (Nov 5) give security teams prompt/tool-call veto points on Claude Enterprise."
     },
     {
       "kind": "up",
-      "label": "Accelerating (enterprise agent grounding in governed data lakes)",
-      "text": "Google Agentic Data Cloud / Knowledge Catalog wave with SaaS zero-copy including Salesforce (Nov 4)."
+      "label": "Accelerating (specialized cyber agents productized)",
+      "text": "OpenAI GPT-6 Cyber (Nov 5) turns the Nov 4 Linux research pipeline into a restricted Daybreak Red SKU."
     },
     {
       "kind": "flat",
-      "label": "Steady (watchlist)",
-      "text": "Salesloft summit produced no newsroom product/pricing update; peers quiet on new launches after yesterday's Nooks / Coworker / Gong leadership day."
+      "label": "Steady (non-Salesforce watchlist)",
+      "text": "Gong, Clay, Nooks, Outreach, Salesloft, Monaco quiet on new launches after Nov 4; Salesloft Agentic Playbook still early access."
     }
   ],
   "language_pulse": [
     {
-      "term": "borderless Lakehouse",
-      "gloss": "Google's Iceberg-based layer for querying multi-cloud / SaaS data in place for agents (Nov 4)."
+      "term": "Builder Central",
+      "gloss": "Salesforce beta no-code hub that builds/deploys apps and agents from plain language against org metadata (Nov 5)."
     },
     {
-      "term": "Knowledge Catalog / Open Knowledge Format (OKF)",
-      "gloss": "Google's universal context engine and reusable context-set format for grounding agents (Nov 4)."
+      "term": "Quick Pages",
+      "gloss": "Salesforce beta for user-built, governed single-page apps on live CRM data via natural language / Headless Toolkit (Nov 5)."
     },
     {
-      "term": "cyber model",
-      "gloss": "OpenAI's label for the upcoming model powering its vuln discovery / exploit / patch pipeline (Nov 4)."
+      "term": "inference hooks",
+      "gloss": "Anthropic Claude Enterprise GA hooks that send prompts and pre-tool-calls to customer security tools for allow/deny (Nov 5)."
     },
     {
-      "term": "Conductor Cloud",
-      "gloss": "Conductor's hosted multi-agent workspace product shutting down Nov 20 post-Meta deal (Nov 4)."
+      "term": "GPT-6 Cyber / Daybreak Red",
+      "gloss": "OpenAI's Critical-class cyber model and the Daybreak tier that hosts authorized exploit development (Nov 5)."
+    },
+    {
+      "term": "Remote Agents",
+      "gloss": "Google Antigravity cloud VMs that keep coding-agent tasks running off-laptop for Pro/Ultra (rollout amplified Nov 5\u20136)."
     }
   ],
   "competitive_moves": [],
   "watch": [
     {
-      "title": "Agent Evals / API Evals November beta start; any post-summit Salesloft Agentic Playbook GA or pricing",
-      "body": "Oct 27 Agent Fabric post still lists Agent Evals and API Evals as \"Beta in November 2026\" (GA Jan 2027) with no separate start notice found Nov 4–5. Salesloft newsroom remains on Oct 27 early access after yesterday's summit.",
+      "title": "Agent Evals November beta start; Builder Central / Quick Pages GA path; Salesloft Agentic Playbook GA or pricing",
+      "body": "Oct 27 Agent Fabric post still lists Agent Evals and API Evals as \"Beta in November 2026\" (GA Jan 2027) with no separate start notice Nov 5\u20136. Builder Central and Quick Pages just entered beta \u2014 watch permissioning, Preview Org limits, and GA/metering. Salesloft newsroom remains on Oct 27 early access after the Nov 4 summit.",
       "cites": [
         {
           "label": "Agent Fabric",
           "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+        },
+        {
+          "label": "Builder Central",
+          "url": "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central"
         },
         {
           "label": "Salesloft newsroom",
@@ -205,32 +217,8 @@
     }
   ],
   "interpretation": {
-    "fact": "Salesloft's Nov 4 Behind Every Win summit ran; as of Nov 5 morning, newsroom still shows Oct 27 as the latest product post (Agentic Playbook early access, no GA/pricing). OpenAI (Nov 4) published results of an autonomous Linux vuln pipeline (948 LPEs, ~$1.2M API cost). Meta (Nov 4) acquired Conductor; Cloud sunsets Nov 20. Google (Nov 4) expanded Agentic Data Cloud / Knowledge Catalog. NVIDIA (Nov 4) shipped CUDA 13.5 with Vera Rubin GA. No new watchlist launch/funding/M&A beyond Nov 4 items already covered yesterday. Agent Evals November beta start not confirmed in a new post.",
-    "note": "Interpretation: After a heavy watchlist day on Nov 4, the market's next moves are governance and grounding — evals, cost caps, and shared context catalogs — more than another sales-assistant launch. Salesloft leaving Agentic Playbook in early access through a named summit suggests pricing/GA is still being staged, not slipped live."
+    "fact": "Nov 5 Salesforce put Builder Central and Quick Pages into beta (plain-language app/agent build + governed user pages). Same day Anthropic GA'd Claude Enterprise inference hooks and shipped a security center; OpenAI introduced GPT-6 Cyber. Nov 5\u20136 Google Antigravity amplified Remote Agents cloud rollout (v2.29 changelog Nov 3). Salesloft newsroom still Oct 27. No new Gong/Clay/Nooks/Outreach/Monaco launch/funding/M&A/pricing. Nov 5 Coworker APAC press restates Nov 4 Coworker package.",
+    "note": "Interpretation: After Coworker packaging on Nov 4, Salesforce's next move is lowering the build surface \u2014 admins and business users creating agents/views in-product \u2014 while model vendors race on runtime governance (hooks, evals) and specialized defender SKUs. Watchlist peers are not matching that build+govern cadence this week; Salesloft leaving Agentic Playbook in early access through a named summit still reads as staged pricing/GA, not a slip-live."
   },
-  "feed": [
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-04T14:00:01.274000-08:00",
-      "category": "other",
-      "summary": "Nooks said Nasdaq featured its Node / Revenue Agent Platform announcement on the Times Square screen.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523866671942627328/",
-      "engagement": {
-        "reactions": 180,
-        "comments": 10
-      },
-      "also": {
-        "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
-        "X": "https://x.com/NooksHQ/status/2118099505023512847"
-      }
-    }
-  ]
+  "feed": []
 }
