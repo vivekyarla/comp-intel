@@ -1,7 +1,53 @@
 {
-  "as_of": "2026-11-06T08:41:48.881903-08:00",
+  "as_of": "2026-11-09T08:47:56.003223-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Gong",
+      "slug": "gong",
+      "author": {
+        "name": "Gong",
+        "handle": "linkedin.com/company/gong-io",
+        "url": "https://www.linkedin.com/company/gong-io/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-09T08:32:36.006000-08:00",
+      "category": "launch",
+      "summary": "Gong promoted Agent Builder (announced Sept 30) for custom agents that act on revenue signals, alongside its Nov 9 governance/cost walkthrough.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525596213044330496/",
+      "engagement": {
+        "reactions": 14,
+        "comments": 1
+      },
+      "also": {
+        "Blog": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action"
+      }
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Salesforce News & Insights",
+        "handle": "@SalesforceNews",
+        "url": "https://x.com/SalesforceNews"
+      },
+      "kind": "company",
+      "source": "X",
+      "ts": "2026-11-09T06:00:35-08:00",
+      "category": "launch",
+      "summary": "Salesforce News promoted Koa Decisions, the new Gemma-based version of its HyperClassifier routing/decision model (Nov 6 newsroom post).",
+      "url": "https://x.com/SalesforceNews/status/2119792268555010225",
+      "engagement": {
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "views": 278
+      },
+      "also": {
+        "Newsroom": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/"
+      }
+    },
     {
       "company": "Salesforce",
       "slug": "salesforce",
@@ -214,25 +260,6 @@
         "reposts": 0,
         "replies": 1,
         "views": 280
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Dan Lee",
-        "handle": "linkedin.com/in/dan9lee",
-        "url": "https://www.linkedin.com/in/dan9lee"
-      },
-      "kind": "founder",
-      "source": "LinkedIn",
-      "ts": "2026-10-26T09:30:03.265000-07:00",
-      "category": "milestone",
-      "summary": "Co-founder says Nooks signed its 2,000th customer, doubled customers year over year, and 40% of enterprise customers use Outbound Agent 10 months after launch.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520522142283796480/",
-      "engagement": {
-        "reactions": 519,
-        "comments": 36
       }
     }
   ]

@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-06",
+  "as_of": "Koa Decisions",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-06",
+      "title": "Koa Decisions: Gemma-based single-step decision model succeeding HyperClassifier",
+      "url": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/",
+      "summary": "Nov 6 Salesforce newsroom (X push Nov 9 via @SalesforceNews): next version of HyperClassifier (Agentforce request routing); built on Google's open-weight Gemma; returns category / yes-no / score in one step; adds image + audio; ~26 ms routing vs ~1.4 s for general LLM (Salesforce measurement). Planned: Flows, Apex, prompt templates, developer API. Joins Koa family (separate reasoning model built with NVIDIA). Trailhead demo; no pricing. X: https://x.com/SalesforceNews/status/2119792268555010225",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-11-05",
       "title": "Builder Central (beta): plain-language no-code app + agent builder",
@@ -318,5 +325,5 @@
     "Agentic Identity",
     "IDC MarketScape Leader (agentic AI platforms)"
   ],
-  "notes": "Nov 4: Coworker expansion + pricing is lead; Cresta definitive agreement (Nov 2) remains open. Agent Evals/API Evals still November beta per Oct 27 Agent Fabric."
+  "notes": "Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
 }

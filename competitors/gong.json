@@ -2,9 +2,16 @@
   "name": "Gong",
   "slug": "gong",
   "website": "https://www.gong.io/",
-  "as_of": "2026-11-04",
+  "as_of": "Skills / agent files",
   "positioning": "Gong markets itself as a Revenue AI Operating System (Revenue AI OS): conversation/interaction data via the Gong Revenue Graph, applications (Engage, Forecast, Enable, Agents), and an agentic execution layer (Gong Revenue Harness) for governed custom agents. Self-label is Revenue AI / Revenue AI OS, not AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-09",
+      "title": "Agent Builder walkthrough: Revenue Harness governance, cost optimization, Skills, agent files, MCP",
+      "url": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action",
+      "summary": "Nov 9 Gong product blog + LinkedIn push: custom agents with scoped permissions, run conditions, human review, incremental-update compute savings, reusable Skills, agent files, MCP extension; actions include Slack/email, CRM field updates, briefs, enrichment, Flows. Riskonnect cross-sell agent quote. Packaging of Sept 30 Celebrate '26 Agent Builder; no pricing/GA change stated. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7525596213044330496/",
+      "source_type": "blog"
+    },
     {
       "date": "2026-11-04",
       "title": "Liron Shtraichman named Chief R&D Officer; Guy Havusha named CISO",
@@ -111,5 +118,5 @@
     "system of engagement",
     "aim before you automate"
   ],
-  "notes": "Nov 4: leadership only (Chief R&D + CISO). Latest product still Celebrate '26 / Mission Callisto (Sep 30) and Gartner RAO Leader (Oct 16)."
+  "notes": "Nov 9: Agent Builder governance/cost walkthrough (packaging of Sept 30 launch). Nov 4: Chief R&D + CISO. Latest product mission still Celebrate '26 / Mission Callisto (Sep 30)."
 }
