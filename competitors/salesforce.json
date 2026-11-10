@@ -2,7 +2,7 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "Koa Decisions",
+  "as_of": "2026-11-10",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
     {
@@ -39,6 +39,13 @@
       "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/",
       "summary": "Nov 4 newsroom: >185,000 Coworker users (21\u00d7 usage growth in three months). New: Skills, Conversation History, Google Workspace + Microsoft 365 connections, $50 per-user per-month SKU. Available now: those connectivity/Skills/history/SKU. GA November 2026: Coworker in Microsoft Teams; iOS app; Mac/Windows desktop apps; Coworker MCP server; Flex Credits free trial. December expected: Daily Digest, scheduled tasks, Field Service / Consumer Goods / Life Sciences mobile. Customer quotes: Fulton Bank, Adecco Group, BACA Systems. Salesforce+ Meet your new coworker demos same day. X: https://x.com/salesforce/status/2118015893334536642. Also Nov 3 Slack stats: https://www.salesforce.com/news/stories/slack-stats/",
       "source_type": "newsroom"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Agentforce Memory update doubles recall (Salesforce AI Research)",
+      "url": "https://www.salesforce.com/blog/agentforce-memory-update/",
+      "summary": "Nov 3 blog: updated Agentforce Memory policy (memory GA since September) treats updates as corrections; on a live-system eval built on ConvoMem it recalls 1.8x stated facts and 2.2x changing facts vs the prior policy; architecture unchanged. Older signal \u2014 competitor page only.",
+      "source_type": "blog"
     },
     {
       "date": "2026-11-03",
@@ -115,18 +122,18 @@
       "source_type": "analyst"
     },
     {
-      "date": "2026-10-20",
-      "title": "X: Donor Engagement Agent (Nonprofit, Winter '27) promo",
-      "url": "https://x.com/salesforce/status/2112620037093683513",
-      "summary": "@salesforce post: agent turns voice memos, photos or notes into donor-record updates, logged activity and next steps. Kept by X filter; industry-cloud feature, not used on Today.",
-      "source_type": "x"
-    },
-    {
       "date": "2026-10-21",
       "title": "Quiet check: Agent Optimizer / AI Skills October GA still unconfirmed",
       "url": "https://www.salesforce.com/blog/agent-optimizer/",
       "summary": "No Salesforce release-note or newsroom GA flag as of Oct 21 morning; Channel Post MEA (Oct 7) and Salesforce Diary (Oct 19, third-party) restate October GA plans.",
       "source_type": "watch"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "X: Donor Engagement Agent (Nonprofit, Winter '27) promo",
+      "url": "https://x.com/salesforce/status/2112620037093683513",
+      "summary": "@salesforce post: agent turns voice memos, photos or notes into donor-record updates, logged activity and next steps. Kept by X filter; industry-cloud feature, not used on Today.",
+      "source_type": "x"
     },
     {
       "date": "2026-10-20",
@@ -325,5 +332,5 @@
     "Agentic Identity",
     "IDC MarketScape Leader (agentic AI platforms)"
   ],
-  "notes": "Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
+  "notes": "Nov 10: Indonesia/Korea Coworker press is a regional reissue of Nov 4 (Teams, iOS/Mac/Windows apps, Coworker MCP server GA in November; Scheduled Tasks + Daily Digest in December). Nov 9: Salesforce named in Anthropic's Enterprise Frontier Safeguards private beta. Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
 }

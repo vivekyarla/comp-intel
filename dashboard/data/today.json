@@ -1,38 +1,34 @@
 {
-  "as_of": "2026-11-09 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Sun Nov 8 \u2013 Mon Nov 9 morning PT (Fri Nov 6 evening / Sat Nov 7 items kept off Today)",
+  "as_of": "2026-11-10 morning ~9:00 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Nov 9 (after the 8:55 AM run) \u2013 Tue Nov 10 morning PT (items already on the Nov 9 brief not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Agent cost and control set the start of the week: Gong published a Nov 9 Agent Builder walkthrough pitching governed, cost-aware custom revenue agents built from reusable Skills, agent files, and MCP, while Google's Nov 9 TPU launch paired new agent-focused hardware with software that suspends idle agent sessions to cut infrastructure spend.",
+    "lede": "Enterprise agent buying is moving onto existing admin and procurement rails: Gong's November release adds agent and skill templates, MCP read/write connections, and an hourly API/MCP usage report, while OpenAI now sells ChatGPT Enterprise \u2014 including Codex and dots \u2014 through AWS Marketplace against existing cloud commitments.",
     "bullets": [
       {
-        "text": "Nov 9: Gong detailed Agent Builder on the Gong Revenue Harness \u2014 per-agent permissions, run conditions, human-in-the-loop checkpoints, incremental updates that skip full refreshes to reduce compute cost, reusable Skills defined once across agents, agent files as execution context, and MCP to pull permitted data and actions from other systems; agents can send Slack/email, update CRM fields, generate briefs, enrich contacts, and start Flows. Agent Builder itself was announced at Celebrate '26 (Sept 30); the post adds the governance and cost mechanics.",
+        "text": "Nov 10: Gong's November release (rolling out through the month) adds ready-made agent and skill templates for revenue workflows, MCP connections that let Gong Assistant and agents read and update Salesforce, Jira, and Zendesk, Enrich as an agent action plus Apollo (bring-your-own key) and Firmable as data partners, Gong Assistant in account/deal/call panels replacing Ask Anything, and an hourly API/MCP usage report by endpoint, integration, and user.",
         "cites": [
           {
-            "label": "Gong blog",
-            "url": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action"
+            "label": "Gong monthly updates",
+            "url": "https://help.gong.io/docs/our-monthly-updates"
           }
         ]
       },
       {
-        "text": "Nov 9: Google added TPU 8tx (confidential inference) and TPU 8i Max (2\u00d7 compute/SRAM/HBM bandwidth of TPU 8i for long-context, multi-agent work), plus Agent Compute Engine, which suspends idle stateful agent sessions and moves working memory off-chip, and an open-source TPU agent suite (preview) that plugs into Claude Code, Cursor, and Antigravity.",
+        "text": "Nov 9: ChatGPT Enterprise (ChatGPT, ChatGPT Work, Codex, dots) is listed on AWS Marketplace; eligible spend can count toward AWS commitments, pricing is by private offer, and ChatGPT for Healthcare / Financial Services are also available there.",
         "cites": [
           {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+            "label": "OpenAI",
+            "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
           }
         ]
       },
       {
-        "text": "Nov 8: Bloomberg reported DeepSeek's open-source agent app Harness reached 1.54M daily users by Nov 4, consuming ~92T tokens a day (~60M per user) \u2014 a data point on how token-heavy always-on agents run.",
+        "text": "Nov 9: Anthropic opened a private beta of Enterprise Frontier Safeguards \u2014 safety monitoring that runs on prompts and responses stored in the customer's own infrastructure, compatible with zero data retention \u2014 naming Bridgewater, Salesforce, and Stripe; non-ZDR customers get 30-day retention for Fable/Mythos 5.2 monitoring.",
         "cites": [
           {
-            "label": "Techmeme / Bloomberg",
-            "url": "https://www.techmeme.com/261108/p12"
-          },
-          {
-            "label": "Business Times",
-            "url": "https://www.businesstimes.com.sg/companies-markets/deepseeks-ai-agent-platform-hits-1-54-million-daily-users"
+            "label": "Anthropic",
+            "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
           }
         ]
       }
@@ -40,208 +36,205 @@
   },
   "biggest_ai_news": [
     {
-      "title": "NVIDIA board opens independent investigation into CEO Jensen Huang",
-      "body": "Nov 8: board says a committee of independent directors with outside counsel will review reports that Huang was targeted by a foreign intelligence effort; it says it has no reason to believe national security or NVIDIA secrets were compromised, and Huang remains CEO. Huang admitted an affair in an email to staff. Shares fell ~5% in premarket trading Nov 9 (per FT/market reports).",
+      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2",
+      "body": "Nov 9: same underlying model (Fable broadly available; Mythos limited to vetted cyber and life-sciences orgs), up to 30% faster output, price cut to $8/$40 per M input/output tokens (from $10/$50 per InfoWorld), optional fast mode; Anthropic says Fable 5.2 at High effort matches Opus 5.5's best FrontierCode score at about half the cost per task.",
       "new": true,
       "cites": [
         {
-          "label": "NVIDIA board statement",
-          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html"
+          "label": "InfoWorld",
+          "url": "https://www.infoworld.com/article/4246681/anthropic-unveils-claude-fable-5-2-mythos-5-2-with-coding-gains-and-lower-prices.html"
         }
       ]
     },
     {
-      "title": "Google expands eighth-gen TPUs with 8tx and 8i Max for agent workloads",
-      "body": "Nov 9: TPU 8tx adds hardware-level confidential computing for inference and small-scale training; TPU 8i Max puts two TPU 8i chips on one package for massive context windows and rack density. Also: Agent Compute Engine (idle agent-session suspension), open-source TPU Sync model-state layer, Cloud Pathways GA on GKE, GKE dynamic slicing GA. Google says TPUs now have nearly 100 customers.",
+      "title": "Google makes Gemini 4 Carbon generally available",
+      "body": "Nov 10: Google's strongest model for long-horizon agentic work and cyber, on the Gemini API and Gemini for business at an introductory $2/$10 per M tokens (rising to $4/$20 after Nov 30), plus a /swarm multi-agent preview in Antigravity.",
       "new": true,
       "cites": [
         {
           "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
         }
       ]
     },
     {
-      "title": "Anthropic reportedly secures ~$3.4B of gas generators for data centers",
-      "body": "Nov 8 (FT, via CNBC): Anthropic bought commitments in late September for 1.7 GW of heavy-duty gas-fired generators from San Antonio supplier OnePWR Solutions, including installation engineering; it did not acquire OnePWR. Reuters could not verify; Anthropic and OnePWR did not comment.",
+      "title": "Anthropic launches IPO roadshow at $70\u2013$78 a share",
+      "body": "Nov 10: 825M Class A shares (801.4M from Anthropic), Nasdaq ticker \"ANT\"; Goldman Sachs and Morgan Stanley on the prospectus.",
       "new": true,
       "cites": [
         {
-          "label": "CNBC (citing FT)",
-          "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html"
-        }
-      ]
-    },
-    {
-      "title": "DeepSeek Harness agent app hits 1.54M daily users",
-      "body": "Nov 8 (Bloomberg): DeepSeek said Harness reached 1.54M DAUs by Nov 4, under three months after launch, using ~92T tokens per day via its official API.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Techmeme / Bloomberg",
-          "url": "https://www.techmeme.com/261108/p12"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
         },
         {
-          "label": "Business Times",
-          "url": "https://www.businesstimes.com.sg/companies-markets/deepseeks-ai-agent-platform-hits-1-54-million-daily-users"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        }
+      ]
+    },
+    {
+      "title": "Meta releases Muse Ember for high-volume agent execution",
+      "body": "Nov 9: Meta's smallest Muse model, built for tool calls, routing, extraction, and document parsing, at $0.10 per M input tokens; positioned as the executor paired with Muse Wonder for planning.",
+      "new": true,
+      "cites": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+        },
+        {
+          "label": "Meta",
+          "url": "https://research.meta.ai/blog/muse-ember"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Gong publishes Agent Builder governance + cost mechanics",
-      "body": "Nov 9 Gong product blog (by Gong's VP Product): custom agents on the Revenue Harness with scoped permissions, run conditions, human review, incremental-update cost optimization, reusable Skills, agent files, and MCP extension; actions include Slack/email, CRM field updates, briefs, enrichment, and Flows. Customer quote: Riskonnect built a cross-sell signal agent. Packaging of the Sept 30 Celebrate '26 Agent Builder launch \u2014 no new pricing or GA date stated.",
+      "title": "Gong November release: agent templates, MCP write-back, Apollo/Firmable Enrich, API/MCP usage report",
+      "body": "Nov 10 Gong help-center monthly update (features rolling out through November): agent and skill templates; MCP connections to read and update Salesforce, Jira, Zendesk (and Highspot context) from Gong Assistant and agents; Enrich as an agent action plus Apollo (BYO API key) and Firmable providers; Gong Assistant replaces Ask Anything in account/deal/call panels; an hourly API/MCP usage report; Salesforce ETM territory and opportunity-product imports for forecasting; Gong Engage flows generated from a prompt. No pricing change stated.",
       "new": true,
       "cites": [
         {
-          "label": "Gong blog",
-          "url": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action"
+          "label": "Gong monthly updates",
+          "url": "https://help.gong.io/docs/our-monthly-updates"
         }
       ]
     },
     {
-      "title": "Salesforce introduces Koa Decisions decision model",
-      "body": "NEW to the brief. Nov 6 Salesforce newsroom post (published after the Nov 6 morning run; amplified on X Nov 9): Koa Decisions is the next version of HyperClassifier, the model that routes requests inside Agentforce. Built on Google's open-weight Gemma, it returns a category, yes/no, or score in a single step; adds image and audio input; Salesforce measured ~26 ms routing vs ~1.4 s for a general-purpose LLM. Planned extension into Flows, Apex, prompt templates, and a developer API; free Trailhead demo. No pricing stated.",
+      "title": "OpenAI puts ChatGPT Enterprise on AWS Marketplace",
+      "body": "NEW (adjacent). Nov 9: AWS customers can buy ChatGPT Enterprise (incl. Codex and dots) through existing AWS billing and apply eligible spend to AWS commitments; same features as buying direct; Sophos quoted. Complements OpenAI models in Amazon Bedrock.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic releases Fable 5.2 / Mythos 5.2 and Enterprise Frontier Safeguards beta",
+      "body": "NEW (adjacent). Nov 9: lower price ($8/$40 per M tokens), up to 30% faster, ~55% fewer safeguard blocks than Fable 5.1; Enterprise Frontier Safeguards private beta (Bridgewater, Salesforce, Stripe) runs misuse monitoring on customer-stored data; Claude Security now uses Mythos 5.2 and exposes an API/MCP. Nov 10: IPO roadshow launched at $70\u2013$78/share.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "label": "X @SalesforceNews",
-          "url": "https://x.com/SalesforceNews/status/2119792268555010225"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
         }
       ]
     },
     {
-      "title": "NVIDIA board investigates CEO Jensen Huang",
-      "body": "NEW (adjacent). Nov 8 board statement: independent-director committee with outside counsel reviewing reports of a foreign intelligence effort targeting Huang; Huang continues as CEO and will cooperate.",
-      "new": true,
-      "cites": [
-        {
-          "label": "NVIDIA board statement",
-          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
-        },
-        {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html"
-        }
-      ]
-    },
-    {
-      "title": "Google ships TPU 8tx + TPU 8i Max and agent-runtime software",
-      "body": "NEW (adjacent). Nov 9: two new eighth-gen TPU systems (confidential inference; long-context density) and Agent Compute Engine, TPU Sync, TPU agent suite for coding tools, Cloud Pathways GA, GKE dynamic slicing GA.",
+      "title": "Google ships Gemini 4 Carbon with Antigravity /swarm",
+      "body": "NEW (adjacent). Nov 10: Carbon available to paying API and Gemini for business customers at Argon's introductory price; Google cites #1 on Zapier's AutomationBench and CursorBench 4.0 at more than 2\u00d7 lower cost per task than the next external model.",
       "new": true,
       "cites": [
         {
           "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
         }
       ]
     },
     {
-      "title": "Salesloft newsroom still on Oct 27 after Behind Every Win",
-      "body": "Negative confirm (unchanged). As of Nov 9 morning, newsroom latest remains the Oct 27 Agentic Playbook / Ask Salesloft / meeting-prep early-access post \u2014 no GA date or pricing.",
-      "new": false,
+      "title": "OpenAI's \"Tomorrow.\" tease resolves to Codex-edition hardware; Control Room and multi-machine dots also ship",
+      "body": "Nov 9: @OpenAIDevs' Nov 8 tease was the Codex-edition ModRetro Chromatic handheld on OpenAI's Supply Co (merch plus a Codex plugin) \u2014 not a model or API launch. Same day: dots can now connect to multiple local computers and pick which one runs a task, and OpenAI published Control Room, which halts research inference within 35 seconds and fails closed.",
+      "new": true,
       "cites": [
         {
-          "label": "Salesloft newsroom",
-          "url": "https://www.salesloft.com/company/newsroom"
+          "label": "X @OpenAIDevs (Chromatic)",
+          "url": "https://x.com/OpenAIDevs/status/2119864571733446774"
         },
         {
-          "label": "Oct 27 announce",
-          "url": "https://www.salesloft.com/company/newsroom/agentic-revenue-ai-capabilities"
+          "label": "X @OpenAIDevs",
+          "url": "https://x.com/OpenAIDevs/status/2119883176726409645"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/control-room"
         }
       ]
     }
   ],
-  "quiet_note": "Beyond Koa Decisions, no new launch/funding/M&A/pricing from Salesforce, Clay, Nooks, Outreach, Salesloft, or Monaco dated Nov 8\u20139. Salesforce's Nov 9 Thailand Coworker press release is a regional reissue of the Nov 4 Coworker story; Cresta remains a signed definitive agreement (expected close Feb\u2013Apr 2027 per Salesforce). Agent Evals / API Evals still listed as \"Beta in November 2026\" on the Oct 27 Agent Fabric post with no separate start notice found. Nooks has no new announcement since the Nov 4 $500M / Node launch (Nov 9 LinkedIn is a launch-party recap). Clay's only Nov 9 X post was non-substantive. Weekend adjacent items dated Nov 6\u20137 (OpenAI\u2013Hacktron, Anthropic agent-memory \"dreaming\" research, Microsoft APM agent package manager, Apiiro Claude Code secrets report, Meta Muse Spaces) are outside the Today window.",
+  "quiet_note": "No new launch/funding/M&A/pricing from Salesforce, Clay, Nooks, Outreach, Salesloft, or Monaco dated Nov 9\u201310. Salesforce's Nov 10 Indonesia and Korea Coworker releases are regional reissues of the Nov 4 story (185k users, $50/user/mo; Teams/iOS/Mac/Windows + MCP server GA in November; Scheduled Tasks and Daily Digest in December). Salesloft newsroom still tops out at the Oct 27 Agentic Playbook early-access post. Clay's pricing-page AI token pricing (flagged by a page-change tracker Nov 8\u20139) dates to March 2026. Outreach's Snowflake data share (Nov 3) and Salesforce's Agentforce Memory recall post (Nov 3) are older and stay on competitor pages.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (governed, cost-aware agent builders in revenue platforms)",
-      "text": "Gong's Nov 9 Agent Builder post leads with permissions, human review, and compute cost controls rather than new agent types. Salesforce's Koa Decisions makes the same cost argument at the model layer (routing in ~26 ms instead of an LLM call)."
+      "label": "Accelerating (agent admin and metering inside revenue platforms)",
+      "text": "Gong's November release pairs agent templates and MCP write-back with an hourly API/MCP usage report and credit-scoped trackers \u2014 the same control-and-cost framing as its Nov 9 Agent Builder post."
     },
     {
       "kind": "up",
-      "label": "Accelerating (agent-specific infrastructure economics)",
-      "text": "Google's Agent Compute Engine and TPU 8i Max (Nov 9) and DeepSeek Harness's ~60M tokens/user/day (Nov 8) put idle-session and token cost at the center of agent deployment."
+      "label": "Accelerating (AI bought through cloud procurement)",
+      "text": "ChatGPT Enterprise on AWS Marketplace (Nov 9) lets buyers spend committed cloud budget on seat-based AI, alongside Claude and Gemini on the hyperscaler marketplaces."
     },
     {
       "kind": "new",
-      "label": "New (AI supply-chain governance risk)",
-      "text": "NVIDIA's board probe of its CEO (Nov 8) adds key-person and export-policy uncertainty to the GPU supply that agent vendors depend on."
+      "label": "New (customer-side safety monitoring)",
+      "text": "Anthropic's Enterprise Frontier Safeguards (Nov 9) moves misuse monitoring into the customer's infrastructure to fit zero data retention; OpenAI's Control Room (Nov 9) shows the lab-side version of stopping agent workloads fast."
     },
     {
       "kind": "flat",
       "label": "Steady (rest of watchlist)",
-      "text": "Salesforce, Clay, Nooks, Outreach, Salesloft, Monaco quiet Nov 8\u20139; Salesloft Agentic Playbook still early access."
+      "text": "Salesforce, Clay, Nooks, Outreach, Salesloft, Monaco quiet Nov 9\u201310; Salesloft Agentic Playbook still early access."
     }
   ],
   "language_pulse": [
     {
-      "term": "Gong Revenue Harness",
-      "gloss": "Gong's governed execution layer for custom agents: permissions, run conditions, human review, cost optimization (Nov 9 Agent Builder post)."
+      "term": "Agent / skill templates",
+      "gloss": "Gong's ready-made revenue-workflow agents and skills that admins customize and run (November release)."
     },
     {
-      "term": "Skills / agent files",
-      "gloss": "Gong's reusable instruction bundles and document context attached to custom agents, extendable via MCP (Nov 9)."
+      "term": "MCP connections (in skills)",
+      "gloss": "Gong Assistant and agents reading and updating Salesforce, Jira, Zendesk via MCP; managed on a My MCP Connections page (Nov 10)."
     },
     {
-      "term": "Koa Decisions / decision model",
-      "gloss": "Salesforce's single-token routing/classification model (successor to HyperClassifier) that returns a choice instead of generated text (Nov 6; X Nov 9)."
+      "term": "API and MCP usage report",
+      "gloss": "Gong's hourly breakdown of API/MCP calls by endpoint or tool, integration, and user for rate-limit management (Nov 10)."
     },
     {
-      "term": "Agent Compute Engine",
-      "gloss": "Google software that suspends idle stateful agent sessions and moves working memory off-chip to cut infrastructure cost (Nov 9)."
+      "term": "Enterprise Frontier Safeguards",
+      "gloss": "Anthropic's private-beta misuse monitoring that runs on prompts/responses stored in the customer's infrastructure, ZDR-compatible (Nov 9)."
     },
     {
-      "term": "TPU 8tx / TPU 8i Max",
-      "gloss": "Google's confidential-inference TPU and dual-chip long-context TPU system for the \"agentic lifecycle\" (Nov 9)."
+      "term": "Control Room",
+      "gloss": "OpenAI's central kill switch for research inference: job IDs tied to safety cases, 35-second stop, fail-closed (Nov 9)."
     },
     {
-      "term": "Harness",
-      "gloss": "DeepSeek's open-source agent app, 1.54M DAUs and ~92T tokens/day (Bloomberg, Nov 8)."
+      "term": "/swarm",
+      "gloss": "Google Antigravity preview that turns one prompt into a coordinated team of Gemini agents (Nov 10)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Gong",
       "slug": "gong",
-      "text": "Agent Builder governance/cost walkthrough (Nov 9): custom revenue agents on Revenue Graph context + Revenue Harness controls + Gong Applications for action, framed against generic model/agent builders that lack revenue context and governance.",
+      "text": "November release (Nov 10): agent/skill templates, MCP read/write into Salesforce/Jira/Zendesk, Enrich as an agent action with Apollo and Firmable added, Gong Assistant replacing Ask Anything in account/deal/call panels, hourly API/MCP usage report, Salesforce territory (ETM) and opportunity-product imports for Forecast.",
       "cites": [
         {
-          "label": "Gong blog",
-          "url": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action"
-        }
-      ]
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Koa Decisions (Nov 6 post, X push Nov 9): single-step Gemma-based decision model replacing HyperClassifier for Agentforce routing, positioned to save LLM calls for writing/reasoning; Flows/Apex/prompt-template + API extension planned.",
-      "cites": [
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/"
+          "label": "Gong monthly updates",
+          "url": "https://help.gong.io/docs/our-monthly-updates"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "OpenAI Developers' \"Tomorrow.\" tease (Nov 8) \u2192 launch expected Nov 9; Agent Evals beta start; Salesloft Agentic Playbook GA/pricing",
-      "body": "@OpenAIDevs posted \"Tomorrow.\" on Nov 8 (~12 PM PT, ~2M views) with no product named as of Nov 9 morning. Salesforce Agent Evals / API Evals remain \"Beta in November 2026\" with no start notice. Salesloft newsroom still on Oct 27 early access.",
+      "title": "Anthropic IPO pricing; Agentforce Coworker November GA items; Agent Evals beta start; Salesloft Agentic Playbook GA/pricing",
+      "body": "Anthropic's roadshow (Nov 10) sets a $70\u2013$78 range for \"ANT\"; pricing date not stated in the release. Salesforce still lists Coworker in Teams, iOS/Mac/Windows apps, and the Coworker MCP server as GA in November and Agent Evals / API Evals as beta in November, with no start notice yet. Salesloft newsroom is still on the Oct 27 early-access post.",
       "cites": [
         {
-          "label": "X @OpenAIDevs",
-          "url": "https://x.com/OpenAIDevs/status/2119521359185478140"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
+        },
+        {
+          "label": "Salesforce Coworker",
+          "url": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
         },
         {
           "label": "Agent Fabric",
@@ -255,55 +248,8 @@
     }
   ],
   "interpretation": {
-    "fact": "Nov 9 Gong published an Agent Builder post detailing Revenue Harness permissions, human review, cost optimization, Skills, agent files, and MCP (product announced Sept 30). Nov 9 Google launched TPU 8tx and TPU 8i Max plus Agent Compute Engine and related software. Nov 8 NVIDIA's board opened an independent investigation involving CEO Jensen Huang; the FT reported Anthropic's ~$3.4B gas-generator deal; Bloomberg reported DeepSeek Harness at 1.54M DAUs. Salesforce's Nov 6 Koa Decisions post (X push Nov 9) introduced a Gemma-based single-step decision model succeeding HyperClassifier. Salesloft newsroom still Oct 27. No other watchlist launch/funding/M&A/pricing Nov 8\u20139.",
-    "note": "Interpretation: Revenue-platform agent pitches are shifting from \"what agents can do\" to \"what they may touch and what they cost\" \u2014 Gong now sells governance and compute efficiency as the differentiator against generic builders, and Salesforce's Koa Decisions argues the same at the model layer (cheap routing instead of LLM calls), the same axis Salesforce (Agent Fabric spend controls) and Anthropic (inference hooks) pushed last week. Infrastructure vendors are optimizing for the same cost curve from below."
+    "fact": "Nov 10 Gong published its November release (agent/skill templates, MCP connections that update Salesforce/Jira/Zendesk, Apollo + Firmable Enrich, Assistant in account/deal/call panels, hourly API/MCP usage report). Nov 9 OpenAI listed ChatGPT Enterprise on AWS Marketplace, published Control Room, and shipped multi-machine dots; its \"Tomorrow.\" tease was a Codex-edition handheld. Nov 9 Anthropic released Fable/Mythos 5.2 ($8/$40) and an Enterprise Frontier Safeguards private beta; Nov 10 it launched its IPO roadshow at $70\u2013$78. Nov 10 Google made Gemini 4 Carbon available. Nov 9 Meta released Muse Ember ($0.10/M input). Salesloft newsroom still Oct 27. No other watchlist launch/funding/M&A/pricing Nov 9\u201310.",
+    "note": "Revenue platforms are competing on how agents are administered, not just what they do: Gong now ships templates, write-back through MCP, and metering in the same release, the pattern Salesforce set with Agent Fabric spend controls. At the same time the labs are making agent seats easier to buy (cloud marketplaces) and cheaper per task (Fable 5.2, Carbon, Ember), which lowers the bar for horizontal tools to cover revenue workflows."
   },
-  "feed": [
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "author": {
-        "name": "Gong",
-        "handle": "linkedin.com/company/gong-io",
-        "url": "https://www.linkedin.com/company/gong-io/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-09T08:32:36.006000-08:00",
-      "category": "launch",
-      "summary": "Gong promoted Agent Builder (announced Sept 30) for custom agents that act on revenue signals, alongside its Nov 9 governance/cost walkthrough.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525596213044330496/",
-      "engagement": {
-        "reactions": 14,
-        "comments": 1
-      },
-      "also": {
-        "Blog": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce News & Insights",
-        "handle": "@SalesforceNews",
-        "url": "https://x.com/SalesforceNews"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-11-09T06:00:35-08:00",
-      "category": "launch",
-      "summary": "Salesforce News promoted Koa Decisions, the new Gemma-based version of its HyperClassifier routing/decision model (Nov 6 newsroom post).",
-      "url": "https://x.com/SalesforceNews/status/2119792268555010225",
-      "engagement": {
-        "likes": 1,
-        "reposts": 0,
-        "replies": 0,
-        "views": 278
-      },
-      "also": {
-        "Newsroom": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/"
-      }
-    }
-  ]
+  "feed": []
 }

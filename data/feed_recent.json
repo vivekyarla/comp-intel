@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-09T08:47:56.003223-08:00",
+  "as_of": "2026-11-10T08:42:54.555569-08:00",
   "days": 14,
   "items": [
     {
@@ -218,48 +218,6 @@
       },
       "also": {
         "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7520904236692598784/"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce News & Insights",
-        "handle": "@SalesforceNews",
-        "url": "https://x.com/SalesforceNews"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-27T06:09:15-07:00",
-      "category": "launch",
-      "summary": "Salesforce posts its Oct 27 Agent Fabric update: Agent Evals, API Evals and cost controls.",
-      "url": "https://x.com/SalesforceNews/status/2115068309510959279",
-      "engagement": {
-        "likes": 4,
-        "reposts": 0,
-        "replies": 1,
-        "views": 505
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Shek Viswanathan",
-        "handle": "@abishekv",
-        "url": "https://x.com/abishekv"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-10-26T19:41:19-07:00",
-      "category": "take",
-      "summary": "Co-founder says Monaco is building a shared model of the buyer journey that tracks buyer commitments rather than seller activity.",
-      "url": "https://x.com/abishekv/status/2114910285706506252",
-      "engagement": {
-        "likes": 7,
-        "reposts": 0,
-        "replies": 1,
-        "views": 280
       }
     }
   ]
