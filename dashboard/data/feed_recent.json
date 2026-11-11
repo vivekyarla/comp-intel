@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-10T08:42:54.555569-08:00",
+  "as_of": "2026-11-11T08:48:16.629721-08:00",
   "days": 14,
   "items": [
     {
@@ -60,7 +60,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-04T16:21:55.139000+00:00",
       "category": "launch",
-      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21\u00d7 in three months, as it expanded Coworker surfaces and packaging.",
+      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21× in three months, as it expanded Coworker surfaces and packaging.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
       "engagement": {
         "reactions": 22,
@@ -125,7 +125,7 @@
       "source": "LinkedIn",
       "ts": "2026-11-03T08:43:00.984000-08:00",
       "category": "take",
-      "summary": "Clay says its Account Agents used 6.4\u00d7 fewer tokens and answered 2.6\u00d7 faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
+      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
       "engagement": {},
       "also": {
@@ -172,52 +172,6 @@
       "engagement": {
         "reactions": 317,
         "comments": 2
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "linkedin.com/company/salesforce",
-        "url": "https://www.linkedin.com/company/salesforce/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-10-29T13:01:39.423000-07:00",
-      "category": "mna",
-      "summary": "Salesforce signed an agreement to acquire Rune Technologies, a military logistics software maker, to expand Missionforce.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521662557427007488/",
-      "engagement": {
-        "reactions": 790,
-        "comments": 18
-      },
-      "also": {
-        "X": "https://x.com/salesforce/status/2115896862762754458"
-      }
-    },
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "author": {
-        "name": "Clay",
-        "handle": "@clay",
-        "url": "https://x.com/clay"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-10-27T10:59:13-07:00",
-      "category": "launch",
-      "summary": "Clay makes auto-mode the default for new Claygent columns; it picks a model per row and is 47% cheaper than always using the most capable model.",
-      "url": "https://x.com/clay/status/2115141280137130166",
-      "engagement": {
-        "likes": 84,
-        "reposts": 15,
-        "replies": 4,
-        "views": 10733
-      },
-      "also": {
-        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7520904236692598784/"
       }
     }
   ]

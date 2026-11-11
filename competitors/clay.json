@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-11",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-10",
+      "title": "Updated GTM engineer hiring guide with comp benchmarks",
+      "url": "https://x.com/clay/status/2120203719887167731",
+      "summary": "Nov 10 X post: Clay says it coined the GTM engineer title in 2023 and published an updated hiring guide with interview questions, take-home ideas, and compensation benchmarks.",
+      "source_type": "x"
+    },
     {
       "date": "2026-11-03",
       "title": "Blog: 'The ceiling on your GTM agent is the data, not the model' (Account Agent vs generic MCP)",
