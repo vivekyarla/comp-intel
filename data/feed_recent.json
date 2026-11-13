@@ -1,7 +1,31 @@
 {
-  "as_of": "2026-11-12T08:43:59.066240-08:00",
+  "as_of": "2026-11-13T08:47:01.158637-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Marc Benioff",
+        "handle": "@Benioff",
+        "url": "https://x.com/Benioff"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-12T19:06:05-08:00",
+      "category": "launch",
+      "summary": "Benioff announced SOV-Transcribe-1, Salesforce's open-weight (Apache 2.0) speech-to-text model from Missionforce Sovereign AI.",
+      "url": "https://x.com/Benioff/status/2121077110488109147",
+      "engagement": {
+        "likes": 108,
+        "reposts": 15,
+        "replies": 23,
+        "views": 24332
+      },
+      "also": {
+        "Hugging Face": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
+      }
+    },
     {
       "company": "Gong",
       "slug": "gong",

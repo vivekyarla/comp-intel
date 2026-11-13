@@ -2,9 +2,16 @@
   "name": "Outreach",
   "slug": "outreach",
   "website": "https://www.outreach.ai/",
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-13",
   "positioning": "Agentic AI platform for revenue teams / revenue orchestration: Omni conversational agent, Agent Studio, purpose-built AI agents (Meeting Prep, Deal, Revenue/Research), Kaia CI, forecasting — insight to governed action. Primary web domain is outreach.ai (outreach.io 301s there).",
   "recent": [
+    {
+      "date": "2026-11-12",
+      "title": "November release: 11 new MCP server tools (end-to-end sequence building), API-key MCP connectors, 8 AI credit categories",
+      "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026",
+      "summary": "Release notes (shipping Nov 12–Dec 8): Outreach MCP server adds 11 tools (update sequences/add steps/attach templates, voice call logs and dispositions, Kaia scorecards, template search, interactive task list) under role-based access; MCP Connectors support Org API Key and Personal API Key auth and can be published to the Outreach Marketplace; AI metering dashboard moves from 2 to 8 usage categories with history remapped; Multi-Account Prospect Association for Salesforce reporting; email engagement notifications to Slack/Teams; ServiceNow Marketplace app with sequence and Kaia fields. MCP items require Amplify add-on.",
+      "source_type": "release_notes"
+    },
     {
       "date": "2026-10-28",
       "title": "Outreach Data Sharing on Snowflake Marketplace",

@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-13",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-12",
+      "title": "SOV-Transcribe-1 open-weight speech-to-text model (Missionforce Sovereign AI)",
+      "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+      "summary": "Nov 12: Apache 2.0 weights on Hugging Face; 4B active / 26B total params, non-streaming ASR; claims #1 open-weight on Artificial Analysis STT (#7 overall), 2.28% AA-WER, 8.21% avg WER across 14 accents on AppTek call-center benchmark; style steering and context biasing. Announced by Benioff on X: https://x.com/Benioff/status/2121077110488109147",
+      "source_type": "blog"
+    },
     {
       "date": "2026-11-11",
       "title": "SFR-AutoR&D: autonomous research agents improving production embedding models",

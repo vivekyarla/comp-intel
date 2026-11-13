@@ -1,42 +1,38 @@
 {
-  "as_of": "2026-11-12 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 11 (after the morning run) – Thu Nov 12 morning PT, plus one Nov 10 Salesloft item the Nov 11 brief missed (items already on the Nov 10–11 briefs not re-led)",
+  "as_of": "2026-11-13 morning ~8:55 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Nov 12 (after the morning run) – Fri Nov 13 morning PT (items already on the Nov 10–12 briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "In-call help is moving into the meeting platform itself, and always-on agents that come back with decisions are spreading beyond revenue tools: Salesloft now shows battlecards inside Zoom with no meeting bot, and Databricks turned Genie into a background agent with its own inbox.",
+    "lede": "Revenue tools are turning their data and actions into agent tools, and enterprise buyers are getting more say over where those agents run and how their usage is metered: Outreach's November release lets AI clients build whole sequences over MCP and splits credit usage into eight categories, and Anthropic now lets companies run Managed Agents entirely inside their own infrastructure.",
     "bullets": [
       {
-        "text": "Nov 10: Salesloft's live battlecards are available in Zoom. When a buyer names a competitor or raises pricing, the approved talking points appear in the Salesloft app in Zoom's side panel; it uses Zoom Realtime Media Streams, so no bot joins, and Salesloft says it does not extend to Teams or Google Meet.",
+        "text": "Nov 12: Outreach's MCP server adds 11 tools, so an AI client can create and edit a sequence end to end, read call logs and Kaia scorecards, and search templates, all under the user's existing role permissions. MCP connectors can now authenticate with an org-wide or per-user API key, and the AI metering dashboard now breaks credit usage into eight categories instead of two. The MCP features require the Amplify add-on.",
         "cites": [
           {
-            "label": "Salesloft blog",
-            "url": "https://www.salesloft.com/resources/blog/real-time-sales-coaching-zoom"
+            "label": "Outreach release notes",
+            "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026"
           }
         ]
       },
       {
-        "text": "Nov 11: Databricks' second-generation Genie runs in the background on its own compute, delegates to subagents, and surfaces decisions through a priority inbox and email; it stays inside Unity Catalog permissions and Unity Gateway approval rules and budgets, and is priced on usage rather than per seat. The always-on mode is coming to preview and beta.",
+        "text": "Nov 12: Anthropic opened a private beta of self-hosted Claude Managed Agents. The customer runs the agent harness, sandboxes, credentials and session history in its own cloud or data center and picks where model calls go (Anthropic, Bedrock, Google, Microsoft Foundry or its own gateway); every session is logged and exportable over OpenTelemetry, and hosts can be allow-listed.",
         "cites": [
           {
-            "label": "Databricks",
-            "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex"
+            "label": "Claude",
+            "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
           },
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+            "label": "Claude docs",
+            "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted"
           }
         ]
       },
       {
-        "text": "Nov 11: Attio made its top CRM tier self-serve. Ultra is $1,000 a month with 5 users (annual billing), 20,000 workspace credits, SQL access through API or MCP, and SSO, SCIM and audit logs; Pro teams can buy that governance as a $30-per-user add-on.",
+        "text": "Nov 12: Microsoft said Copilot Workspaces will drop the separate Researcher, Analyst and Designer agent picker in favor of one agentic chat that applies those skills based on the request, starting in Frontier preview in December.",
         "cites": [
           {
-            "label": "Attio pricing",
-            "url": "https://attio.com/pricing"
-          },
-          {
-            "label": "PricingSaaS (Nov 11)",
-            "url": "https://pricingsaas.com/news/article/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan"
+            "label": "Microsoft 365 Message Center MC1550540",
+            "url": "https://message.cengizyilmaz.net/message/mc1550540-microsoft-365-copilot-copilot-workspaces-is-replacing-standalone-agent-selection-with-agentic-chat"
           }
         ]
       }
@@ -44,181 +40,223 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Google launches the Gemini Decisions API",
-      "body": "Nov 11: Gemini Decision 1 scores up to 1,000 yes/no, multiple-choice, or rubric questions against one multimodal input in a single pass, in 150–250 ms, at $0.10 per 1M input tokens with no output charges. Google lists model routing, tool selection, and policy checks as uses.",
+      "title": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress named interim CEO",
+      "body": "Nov 12: Huang left as president, CEO and director effective immediately. Kress stays CFO while serving as interim CEO, Harvey Jones becomes the board's first chair, and the board is searching internally and externally for a permanent CEO. Q3 FY2027 results stay on Nov 17. The Nov 9 brief covered the board probe that preceded this.",
+      "new": true,
+      "cites": [
+        {
+          "label": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+        }
+      ]
+    },
+    {
+      "title": "Google releases Gemini 4 Hydrogen and a model Orchestrator",
+      "body": "Nov 12: Hydrogen is Gemini 4's fast execution model at $1.50/$7.50 per 1M input/output tokens across a 1M-token context, available in the Gemini API, Gemini for business, the Gemini app and Search. Orchestrator in Google Antigravity switches between Carbon and Hydrogen in one session; Google reports near-Carbon success on Terminal-Bench 4.0 with 24% less quota.",
       "new": true,
       "cites": [
         {
           "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
         }
       ]
     },
     {
-      "title": "OpenAI's quarterly revenue passes $10 billion",
-      "body": "Nov 11 (WSJ, via Reuters): third-quarter revenue rose about 50% from the prior quarter to over $10B, with an operating loss of $10.9B.",
-      "new": true,
+      "title": "Anthropic IPO reportedly six times oversubscribed",
+      "body": "Nov 12–13 (Bloomberg): orders are about six times the shares available ahead of pricing on Nov 18, with existing backers prioritized. The amended filing shows an $81B revenue run rate as of Oct 31, and the seven co-founders each plan to sell about 3.38M shares (about $1.75B combined at the midpoint).",
       "cites": [
         {
-          "label": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-wsj-reports-5017353"
+          "label": "Bloomberg via BusinessLine",
+          "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-draws-sixfold-demand-targets-14-trillion-valuation/article71696359.ece"
         },
         {
-          "label": "Bloomberg Law",
-          "url": "https://news.bloomberglaw.com/private-equity/openai-third-quarter-revenue-soars-nearly-50-to-10-billion"
+          "label": "Channel Insider",
+          "url": "https://www.channelinsider.com/ai/news-anthropic-ipo-demand-founders-stock-sale/"
         }
       ]
     },
     {
-      "title": "Chip and cloud suppliers commit $26B to Anthropic alongside the IPO",
-      "body": "Nov 10–11: Alphabet, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC Partners will buy $26B of shares in a private placement at the IPO price; the Motley Fool reports Nvidia and Alphabet at $10B each. The IPO itself is 825M shares at $70–$78.",
+      "title": "OpenAI launches Daybreak Red Team and Defense Factory",
+      "body": "Nov 12: two security products on GPT-6 Cyber. Red Team (early access) runs agents that pen-test web apps and validate reported vulnerabilities; Defense Factory scans codebases and opens merge-ready patch PRs that engineers approve. Separately, OpenAI added in-country API processing in India, starting with GPT-6 Luna.",
       "cites": [
         {
-          "label": "Stocktwits via Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/google-nvidia-amd-others-invest-120521300.html"
+          "label": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500"
         },
         {
-          "label": "Motley Fool (Nov 11)",
-          "url": "https://www.fool.com/investing/2026/11/11/nvidia-and-alphabet-just-agreed-to-buy-usd10-billion-each-of-anthropic-stock-at-its-ipo-price/"
-        }
-      ]
-    },
-    {
-      "title": "Databricks turns Genie into an always-on enterprise agent",
-      "body": "Nov 11: background autonomous mode, subagents, priority inbox, Genie Ontology (GA) and Genie Search across 100+ sources; Genie is reachable from ChatGPT, Claude and Copilot through Genie MCP.",
-      "new": true,
-      "cites": [
+          "label": "OpenAI Daybreak",
+          "url": "https://openai.com/daybreak/"
+        },
         {
-          "label": "Databricks",
-          "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex"
+          "label": "The Hindu",
+          "url": "https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesloft ships live battlecards inside Zoom",
-      "body": "Nov 10: real-time coaching agents listen for topics the team configured (a competitor, a pricing objection, a requirement) and show the matching battlecard in Zoom's side panel; a Zoom admin approves the app, and participants are notified. This is the first piece of the Oct 27 early-access announcement to become available; Salesloft's roadmap adds in-call signals, compliance guardrails, and starting AI Sales Plays from the live call.",
+      "title": "Outreach November release: agent-built sequences over MCP, API-key connectors, finer credit metering",
+      "body": "Nov 12 (shipping Nov 12–Dec 8): 11 new Outreach MCP server tools (update sequences, add steps and templates, query call logs and dispositions, read Kaia scorecards, search templates, interactive task list); MCP connectors gain org-wide and personal API-key auth, and connectors can be published to the Outreach Marketplace; AI credit usage is reported in eight categories with history remapped; an Outreach app on the ServiceNow Marketplace adds sequence and Kaia recording fields to ServiceNow records. MCP items require the Amplify add-on.",
       "new": true,
       "cites": [
         {
-          "label": "Salesloft blog",
-          "url": "https://www.salesloft.com/resources/blog/real-time-sales-coaching-zoom"
+          "label": "Outreach release notes",
+          "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026"
         }
       ]
     },
     {
-      "title": "Attio replaces quote-only Enterprise with a self-serve $1,000/month Ultra plan",
-      "body": "Nov 11: Ultra includes 5 users (extra users $189/month, annual only), 20,000 workspace credits, unlimited objects, SQL through API or MCP, a data connector, SSO, SCIM, audit logs, and forward-deployed onboarding. SSO, SCIM and audit logs are now a $30/user/month Governance add-on on Pro.",
+      "title": "Salesforce releases SOV-Transcribe-1, an open-weight speech-to-text model",
+      "body": "Nov 12: Salesforce's Missionforce Sovereign AI team released Apache 2.0 weights for a non-streaming transcription model (4B active / 26B total parameters) aimed at voice agents, dictation and call transcription on infrastructure the customer controls. Salesforce reports #1 among open-weight models on Artificial Analysis speech-to-text (#7 overall), 8.21% average WER on a 14-accent call-center benchmark, and keyword boosting for names and domain terms; English plus several European languages.",
       "new": true,
       "cites": [
         {
-          "label": "Attio pricing",
-          "url": "https://attio.com/pricing"
+          "label": "Salesforce on Hugging Face",
+          "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
         },
         {
-          "label": "PricingSaaS (Nov 11)",
-          "url": "https://pricingsaas.com/news/article/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan"
+          "label": "Marc Benioff on X",
+          "url": "https://x.com/Benioff/status/2121077110488109147"
         }
       ]
     },
     {
-      "title": "Databricks launches always-on Genie with a governed business ontology",
-      "body": "NEW (adjacent). Nov 11: Genie keeps long-running work moving, follows up on missing inputs, and emails users when a decision is needed; examples include keeping a quarterly forecast on track and alerting account teams to usage shifts. Genie and Genie Ontology are GA; always-on Genie, Genie Search and Ontology Manager are coming to preview and beta.",
+      "title": "Anthropic lets enterprises self-host Claude Managed Agents",
+      "body": "NEW (adjacent). Nov 12, private beta through the Anthropic account team: the full Managed Agents service (harness, sandboxes, credentials, session history) runs in the customer's cloud or on-premises, with model calls routed to Anthropic, a cloud provider or the customer's gateway. Per The Next Web, hosted agents don't migrate over and webhooks and scheduled runs are not yet supported.",
       "new": true,
       "cites": [
         {
-          "label": "Databricks",
-          "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex"
+          "label": "Claude",
+          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
         },
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+          "label": "Claude docs",
+          "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot Workspaces moves from picking agents to skills inside one chat",
+      "body": "NEW (adjacent). Nov 12 notice: Researcher, Analyst and Designer will no longer be separate choices in Copilot Workspaces (formerly Copilot Notebooks); Copilot applies research, analysis or design skills based on the request. Frontier preview starts December; the standalone agents stay in the Microsoft 365 Copilot app.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Microsoft 365 Message Center MC1550540",
+          "url": "https://message.cengizyilmaz.net/message/mc1550540-microsoft-365-copilot-copilot-workspaces-is-replacing-standalone-agent-selection-with-agentic-chat"
         }
       ]
     }
   ],
-  "quiet_note": "No new launch, funding, M&A or pricing from Salesforce, Gong, Clay, Nooks, Outreach or Monaco dated Nov 11–12. Salesforce's Nov 11 X post on AI Skills repeats the Nov 10 GA; Clay's Nov 11 X post lists customer results without a launch. Salesloft newsroom still tops out at the Oct 27 early-access post.",
+  "quiet_note": "No new launch, funding, M&A or pricing from Gong, Nooks, Salesloft or Monaco dated Nov 12–13. Nov 12 coverage of Agentforce Coworker's 21x usage and $50 per-user plan repeats Salesforce's Nov 4 announcement; Salesforce's other Nov 12 posts (IT service overlay, ARTEX threat research, holiday shopper survey) are not GTM launches. Salesloft newsroom still tops out at the Oct 27 early-access post.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (live, in-call assistance)",
-      "text": "Salesloft's Zoom battlecards (Nov 10) follow Claude Meetings (Nov 10); both put help inside the call rather than after it, and Salesloft does it without a bot."
+      "label": "Accelerating (revenue systems as agent tools)",
+      "text": "Outreach's MCP server can now build sequences end to end (Nov 12), following Gong's MCP write-back and Salesforce Catalog (Nov 10)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (background agents that report back)",
-      "text": "Databricks' always-on Genie (Nov 11) works on a goal and returns with decisions through an inbox and email, under existing data permissions and spending caps."
+      "label": "Accelerating (agents inside the customer's perimeter)",
+      "text": "Anthropic's self-hosted Managed Agents, Salesforce's open-weight SOV-Transcribe-1 and OpenAI's in-country inference in India (all Nov 12) give buyers more control over where agent state, call audio and model processing live."
     },
     {
       "kind": "new",
-      "label": "New (self-serve top-tier CRM with usage credits)",
-      "text": "Attio's Ultra plan (Nov 11) puts SSO, SCIM, audit logs and SQL over MCP behind a card checkout with a fixed credit pool and paid overages."
+      "label": "New (skills replace agent pickers)",
+      "text": "Microsoft Copilot Workspaces folds Researcher, Analyst and Designer into one chat that applies skills (Nov 12 notice), the same move as Salesforce AI Skills in Coworker (Nov 10)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (itemized AI usage)",
+      "text": "Outreach now shows credit consumption in eight categories (Nov 12); Google's Orchestrator routes between models to cut quota use."
     },
     {
       "kind": "flat",
       "label": "Steady (rest of watchlist)",
-      "text": "Salesforce, Gong, Clay, Nooks, Outreach and Monaco had no new launches Nov 11–12."
+      "text": "Gong, Nooks, Salesloft and Monaco had no new launches Nov 12–13."
     }
   ],
   "language_pulse": [
     {
-      "term": "Live battlecards",
-      "gloss": "Salesloft's approved talking points that appear in Zoom when a buyer raises a flagged topic (Nov 10)."
+      "term": "Personal API Key (MCP connector)",
+      "gloss": "Outreach connector auth where each user supplies their own token, keeping per-user permissions in the downstream tool (Nov 12)."
     },
     {
-      "term": "Zoom RTMS",
-      "gloss": "Zoom Realtime Media Streams, which lets an app receive the meeting live without a bot participant (Salesloft, Nov 10)."
+      "term": "AI credit usage categories",
+      "gloss": "Outreach's eight-way breakdown of AI credit consumption, from AI Content & Personalization to AI Platform & Integrations (Nov 12)."
     },
     {
-      "term": "Always-on Genie",
-      "gloss": "Databricks' agent that runs in the background on its own compute and reaches out when it needs a decision (Nov 11)."
+      "term": "Self-hosted Managed Agents",
+      "gloss": "Anthropic's agent harness, sandboxes, credentials and session history run in the customer's environment (Nov 12)."
     },
     {
-      "term": "Genie Ontology",
-      "gloss": "Databricks' continuously maintained map of a company's definitions, metrics, people and processes (Nov 11)."
+      "term": "Context biasing",
+      "gloss": "Feeding a transcription model keywords or a short description so it gets rare names and domain terms right (Salesforce SOV-Transcribe-1, Nov 12)."
     },
     {
-      "term": "Decisions API",
-      "gloss": "Google's endpoint that scores closed-set questions instead of generating text (Nov 11)."
+      "term": "Agentic chat",
+      "gloss": "Microsoft's replacement for picking a named agent in Copilot Workspaces; Copilot applies the needed skill itself (Nov 12)."
+    },
+    {
+      "term": "Orchestrator",
+      "gloss": "Google Antigravity feature that switches between Gemini 4 models within one session (Nov 12)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Salesloft",
-      "slug": "salesloft",
-      "text": "Live battlecards in Zoom's side panel via Zoom RTMS, no meeting bot, Zoom only (Nov 10).",
+      "company": "Outreach",
+      "slug": "outreach",
+      "text": "November release: 11 new MCP server tools including end-to-end sequence building, API-key auth for MCP connectors, eight-category AI credit reporting, ServiceNow Marketplace app (Nov 12).",
       "cites": [
         {
-          "label": "Salesloft blog",
-          "url": "https://www.salesloft.com/resources/blog/real-time-sales-coaching-zoom"
+          "label": "Outreach release notes",
+          "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026"
         }
       ]
     },
     {
-      "company": "Attio",
-      "slug": "",
-      "text": "Self-serve Ultra plan at $1,000/month with 5 users and 20,000 credits; governance split into a Pro add-on (Nov 11).",
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Open-weight SOV-Transcribe-1 speech-to-text model (Apache 2.0) for call transcription and voice agents on customer-controlled infrastructure (Nov 12).",
       "cites": [
         {
-          "label": "Attio pricing",
-          "url": "https://attio.com/pricing"
-        },
+          "label": "Salesforce on Hugging Face",
+          "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
+        }
+      ]
+    },
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "text": "Published a setup guide for Clay as a built-in connector in Anthropic's Claude for Small Business plugin, turning prospecting into a weekly workflow via the Clay CLI in Claude Code (Nov 13).",
+      "cites": [
         {
-          "label": "PricingSaaS (Nov 11)",
-          "url": "https://pricingsaas.com/news/article/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan"
+          "label": "Clay blog",
+          "url": "https://www.clay.com/blog/clay-and-claude-gtm-growth-engine"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "Anthropic IPO pricing (reported Nov 18) and Claude Data default-on Nov 19; Salesforce Hunter and Coworker November GA items",
-      "body": "Pricing is reported for Nov 18 with trading expected Nov 19. Anthropic turns Claude Data on by default for Enterprise orgs on Nov 19. Salesforce listed its Hunter outbound sales agent as GA in November and Coworker in Teams and the desktop/mobile apps for November; neither GA has been announced yet.",
+      "title": "NVIDIA Q3 results Nov 17 under an interim CEO; Anthropic IPO pricing Nov 18 and Claude Data default-on Nov 19; Salesforce Hunter and Coworker November GA items",
+      "body": "NVIDIA reports Nov 17 at about 1:20 PM PT, its first results since Huang's resignation. Anthropic is reported to price Nov 18 and trade Nov 19, the same day Claude Data turns on by default for Enterprise orgs. Salesforce listed Hunter and Coworker in Teams and the desktop/mobile apps as November GA; neither has been announced as GA yet.",
       "cites": [
         {
-          "label": "Stocktwits via Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/google-nvidia-amd-others-invest-120521300.html"
+          "label": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "label": "Bloomberg via BusinessLine",
+          "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-draws-sixfold-demand-targets-14-trillion-valuation/article71696359.ece"
         },
         {
           "label": "Claude",
@@ -232,8 +270,33 @@
     }
   ],
   "interpretation": {
-    "fact": "Nov 10 Salesloft made live battlecards available in Zoom through Zoom RTMS. Nov 11 Attio launched a self-serve $1,000/month Ultra plan. Nov 11 Databricks announced always-on Genie and GA of Genie Ontology. Nov 11 Google launched the Gemini Decisions API. Nov 11 WSJ reported OpenAI Q3 revenue above $10B. Nov 10 Anthropic's prospectus listed a $26B private placement from seven technology companies.",
-    "interpretation": "Salesloft's bot-free Zoom path is a distribution advantage over meeting-bot tools, but it ties the feature to one video platform. Attio and Databricks both pair agents with credit or usage billing and governance controls, which keeps pushing buyers to compare revenue tools on usage cost and admin controls, not seat price alone."
+    "fact": "Nov 12 Outreach began shipping its November release with 11 new MCP server tools, API-key MCP connectors and eight AI credit categories. Nov 12 Salesforce released open-weight SOV-Transcribe-1. Nov 12 Anthropic launched self-hosted Claude Managed Agents in private beta. Nov 12 Microsoft announced Copilot Workspaces will replace standalone agent selection with agentic chat starting December. Nov 12 Jensen Huang resigned as NVIDIA CEO. Nov 12 Google released Gemini 4 Hydrogen. Nov 12–13 Bloomberg reported Anthropic's IPO about six times oversubscribed. Nov 12 OpenAI launched Daybreak Red Team and Defense Factory.",
+    "interpretation": "With Outreach, Gong and Salesforce all exposing write actions over MCP within a week, the sales engagement tool is increasingly a back end that outside agents drive, so control is shifting to whoever owns the agent and the permissions model. Itemized credit reporting and self-hosting both answer the same buyer question about cost and control, and are likely to become standard asks in enterprise GTM evaluations."
   },
-  "feed": []
+  "feed": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Marc Benioff",
+        "handle": "@Benioff",
+        "url": "https://x.com/Benioff"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-12T19:06:05-08:00",
+      "category": "launch",
+      "summary": "Benioff announced SOV-Transcribe-1, Salesforce's open-weight (Apache 2.0) speech-to-text model from Missionforce Sovereign AI.",
+      "url": "https://x.com/Benioff/status/2121077110488109147",
+      "engagement": {
+        "likes": 108,
+        "reposts": 15,
+        "replies": 23,
+        "views": 24332
+      },
+      "also": {
+        "Hugging Face": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
+      }
+    }
+  ]
 }

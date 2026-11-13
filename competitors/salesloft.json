@@ -2,9 +2,16 @@
   "name": "Salesloft",
   "slug": "salesloft",
   "website": "https://www.salesloft.com/",
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "positioning": "Revenue Orchestration via the Predictive Revenue System (Clari + Salesloft): connects forecasting intelligence with seller execution, Conversation Intelligence, and MCP Server exposing revenue context to external AI tools. Roadmap language: Agentic Forecasting, Agentic Playbook, Context Intelligence.",
   "recent": [
+    {
+      "date": "2026-11-13",
+      "title": "Newsroom still Oct 27 early access (no GA/pricing)",
+      "url": "https://www.salesloft.com/company/newsroom",
+      "summary": "As of Nov 13 morning PT, Salesloft newsroom latest remains the Oct 27 agentic capabilities post; no new newsroom item.",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-11-10",
       "title": "Live battlecards available in Zoom (no meeting bot)",

@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-13",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-13",
+      "title": "Guide: Clay as built-in connector in Anthropic's Claude for Small Business",
+      "url": "https://www.clay.com/blog/clay-and-claude-gtm-growth-engine",
+      "summary": "Nov 13 blog: Clay is one of 37 connectors in the Claude for Small Business plugin (43 workflows); guide covers finding/enriching prospects via Clay MCP in Claude chat and turning it into a weekly workflow with the Clay CLI and ICP Sequencer Workflow skill in Claude Code. Livestream with Anthropic's Jaskirat Gaelan. How-to/distribution, not a product launch.",
+      "source_type": "blog"
+    },
     {
       "date": "2026-11-10",
       "title": "Updated GTM engineer hiring guide with comp benchmarks",
