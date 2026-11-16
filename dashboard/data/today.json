@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-11-13 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Nov 12 (after the morning run) – Fri Nov 13 morning PT (items already on the Nov 10–12 briefs not re-led)",
+  "as_of": "2026-11-16 morning ~9:30 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Fri Nov 13 (after the morning run) – Mon Nov 16 morning PT (weekend; items already on the Nov 10–13 briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Revenue tools are turning their data and actions into agent tools, and enterprise buyers are getting more say over where those agents run and how their usage is metered: Outreach's November release lets AI clients build whole sequences over MCP and splits credit usage into eight categories, and Anthropic now lets companies run Managed Agents entirely inside their own infrastructure.",
+    "lede": "AI-native CRMs are now going directly after Salesforce installs: Lightfield launched an enterprise edition with a 30-day migration and a buy-out of existing CRM contracts, and Dreamteam raised $53M for a CRM that captures email and meetings automatically and runs agents on top.",
     "bullets": [
       {
-        "text": "Nov 12: Outreach's MCP server adds 11 tools, so an AI client can create and edit a sequence end to end, read call logs and Kaia scorecards, and search templates, all under the user's existing role permissions. MCP connectors can now authenticate with an org-wide or per-user API key, and the AI metering dashboard now breaks credit usage into eight categories instead of two. The MCP features require the Amplify add-on.",
+        "text": "Nov 16: Lightfield for Enterprise adds SSO, SCIM, per-object and per-record permissions, and custom objects. Agents, automations and API keys act with the permissions of the person they act for, and each AI-filled field can be set to Off, Suggest or Auto. Lightfield's own team migrates customers off Salesforce in 30 days or less (average six days), keeps two-way Salesforce sync during the move, credits the months left on a Salesforce or HubSpot contract, and does not charge until the agreed scope is delivered.",
         "cites": [
           {
-            "label": "Outreach release notes",
-            "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026"
+            "label": "Lightfield (GlobeNewswire)",
+            "url": "https://www.globenewswire.com/news-release/2026/11/16/3403767/0/en/lightfield-launches-an-enterprise-ready-alternative-to-salesforce-with-migration-in-30-days-or-less.html"
           }
         ]
       },
       {
-        "text": "Nov 12: Anthropic opened a private beta of self-hosted Claude Managed Agents. The customer runs the agent harness, sandboxes, credentials and session history in its own cloud or data center and picks where model calls go (Anthropic, Bedrock, Google, Microsoft Foundry or its own gateway); every session is logged and exportable over OpenTelemetry, and hosts can be allow-listed.",
+        "text": "Nov 16: Dreamteam, founded by former Freshworks executives, raised $53M (seed led by Together Fund, Series A led by Accel). Its CRM builds a shared “Company Brain” from emails and meetings, and four built-in agents research prospects, draft follow-ups, flag deal risk and configure workflows. The company reports 100+ customers in three months of selling, including a Salesforce replacement at DMS Health.",
         "cites": [
           {
-            "label": "Claude",
-            "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
           },
           {
-            "label": "Claude docs",
-            "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+            "label": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/11/16/goodbye-manual-work-ai-native-crm-startup-dreamteam-raises-53m-to-autonomously-push-deals-forward/"
           }
         ]
       },
       {
-        "text": "Nov 12: Microsoft said Copilot Workspaces will drop the separate Researcher, Analyst and Designer agent picker in favor of one agentic chat that applies those skills based on the request, starting in Frontier preview in December.",
+        "text": "Nov 16: Deloitte Digital launched Converge Sales, pre-built sector-specific agents that work inside a client's existing systems to research prospects, answer inbound buyers, keep deal next steps current and reconcile pipeline against forecast, with human review built in.",
         "cites": [
           {
-            "label": "Microsoft 365 Message Center MC1550540",
-            "url": "https://message.cengizyilmaz.net/message/mc1550540-microsoft-365-copilot-copilot-workspaces-is-replacing-standalone-agent-selection-with-agentic-chat"
+            "label": "Deloitte via MarTech Cube",
+            "url": "https://www.martechcube.com/deloitte-launches-converge-front-office-to-turn-ai-into-growth/"
           }
         ]
       }
@@ -40,223 +40,186 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress named interim CEO",
-      "body": "Nov 12: Huang left as president, CEO and director effective immediately. Kress stays CFO while serving as interim CEO, Harvey Jones becomes the board's first chair, and the board is searching internally and externally for a permanent CEO. Q3 FY2027 results stay on Nov 17. The Nov 9 brief covered the board probe that preceded this.",
+      "title": "NVIDIA leadership fight heads into Nov 17 earnings",
+      "body": "Nov 15–16: Treasury Secretary Bessent urged an outside CEO and questioned NVIDIA's export-control compliance; the FT reported Huang has discussed returning, and Altimeter and Atreides asked the board to consider all options. NVIDIA says it is selecting a search firm and has not engaged candidates.",
+      "new": false,
+      "cites": [
+        {
+          "label": "CNBC (Nov 15)",
+          "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
+        },
+        {
+          "label": "CNBC (Nov 16)",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI launches ChatGPT Wallet for agent purchases",
+      "body": "Nov 13 (after the Friday brief): dots agents for US ChatGPT Pro users can pay with a network token instead of card details, with biometric approval of every purchase (Amex, Mastercard, Visa). OpenAI also published a Commerce Partner Playbook covering Web Bot Auth and WebMCP.",
       "new": true,
       "cites": [
         {
-          "label": "NVIDIA",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
         },
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
         }
       ]
     },
     {
-      "title": "Google releases Gemini 4 Hydrogen and a model Orchestrator",
-      "body": "Nov 12: Hydrogen is Gemini 4's fast execution model at $1.50/$7.50 per 1M input/output tokens across a 1M-token context, available in the Gemini API, Gemini for business, the Gemini app and Search. Orchestrator in Google Antigravity switches between Carbon and Hydrogen in one session; Google reports near-Carbon success on Terminal-Bench 4.0 with 24% less quota.",
+      "title": "Anthropic shortens its vulnerability disclosure window to 30 days",
+      "body": "Nov 16: for vulnerabilities reported from Jan 1, 2027, high and critical issues get 30 days (down from 90) and others 45, because models now rediscover the same bugs faster.",
       "new": true,
       "cites": [
         {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
         }
       ]
     },
     {
-      "title": "Anthropic IPO reportedly six times oversubscribed",
-      "body": "Nov 12–13 (Bloomberg): orders are about six times the shares available ahead of pricing on Nov 18, with existing backers prioritized. The amended filing shows an $81B revenue run rate as of Oct 31, and the seven co-founders each plan to sell about 3.38M shares (about $1.75B combined at the midpoint).",
+      "title": "Anthropic IPO week",
+      "body": "Nov 16: pricing is expected the evening of Nov 18 and Nasdaq trading Nov 19 as ANT (825M shares at $70–$78). Tom's Hardware reports Anthropic told investors Claude Mythos Preview did the AMD MI355X software bring-up in about three days.",
+      "new": false,
       "cites": [
         {
-          "label": "Bloomberg via BusinessLine",
-          "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-draws-sixfold-demand-targets-14-trillion-valuation/article71696359.ece"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
         },
         {
-          "label": "Channel Insider",
-          "url": "https://www.channelinsider.com/ai/news-anthropic-ipo-demand-founders-stock-sale/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI launches Daybreak Red Team and Defense Factory",
-      "body": "Nov 12: two security products on GPT-6 Cyber. Red Team (early access) runs agents that pen-test web apps and validate reported vulnerabilities; Defense Factory scans codebases and opens merge-ready patch PRs that engineers approve. Separately, OpenAI added in-country API processing in India, starting with GPT-6 Luna.",
-      "cites": [
-        {
-          "label": "The Register",
-          "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500"
-        },
-        {
-          "label": "OpenAI Daybreak",
-          "url": "https://openai.com/daybreak/"
-        },
-        {
-          "label": "The Hindu",
-          "url": "https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece"
+          "label": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Outreach November release: agent-built sequences over MCP, API-key connectors, finer credit metering",
-      "body": "Nov 12 (shipping Nov 12–Dec 8): 11 new Outreach MCP server tools (update sequences, add steps and templates, query call logs and dispositions, read Kaia scorecards, search templates, interactive task list); MCP connectors gain org-wide and personal API-key auth, and connectors can be published to the Outreach Marketplace; AI credit usage is reported in eight categories with history remapped; an Outreach app on the ServiceNow Marketplace adds sequence and Kaia recording fields to ServiceNow records. MCP items require the Amplify add-on.",
+      "title": "Lightfield for Enterprise: Salesforce migration in 30 days and CRM contract buy-out",
+      "body": "Nov 16: enterprise edition with SAML/OIDC SSO, SCIM, enforced MFA, per-object and per-record permissions, custom objects and multiple pipelines; agents and scoped API keys inherit the acting user's permissions; REST API, MCP server and CLI expose everything the app does. Lightfield runs each migration (average six days), keeps two-way Salesforce sync until cutover, credits remaining months on Salesforce, HubSpot or other CRM contracts, and bills only after the agreed scope ships.",
       "new": true,
       "cites": [
         {
-          "label": "Outreach release notes",
-          "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026"
+          "label": "Lightfield (GlobeNewswire)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/16/3403767/0/en/lightfield-launches-an-enterprise-ready-alternative-to-salesforce-with-migration-in-30-days-or-less.html"
         }
       ]
     },
     {
-      "title": "Salesforce releases SOV-Transcribe-1, an open-weight speech-to-text model",
-      "body": "Nov 12: Salesforce's Missionforce Sovereign AI team released Apache 2.0 weights for a non-streaming transcription model (4B active / 26B total parameters) aimed at voice agents, dictation and call transcription on infrastructure the customer controls. Salesforce reports #1 among open-weight models on Artificial Analysis speech-to-text (#7 overall), 8.21% average WER on a 14-accent call-center benchmark, and keyword boosting for names and domain terms; English plus several European languages.",
+      "title": "Dreamteam raises $53M for an AI-native CRM",
+      "body": "Nov 16: seed (Together Fund) and Series A (Accel) with Premji Invest; round sizes and valuation not disclosed. Four agents work from a shared Company Brain built from email and meetings; 100+ customers in 13 countries; target of eight-figure revenue by end of 2027.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce on Hugging Face",
-          "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
         },
         {
-          "label": "Marc Benioff on X",
-          "url": "https://x.com/Benioff/status/2121077110488109147"
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/16/goodbye-manual-work-ai-native-crm-startup-dreamteam-raises-53m-to-autonomously-push-deals-forward/"
         }
       ]
     },
     {
-      "title": "Anthropic lets enterprises self-host Claude Managed Agents",
-      "body": "NEW (adjacent). Nov 12, private beta through the Anthropic account team: the full Managed Agents service (harness, sandboxes, credentials, session history) runs in the customer's cloud or on-premises, with model calls routed to Anthropic, a cloud provider or the customer's gateway. Per The Next Web, hosted agents don't migrate over and webhooks and scheduled runs are not yet supported.",
+      "title": "Deloitte Digital launches Converge Sales and Converge Marketing agent suites",
+      "body": "Nov 16: Converge Front Office starts with Marketing (research, build, execution and monitor agents) and Sales (pre-built sector agents for prospect research, inbound response and time-to-quote, deal hygiene and pipeline-to-forecast reconciliation), deployed on clients' existing software with Deloitte engineers.",
       "new": true,
       "cites": [
         {
-          "label": "Claude",
-          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
-        },
-        {
-          "label": "Claude docs",
-          "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents"
+          "label": "Deloitte via MarTech Cube",
+          "url": "https://www.martechcube.com/deloitte-launches-converge-front-office-to-turn-ai-into-growth/"
         }
       ]
     },
     {
-      "title": "Microsoft 365 Copilot Workspaces moves from picking agents to skills inside one chat",
-      "body": "NEW (adjacent). Nov 12 notice: Researcher, Analyst and Designer will no longer be separate choices in Copilot Workspaces (formerly Copilot Notebooks); Copilot applies research, analysis or design skills based on the request. Frontier preview starts December; the standalone agents stay in the Microsoft 365 Copilot app.",
+      "title": "ChatGPT Wallet lets agents complete purchases",
+      "body": "Nov 13: rolling out to US ChatGPT Pro users in dots; each purchase needs biometric approval, payment uses a network token, and OpenAI expects pre-approved spending limits later. Merchants are asked to allow signed agent requests (Web Bot Auth) and can add WebMCP tools.",
       "new": true,
       "cites": [
         {
-          "label": "Microsoft 365 Message Center MC1550540",
-          "url": "https://message.cengizyilmaz.net/message/mc1550540-microsoft-365-copilot-copilot-workspaces-is-replacing-standalone-agent-selection-with-agentic-chat"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
         }
       ]
     }
   ],
-  "quiet_note": "No new launch, funding, M&A or pricing from Gong, Nooks, Salesloft or Monaco dated Nov 12–13. Nov 12 coverage of Agentforce Coworker's 21x usage and $50 per-user plan repeats Salesforce's Nov 4 announcement; Salesforce's other Nov 12 posts (IT service overlay, ARTEX threat research, holiday shopper survey) are not GTM launches. Salesloft newsroom still tops out at the Oct 27 early-access post.",
+  "quiet_note": "No new launch, funding, M&A or pricing from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco dated Nov 13 (after the morning run) through Nov 16. Weekend coverage of Agentforce Coworker (185,000 users), Clay's $7.1B valuation, Nooks' $500M and Outreach Org Context repeats announcements from Oct 28–Nov 10. Salesloft newsroom still tops out at Oct 27; Clay's latest changelog roundup is Nov 9.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (revenue systems as agent tools)",
-      "text": "Outreach's MCP server can now build sequences end to end (Nov 12), following Gong's MCP write-back and Salesforce Catalog (Nov 10)."
+      "label": "Accelerating (AI-native CRMs targeting Salesforce installs)",
+      "text": "Lightfield's enterprise edition with contract buy-out and Dreamteam's $53M (both Nov 16) pitch replacing the system of record, not adding to it."
     },
     {
       "kind": "up",
-      "label": "Accelerating (agents inside the customer's perimeter)",
-      "text": "Anthropic's self-hosted Managed Agents, Salesforce's open-weight SOV-Transcribe-1 and OpenAI's in-country inference in India (all Nov 12) give buyers more control over where agent state, call audio and model processing live."
+      "label": "Accelerating (agents bound to the acting user's permissions)",
+      "text": "Lightfield agents and API keys inherit the user's permissions (Nov 16); ChatGPT Wallet requires approval of each purchase (Nov 13)."
     },
     {
       "kind": "new",
-      "label": "New (skills replace agent pickers)",
-      "text": "Microsoft Copilot Workspaces folds Researcher, Analyst and Designer into one chat that applies skills (Nov 12 notice), the same move as Salesforce AI Skills in Coworker (Nov 10)."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (itemized AI usage)",
-      "text": "Outreach now shows credit consumption in eight categories (Nov 12); Google's Orchestrator routes between models to cut quota use."
+      "label": "New (agents that pay)",
+      "text": "ChatGPT Wallet gives agents tokenized card payments, with a merchant playbook for letting agents through (Nov 13)."
     },
     {
       "kind": "flat",
-      "label": "Steady (rest of watchlist)",
-      "text": "Gong, Nooks, Salesloft and Monaco had no new launches Nov 12–13."
+      "label": "Steady (core watchlist)",
+      "text": "No new launches from the seven tracked companies over the weekend."
     }
   ],
   "language_pulse": [
     {
-      "term": "Personal API Key (MCP connector)",
-      "gloss": "Outreach connector auth where each user supplies their own token, keeping per-user permissions in the downstream tool (Nov 12)."
+      "term": "Contract buy-out",
+      "gloss": "Lightfield credits the months left on a customer's Salesforce or HubSpot contract against its own (Nov 16)."
     },
     {
-      "term": "AI credit usage categories",
-      "gloss": "Outreach's eight-way breakdown of AI credit consumption, from AI Content & Personalization to AI Platform & Integrations (Nov 12)."
+      "term": "Headless CRM",
+      "gloss": "Lightfield's term for a CRM where everything in the app is also available through REST API, MCP server and CLI under the same access rules (Nov 16)."
     },
     {
-      "term": "Self-hosted Managed Agents",
-      "gloss": "Anthropic's agent harness, sandboxes, credentials and session history run in the customer's environment (Nov 12)."
+      "term": "Off / Suggest / Auto",
+      "gloss": "Lightfield's per-field setting for how much an AI-filled CRM field can change on its own (Nov 16)."
     },
     {
-      "term": "Context biasing",
-      "gloss": "Feeding a transcription model keywords or a short description so it gets rare names and domain terms right (Salesforce SOV-Transcribe-1, Nov 12)."
+      "term": "Company Brain",
+      "gloss": "Dreamteam's shared memory of customer relationships built from emails and meetings (Nov 16)."
     },
     {
-      "term": "Agentic chat",
-      "gloss": "Microsoft's replacement for picking a named agent in Copilot Workspaces; Copilot applies the needed skill itself (Nov 12)."
-    },
-    {
-      "term": "Orchestrator",
-      "gloss": "Google Antigravity feature that switches between Gemini 4 models within one session (Nov 12)."
+      "term": "Web Bot Auth",
+      "gloss": "Signed agent requests that let CDNs and firewalls recognize ChatGPT agents instead of blocking them (OpenAI, Nov 13)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "November release: 11 new MCP server tools including end-to-end sequence building, API-key auth for MCP connectors, eight-category AI credit reporting, ServiceNow Marketplace app (Nov 12).",
+      "company": "Lightfield",
+      "slug": "",
+      "text": "Lightfield for Enterprise: SSO/SCIM, per-record permissions, custom objects, 30-day Salesforce migration run by Lightfield, and credit for remaining CRM contract months (Nov 16).",
       "cites": [
         {
-          "label": "Outreach release notes",
-          "url": "https://support.outreach.io/support/solutions/articles/159000437513-outreach-product-release-notes-november-2026"
-        }
-      ]
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Open-weight SOV-Transcribe-1 speech-to-text model (Apache 2.0) for call transcription and voice agents on customer-controlled infrastructure (Nov 12).",
-      "cites": [
-        {
-          "label": "Salesforce on Hugging Face",
-          "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
-        }
-      ]
-    },
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "text": "Published a setup guide for Clay as a built-in connector in Anthropic's Claude for Small Business plugin, turning prospecting into a weekly workflow via the Clay CLI in Claude Code (Nov 13).",
-      "cites": [
-        {
-          "label": "Clay blog",
-          "url": "https://www.clay.com/blog/clay-and-claude-gtm-growth-engine"
+          "label": "Lightfield (GlobeNewswire)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/16/3403767/0/en/lightfield-launches-an-enterprise-ready-alternative-to-salesforce-with-migration-in-30-days-or-less.html"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "NVIDIA Q3 results Nov 17 under an interim CEO; Anthropic IPO pricing Nov 18 and Claude Data default-on Nov 19; Salesforce Hunter and Coworker November GA items",
-      "body": "NVIDIA reports Nov 17 at about 1:20 PM PT, its first results since Huang's resignation. Anthropic is reported to price Nov 18 and trade Nov 19, the same day Claude Data turns on by default for Enterprise orgs. Salesforce listed Hunter and Coworker in Teams and the desktop/mobile apps as November GA; neither has been announced as GA yet.",
+      "title": "NVIDIA Q3 results Nov 17 under an interim CEO; Anthropic prices Nov 18 and trades Nov 19; Claude Data default-on Nov 19; Salesforce Hunter and Coworker November GA items",
+      "body": "NVIDIA reports Tuesday amid the campaign for Huang's return. Anthropic is expected to price Wednesday evening and trade Thursday, the same day Claude Data turns on by default for Enterprise orgs. Salesforce listed Hunter and Coworker in Teams and desktop/mobile apps as November GA; neither has been announced as GA yet.",
       "cites": [
         {
-          "label": "NVIDIA",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          "label": "CNBC (Nov 16)",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
         },
         {
-          "label": "Bloomberg via BusinessLine",
-          "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-draws-sixfold-demand-targets-14-trillion-valuation/article71696359.ece"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
         },
         {
           "label": "Claude",
@@ -270,33 +233,8 @@
     }
   ],
   "interpretation": {
-    "fact": "Nov 12 Outreach began shipping its November release with 11 new MCP server tools, API-key MCP connectors and eight AI credit categories. Nov 12 Salesforce released open-weight SOV-Transcribe-1. Nov 12 Anthropic launched self-hosted Claude Managed Agents in private beta. Nov 12 Microsoft announced Copilot Workspaces will replace standalone agent selection with agentic chat starting December. Nov 12 Jensen Huang resigned as NVIDIA CEO. Nov 12 Google released Gemini 4 Hydrogen. Nov 12–13 Bloomberg reported Anthropic's IPO about six times oversubscribed. Nov 12 OpenAI launched Daybreak Red Team and Defense Factory.",
-    "interpretation": "With Outreach, Gong and Salesforce all exposing write actions over MCP within a week, the sales engagement tool is increasingly a back end that outside agents drive, so control is shifting to whoever owns the agent and the permissions model. Itemized credit reporting and self-hosting both answer the same buyer question about cost and control, and are likely to become standard asks in enterprise GTM evaluations."
+    "fact": "Nov 16 Lightfield launched Lightfield for Enterprise with a 30-day Salesforce migration and CRM contract buy-out. Nov 16 Dreamteam announced $53M for an AI-native CRM. Nov 16 Deloitte Digital launched Converge Sales and Converge Marketing. Nov 13 OpenAI launched ChatGPT Wallet. Nov 15–16 Bessent called for an outside NVIDIA CEO while investors and the FT reported a push for Huang's return. Nov 16 Anthropic shortened its disclosure windows to 30/45 days from Jan 1, 2027. None of the seven core watchlist companies announced a new launch, funding, M&A or pricing change Nov 13–16.",
+    "interpretation": "Switching cost is becoming the main battleground in CRM: newer vendors are absorbing migration labor and existing contract terms, the two things that kept large teams on Salesforce. Agent permissions that mirror the acting user, as in Lightfield and ChatGPT Wallet, are turning into a baseline expectation for any agent that writes to records or spends money."
   },
-  "feed": [
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Marc Benioff",
-        "handle": "@Benioff",
-        "url": "https://x.com/Benioff"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-11-12T19:06:05-08:00",
-      "category": "launch",
-      "summary": "Benioff announced SOV-Transcribe-1, Salesforce's open-weight (Apache 2.0) speech-to-text model from Missionforce Sovereign AI.",
-      "url": "https://x.com/Benioff/status/2121077110488109147",
-      "engagement": {
-        "likes": 108,
-        "reposts": 15,
-        "replies": 23,
-        "views": 24332
-      },
-      "also": {
-        "Hugging Face": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
-      }
-    }
-  ]
+  "feed": []
 }
