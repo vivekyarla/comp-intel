@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-16T08:42:23.431033-08:00",
+  "as_of": "2026-11-17T08:43:05.810124-08:00",
   "days": 14,
   "items": [
     {
@@ -135,67 +135,6 @@
       "engagement": {
         "reactions": 243,
         "comments": 17
-      }
-    },
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "author": {
-        "name": "Clay",
-        "handle": "linkedin.com/company/grow-with-clay",
-        "url": "https://www.linkedin.com/company/grow-with-clay/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-03T08:43:00.984000-08:00",
-      "category": "take",
-      "summary": "Clay says its Account Agents used 6.4× fewer tokens and answered 2.6× faster than a generic Salesforce/Gong agent on the same accounts, catching a planted duplicate-account threat in every run.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523424507198607360/",
-      "engagement": {},
-      "also": {
-        "Blog": "https://www.clay.com/blog/ceiling-on-gtm-agent-is-data"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "linkedin.com/company/salesforce",
-        "url": "https://www.linkedin.com/company/salesforce/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-02T13:01:53.654000-08:00",
-      "category": "mna",
-      "summary": "Salesforce signed a definitive agreement to acquire Cresta, a voice-first customer-experience platform, to connect voice agents with Service Cloud.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523127268072783872/",
-      "engagement": {
-        "reactions": 1180,
-        "comments": 25
-      },
-      "also": {
-        "X": "https://x.com/salesforce/status/2117361573492605148",
-        "Newsroom": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-02T09:30:35.534000-08:00",
-      "category": "funding",
-      "summary": "Nooks said it signed about 400 new customers in Q3, grew Sequencing 49% over Q2, and teased product announcements later this week.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523074092183474176/",
-      "engagement": {
-        "reactions": 317,
-        "comments": 2
       }
     }
   ]

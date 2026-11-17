@@ -1,38 +1,34 @@
 {
-  "as_of": "2026-11-16 morning ~8:40 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Fri Nov 13 (after the morning run) – Mon Nov 16 morning PT (weekend; items already on the Nov 10–13 briefs not re-led)",
+  "as_of": "2026-11-17 morning ~8:45 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Nov 16 (after the morning run) – Tue Nov 17 morning PT (items already on the Nov 13–16 briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "AI-native CRMs are now going directly after Salesforce installs: Lightfield launched an enterprise edition with a 30-day migration and a buy-out of existing CRM contracts, and Dreamteam raised $53M for a CRM that captures email and meetings automatically and runs agents on top.",
+    "lede": "CRM vendors are setting the terms for outside AI agents: HubSpot now includes Claude and ChatGPT connector use in every seat and charges credits only for governed agent work, while Attio says agent-run tasks rose 20x in the month since it opened its data to SQL queries.",
     "bullets": [
       {
-        "text": "Nov 16: Lightfield for Enterprise adds SSO, SCIM, per-object and per-record permissions, and custom objects. Agents, automations and API keys act with the permissions of the person they act for, and each AI-filled field can be set to Off, Suggest or Auto. Lightfield's own team migrates customers off Salesforce in 30 days or less (average six days), keeps two-way Salesforce sync during the move, credits the months left on a Salesforce or HubSpot contract, and does not charge until the agreed scope is delivered.",
+        "text": "Nov 17: HubSpot says every seat includes enough headless access to do everyday work from Claude, ChatGPT, Gemini or Copilot at no extra cost; third-party agents on existing APIs count against the plan's API capacity; a governed agent environment with per-agent permissions and action logs runs on HubSpot Credits.",
         "cites": [
           {
-            "label": "Lightfield (GlobeNewswire)",
-            "url": "https://www.globenewswire.com/news-release/2026/11/16/3403767/0/en/lightfield-launches-an-enterprise-ready-alternative-to-salesforce-with-migration-in-30-days-or-less.html"
+            "label": "HubSpot",
+            "url": "https://www.hubspot.com/company-news/pricing-headless"
           }
         ]
       },
       {
-        "text": "Nov 16: Dreamteam, founded by former Freshworks executives, raised $53M (seed led by Together Fund, Series A led by Accel). Its CRM builds a shared “Company Brain” from emails and meetings, and four built-in agents research prospects, draft follow-ups, flag deal risk and configure workflows. The company reports 100+ customers in three months of selling, including a Salesforce replacement at DMS Health.",
+        "text": "Nov 16: Attio reports a 20x rise in tasks run by AI agents (Ask Attio and outside agents via MCP) since its Oct launch of a Postgres-compatible SQL engine whose queries run with the caller's permissions; 35,000+ companies use Attio, and Ramp's November data names it the fastest-growing CRM vendor.",
         "cites": [
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
-          },
+            "label": "Attio (GlobeNewswire)",
+            "url": "https://www.globenewswire.com/news-release/2026/11/16/3404037/0/en/agents-running-20x-more-tasks-in-attio-the-fastest-growing-revenue-platform.html"
+          }
+        ]
+      },
+      {
+        "text": "Nov 17: Spara launched Scout, a free always-on seller assistant that watches job changes, company news and CRM activity, drafts outreach in the rep's voice, delivers it in Slack or SMS and can join calls. Spara reports a 10.5% reply rate versus 3.5% for standard sequences.",
+        "cites": [
           {
             "label": "SiliconANGLE",
-            "url": "https://siliconangle.com/2026/11/16/goodbye-manual-work-ai-native-crm-startup-dreamteam-raises-53m-to-autonomously-push-deals-forward/"
-          }
-        ]
-      },
-      {
-        "text": "Nov 16: Deloitte Digital launched Converge Sales, pre-built sector-specific agents that work inside a client's existing systems to research prospects, answer inbound buyers, keep deal next steps current and reconcile pipeline against forecast, with human review built in.",
-        "cites": [
-          {
-            "label": "Deloitte via MarTech Cube",
-            "url": "https://www.martechcube.com/deloitte-launches-converge-front-office-to-turn-ai-into-growth/"
+            "url": "https://siliconangle.com/2026/11/17/sparas-scout-ai-assistant-acts-on-sales-opportunities-before-reps-know-to-look/"
           }
         ]
       }
@@ -40,201 +36,209 @@
   },
   "biggest_ai_news": [
     {
-      "title": "NVIDIA leadership fight heads into Nov 17 earnings",
-      "body": "Nov 15–16: Treasury Secretary Bessent urged an outside CEO and questioned NVIDIA's export-control compliance; the FT reported Huang has discussed returning, and Altimeter and Atreides asked the board to consider all options. NVIDIA says it is selecting a search firm and has not engaged candidates.",
-      "new": false,
-      "cites": [
-        {
-          "label": "CNBC (Nov 15)",
-          "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
-        },
-        {
-          "label": "CNBC (Nov 16)",
-          "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI launches ChatGPT Wallet for agent purchases",
-      "body": "Nov 13 (after the Friday brief): dots agents for US ChatGPT Pro users can pay with a network token instead of card details, with biometric approval of every purchase (Amex, Mastercard, Visa). OpenAI also published a Commerce Partner Playbook covering Web Bot Auth and WebMCP.",
+      "title": "NVIDIA reports Q3 today under an interim CEO, after a new chip-rental rule",
+      "body": "Results ~1:20 PM PT, call 2 PM PT (consensus ~$109B revenue). Nov 16: Commerce issued a rule requiring overseas data centers to vet customers and adding license requirements for Indonesia, Malaysia, Singapore, Thailand and Brazil; Nov 17: NVIDIA's board formed a national security and export control committee.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
         },
         {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic shortens its vulnerability disclosure window to 30 days",
-      "body": "Nov 16: for vulnerabilities reported from Jan 1, 2027, high and critical issues get 30 days (down from 90) and others 45, because models now rediscover the same bugs faster.",
-      "new": true,
-      "cites": [
+          "label": "NVIDIA (call details)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        },
         {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/11/16/trump-admin-moves-to-close-china-ai-chip-loophole"
+        },
+        {
+          "label": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee"
         }
       ]
     },
     {
-      "title": "Anthropic IPO week",
-      "body": "Nov 16: pricing is expected the evening of Nov 18 and Nasdaq trading Nov 19 as ANT (825M shares at $70–$78). Tom's Hardware reports Anthropic told investors Claude Mythos Preview did the AMD MI355X software bring-up in about three days.",
+      "title": "Anthropic IPO likely to price above $70–$78",
+      "body": "Nov 17: CNBC reports books close 4 PM ET today and pricing is likely above range; Bloomberg reported orders near 7x the shares offered. Nasdaq trading as ANT starts Nov 19.",
       "new": false,
       "cites": [
         {
           "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
         },
         {
-          "label": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat"
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/business/anthropic-ipo-stock-listing-risks-wall-street-artificial-intelligence-6558076"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI adds computer-use agents to ChatGPT for Healthcare",
+      "body": "Nov 16: more than 20 healthcare plugins, improved clinical search, and computer-use agents for clinical and administrative workflows.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Lightfield for Enterprise: Salesforce migration in 30 days and CRM contract buy-out",
-      "body": "Nov 16: enterprise edition with SAML/OIDC SSO, SCIM, enforced MFA, per-object and per-record permissions, custom objects and multiple pipelines; agents and scoped API keys inherit the acting user's permissions; REST API, MCP server and CLI expose everything the app does. Lightfield runs each migration (average six days), keeps two-way Salesforce sync until cutover, credits remaining months on Salesforce, HubSpot or other CRM contracts, and bills only after the agreed scope ships.",
+      "title": "HubSpot prices headless access for AI agents",
+      "body": "Nov 17: connector use from Claude, ChatGPT, Gemini and Copilot (plus MCP server and Agent CLI) is included in every seat; bring-your-own agents use existing API capacity; a governed agent environment with purpose-built agentic APIs, per-agent access controls and an action log is billed in HubSpot Credits. Power users can add capacity with credits instead of a new seat type.",
       "new": true,
       "cites": [
         {
-          "label": "Lightfield (GlobeNewswire)",
-          "url": "https://www.globenewswire.com/news-release/2026/11/16/3403767/0/en/lightfield-launches-an-enterprise-ready-alternative-to-salesforce-with-migration-in-30-days-or-less.html"
+          "label": "HubSpot",
+          "url": "https://www.hubspot.com/company-news/pricing-headless"
         }
       ]
     },
     {
-      "title": "Dreamteam raises $53M for an AI-native CRM",
-      "body": "Nov 16: seed (Together Fund) and Series A (Accel) with Premji Invest; round sizes and valuation not disclosed. Four agents work from a shared Company Brain built from email and meetings; 100+ customers in 13 countries; target of eight-figure revenue by end of 2027.",
+      "title": "Salesforce: Carter shopper agent GA; joins Personal Agent Protocol",
+      "body": "Nov 17: Carter, a shopper agent for B2C Commerce with four prebuilt subagents (Product Expert, Site FAQ, Cart, Order Confirmation), is generally available as an add-on. Nov 16: Salesforce joined Sierra and Meta's Personal Agent Protocol (Poppy) v1.0 as a launch partner and plans to bring it to Commerce Cloud on top of Google's UCP.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/carter-shopper-agent/"
         },
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/salesforce-joins-personal-agent-protocol/"
+        },
+        {
+          "label": "Sierra",
+          "url": "https://sierra.ai/blog/releasing-poppy"
+        }
+      ]
+    },
+    {
+      "title": "Attio: agent-run tasks up 20x in a month",
+      "body": "Nov 16: Attio attributes the rise to its October architecture (SQL engine with caller permissions, live BI connectors, Activities beta); 35,000+ customers; Ramp November spend data names it the fastest-growing CRM vendor.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Attio (GlobeNewswire)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/16/3404037/0/en/agents-running-20x-more-tasks-in-attio-the-fastest-growing-revenue-platform.html"
+        }
+      ]
+    },
+    {
+      "title": "Spara launches Scout, a free proactive seller assistant",
+      "body": "Nov 17: monitors signals across a rep's accounts, drafts outreach for approval, delivers through Slack and SMS, can join live calls; early users sent 8x more personalized emails and booked 29% more meetings (company figures). Spara has raised $20M.",
+      "new": true,
+      "cites": [
         {
           "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/11/16/goodbye-manual-work-ai-native-crm-startup-dreamteam-raises-53m-to-autonomously-push-deals-forward/"
-        }
-      ]
-    },
-    {
-      "title": "Deloitte Digital launches Converge Sales and Converge Marketing agent suites",
-      "body": "Nov 16: Converge Front Office starts with Marketing (research, build, execution and monitor agents) and Sales (pre-built sector agents for prospect research, inbound response and time-to-quote, deal hygiene and pipeline-to-forecast reconciliation), deployed on clients' existing software with Deloitte engineers.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Deloitte via MarTech Cube",
-          "url": "https://www.martechcube.com/deloitte-launches-converge-front-office-to-turn-ai-into-growth/"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT Wallet lets agents complete purchases",
-      "body": "Nov 13: rolling out to US ChatGPT Pro users in dots; each purchase needs biometric approval, payment uses a network token, and OpenAI expects pre-approved spending limits later. Merchants are asked to allow signed agent requests (Web Bot Auth) and can add WebMCP tools.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
-        },
-        {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+          "url": "https://siliconangle.com/2026/11/17/sparas-scout-ai-assistant-acts-on-sales-opportunities-before-reps-know-to-look/"
         }
       ]
     }
   ],
-  "quiet_note": "No new launch, funding, M&A or pricing from Salesforce, Gong, Clay, Nooks, Outreach, Salesloft or Monaco dated Nov 13 (after the morning run) through Nov 16. Weekend coverage of Agentforce Coworker (185,000 users), Clay's $7.1B valuation, Nooks' $500M and Outreach Org Context repeats announcements from Oct 28–Nov 10. Salesloft newsroom still tops out at Oct 27; Clay's latest changelog roundup is Nov 9.",
+  "quiet_note": "No new launch, funding, M&A or pricing from Gong, Clay, Nooks, Outreach, Salesloft or Monaco dated Nov 16–17. Clay's Nov 16 engineering post on Claygent auto-mode (47% cheaper than routing every task to a frontier model) covers a feature first shipped in October; its Nov 16 changelog roundup covers the week of Nov 9. Salesloft newsroom still tops out at Oct 27; Gong's November release (Agent Builder) dates to Nov 9.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (AI-native CRMs targeting Salesforce installs)",
-      "text": "Lightfield's enterprise edition with contract buy-out and Dreamteam's $53M (both Nov 16) pitch replacing the system of record, not adding to it."
+      "label": "Accelerating (CRMs pricing outside-agent access)",
+      "text": "HubSpot includes connector use per seat but bills governed agent work in credits (Nov 17); Attio reports 20x agent-task growth (Nov 16)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (agents bound to the acting user's permissions)",
-      "text": "Lightfield agents and API keys inherit the user's permissions (Nov 16); ChatGPT Wallet requires approval of each purchase (Nov 13)."
+      "label": "Accelerating (agent identity and consent standards)",
+      "text": "Salesforce joined Poppy so brands can verify and choose which shopper agents to admit (Nov 16)."
     },
     {
       "kind": "new",
-      "label": "New (agents that pay)",
-      "text": "ChatGPT Wallet gives agents tokenized card payments, with a merchant playbook for letting agents through (Nov 13)."
+      "label": "New (proactive seller assistants)",
+      "text": "Spara Scout acts on account signals without a prompt and delivers through Slack and SMS (Nov 17)."
     },
     {
       "kind": "flat",
       "label": "Steady (core watchlist)",
-      "text": "No new launches from the seven tracked companies over the weekend."
+      "text": "No new launches from Gong, Clay, Nooks, Outreach, Salesloft or Monaco."
     }
   ],
   "language_pulse": [
     {
-      "term": "Contract buy-out",
-      "gloss": "Lightfield credits the months left on a customer's Salesforce or HubSpot contract against its own (Nov 16)."
+      "term": "Headless without the headaches",
+      "gloss": "HubSpot's line for seat-included agent access with no separate AI tier (Nov 17)."
     },
     {
-      "term": "Headless CRM",
-      "gloss": "Lightfield's term for a CRM where everything in the app is also available through REST API, MCP server and CLI under the same access rules (Nov 16)."
+      "term": "Governed agent environment",
+      "gloss": "HubSpot's credit-billed space where outside agents get agentic APIs, scoped permissions and an action record (Nov 17)."
     },
     {
-      "term": "Off / Suggest / Auto",
-      "gloss": "Lightfield's per-field setting for how much an AI-filled CRM field can change on its own (Nov 16)."
+      "term": "Agentic revenue",
+      "gloss": "Attio's description of itself as a platform where agents and sellers work on the same live data (Nov 16)."
     },
     {
-      "term": "Company Brain",
-      "gloss": "Dreamteam's shared memory of customer relationships built from emails and meetings (Nov 16)."
-    },
-    {
-      "term": "Web Bot Auth",
-      "gloss": "Signed agent requests that let CDNs and firewalls recognize ChatGPT agents instead of blocking them (OpenAI, Nov 13)."
+      "term": "Poppy",
+      "gloss": "Personal Agent Protocol: how a personal agent finds a business, proves identity and signs in with consent before UCP handles checkout (Salesforce, Nov 16)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Lightfield",
-      "slug": "",
-      "text": "Lightfield for Enterprise: SSO/SCIM, per-record permissions, custom objects, 30-day Salesforce migration run by Lightfield, and credit for remaining CRM contract months (Nov 16).",
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Carter shopper agent GA for B2C Commerce (Nov 17); joined Personal Agent Protocol v1.0 as a launch partner (Nov 16).",
       "cites": [
         {
-          "label": "Lightfield (GlobeNewswire)",
-          "url": "https://www.globenewswire.com/news-release/2026/11/16/3403767/0/en/lightfield-launches-an-enterprise-ready-alternative-to-salesforce-with-migration-in-30-days-or-less.html"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/carter-shopper-agent/"
+        },
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/salesforce-joins-personal-agent-protocol/"
+        }
+      ]
+    },
+    {
+      "company": "Attio",
+      "slug": "",
+      "text": "Reports 20x growth in agent-run tasks one month after its SQL/hybrid architecture launch (Nov 16).",
+      "cites": [
+        {
+          "label": "Attio (GlobeNewswire)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/16/3404037/0/en/agents-running-20x-more-tasks-in-attio-the-fastest-growing-revenue-platform.html"
         }
       ]
     }
   ],
   "watch": [
     {
-      "title": "NVIDIA Q3 results Nov 17 under an interim CEO; Anthropic prices Nov 18 and trades Nov 19; Claude Data default-on Nov 19; Salesforce Hunter and Coworker November GA items",
-      "body": "NVIDIA reports Tuesday amid the campaign for Huang's return. Anthropic is expected to price Wednesday evening and trade Thursday, the same day Claude Data turns on by default for Enterprise orgs. Salesforce listed Hunter and Coworker in Teams and desktop/mobile apps as November GA; neither has been announced as GA yet.",
+      "title": "Today: Microsoft Ignite keynote (10 AM PT) and NVIDIA Q3 (1:20 PM PT); Anthropic pricing tonight or Wednesday; Claude Data default-on for Enterprise Nov 20",
+      "body": "Microsoft is positioning Agent 365 as the observability, governance and spend layer for agents, with the Book of News due after the keynote. NVIDIA's first report since Huang's exit lands a day after the chip-rental rule. Claude's own page puts Claude Data's Enterprise default-on date at Nov 20 (not Nov 19 as noted earlier).",
       "cites": [
         {
-          "label": "CNBC (Nov 16)",
-          "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+          "label": "Microsoft Tech Community",
+          "url": "https://techcommunity.microsoft.com/blog/agent-365-blog/microsoft-ignite-2026-your-guide-to-agent-365/4571750"
+        },
+        {
+          "label": "Microsoft Book of News",
+          "url": "https://news.microsoft.com/events/ignite/2026/book-of-news/"
+        },
+        {
+          "label": "NVIDIA (call details)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
         },
         {
           "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
         },
         {
           "label": "Claude",
           "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
-        },
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Nov 16 Lightfield launched Lightfield for Enterprise with a 30-day Salesforce migration and CRM contract buy-out. Nov 16 Dreamteam announced $53M for an AI-native CRM. Nov 16 Deloitte Digital launched Converge Sales and Converge Marketing. Nov 13 OpenAI launched ChatGPT Wallet. Nov 15–16 Bessent called for an outside NVIDIA CEO while investors and the FT reported a push for Huang's return. Nov 16 Anthropic shortened its disclosure windows to 30/45 days from Jan 1, 2027. None of the seven core watchlist companies announced a new launch, funding, M&A or pricing change Nov 13–16.",
-    "interpretation": "Switching cost is becoming the main battleground in CRM: newer vendors are absorbing migration labor and existing contract terms, the two things that kept large teams on Salesforce. Agent permissions that mirror the acting user, as in Lightfield and ChatGPT Wallet, are turning into a baseline expectation for any agent that writes to records or spends money."
+    "fact": "Nov 17 HubSpot included agent connector use in every seat and put governed third-party agent work on credits. Nov 16 Attio reported 20x growth in agent-run tasks. Nov 17 Salesforce made Carter GA; Nov 16 it joined Personal Agent Protocol. Nov 17 Spara launched Scout. Nov 16 Commerce issued a chip-rental rule; Nov 17 NVIDIA formed a national security committee ahead of results today. Nov 17 CNBC reported Anthropic is likely to price above range. Gong, Clay, Nooks, Outreach, Salesloft and Monaco announced nothing new Nov 16–17.",
+    "interpretation": "With both HubSpot and Attio treating outside agents as primary users, the pricing fight is moving from seats to agent access: basic reads and writes from Claude or ChatGPT are becoming table stakes, and vendors are charging for governance, context and scale instead."
   },
   "feed": []
 }
