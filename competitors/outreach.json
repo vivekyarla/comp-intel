@@ -2,9 +2,16 @@
   "name": "Outreach",
   "slug": "outreach",
   "website": "https://www.outreach.ai/",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-18",
   "positioning": "Agentic AI platform for revenue teams / revenue orchestration: Omni conversational agent, Agent Studio, purpose-built AI agents (Meeting Prep, Deal, Revenue/Research), Kaia CI, forecasting — insight to governed action. Primary web domain is outreach.ai (outreach.io 301s there).",
   "recent": [
+    {
+      "date": "2026-11-17",
+      "title": "Outreach Skills for ChatGPT: 20+ revenue workflows in one plugin",
+      "url": "https://www.outreach.ai/resources/blog/outreach-skills-chatgpt",
+      "summary": "Nov 17: single-install ChatGPT plugin extension bundling the Outreach MCP server, 20+ skills (prospecting, meeting prep, pipeline review, watermelon at-risk report, forecasting, coaching, renewal defense, RevOps ops audit/config review/team review) and visual views. Per-user Outreach login, approval before any change, no deletes; consumes Amplify credits; needs ChatGPT Business, Enterprise, Healthcare or Edu. Builds on the June Outreach app in ChatGPT; launched alongside OpenAI's ChatGPT for Sales.",
+      "source_type": "blog"
+    },
     {
       "date": "2026-11-12",
       "title": "November release: 11 new MCP server tools (end-to-end sequence building), API-key MCP connectors, 8 AI credit categories",
@@ -111,6 +118,8 @@
     }
   ],
   "language_pulse": [
+    "watermelon report",
+    "Outreach Skills",
     "Data Sharing",
     "deal summaries",
     "evidence-linked field updates",

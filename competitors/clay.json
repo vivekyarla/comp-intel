@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-18",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-17",
+      "title": "Relaunched official ChatGPT MCP: build audiences, workflows and campaigns in chat",
+      "url": "https://community.clay.com/x/announcements/msg_YMjKBaHsbIDj/weve-relaunched-our-official-mcp-connection-with-c",
+      "summary": "Nov 17: new Clay MCP in ChatGPT reaches parity with the Clay CLI; users can build prospect audiences, enrichment workflows (Claygent, 200+ providers), Sequencer campaigns and ad audiences with in-chat previews. Building needs Editor/Admin; works on all plans incl. free; same credits as the app; replaces Clay for Reps MCP; other chat platforms 'soon'. Launched alongside OpenAI's ChatGPT for Sales, where Clay is a prospecting partner. Coverage: https://www.unite.ai/clay-adds-sales-workflow-building-and-previews-to-chatgpt-plugin/",
+      "source_type": "community"
+    },
     {
       "date": "2026-11-13",
       "title": "Guide: Clay as built-in connector in Anthropic's Claude for Small Business",
@@ -161,6 +168,7 @@
     }
   ],
   "language_pulse": [
+    "ChatGPT MCP",
     "coding agents",
     "GTM skills",
     "Skills Marketplace",

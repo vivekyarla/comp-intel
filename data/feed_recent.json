@@ -1,7 +1,55 @@
 {
-  "as_of": "2026-11-17T08:43:05.810124-08:00",
+  "as_of": "2026-11-18T08:48:55.984330-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "author": {
+        "name": "Clay",
+        "handle": "@clay",
+        "url": "https://x.com/clay"
+      },
+      "kind": "company",
+      "source": "X",
+      "ts": "2026-11-17T14:46:36-08:00",
+      "category": "launch",
+      "summary": "Clay relaunched its official MCP connection with ChatGPT so users can build end-to-end workflows in chat, at parity with the Clay CLI.",
+      "url": "https://x.com/clay/status/2122823748415815925",
+      "engagement": {
+        "likes": 52,
+        "reposts": 7,
+        "replies": 8,
+        "views": 4368
+      },
+      "also": {
+        "Clay": "https://community.clay.com/x/announcements/msg_YMjKBaHsbIDj/weve-relaunched-our-official-mcp-connection-with-c"
+      }
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Salesforce",
+        "handle": "@salesforce",
+        "url": "https://x.com/salesforce"
+      },
+      "kind": "company",
+      "source": "X",
+      "ts": "2026-11-17T13:07:43-08:00",
+      "category": "launch",
+      "summary": "Salesforce introduced Copilotforce, bringing Salesforce customer context and sales workflows to Microsoft Copilot and Teams, plus Fabric integration.",
+      "url": "https://x.com/salesforce/status/2122798862641291665",
+      "engagement": {
+        "likes": 168,
+        "reposts": 29,
+        "replies": 12,
+        "views": 17461
+      },
+      "also": {
+        "Salesforce": "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+      }
+    },
     {
       "company": "Salesforce",
       "slug": "salesforce",
@@ -116,25 +164,6 @@
       "also": {
         "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
         "X": "https://x.com/NooksHQ/status/2118099505023512847"
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-04T07:42:05.609000-08:00",
-      "category": "launch",
-      "summary": "General Catalyst committed $500M in growth capital to Nooks for revenue agents.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523771563309977600/",
-      "engagement": {
-        "reactions": 243,
-        "comments": 17
       }
     }
   ]

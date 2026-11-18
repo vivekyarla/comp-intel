@@ -2,9 +2,23 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-18",
+      "title": "Japan launch of Piper, Fin and Paige; Agent Optimizer open beta",
+      "url": "https://www.salesforce.com/jp/news/stories/agentforce-job-ready-ai-agents-japan-news/",
+      "summary": "Nov 18 (World Tour Tokyo): Job-Ready Agents Piper (inbound pipeline; pilot in Japan, Piper for Sales planned Mar 2027), Fin (customer agent; Quick Setup and Voice available) and Paige (IT/HR; Slack and Teams) available in Japan; Agent Optimizer, which uses agents to test and improve other agents, in open beta. Regional rollout.",
+      "source_type": "newsroom"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Copilotforce with Microsoft: Salesforce in Copilot (38+ sales skills), Sales Cloud in Teams, Data 360–Fabric zero copy",
+      "url": "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+      "summary": "Nov 17 at Microsoft Ignite: Salesforce in Microsoft Copilot plugin in public preview (38+ prebuilt sales skills such as Pipeline Review, Close Planning, Deal Review, Renewal Radar; authenticated MCP; user's own Salesforce permissions; writebacks need user confirmation); powered by AIforce; Sales Cloud in Teams with Agentforce Coworker in pilot (open beta later this year); Data 360 federation with Fabric OneLake GA, sharing into OneLake in preview. Accenture is design partner and customer zero (~55,000 Salesforce users). Salesforce is also a partner plugin in OpenAI's ChatGPT for Sales (Nov 17).",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-11-17",
       "title": "Carter shopper agent GA for B2C Commerce",
@@ -347,6 +361,8 @@
     }
   ],
   "language_pulse": [
+    "Salesforce in Copilot",
+    "Copilotforce",
     "Shopper agent",
     "Poppy (Personal Agent Protocol)",
     "Headless Toolkit",
