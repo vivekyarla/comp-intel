@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-19",
+      "title": "Global agent in open beta: describe a GTM play, Clay plans, builds and tests it",
+      "url": "https://www.clay.com/blog/clay-global-agent-beta",
+      "summary": "Nov 19: in-product agent (Agent tab) that plans and builds plays across Search, Audiences, Workflows and Sequencer; reads and writes Knowledge Hub (ICP, personas, products, competitors) and reads Audiences activity (CRM, warehouse, Gong calls, emails); tests on a sample of real records and shows estimated cost on an approval card before scaling; reusable skills plus a marketplace; per-user spend under Settings → Usage → Agent. Uses data credits with a one-time beta credit grant; open beta on paid Enterprise, Growth and Launch plans. Clay says GTM engineers already built this way via the Clay CLI.",
+      "source_type": "blog"
+    },
     {
       "date": "2026-11-17",
       "title": "Relaunched official ChatGPT MCP: build audiences, workflows and campaigns in chat",

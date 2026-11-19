@@ -2,15 +2,15 @@
   "name": "Monaco",
   "slug": "monaco",
   "website": "https://www.monaco.com/",
-  "as_of": "2026-10-23",
+  "as_of": "2026-11-19",
   "positioning": "AI-native revenue engine / all-in-one sales platform for startups (seed–Series A): replaces legacy CRM + point solutions; agents build TAM, run outbound, capture interactions, manage pipeline; white-glove / forward-deployed sales exec onboarding. Domain: monaco.com (NOT monaco.ai, which is a different site).",
   "recent": [
     {
-      "date": "2026-10-22",
-      "title": "Agent Matrix help-center docs published (seven named agents)",
-      "url": "https://help.monaco.com/articles/8069446249-agent-matrix",
-      "summary": "Help article (last updated ~Oct 22) lists ready-made agents by stage: Lookalikes (Target), Re-engagement and Inbound Qualification (Demand), Meeting Prep and Tasks (Close), Pipeline Review and Product Feedback (RevOps). Re-engagement (Monday drafts for quiet email/LinkedIn/meeting threads) and Meeting Prep are on by default for every account; Tasks is a toggle. Custom agents are described in chat, tested on a real deal, and run on schedule or event with approve-first or autonomous mode. Lookalikes and Inbound Qualification are set up with the customer's FDAE (Monaco expert). Connected apps include Notion, Linear, Stripe; Monaco Copilot in Slack. No pricing.",
-      "source_type": "company_docs"
+      "date": "2026-11-18",
+      "title": "Gives its ANT IPO allocation to customers: 10 ANT shares per November sign-up",
+      "url": "https://x.com/samdblond/status/2123100838256378243",
+      "summary": "Nov 18: CEO Sam Blond says Monaco received an allocation in Anthropic's IPO and each customer who signs up for Monaco in November will get 10 ANT shares transferred to their personal brokerage account; framed as spending marketing budget on customers instead of ad tracking. ~440K views by Nov 19. Terms/eligibility details not published beyond the post.",
+      "source_type": "social"
     },
     {
       "date": "2026-10-21",
@@ -20,18 +20,18 @@
       "source_type": "social"
     },
     {
-      "date": "2026-09-04",
-      "title": "Acquires Bengaluru sales-intelligence startup Overlayy",
-      "url": "https://financewire.com/2026/09/04/bengaluru-based-sales-intelligence-startup-overlayy-becomes-a-part-of-benchmark-backed-monaco/",
-      "summary": "FinanceWire Sep 4 (also CIOL Sep 7): Monaco acquires Overlayy (B2B sales conversation intelligence / SalesQA benchmark). Founders Anmol Chaman and Snehil Saluja join Monaco in senior product/engineering roles; terms undisclosed. Overlayy PR: https://overlayy.com/acquisition-pr. Companion: https://www.ciol.com/news/monaco-acquires-bengaluru-sales-ai-startup-overlayy-12501164",
-      "source_type": "press"
-    },
-    {
       "date": "2026-09-27",
       "title": "Homepage: 'first revenue engine for startups' / AI-native platform replacing CRM + point solutions",
       "url": "https://www.monaco.com/",
       "summary": "As of 2026-09-27, monaco.com markets all-in-one revenue platform as system of record: TAM, signals, sequences, pipeline, call recording; agents research accounts, draft outreach, update records. Investor quotes on site from Garry Tan, Peter Thiel, Ryan Petersen.",
       "source_type": "company_website"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Acquires Bengaluru sales-intelligence startup Overlayy",
+      "url": "https://financewire.com/2026/09/04/bengaluru-based-sales-intelligence-startup-overlayy-becomes-a-part-of-benchmark-backed-monaco/",
+      "summary": "FinanceWire Sep 4 (also CIOL Sep 7): Monaco acquires Overlayy (B2B sales conversation intelligence / SalesQA benchmark). Founders Anmol Chaman and Snehil Saluja join Monaco in senior product/engineering roles; terms undisclosed. Overlayy PR: https://overlayy.com/acquisition-pr. Companion: https://www.ciol.com/news/monaco-acquires-bengaluru-sales-ai-startup-overlayy-12501164",
+      "source_type": "press"
     },
     {
       "date": "2026-05-12",

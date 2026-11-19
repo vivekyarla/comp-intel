@@ -2,9 +2,16 @@
   "name": "Outreach",
   "slug": "outreach",
   "website": "https://www.outreach.ai/",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "positioning": "Agentic AI platform for revenue teams / revenue orchestration: Omni conversational agent, Agent Studio, purpose-built AI agents (Meeting Prep, Deal, Revenue/Research), Kaia CI, forecasting — insight to governed action. Primary web domain is outreach.ai (outreach.io 301s there).",
   "recent": [
+    {
+      "date": "2026-11-18",
+      "title": "Press release: Outreach Headless, new MCP write tools and partner connectors, Yoodli role play",
+      "url": "https://www.outreach.ai/company/newsroom/outreachs-headless-architecture-powers-new-outreach-skills-for-chatgpt-as-its-connector-suite-for-mcp-tm-grows",
+      "summary": "Nov 18 press release framing Outreach Skills for ChatGPT as built on Outreach's 'headless architecture'. New MCP server tools let outside agents edit existing records, create sequences and tasks, and use Kaia coaching cards; new Connector Suite for MCP partners: G2 (intent), Freshdesk (tickets), Vidyard (video) and LeanData (routing/scheduling); Yoodli Role Play integration generates deal-based role plays from Kaia calls. All available now.",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-11-17",
       "title": "Outreach Skills for ChatGPT: 20+ revenue workflows in one plugin",

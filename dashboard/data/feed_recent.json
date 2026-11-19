@@ -1,7 +1,71 @@
 {
-  "as_of": "2026-11-18T08:48:55.984330-08:00",
+  "as_of": "2026-11-19T08:55:00-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "author": {
+        "name": "Clay",
+        "handle": "linkedin.com/company/grow-with-clay",
+        "url": "https://www.linkedin.com/company/grow-with-clay/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-19T08:51:07-08:00",
+      "category": "launch",
+      "summary": "Clay opened its in-product agent in beta: describe a play and it maps and builds it across Search, Audiences, Workflows and Sequencer using your account history.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529224751722983424/",
+      "engagement": {},
+      "also": {
+        "Clay": "https://www.clay.com/blog/clay-global-agent-beta"
+      }
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Marc Benioff",
+        "handle": "@Benioff",
+        "url": "https://x.com/Benioff"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-18T18:57:51-08:00",
+      "category": "take",
+      "summary": "Benioff said 226K custom agents have been deployed to Slack from agent builder platforms, which he called trusted agent infrastructure.",
+      "url": "https://x.com/Benioff/status/2123249365875904551",
+      "engagement": {
+        "likes": 513,
+        "reposts": 44,
+        "replies": 40,
+        "views": 77018
+      }
+    },
+    {
+      "company": "Monaco",
+      "slug": "monaco",
+      "author": {
+        "name": "Sam Blond",
+        "handle": "@samdblond",
+        "url": "https://x.com/samdblond"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-18T09:07:39-08:00",
+      "category": "pricing",
+      "summary": "Monaco will give 10 shares of ANT from its IPO allocation to each customer who signs up in November.",
+      "url": "https://x.com/samdblond/status/2123100838256378243",
+      "engagement": {
+        "likes": 841,
+        "reposts": 22,
+        "replies": 129,
+        "views": 443637
+      },
+      "also": {
+        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7528868262139420672/"
+      }
+    },
     {
       "company": "Clay",
       "slug": "clay",
@@ -118,52 +182,6 @@
       },
       "also": {
         "Newsroom": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce",
-        "handle": "linkedin.com/company/salesforce",
-        "url": "https://www.linkedin.com/company/salesforce/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-04T16:21:55.139000+00:00",
-      "category": "launch",
-      "summary": "Salesforce said Agentforce Coworker ran nearly 6 million queries in September, up 21× in three months, as it expanded Coworker surfaces and packaging.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523781585725300737/",
-      "engagement": {
-        "reactions": 22,
-        "comments": 3
-      },
-      "also": {
-        "X": "https://x.com/salesforce/status/2118015893334536642",
-        "Newsroom": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
-      }
-    },
-    {
-      "company": "Nooks",
-      "slug": "nooks",
-      "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-04T14:00:01.274000-08:00",
-      "category": "other",
-      "summary": "Nooks said Nasdaq featured its Node / Revenue Agent Platform announcement on the Times Square screen.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523866671942627328/",
-      "engagement": {
-        "reactions": 180,
-        "comments": 10
-      },
-      "also": {
-        "Blog": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
-        "X": "https://x.com/NooksHQ/status/2118099505023512847"
       }
     }
   ]

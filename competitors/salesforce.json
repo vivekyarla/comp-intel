@@ -2,14 +2,28 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-18",
+      "title": "Benioff: 226K custom agents deployed to Slack; Slack pitched as agent infrastructure",
+      "url": "https://x.com/Benioff/status/2123249365875904551",
+      "summary": "Nov 18 (evening PT): Benioff says 226K custom agents have been deployed to Slack from agent builder platforms (OpenAI, Cognition, Vercel, Lovable, SpaceX AI named), and lists Slack's agent stack: context services (MCP, memory, knowledge graph), identity (user + bot tokens), MCP gateway, agent UI, and trust/governance (DLP, EKM, retention, observability) via the Agent API. Cognition's Devin Bots (launched Nov 17) run in Slack.",
+      "source_type": "social"
+    },
     {
       "date": "2026-11-18",
       "title": "Japan launch of Piper, Fin and Paige; Agent Optimizer open beta",
       "url": "https://www.salesforce.com/jp/news/stories/agentforce-job-ready-ai-agents-japan-news/",
       "summary": "Nov 18 (World Tour Tokyo): Job-Ready Agents Piper (inbound pipeline; pilot in Japan, Piper for Sales planned Mar 2027), Fin (customer agent; Quick Setup and Voice available) and Paige (IT/HR; Slack and Teams) available in Japan; Agent Optimizer, which uses agents to test and improve other agents, in open beta. Regional rollout.",
+      "source_type": "newsroom"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Qualified (Salesforce) announces Piper for Sales: agent that joins Zoom and Google Meet sales calls",
+      "url": "https://www.qualified.com/newsroom/qualified-introduces-piper-for-sales",
+      "summary": "Announced Nov 17 (Kraig Swensrud LinkedIn: https://www.linkedin.com/posts/kraigswensrud_1-billion-b2b-sales-meetings-happen-every-activity-7528577683895685120-kWxM); Benioff amplified Nov 18 (https://x.com/Benioff/status/2123109733871849768). Piper joins live Zoom/Google Meet calls to answer questions, present slides, run product demos, book the next meeting, capture next steps and switch languages; preps and debriefs sellers in Slack and drafts follow-up email, grounded in Salesforce CRM. GA Q1 2027 (Japan release said March 2027).",
       "source_type": "newsroom"
     },
     {
