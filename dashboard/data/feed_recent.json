@@ -1,7 +1,28 @@
 {
-  "as_of": "2026-11-19T08:55:00-08:00",
+  "as_of": "2026-11-20T08:45:00-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "author": {
+        "name": "Varun Anand",
+        "handle": "@vxanand",
+        "url": "https://x.com/vxanand"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-19T10:15:17-08:00",
+      "category": "pricing",
+      "summary": "Varun Anand said Clay will give GTA6 to every user who upgrades their Clay plan before the weekend, to mark the global agent launch.",
+      "url": "https://x.com/vxanand/status/2123480244103348499",
+      "engagement": {
+        "likes": 68,
+        "reposts": 7,
+        "replies": 5,
+        "views": 7097
+      }
+    },
     {
       "company": "Clay",
       "slug": "clay",

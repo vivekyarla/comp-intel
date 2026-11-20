@@ -1,42 +1,34 @@
 {
-  "as_of": "2026-11-19 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 18 (after the morning run) – Thu Nov 19 morning PT (items already on the Nov 17–18 briefs not re-led)",
+  "as_of": "2026-11-20 morning ~8:45 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Nov 19 (after the morning run) – Fri Nov 20 morning PT (items already on the Nov 18–19 briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Sales tools are taking two routes at once: plugging their data and skills into ChatGPT (Attio and Outreach on Nov 18, following Tuesday's ChatGPT for Sales launch) and shipping their own agents that run on context the vendor already holds, as Clay did on Nov 19.",
+    "lede": "Sales vendors kept filling in OpenAI's ChatGPT for Sales roster on Nov 19, two days after launch, each pitching data a CRM lacks. On Nov 20 Reply.io went the other way, shipping an open-source outbound harness that runs inside the coding agent a seller already pays for.",
     "bullets": [
       {
-        "text": "Nov 19: Clay's global agent (open beta, paid plans) plans, builds and tests GTM plays across Search, Audiences, Workflows and Sequencer, reading the customer's ICP and personas from Knowledge Hub and showing an estimated cost for approval before running at volume.",
+        "text": "Nov 19: Nooks' ChatGPT plugin lets customers prospect, build sequences, check deal status and draft follow-ups, using call-derived context that overrides stale CRM fields; it is Nooks' first surface outside its own app and may need admin enablement.",
         "cites": [
           {
-            "label": "Clay",
-            "url": "https://www.clay.com/blog/clay-global-agent-beta"
+            "label": "Nooks",
+            "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales"
           }
         ]
       },
       {
-        "text": "Nov 18: Attio relaunched its ChatGPT plugin with dozens of prebuilt sales skills (call briefs, forecasts, an end-of-day skill that logs activity and proposes deal updates) under each user's Attio permissions; Outreach added MCP tools that let outside agents edit records and create sequences and tasks.",
+        "text": "Nov 19: Actively put its per-account agents (CRM, call and email context plus external signals) into ChatGPT Work and Codex for territory ranking, meeting prep and next-contact picks.",
         "cites": [
           {
-            "label": "Attio (X)",
-            "url": "https://x.com/attio/status/2123071402160886245"
-          },
-          {
-            "label": "Attio",
-            "url": "https://attio.com/apps/chatgpt"
-          },
-          {
-            "label": "Outreach",
-            "url": "https://www.outreach.ai/company/newsroom/outreachs-headless-architecture-powers-new-outreach-skills-for-chatgpt-as-its-connector-suite-for-mcp-tm-grows"
+            "label": "Actively",
+            "url": "https://www.actively.ai/blog/actively-now-available-in-chatgpt"
           }
         ]
       },
       {
-        "text": "Nov 18: Benioff says 226K custom agents from builders such as OpenAI, Cognition, Vercel and Lovable are deployed in Slack, which Salesforce now pitches as agent infrastructure with identity, an MCP gateway and DLP/retention controls.",
+        "text": "Nov 20: Reply.io's MIT-licensed Jason Harness turns Claude Code or Codex into a nine-role outbound team on the user's own model subscription; Reply sends, and every message needs a human yes.",
         "cites": [
           {
-            "label": "Marc Benioff (X)",
-            "url": "https://x.com/Benioff/status/2123249365875904551"
+            "label": "Reply.io (EIN Presswire)",
+            "url": "https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales"
           }
         ]
       }
@@ -44,279 +36,194 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Anthropic prices record IPO at $83; ANT trades today",
-      "body": "Nov 18: 980M shares raised $81.34B (above the $70–78 range) plus a $26B concurrent private placement; ~$1.5T fully diluted. CNBC had ANT indicated near $111 ahead of the first trade this morning.",
+      "title": "Anthropic closes debut at $97.17, then slips Friday",
+      "body": "Nov 19: ANT opened at $111.50 and closed 17% above the $83 offer (~$1.8T fully diluted, 846M+ shares traded). Nov 20: trading near $87.68 (−9.8%) late morning ET.",
       "new": true,
       "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-        },
-        {
-          "label": "SEC filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm"
-        },
         {
           "label": "CNBC",
           "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
-        }
-      ]
-    },
-    {
-      "title": "Google releases Gemini 4 Neon",
-      "body": "Nov 18: mid-tier model for coding and enterprise work at $3/$15 per M tokens with a 1M-token context, rolling out in the Gemini API, Gemini for business and Antigravity.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI adds ChatGPT for Accounting",
-      "body": "Nov 18: second packaged job plugin after Sales, with QuickBooks, Xero, NetSuite, BILL and others; Enterprise admins must approve it, and entries need user review before posting.",
-      "new": true,
-      "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/business/solutions/accounting/"
         },
         {
-          "label": "OpenAI Help Center",
-          "url": "https://help.openai.com/en/articles/20001709-using-chatgpt-for-accounting-work"
-        },
-        {
-          "label": "Xero",
-          "url": "https://blog.xero.com/news-events/openai-integration-chatgpt-for-accounting/"
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/ANT/history/"
         }
       ]
-    }
-  ],
-  "what_changed": [
+    },
     {
-      "title": "Clay launches its global agent in open beta",
-      "body": "Nov 19: an agent in Clay's Agent tab turns a described play into a segment, signals, enrichment workflow and draft sequence, tests it on sample records, then asks for approval with an estimated cost. It reads Knowledge Hub and Audiences (CRM, warehouse, Gong calls, emails), saves reusable skills, and uses data credits; open beta on paid Enterprise, Growth and Launch plans.",
+      "title": "Claude Data is on by default for Enterprise today",
+      "body": "Nov 20: dashboards and data stories built on connected warehouses and apps (e.g. Salesforce) switch on for Enterprise orgs unless an Owner already saved a setting; certified queries and live sharing stay off.",
       "new": true,
-      "cites": [
-        {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/clay-global-agent-beta"
-        }
-      ]
-    },
-    {
-      "title": "Attio relaunches its ChatGPT plugin",
-      "body": "Nov 18: Attio home view in ChatGPT, @-mention any record, dozens of prebuilt sales skills including meeting prep, forecasting and an /end-of-day skill that logs calls and emails to records and drafts replies; ChatGPT only sees what the user can see in Attio.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Attio (X)",
-          "url": "https://x.com/attio/status/2123071402160886245"
-        },
-        {
-          "label": "Attio",
-          "url": "https://attio.com/apps/chatgpt"
-        }
-      ]
-    },
-    {
-      "title": "Outreach opens more write actions to outside agents",
-      "body": "Nov 18: new Outreach MCP server tools for editing records, creating sequences and tasks, and Kaia coaching cards; new MCP connectors for G2 intent, Freshdesk, Vidyard and LeanData; Yoodli role play built from deal context. Available now.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/company/newsroom/outreachs-headless-architecture-powers-new-outreach-skills-for-chatgpt-as-its-connector-suite-for-mcp-tm-grows"
-        }
-      ]
-    },
-    {
-      "title": "Monaco gives its ANT IPO shares to new customers",
-      "body": "Nov 18: CEO Sam Blond says every customer who signs up in November gets 10 ANT shares, which he framed as marketing spend going to customers instead of ad tracking.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Sam Blond (X)",
-          "url": "https://x.com/samdblond/status/2123100838256378243"
-        }
-      ]
-    }
-  ],
-  "quiet_note": "No launch, funding, M&A or pricing of their own from Gong, Nooks or Salesloft dated Nov 18–19. Qualified's Piper for Sales (agent that joins Zoom/Google Meet sales calls, GA Q1 2027) was announced Nov 17 and is on the Salesforce page; Salesforce's Nov 19 Cyber Week forecast and American SI export consortium are not GTM news.",
-  "market_direction": [
-    {
-      "kind": "up",
-      "label": "Accelerating (CRM and engagement data inside ChatGPT)",
-      "text": "Attio's relaunched plugin and Outreach's new MCP write tools (Nov 18) follow the Nov 17 ChatGPT for Sales launch."
-    },
-    {
-      "kind": "new",
-      "label": "New (vendor-native agents built on the vendor's own GTM context)",
-      "text": "Clay's global agent (Nov 19) builds and tests full plays in-product and charges for them in credits, with approval before spending."
-    },
-    {
-      "kind": "up",
-      "label": "Accelerating (collaboration suites as agent runtime)",
-      "text": "Salesforce counts 226K custom agents in Slack and pitches identity, MCP gateway and DLP as the platform (Nov 18)."
-    },
-    {
-      "kind": "flat",
-      "label": "Steady (Gong, Nooks, Salesloft)",
-      "text": "No announcements of their own Nov 18–19."
-    }
-  ],
-  "language_pulse": [
-    {
-      "term": "Global agent",
-      "gloss": "Clay's in-product agent that plans, builds, tests and improves GTM plays (Nov 19)."
-    },
-    {
-      "term": "Outreach Headless",
-      "gloss": "Outreach's name for running its sequences, insights and pipeline actions outside its own UI via the MCP server (Nov 18)."
-    },
-    {
-      "term": "Connector Suite for MCP",
-      "gloss": "Outreach's two-way MCP layer: its server for outside agents plus partner connectors into Omni (Nov 18)."
-    },
-    {
-      "term": "Trusted agent infrastructure",
-      "gloss": "Benioff's framing of Slack as the place third-party agents run, with identity and governance built in (Nov 18)."
-    }
-  ],
-  "competitive_moves": [
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "text": "Global agent open beta: builds and tests full GTM plays in Clay, priced in data credits (Nov 19).",
-      "cites": [
-        {
-          "label": "Clay",
-          "url": "https://www.clay.com/blog/clay-global-agent-beta"
-        }
-      ]
-    },
-    {
-      "company": "Outreach",
-      "slug": "outreach",
-      "text": "New MCP write tools, G2/Freshdesk/Vidyard/LeanData connectors and Yoodli role play (Nov 18).",
-      "cites": [
-        {
-          "label": "Outreach",
-          "url": "https://www.outreach.ai/company/newsroom/outreachs-headless-architecture-powers-new-outreach-skills-for-chatgpt-as-its-connector-suite-for-mcp-tm-grows"
-        }
-      ]
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "226K custom agents in Slack; Slack positioned as agent infrastructure (Nov 18).",
-      "cites": [
-        {
-          "label": "Marc Benioff (X)",
-          "url": "https://x.com/Benioff/status/2123249365875904551"
-        }
-      ]
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "text": "10 ANT shares for each November sign-up (Nov 18).",
-      "cites": [
-        {
-          "label": "Sam Blond (X)",
-          "url": "https://x.com/samdblond/status/2123100838256378243"
-        }
-      ]
-    }
-  ],
-  "watch": [
-    {
-      "title": "Fri Nov 20: Claude Data default-on for Enterprise; Anthropic IPO settles",
-      "body": "Claude Data turns on by default for Enterprise orgs on Nov 20 unless an Owner already saved a setting (Organization settings › Artifacts); certified queries and live sharing stay off. The ANT offering is set to settle the same day.",
       "cites": [
         {
           "label": "Claude Help Center",
           "url": "https://support.claude.com/en/articles/17454700-get-started-with-claude-data"
         },
         {
-          "label": "Claude",
-          "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+          "label": "Claude admin guide",
+          "url": "https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT adds Live Dictation",
+      "body": "Nov 19: voice prompts now transcribe as you speak on all plans, and the 10-minute recording limit is gone.",
+      "new": true,
+      "cites": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+        }
+      ]
+    }
+  ],
+  "what_changed": [
+    {
+      "title": "Nooks joins ChatGPT for Sales",
+      "body": "Nov 19: Nooks customers can prospect, add contacts to sequences, draft emails, ask where a deal stands and what was promised on the last call, review at-risk pipeline and coach reps from ChatGPT. Nooks says its agents reconcile CRM data against live call context; first integration outside its own platform, with 'more coming soon'.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Nooks",
+          "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales"
+        }
+      ]
+    },
+    {
+      "title": "Actively ships a ChatGPT plugin",
+      "body": "Nov 19: Actively's account-intelligence agents run in ChatGPT Work and Codex for finding high-fit accounts, ranking a territory, meeting prep and choosing the next stakeholder; some connections need admin approval.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Actively",
+          "url": "https://www.actively.ai/blog/actively-now-available-in-chatgpt"
+        }
+      ]
+    },
+    {
+      "title": "Reply.io open-sources an AI SDR harness for coding agents",
+      "body": "Nov 20: Jason Harness (alpha, MIT) installs into Claude Code or Codex with nine roles (Planner, Researcher, Copywriter, Critic, Deliverability and more), plans per-contact sequences, and uses the user's own model subscription; Reply's paid platform does the sending.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Reply.io (EIN Presswire)",
+          "url": "https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales"
+        }
+      ]
+    },
+    {
+      "title": "Clay adds an upgrade incentive for its global agent",
+      "body": "Nov 19: co-founder Varun Anand said every user who upgrades their Clay plan before the weekend gets a copy of GTA6, tied to the global agent launch (covered Nov 19).",
+      "new": true,
+      "cites": [
+        {
+          "label": "Varun Anand (X)",
+          "url": "https://x.com/vxanand/status/2123480244103348499"
+        }
+      ]
+    }
+  ],
+  "quiet_note": "No launch, funding, M&A or pricing of their own from Salesforce, Gong, Outreach, Salesloft or Monaco dated Nov 19–20. Salesforce's Nov 19 Cyber Week forecast and SI export consortium are not GTM news; Agentforce Coworker's 185K-user story is dated Nov 4.",
+  "market_direction": [
+    {
+      "kind": "up",
+      "label": "Accelerating (ChatGPT as the sales front end)",
+      "text": "Nooks and Actively shipped ChatGPT plugins Nov 19, after Attio and Outreach on Nov 18."
+    },
+    {
+      "kind": "new",
+      "label": "New (GTM tools packaged as harnesses for coding agents)",
+      "text": "Reply.io's open-source harness runs outbound inside Claude Code or Codex, billed through the vendor's sending platform rather than seats (Nov 20)."
+    },
+    {
+      "kind": "up",
+      "label": "Accelerating (analytics agents turned on by default)",
+      "text": "Claude Data defaults on for Enterprise orgs Nov 20, with Salesforce among the connectable sources."
+    },
+    {
+      "kind": "flat",
+      "label": "Steady (Gong, Outreach, Salesloft, Monaco, Salesforce)",
+      "text": "No new announcements of their own Nov 19–20."
+    }
+  ],
+  "language_pulse": [
+    {
+      "term": "Harness",
+      "gloss": "Reply.io's term for the instructions, memory and tools wrapped around a general agent so it does one job, here outbound (Nov 20)."
+    },
+    {
+      "term": "Live context",
+      "gloss": "Nooks' pitch that call and sequence data, not CRM fields, should decide where a deal stands (Nov 19)."
+    },
+    {
+      "term": "Per-account agents",
+      "gloss": "Actively's framing of one agent working each account, now callable from ChatGPT (Nov 19)."
+    }
+  ],
+  "competitive_moves": [
+    {
+      "company": "Nooks",
+      "slug": "nooks",
+      "text": "ChatGPT for Sales plugin: prospecting, sequencing, deal follow-up, pipeline and coaching from ChatGPT (Nov 19).",
+      "cites": [
+        {
+          "label": "Nooks",
+          "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales"
+        }
+      ]
+    },
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "text": "GTA6 giveaway for plan upgrades before the weekend, tied to the global agent launch (Nov 19).",
+      "cites": [
+        {
+          "label": "Varun Anand (X)",
+          "url": "https://x.com/vxanand/status/2123480244103348499"
+        }
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "Wed Dec 2: Salesforce Q3 FY27 results",
+      "body": "Salesforce's Nov 10 IR release sets results for Dec 2 after the close (2:00 PM PT call); a Nov 20 Salesforce LinkedIn post says Dec 3 at 2 PM PT, so confirm the date. First quarter with the $50/user Agentforce Coworker SKU (Nov 4), the Cresta deal (Nov 2) and Copilotforce (Nov 17).",
+      "cites": [
+        {
+          "label": "Salesforce IR",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/"
         },
         {
-          "label": "SEC filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm"
+          "label": "Salesforce (LinkedIn)",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529580647020167168/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Nov 19 Clay launched a global agent in open beta. Nov 18 Attio relaunched its ChatGPT plugin, Outreach added MCP write tools and partner connectors, Monaco offered 10 ANT shares per November sign-up, and Benioff said 226K custom agents are deployed in Slack. Nov 18 Anthropic priced its IPO at $83 ($81.34B) with trading today; Google released Gemini 4 Neon; OpenAI added ChatGPT for Accounting. Gong, Nooks and Salesloft announced nothing of their own Nov 18–19.",
-    "interpretation": "Vendors are hedging: they expose data and write actions to ChatGPT so they are not shut out of the assistant layer, while building their own agents on context a general assistant lacks (Clay's Knowledge Hub and Audiences) and charging for agent work by usage."
+    "fact": "Nov 19 Nooks and Actively launched ChatGPT plugins; Nov 20 Reply.io released an open-source outbound harness for Claude Code and Codex. Nov 19 Anthropic closed its first trading day at $97.17 (open $111.50, IPO $83) and fell to about $87.68 on Nov 20; Claude Data turned on by default for Enterprise on Nov 20; ChatGPT added Live Dictation Nov 19. Clay's Varun Anand offered GTA6 for plan upgrades before the weekend. Salesforce, Gong, Outreach, Salesloft and Monaco announced nothing new of their own Nov 19–20.",
+    "interpretation": "Engagement and intelligence vendors are racing to be the context layer behind ChatGPT, differentiating on data a CRM never captures (calls, signals). Reply.io's harness suggests a second route where the vendor keeps only the sending and deliverability layer and lets the buyer's own coding agent do the planning."
   },
   "feed": [
     {
       "company": "Clay",
       "slug": "clay",
       "author": {
-        "name": "Clay",
-        "handle": "linkedin.com/company/grow-with-clay",
-        "url": "https://www.linkedin.com/company/grow-with-clay/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-19T08:51:07-08:00",
-      "category": "launch",
-      "summary": "Clay opened its in-product agent in beta: describe a play and it maps and builds it across Search, Audiences, Workflows and Sequencer using your account history.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529224751722983424/",
-      "engagement": {},
-      "also": {
-        "Clay": "https://www.clay.com/blog/clay-global-agent-beta"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Marc Benioff",
-        "handle": "@Benioff",
-        "url": "https://x.com/Benioff"
+        "name": "Varun Anand",
+        "handle": "@vxanand",
+        "url": "https://x.com/vxanand"
       },
       "kind": "founder",
       "source": "X",
-      "ts": "2026-11-18T18:57:51-08:00",
-      "category": "take",
-      "summary": "Benioff said 226K custom agents have been deployed to Slack from agent builder platforms, which he called trusted agent infrastructure.",
-      "url": "https://x.com/Benioff/status/2123249365875904551",
-      "engagement": {
-        "likes": 513,
-        "reposts": 44,
-        "replies": 40,
-        "views": 77018
-      }
-    },
-    {
-      "company": "Monaco",
-      "slug": "monaco",
-      "author": {
-        "name": "Sam Blond",
-        "handle": "@samdblond",
-        "url": "https://x.com/samdblond"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-11-18T09:07:39-08:00",
+      "ts": "2026-11-19T10:15:17-08:00",
       "category": "pricing",
-      "summary": "Monaco will give 10 shares of ANT from its IPO allocation to each customer who signs up in November.",
-      "url": "https://x.com/samdblond/status/2123100838256378243",
+      "summary": "Varun Anand said Clay will give GTA6 to every user who upgrades their Clay plan before the weekend, to mark the global agent launch.",
+      "url": "https://x.com/vxanand/status/2123480244103348499",
       "engagement": {
-        "likes": 841,
-        "reposts": 22,
-        "replies": 129,
-        "views": 443637
-      },
-      "also": {
-        "LinkedIn": "https://www.linkedin.com/feed/update/urn:li:activity:7528868262139420672/"
+        "likes": 68,
+        "reposts": 7,
+        "replies": 5,
+        "views": 7097
       }
     }
   ]

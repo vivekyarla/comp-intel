@@ -2,9 +2,16 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-19",
+      "title": "GTA6 giveaway for plan upgrades before the weekend (global agent launch promo)",
+      "url": "https://x.com/vxanand/status/2123480244103348499",
+      "summary": "Nov 19 X post (co-founder Varun Anand): to celebrate the global agent launch, Clay gives GTA6 to every user who upgrades their Clay plan before the weekend; describes the global agent as long-running and outcomes-based.",
+      "source_type": "x"
+    },
     {
       "date": "2026-11-19",
       "title": "Global agent in open beta: describe a GTM play, Clay plans, builds and tests it",
