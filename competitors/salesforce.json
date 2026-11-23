@@ -2,9 +2,16 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-23",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-23",
+      "title": "Agentforce Coworker included in Starter and Pro Suite (small business)",
+      "url": "https://www.salesforce.com/blog/small-business/agentforce-coworker-in-salesforce-suites/",
+      "summary": "Nov 23 blog: Coworker is built into Salesforce Starter and Pro Suite for all new and existing customers and new trialists, with no setup or added cost. Answers pipeline questions, drafts follow-ups, recommends priorities across opportunities and cases, and lists planned field changes for approval before saving. Existing customers activate it in their workspace; Foundations also gives access. Customer quotes: Boutique Recruiting, AISC, Pedigree Technologies.",
+      "source_type": "blog"
+    },
     {
       "date": "2026-11-18",
       "title": "Benioff: 226K custom agents deployed to Slack; Slack pitched as agent infrastructure",
@@ -375,6 +382,7 @@
     }
   ],
   "language_pulse": [
+    "CRM busywork",
     "Salesforce in Copilot",
     "Copilotforce",
     "Shopper agent",
@@ -420,5 +428,5 @@
     "Agentic Identity",
     "IDC MarketScape Leader (agentic AI platforms)"
   ],
-  "notes": "Nov 10: Indonesia/Korea Coworker press is a regional reissue of Nov 4 (Teams, iOS/Mac/Windows apps, Coworker MCP server GA in November; Scheduled Tasks + Daily Digest in December). Nov 9: Salesforce named in Anthropic's Enterprise Frontier Safeguards private beta. Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
+  "notes": "Nov 23: IR release re-checked, still says Q3 FY27 results Dec 2 after close (Nov 20 LinkedIn post says Dec 3 at 2 PM PT, conflict unresolved). Nov 20–23 LinkedIn/X posts were F1, volunteering and veterans content. Nov 10: Indonesia/Korea Coworker press is a regional reissue of Nov 4 (Teams, iOS/Mac/Windows apps, Coworker MCP server GA in November; Scheduled Tasks + Daily Digest in December). Nov 9: Salesforce named in Anthropic's Enterprise Frontier Safeguards private beta. Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
 }

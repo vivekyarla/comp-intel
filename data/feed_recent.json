@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20T08:45:00-08:00",
+  "as_of": "2026-11-23T08:46:19.677969-08:00",
   "days": 14,
   "items": [
     {
@@ -157,52 +157,6 @@
       },
       "also": {
         "Hugging Face": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
-      }
-    },
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "author": {
-        "name": "Gong",
-        "handle": "linkedin.com/company/gong-io",
-        "url": "https://www.linkedin.com/company/gong-io/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-09T08:32:36.006000-08:00",
-      "category": "launch",
-      "summary": "Gong promoted Agent Builder (announced Sept 30) for custom agents that act on revenue signals, alongside its Nov 9 governance/cost walkthrough.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525596213044330496/",
-      "engagement": {
-        "reactions": 14,
-        "comments": 1
-      },
-      "also": {
-        "Blog": "https://www.gong.io/blog/gong-agent-builder-revenue-signals-action"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Salesforce News & Insights",
-        "handle": "@SalesforceNews",
-        "url": "https://x.com/SalesforceNews"
-      },
-      "kind": "company",
-      "source": "X",
-      "ts": "2026-11-09T06:00:35-08:00",
-      "category": "launch",
-      "summary": "Salesforce News promoted Koa Decisions, the new Gemma-based version of its HyperClassifier routing/decision model (Nov 6 newsroom post).",
-      "url": "https://x.com/SalesforceNews/status/2119792268555010225",
-      "engagement": {
-        "likes": 1,
-        "reposts": 0,
-        "replies": 0,
-        "views": 278
-      },
-      "also": {
-        "Newsroom": "https://www.salesforce.com/news/stories/koa-decisions-salesforce-decision-models/"
       }
     }
   ]

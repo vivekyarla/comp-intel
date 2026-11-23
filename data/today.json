@@ -1,34 +1,34 @@
 {
-  "as_of": "2026-11-20 morning ~8:45 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Nov 19 (after the morning run) – Fri Nov 20 morning PT (items already on the Nov 18–19 briefs not re-led)",
+  "as_of": "2026-11-23 morning ~8:55 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Fri Nov 20 (after the morning run) – Mon Nov 23 morning PT, weekend included (items already on the Nov 19–20 briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Sales vendors kept filling in OpenAI's ChatGPT for Sales roster on Nov 19, two days after launch, each pitching data a CRM lacks. On Nov 20 Reply.io went the other way, shipping an open-source outbound harness that runs inside the coding agent a seller already pays for.",
+    "lede": "CRM agents moved further into default packaging and admin controls over the weekend: Salesforce put Agentforce Coworker into its small-business suites at no added cost, Close opened agents that fire on schedules or CRM events, and Clay let enterprises run its AI through their own AWS accounts.",
     "bullets": [
       {
-        "text": "Nov 19: Nooks' ChatGPT plugin lets customers prospect, build sequences, check deal status and draft follow-ups, using call-derived context that overrides stale CRM fields; it is Nooks' first surface outside its own app and may need admin enablement.",
+        "text": "Nov 23: Agentforce Coworker is now included in Salesforce Starter and Pro Suite for new and existing customers and trialists, with no setup or added cost; it answers pipeline questions, drafts follow-ups and shows each record change for approval before saving.",
         "cites": [
           {
-            "label": "Nooks",
-            "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales"
+            "label": "Salesforce",
+            "url": "https://www.salesforce.com/blog/small-business/agentforce-coworker-in-salesforce-suites/"
           }
         ]
       },
       {
-        "text": "Nov 19: Actively put its per-account agents (CRM, call and email context plus external signals) into ChatGPT Work and Codex for territory ranking, meeting prep and next-contact picks.",
+        "text": "Nov 21: Close's General Agents (beta) run on a schedule or when a lead, opportunity, call, meeting or form event fires, act with the creator's permissions, pause for approval on tools that aren't pre-approved, and bill in AI credits.",
         "cites": [
           {
-            "label": "Actively",
-            "url": "https://www.actively.ai/blog/actively-now-available-in-chatgpt"
+            "label": "Close Help Center",
+            "url": "https://help.close.com/feature-guide/agents/general-agents"
           }
         ]
       },
       {
-        "text": "Nov 20: Reply.io's MIT-licensed Jason Harness turns Claude Code or Codex into a nine-role outbound team on the user's own model subscription; Reply sends, and every message needs a human yes.",
+        "text": "Nov 20: Clay's Amazon Bedrock connection sends supported Clay AI actions through the customer's own AWS account using short-lived, IAM-scoped credentials instead of a stored key.",
         "cites": [
           {
-            "label": "Reply.io (EIN Presswire)",
-            "url": "https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales"
+            "label": "Clay",
+            "url": "https://www.clay.com/blog/use-your-amazon-bedrock-connection-in-clay"
           }
         ]
       }
@@ -36,150 +36,157 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Anthropic closes debut at $97.17, then slips Friday",
-      "body": "Nov 19: ANT opened at $111.50 and closed 17% above the $83 offer (~$1.8T fully diluted, 846M+ shares traded). Nov 20: trading near $87.68 (−9.8%) late morning ET.",
+      "title": "NVIDIA reinstates Jensen Huang as CEO",
+      "body": "Nov 23: the board voted unanimously to bring Huang back as president, CEO and director, citing input from senior US government officials; the independent committee investigation continues and NVIDIA will hire a Chief Compliance Officer.",
       "new": true,
       "cites": [
         {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
-        },
-        {
-          "label": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/ANT/history/"
+          "label": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
         }
       ]
     },
     {
-      "title": "Claude Data is on by default for Enterprise today",
-      "body": "Nov 20: dashboards and data stories built on connected warehouses and apps (e.g. Salesforce) switch on for Enterprise orgs unless an Owner already saved a setting; certified queries and live sharing stay off.",
+      "title": "Anthropic closes a $93.5B IPO; ANT ends Friday near the offer price",
+      "body": "Nov 20: underwriters took the full extra 147M shares, lifting IPO gross proceeds to about $93.5B (about $119.5B with the $26B private placement). ANT closed Friday at $88.91, down 8.5% on the day, versus the $83 offer.",
       "new": true,
       "cites": [
         {
-          "label": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/17454700-get-started-with-claude-data"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/ipo-close"
         },
         {
-          "label": "Claude admin guide",
-          "url": "https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans"
+          "label": "Reuters (Investing.com)",
+          "url": "https://www.investing.com/news/economy-news/anthropics-postdebut-stumble-delivers-reality-check-for-ai-trade-5041125"
         }
       ]
     },
     {
-      "title": "ChatGPT adds Live Dictation",
-      "body": "Nov 19: voice prompts now transcribe as you speak on all plans, and the 10-minute recording limit is gone.",
+      "title": "OpenAI proposes perplexity as a shared progress metric",
+      "body": "Nov 22: chief scientist Jakub Pachocki published OpenAI's internal pretraining perplexity numbers and proposed cross-lab limits on that metric that developers would not cross until monitoring improves.",
       "new": true,
       "cites": [
         {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI's approval rule for model routers is now in force",
+      "body": "Nov 20: services that give third parties direct access to OpenAI models, such as routers and AI gateways, now need OpenAI's review and approval; apps that only use the models for their own features are not covered.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Nooks joins ChatGPT for Sales",
-      "body": "Nov 19: Nooks customers can prospect, add contacts to sequences, draft emails, ask where a deal stands and what was promised on the last call, review at-risk pipeline and coach reps from ChatGPT. Nooks says its agents reconcile CRM data against live call context; first integration outside its own platform, with 'more coming soon'.",
+      "title": "Salesforce brings Agentforce Coworker to Starter and Pro Suite",
+      "body": "Nov 23: Coworker is built into Salesforce's small-business suites for new and existing customers and trialists, with no setup or added cost. It answers questions like what changed in the pipeline this week, drafts follow-ups, recommends priorities across opportunities and cases, and lists planned field changes for approval before saving.",
       "new": true,
       "cites": [
         {
-          "label": "Nooks",
-          "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/small-business/agentforce-coworker-in-salesforce-suites/"
         }
       ]
     },
     {
-      "title": "Actively ships a ChatGPT plugin",
-      "body": "Nov 19: Actively's account-intelligence agents run in ChatGPT Work and Codex for finding high-fit accounts, ranking a territory, meeting prep and choosing the next stakeholder; some connections need admin approval.",
+      "title": "Clay lets enterprises run its AI through their own Amazon Bedrock",
+      "body": "Nov 20: supported Clay AI and agent actions can run on Bedrock in the customer's AWS account. Access uses OpenID Connect federation and an IAM role bound to one Clay workspace and connection, so no long-lived AWS key; set up through a Clay Growth Strategist and the customer's AWS admin.",
       "new": true,
       "cites": [
         {
-          "label": "Actively",
-          "url": "https://www.actively.ai/blog/actively-now-available-in-chatgpt"
+          "label": "Clay",
+          "url": "https://www.clay.com/blog/use-your-amazon-bedrock-connection-in-clay"
         }
       ]
     },
     {
-      "title": "Reply.io open-sources an AI SDR harness for coding agents",
-      "body": "Nov 20: Jason Harness (alpha, MIT) installs into Claude Code or Codex with nine roles (Planner, Researcher, Copywriter, Critic, Deliverability and more), plans per-contact sequences, and uses the user's own model subscription; Reply's paid platform does the sending.",
+      "title": "Close launches General Agents in beta",
+      "body": "Nov 21: Close users describe a task and set a schedule or CRM-event trigger; agents can update leads and opportunities, send email and SMS and create tasks with pre-approved tools, otherwise pausing for approval. Agents inherit the creator's permissions; beta orgs get 250 free AI credits a week.",
       "new": true,
       "cites": [
         {
-          "label": "Reply.io (EIN Presswire)",
-          "url": "https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales"
+          "label": "Close Help Center",
+          "url": "https://help.close.com/feature-guide/agents/general-agents"
         }
       ]
     },
     {
-      "title": "Clay adds an upgrade incentive for its global agent",
-      "body": "Nov 19: co-founder Varun Anand said every user who upgrades their Clay plan before the weekend gets a copy of GTA6, tied to the global agent launch (covered Nov 19).",
+      "title": "Lightfield connects OneDrive and SharePoint to its agent",
+      "body": "Nov 20: files and folders from OneDrive and SharePoint can be attached to records and used by Lightfield's agent; the Files API can import meeting recordings and transcripts up to 512 MB.",
       "new": true,
       "cites": [
         {
-          "label": "Varun Anand (X)",
-          "url": "https://x.com/vxanand/status/2123480244103348499"
+          "label": "Lightfield",
+          "url": "https://lightfield.com/blog/onedrive-sharepoint-integration-team-member-filter-and-more"
         }
       ]
     }
   ],
-  "quiet_note": "No launch, funding, M&A or pricing of their own from Salesforce, Gong, Outreach, Salesloft or Monaco dated Nov 19–20. Salesforce's Nov 19 Cyber Week forecast and SI export consortium are not GTM news; Agentforce Coworker's 185K-user story is dated Nov 4.",
+  "quiet_note": "No launch, funding, M&A or pricing of their own from Gong, Nooks, Outreach, Salesloft or Monaco dated Nov 20–23. Apollo's Nevara acqui-hire post is dated Nov 18 and Dreamteam's $53M round Nov 16.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (ChatGPT as the sales front end)",
-      "text": "Nooks and Actively shipped ChatGPT plugins Nov 19, after Attio and Outreach on Nov 18."
-    },
-    {
-      "kind": "new",
-      "label": "New (GTM tools packaged as harnesses for coding agents)",
-      "text": "Reply.io's open-source harness runs outbound inside Claude Code or Codex, billed through the vendor's sending platform rather than seats (Nov 20)."
+      "label": "Accelerating (agents bundled into base CRM tiers)",
+      "text": "Salesforce added Coworker to its small-business suites at no added cost (Nov 23), after launching a $50/user/month Coworker SKU on Nov 4."
     },
     {
       "kind": "up",
-      "label": "Accelerating (analytics agents turned on by default)",
-      "text": "Claude Data defaults on for Enterprise orgs Nov 20, with Salesforce among the connectable sources."
+      "label": "Accelerating (triggered agents with pre-approved actions)",
+      "text": "Close's General Agents run on schedules or CRM events and only act without a pause on tools an admin pre-approves (Nov 21)."
+    },
+    {
+      "kind": "new",
+      "label": "New (customer-owned inference inside GTM tools)",
+      "text": "Clay now runs AI actions through the buyer's own Bedrock account (Nov 20), while OpenAI began requiring approval for routers and gateways that resell model access (Nov 20)."
     },
     {
       "kind": "flat",
-      "label": "Steady (Gong, Outreach, Salesloft, Monaco, Salesforce)",
-      "text": "No new announcements of their own Nov 19–20."
+      "label": "Steady (Gong, Nooks, Outreach, Salesloft, Monaco)",
+      "text": "No new announcements of their own Nov 20–23."
     }
   ],
   "language_pulse": [
     {
-      "term": "Harness",
-      "gloss": "Reply.io's term for the instructions, memory and tools wrapped around a general agent so it does one job, here outbound (Nov 20)."
+      "term": "Pre-approved tools",
+      "gloss": "Close's term for the actions an agent may take without pausing for a human, set per agent (Nov 21)."
     },
     {
-      "term": "Live context",
-      "gloss": "Nooks' pitch that call and sequence data, not CRM fields, should decide where a deal stands (Nov 19)."
+      "term": "Bedrock connection",
+      "gloss": "Clay's name for running its AI actions on the customer's own AWS Bedrock under IAM-role access (Nov 20)."
     },
     {
-      "term": "Per-account agents",
-      "gloss": "Actively's framing of one agent working each account, now callable from ChatGPT (Nov 19)."
+      "term": "CRM busywork",
+      "gloss": "Salesforce's framing for the record updates and report pulls Coworker takes over for small teams (Nov 23)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Nooks",
-      "slug": "nooks",
-      "text": "ChatGPT for Sales plugin: prospecting, sequencing, deal follow-up, pipeline and coaching from ChatGPT (Nov 19).",
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Agentforce Coworker included in Starter and Pro Suite at no added cost (Nov 23).",
       "cites": [
         {
-          "label": "Nooks",
-          "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/small-business/agentforce-coworker-in-salesforce-suites/"
         }
       ]
     },
     {
       "company": "Clay",
       "slug": "clay",
-      "text": "GTA6 giveaway for plan upgrades before the weekend, tied to the global agent launch (Nov 19).",
+      "text": "Amazon Bedrock connection: Clay AI actions run on the customer's AWS account via IAM roles (Nov 20).",
       "cites": [
         {
-          "label": "Varun Anand (X)",
-          "url": "https://x.com/vxanand/status/2123480244103348499"
+          "label": "Clay",
+          "url": "https://www.clay.com/blog/use-your-amazon-bedrock-connection-in-clay"
         }
       ]
     }
@@ -187,7 +194,7 @@
   "watch": [
     {
       "title": "Wed Dec 2: Salesforce Q3 FY27 results",
-      "body": "Salesforce's Nov 10 IR release sets results for Dec 2 after the close (2:00 PM PT call); a Nov 20 Salesforce LinkedIn post says Dec 3 at 2 PM PT, so confirm the date. First quarter with the $50/user Agentforce Coworker SKU (Nov 4), the Cresta deal (Nov 2) and Copilotforce (Nov 17).",
+      "body": "Salesforce's IR release, re-checked Nov 23, still says Dec 2 after the close (2:00 PM PT call); a Nov 20 Salesforce LinkedIn post says Dec 3 at 2 PM PT, so confirm the date. First quarter with the $50/user Coworker SKU (Nov 4), the Cresta deal (Nov 2), Copilotforce (Nov 17) and now Coworker in the SMB suites (Nov 23).",
       "cites": [
         {
           "label": "Salesforce IR",
@@ -201,30 +208,8 @@
     }
   ],
   "interpretation": {
-    "fact": "Nov 19 Nooks and Actively launched ChatGPT plugins; Nov 20 Reply.io released an open-source outbound harness for Claude Code and Codex. Nov 19 Anthropic closed its first trading day at $97.17 (open $111.50, IPO $83) and fell to about $87.68 on Nov 20; Claude Data turned on by default for Enterprise on Nov 20; ChatGPT added Live Dictation Nov 19. Clay's Varun Anand offered GTA6 for plan upgrades before the weekend. Salesforce, Gong, Outreach, Salesloft and Monaco announced nothing new of their own Nov 19–20.",
-    "interpretation": "Engagement and intelligence vendors are racing to be the context layer behind ChatGPT, differentiating on data a CRM never captures (calls, signals). Reply.io's harness suggests a second route where the vendor keeps only the sending and deliverability layer and lets the buyer's own coding agent do the planning."
+    "fact": "Nov 23 Salesforce made Agentforce Coworker part of Starter and Pro Suite at no added cost; Nov 21 Close launched General Agents in beta; Nov 20 Clay added an Amazon Bedrock connection and Lightfield added OneDrive/SharePoint. Nov 23 NVIDIA reinstated Jensen Huang as CEO; Nov 20 Anthropic closed its IPO at about $93.5B gross and ANT closed at $88.91; Nov 22 OpenAI proposed perplexity as a shared metric; OpenAI's router/gateway approval rule took effect Nov 20. Gong, Nooks, Outreach, Salesloft and Monaco announced nothing new of their own Nov 20–23.",
+    "interpretation": "Bundling Coworker into the cheapest Salesforce suites makes a basic CRM agent a free default for small teams, pushing paid agents to compete on work a CRM-native assistant doesn't do. Clay's Bedrock option and Close's pre-approved tools point to enterprise buyers asking where inference runs and which actions run unattended before they turn agents on."
   },
-  "feed": [
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "author": {
-        "name": "Varun Anand",
-        "handle": "@vxanand",
-        "url": "https://x.com/vxanand"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-11-19T10:15:17-08:00",
-      "category": "pricing",
-      "summary": "Varun Anand said Clay will give GTA6 to every user who upgrades their Clay plan before the weekend, to mark the global agent launch.",
-      "url": "https://x.com/vxanand/status/2123480244103348499",
-      "engagement": {
-        "likes": 68,
-        "reposts": 7,
-        "replies": 5,
-        "views": 7097
-      }
-    }
-  ]
+  "feed": []
 }
