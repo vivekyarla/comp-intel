@@ -2,15 +2,29 @@
   "name": "Salesforce (Agentforce)",
   "slug": "salesforce",
   "website": "https://www.salesforce.com/",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "positioning": "Agentforce as the digital workforce on Customer 360 / Sales Cloud: out-of-the-box and job-ready sales agents (prospecting, engagement, pipeline, quoting, inbound pipe gen, outbound Hunter) plus long-horizon runtime for multi-day/week goals. Self-label: agentic sales / Agentforce Sales / AI CRM adjacent; not AI SDR as company noun.",
   "recent": [
+    {
+      "date": "2026-11-24",
+      "title": "Salesforce Contact Centre GA in Australia and New Zealand",
+      "url": "https://www.salesforce.com/au/news/press-releases/2026/11/24/salesforce-contact-centre-now-generally-available-in-australia-and-new-zealand/",
+      "summary": "Nov 24 press release (Sydney): native contact centre with AI agents (incl. Fin), human reps, voice, digital channels and CRM data on one platform is GA in ANZ, after North America (March) and Europe (October). Used in 68 countries and 50 languages; headless skills let teams set it up conversationally from AI coding assistants like Claude or Cursor without logging into Salesforce; agentic workforce engagement management added. Fin on help.salesforce.com: 21,000+ conversations, 62% resolution in first full month.",
+      "source_type": "newsroom"
+    },
     {
       "date": "2026-11-23",
       "title": "Agentforce Coworker included in Starter and Pro Suite (small business)",
       "url": "https://www.salesforce.com/blog/small-business/agentforce-coworker-in-salesforce-suites/",
       "summary": "Nov 23 blog: Coworker is built into Salesforce Starter and Pro Suite for all new and existing customers and new trialists, with no setup or added cost. Answers pipeline questions, drafts follow-ups, recommends priorities across opportunities and cases, and lists planned field changes for approval before saving. Existing customers activate it in their workspace; Foundations also gives access. Customer quotes: Boutique Recruiting, AISC, Pedigree Technologies.",
       "source_type": "blog"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Cyber Week forecast: $75.8B of $357B online sales influenced by AI and agents",
+      "url": "https://www.salesforce.com/news/stories/cyber-week-ai-sales-2026/",
+      "summary": "Nov 19 Shopping Index release: Cyber Week (Nov 24–30) expected at $357B global online sales, 21% ($75.8B) influenced by AI and agents; AI-driven retailer traffic up 104% YoY; 31% of consumers have tried personal agents; 1 in 3 retailers expected to have shopper agents by Cyber Week. Promoted again on X/LinkedIn Nov 23.",
+      "source_type": "newsroom"
     },
     {
       "date": "2026-11-18",
@@ -382,6 +396,7 @@
     }
   ],
   "language_pulse": [
+    "Headless skills",
     "CRM busywork",
     "Salesforce in Copilot",
     "Copilotforce",
@@ -428,5 +443,5 @@
     "Agentic Identity",
     "IDC MarketScape Leader (agentic AI platforms)"
   ],
-  "notes": "Nov 23: IR release re-checked, still says Q3 FY27 results Dec 2 after close (Nov 20 LinkedIn post says Dec 3 at 2 PM PT, conflict unresolved). Nov 20–23 LinkedIn/X posts were F1, volunteering and veterans content. Nov 10: Indonesia/Korea Coworker press is a regional reissue of Nov 4 (Teams, iOS/Mac/Windows apps, Coworker MCP server GA in November; Scheduled Tasks + Daily Digest in December). Nov 9: Salesforce named in Anthropic's Enterprise Frontier Safeguards private beta. Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
+  "notes": "Nov 24: Salesforce LinkedIn earnings post has been edited and now says Dec 2 at 2 p.m. PT, matching IR (Q3 FY27 after close Dec 2) — date conflict resolved. Nov 23–24 X/LinkedIn: Cyber Week/SharkNinja, Bobbi UK police agent (BBC), FIDE chess agent, TDX27 save-the-date (Mar 10–11, 2027), Dreamforce accessibility — none major. Nov 23: IR release re-checked, still says Q3 FY27 results Dec 2 after close (Nov 20 LinkedIn post says Dec 3 at 2 PM PT, conflict unresolved). Nov 20–23 LinkedIn/X posts were F1, volunteering and veterans content. Nov 10: Indonesia/Korea Coworker press is a regional reissue of Nov 4 (Teams, iOS/Mac/Windows apps, Coworker MCP server GA in November; Scheduled Tasks + Daily Digest in December). Nov 9: Salesforce named in Anthropic's Enterprise Frontier Safeguards private beta. Nov 6: Koa Decisions (first surfaced Nov 9). Nov 5: Builder Central + Quick Pages betas. Nov 4: Coworker expansion + $50/user/mo; Nov 9 Thailand press is a regional reissue. Cresta definitive agreement (Nov 2) open, expected close FQ1 2028. Agent Evals/API Evals still 'Beta in November 2026' with no start notice as of Nov 9."
 }

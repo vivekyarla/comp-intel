@@ -1,7 +1,26 @@
 {
-  "as_of": "2026-11-23T08:46:19.677969-08:00",
+  "as_of": "2026-11-24T08:48:44.023371-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Clay",
+      "slug": "clay",
+      "author": {
+        "name": "Clay",
+        "handle": "linkedin.com/company/grow-with-clay",
+        "url": "https://www.linkedin.com/company/grow-with-clay/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-24T08:45:22.039000-08:00",
+      "category": "launch",
+      "summary": "Clay shipped 67 fixes for Make It Great Week, including zero credits for empty Crunchbase funding lookups, G2 product and pricing lookups, and a label showing which enrichments cost zero credits.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531035244003782656/",
+      "engagement": {
+        "reactions": 1,
+        "comments": 1
+      }
+    },
     {
       "company": "Clay",
       "slug": "clay",

@@ -2,9 +2,23 @@
   "name": "Clay",
   "slug": "clay",
   "website": "https://www.clay.com/",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "positioning": "GTM infrastructure for growth: data marketplace + Audiences data layer, Claygents/Account Agents, Workflows orchestration, and execution (sequencer/ads). Positions as AI growth engine / self-learning revenue engine for GTM engineers — not classic AI SDR or AI CRM.",
   "recent": [
+    {
+      "date": "2026-11-24",
+      "title": "Make It Great Week: 67 shipped fixes incl. credit changes",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531035244003782656/",
+      "summary": "Nov 24 LinkedIn: zero credits when a Crunchbase funding lookup returns empty; label showing which third-party enrichments cost zero credits; Google Maps multi-location search; better senior-title matching; Forager jobs/people by domain; G2 vendor products, prices paid, contract lengths and switching reasons; Upriver creators; Slack thread replies for deal updates; large HubSpot deal imports; full Salesforce field mapping; Apify scheduled imports; HTTP QUERY requests; phone-lookup stop on repeat results; Trestle Real Contact 2.0.",
+      "source_type": "social"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Lead-scoring how-to: fit + engagement scores in a Clay Workflow",
+      "url": "https://www.clay.com/blog/account-lead-scoring-model",
+      "summary": "Nov 23 blog (Outbound Plays): separate account-fit (third-party firmographics) and lead-engagement (first-party activity) scores, route into work-now / nurture / buying-committee / skip; new signals trigger rescoring; global agent (beta) can build the workflow. Content, not a launch.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-11-20",
       "title": "Amazon Bedrock connection: run Clay AI actions on the customer's own AWS account",
@@ -207,5 +221,5 @@
     "Agent Plugin",
     "Claygent"
   ],
-  "notes": "Nov 21–23: Clay X/LinkedIn posts were memes and a plays thread; Nov 23 blog is a lead-scoring how-to. Oct 19: no first-party Clay PR Oct 16–19; X retweets only (Sculpt hot-takes recap); weekend third-party pieces restate Sculpt agent and the Sep 9 Series D. Oct 7: no net-new Clay product PR Oct 6–7 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13–15."
+  "notes": "Nov 24: Make It Great Week post (67 fixes, zero-credit empty Crunchbase lookups). Nov 23–24 X posts were GTM-engineer memes, an FDE explainer and a re-promo of the Nov 19 global agent. Nov 21–23: Clay X/LinkedIn posts were memes and a plays thread; Nov 23 blog is a lead-scoring how-to. Oct 19: no first-party Clay PR Oct 16–19; X retweets only (Sculpt hot-takes recap); weekend third-party pieces restate Sculpt agent and the Sep 9 Series D. Oct 7: no net-new Clay product PR Oct 6–7 and no Sculpt pre-announcement. Sculpt is Thursday Oct 8 (Pier 48, SF, 9:30 AM keynote). Disrupt GTM-engineer session Oct 13–15."
 }
