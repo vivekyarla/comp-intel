@@ -2,35 +2,42 @@
   "name": "Nooks",
   "slug": "nooks",
   "website": "https://www.nooks.ai/",
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-25",
   "positioning": "Revenue Agent Platform / revenue infrastructure for reps and agents: AI prospecting, dialing, sequencing, deal follow-up, coaching, with Nooks Labs research on long-horizon agents. Self-label: Revenue Agent Platform; execution layer for humans + AI agents.",
   "recent": [
+    {
+      "date": "2026-11-24",
+      "title": "Org Charts and Warm Intros (Deal Intelligence)",
+      "url": "https://www.nooks.ai/blog-posts/org-charts-and-warm-intros",
+      "summary": "Nov 24 blog + LinkedIn: Org Charts map the buying committee for one account or a whole book from CRM data and the team's calls, meetings and emails (filled in from LinkedIn/web), flag people not in CRM or never contacted, tag economic buyer/champions/influencers, add to CRM and sequences from the chart. Warm Intros rank intro paths via teammate/exec LinkedIn connections, former champions, customer alumni and real work/school overlap; intro ask routed to the teammate in Slack, or a warm-intro sequence references the connection. Aimed at enterprise/upper mid-market AEs, AE leaders, SDRs.",
+      "source_type": "company_blog"
+    },
     {
       "date": "2026-11-19",
       "title": "Nooks in ChatGPT for Sales (plugin)",
       "url": "https://www.nooks.ai/blog-posts/nooks-in-chatgpt-for-sales",
-      "summary": "Nov 19 blog (Rohan Suri): Nooks customers can work accounts from ChatGPT — prospecting (find contacts, add to sequence), sequencing (draft emails, build/edit sequences), deal follow-up (deal status, what was promised on last call, draft follow-up), pipeline (closing this quarter / at risk), coaching (rep calls, sequence performance). Pitch: agents build 'live context' from calls/sequences (1M+ calls/day across 2,000+ teams) and override stale CRM fields; CRM auto-updates. First surface outside Nooks' own platform; 'more coming soon'. Customers only; admin may need to enable the plugin. Claims own sales team at 173% attainment (company figure). OpenAI quote from Arpan Shah.",
+      "summary": "Nov 19 blog (Rohan Suri): Nooks customers can work accounts from ChatGPT \u2014 prospecting (find contacts, add to sequence), sequencing (draft emails, build/edit sequences), deal follow-up (deal status, what was promised on last call, draft follow-up), pipeline (closing this quarter / at risk), coaching (rep calls, sequence performance). Pitch: agents build 'live context' from calls/sequences (1M+ calls/day across 2,000+ teams) and override stale CRM fields; CRM auto-updates. First surface outside Nooks' own platform; 'more coming soon'. Customers only; admin may need to enable the plugin. Claims own sales team at 173% attainment (company figure). OpenAI quote from Arpan Shah.",
       "source_type": "company_blog"
     },
     {
       "date": "2026-11-04",
       "title": "$500M General Catalyst CVF + Node (AI sales assistant) + Revenue Agent Platform",
       "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
-      "summary": "Nov 4 blog (Dan Lee) + PR Newswire: GC Customer Value Fund commits $500M non-dilutive growth capital (repaid from customer value). Launches Node — proactive AI personal assistant for sales / \"EA for the AE\"; deal management first; reps approve sends; early access now, GA early 2027. Unifies Revenue Agent Platform: Deal, Outbound, Expansion, Coaching Agents live; Inbound Agents Q1 2027. Claims: 2,000+ companies (Glean, Notion, Deel, Factory, Replit), ~3× YoY growth, 135% NRR, 96% agent emails unedited, early Node users up to 80% productivity / ~2 hrs/day saved (method not detailed). Also: https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html",
+      "summary": "Nov 4 blog (Dan Lee) + PR Newswire: GC Customer Value Fund commits $500M non-dilutive growth capital (repaid from customer value). Launches Node \u2014 proactive AI personal assistant for sales / \"EA for the AE\"; deal management first; reps approve sends; early access now, GA early 2027. Unifies Revenue Agent Platform: Deal, Outbound, Expansion, Coaching Agents live; Inbound Agents Q1 2027. Claims: 2,000+ companies (Glean, Notion, Deel, Factory, Replit), ~3\u00d7 YoY growth, 135% NRR, 96% agent emails unedited, early Node users up to 80% productivity / ~2 hrs/day saved (method not detailed). Also: https://www.prnewswire.com/news-releases/nooks-secures-500-million-from-general-catalyst-and-launches-node-the-first-ai-personal-assistant-for-sales-302928795.html",
       "source_type": "company_blog"
     },
     {
       "date": "2026-09-24",
-      "title": "Nooks Labs: Cracking the hard problem — sales agents that actually work",
+      "title": "Nooks Labs: Cracking the hard problem \u2014 sales agents that actually work",
       "url": "https://www.nooks.ai/blog-posts/building-agents-for-sales",
-      "summary": "Nooks Labs technical post (Narahari Bharadwaj): why coding-agent playbooks fail for sales (fact resolution, strategy selection, style/taste). Claims SalesBench Verified accuracy lift to 72–79%, 96% of emails sent autonomously without edits, and ~2x meetings booked per rep for internal team / early beta. First in a series.",
+      "summary": "Nooks Labs technical post (Narahari Bharadwaj): why coding-agent playbooks fail for sales (fact resolution, strategy selection, style/taste). Claims SalesBench Verified accuracy lift to 72\u201379%, 96% of emails sent autonomously without edits, and ~2x meetings booked per rep for internal team / early beta. First in a series.",
       "source_type": "company_blog"
     },
     {
       "date": "2026-09-15",
-      "title": "CMO Loreal Lynch on GTM Now podcast — stop counting agents per rep",
+      "title": "CMO Loreal Lynch on GTM Now podcast \u2014 stop counting agents per rep",
       "url": "https://www.nooks.ai/blog-posts/loreal-lynch-gtm-now-ai-sales",
-      "summary": "Company blog recap of GTM Now podcast: expects AI to prompt reps within 1–2 years; frames 10x productivity as a hiring argument; stresses infrastructure (data, governance, dialing) as the hard part of scaling agents.",
+      "summary": "Company blog recap of GTM Now podcast: expects AI to prompt reps within 1\u20132 years; frames 10x productivity as a hiring argument; stresses infrastructure (data, governance, dialing) as the hard part of scaling agents.",
       "source_type": "company_blog"
     },
     {
@@ -67,5 +74,5 @@
     "SalesBench",
     "building agents for sales"
   ],
-  "notes": "Nov 19: ChatGPT for Sales plugin (first integration outside Nooks). Nov 4: major triple announce — $500M GC CVF, Node early access (GA early 2027), Revenue Agent Platform. Prior FullyRamped Aug 26 and Nooks Labs Sep 24 remain background."
+  "notes": "Nov 19: ChatGPT for Sales plugin (first integration outside Nooks). Nov 4: major triple announce \u2014 $500M GC CVF, Node early access (GA early 2027), Revenue Agent Platform. Prior FullyRamped Aug 26 and Nooks Labs Sep 24 remain background."
 }

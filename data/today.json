@@ -1,38 +1,33 @@
 {
-  "as_of": "2026-11-24 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Mon Nov 23 (after the morning run) – Tue Nov 24 morning PT (items already on the Nov 20 and Nov 23 briefs not re-led)",
+  "as_of": "2026-11-25 morning ~8:50 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Nov 24 (after the morning run) – Wed Nov 25 morning PT (items already on the Nov 24 and earlier briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Approval policies and data controls became the product on Monday: Anthropic shipped agents that review, fix and approve pull requests under a team-written policy, and opened a Bedrock route that keeps retained prompts for its top models in the customer's own AWS account.",
+    "lede": "Vendors started shipping their playbooks inside the AI assistant rather than beside it: MCP servers can now carry skills, long-running tasks and sign-off prompts into Claude, and a cold-email vendor launched its own model to rank prospects before anything is sent.",
     "bullets": [
       {
-        "text": "Nov 23: Claude Ship (beta, Team and Enterprise, GitHub) pairs Code Review with PR Steward, which fixes failing checks and review feedback but is designed not to approve or merge, and Claude Approvals, which approves only what a repository policy file allows; Anthropic recommends starting in observe-only mode.",
+        "text": "Nov 24: Skills over MCP (public beta) lets a connected app publish step-by-step skills with its tools; HubSpot uses it to onboard customers in Claude. Tasks (long background jobs; ZoomInfo runs deeper account and contact research) and Elicitation (the server pauses for user sign-off, e.g. before spending money or deleting data) are GA. Enterprise support for skills is \"coming soon\".",
         "cites": [
           {
             "label": "Anthropic",
-            "url": "https://claude.com/resources/articles/introducing-claude-ship"
-          }
-        ]
-      },
-      {
-        "text": "Nov 23: AWS made its Bedrock trusted access program API generally available and put Anthropic's Enterprise Frontier Safeguards in public preview: retained prompts and completions for Claude Fable, Mythos and CVP models go to the customer's S3 bucket under the customer's KMS key, and flagged activity arrives as cases for the customer's own team to review.",
-        "cites": [
-          {
-            "label": "AWS",
-            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/"
-          }
-        ]
-      },
-      {
-        "text": "Nov 23: OpenAI's OpenWorks pilot in 20 US communities funds local AI experts (stipends up to $8,000 a month) to set up AI for small businesses at no cost to them, including three months of ChatGPT Business.",
-        "cites": [
-          {
-            "label": "OpenAI",
-            "url": "https://openai.com/openworks"
+            "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
           },
           {
-            "label": "Tech Startups",
-            "url": "https://techstartups.com/2026/11/23/openai-to-pay-ai-experts-up-to-8000-a-month-to-help-small-businesses-adopt-ai/"
+            "label": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
+          }
+        ]
+      },
+      {
+        "text": "Nov 24: Instantly launched Pulse (PULSE-1), a proprietary sales/GTM model that predicts which prospects will reply before a campaign goes out; Instantly says its top-ranked 20% of leads drew 2.2x the positive replies of an unranked baseline in retrospective testing, with free trials until Dec 1.",
+        "cites": [
+          {
+            "label": "Instantly",
+            "url": "https://instantly.ai/pulse-campaign"
+          },
+          {
+            "label": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
           }
         ]
       }
@@ -40,180 +35,203 @@
   },
   "biggest_ai_news": [
     {
-      "title": "ANT falls below its $83 IPO price",
-      "body": "Nov 24: Anthropic shares fell 12% in Tuesday trading, dropping below the $83 offer after opening at $111.50 on debut day; Canaccord (buy, $135), Oppenheimer (outperform, $150) and Wedbush (outperform, $120) started coverage Monday–Tuesday.",
-      "new": true,
-      "cites": [
-        {
-          "label": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic lets enterprises keep frontier-model data in their own cloud",
-      "body": "Nov 23: enterprise frontier safeguards keep Anthropic's 30-day retention rule for Mythos and Fable but let customers hold the data, and the encryption keys, in their own cloud; Anthropic says it built the system with more than 100 customers. The first route is Amazon Bedrock (public preview).",
-      "new": true,
-      "cites": [
-        {
-          "label": "Bloomberg (Business Standard)",
-          "url": "https://www.business-standard.com/technology/tech-news/anthropic-introduces-zero-data-retention-option-for-firms-using-advanced-ai-126112400117_1.html"
-        },
-        {
-          "label": "AWS",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic launches Claude Ship for pull requests",
-      "body": "Nov 23: Claude can now review, fix and, where a repository's policy allows, approve pull requests; billed on tokens with per-repository spend limits, and not available to orgs on Zero Data Retention, HIPAA or customer-managed keys.",
+      "title": "Anthropic lets MCP servers ship skills and run background tasks in Claude",
+      "body": "Nov 24: Skills over MCP in public beta; Tasks and Elicitation GA; File Uploads coming. Anthropic says MCP has 700M+ monthly SDK downloads and 10,000+ connectors for Claude.",
       "new": true,
       "cites": [
         {
           "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
         }
       ]
     },
     {
-      "title": "OpenAI ships a ChatGPT-tuned GPT-6.2 Sol",
-      "body": "Nov 23: a chat-specific version of GPT-6.2 Sol, which OpenAI says handles complex, detailed requests and web lookups better, is rolling out to ChatGPT Plus, Pro, Business and Enterprise.",
+      "title": "Claude artifacts install as Mac and Windows apps",
+      "body": "Nov 24–25: \"Install as app\" (beta, all plans) gives artifacts their own window, connectors and tiered permissions up to full computer access; off on Enterprise until an owner enables it.",
       "new": true,
       "cites": [
         {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol"
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/install-as-app"
         },
         {
-          "label": "OpenAI system card",
-          "url": "https://deploymentsafety.openai.com/gpt-6-2-chatgpt"
+          "label": "MacRumors",
+          "url": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI shows GPT-6 designing proteins",
+      "body": "Nov 24: in lab tests, 35 of 322 GPT-6.2-based minibinder designs bound their targets; OpenAI also added healthcare model configurations to the Responses API.",
+      "new": true,
+      "cites": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        },
+        {
+          "label": "OpenAI API changelog",
+          "url": "https://developers.openai.com/api/docs/changelog"
+        }
+      ]
+    },
+    {
+      "title": "Meta puts Muse in Instagram DMs; Walmart opens checkout to it",
+      "body": "Nov 24: Muse can shop Walmart Black Friday deals and check out after the user signs in and sets an Agent Profile with a spending limit.",
+      "new": true,
+      "cites": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+        },
+        {
+          "label": "Walmart",
+          "url": "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce Contact Centre reaches general availability in Australia and New Zealand",
-      "body": "Nov 24: the native contact centre (AI agents including Fin, human reps, voice, digital channels and CRM data on one platform) is now GA in ANZ, after North America in March and Europe in October. Salesforce says it is used in 68 countries and that headless skills now let teams set it up conversationally from AI coding assistants like Claude or Cursor without logging into Salesforce.",
+      "title": "Nooks launches Org Charts and Warm Intros",
+      "body": "Nov 24: part of Nooks Deal Intelligence. Org Charts build the buying committee for one account or a whole book from CRM data and the team's calls, meetings and emails (filled in from LinkedIn and the web), flag people not yet in the CRM or never contacted, and add them to a sequence from the chart. Warm Intros rank paths in through teammate and exec connections, former champions, customer alumni and real work/school overlap, and route the intro ask to the teammate in Slack.",
       "new": true,
       "cites": [
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/au/news/press-releases/2026/11/24/salesforce-contact-centre-now-generally-available-in-australia-and-new-zealand/"
+          "label": "Nooks",
+          "url": "https://www.nooks.ai/blog-posts/org-charts-and-warm-intros"
         }
       ]
     },
     {
-      "title": "Anthropic and AWS open customer-held retention for Anthropic's top models",
-      "body": "Nov 23: the Bedrock trusted access program API is GA; Enterprise Frontier Safeguards (data in the customer's S3 bucket and KMS key) and Enterprise Data Controls (Amazon-managed storage) are in public preview. Current Fable models keep a zero-data-retention exception for internal use through at least June 30, 2027.",
-      "new": true,
-      "cites": [
-        {
-          "label": "AWS",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/"
-        },
-        {
-          "label": "Bloomberg (Business Standard)",
-          "url": "https://www.business-standard.com/technology/tech-news/anthropic-introduces-zero-data-retention-option-for-firms-using-advanced-ai-126112400117_1.html"
-        }
-      ]
-    },
-    {
-      "title": "Claude Ship puts PR approval under a team-written policy",
-      "body": "Nov 23: PR Steward and Claude Approvals are in beta for Claude Team and Enterprise on GitHub; Code Review is GA. Eligible Enterprise orgs can claim at least $10,000 in Claude Ship credits by Jan 15, 2027.",
+      "title": "MCP servers can now carry skills, background tasks and approval prompts into Claude",
+      "body": "Nov 24: Skills over MCP is in public beta (on by default for Pro, Max and Ultra; Team admins opt in; Enterprise coming soon). Tasks and Elicitation are GA for Pro, Max and Ultra and rolling out to Team and Enterprise. HubSpot ships onboarding skills; ZoomInfo uses Tasks for deeper research.",
       "new": true,
       "cites": [
         {
           "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
         }
       ]
     },
     {
-      "title": "OpenAI funds local partners to bring ChatGPT to small businesses",
-      "body": "Nov 23: OpenWorks is recruiting its first partners; the pilot covers 20 US communities and excludes software/SaaS, venture-backed and PE-owned businesses.",
+      "title": "Instantly launches its own sales model",
+      "body": "Nov 24: Pulse is a proprietary model trained on what Instantly calls billions of sales interactions; it ranks leads by likelihood of a positive reply and powers five new Instantly products.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Instantly",
+          "url": "https://instantly.ai/pulse-campaign"
+        },
+        {
+          "label": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI details how Clay runs on GPT-6",
+      "body": "Nov 24: an OpenAI customer story says Clay uses GPT-6 Sol as its primary model, Astra for harder tasks and Luna for cost-sensitive work, offers Clay plugins in ChatGPT and Codex, and is building inbound sales-development features in which an agent shows a product to a prospect.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/openworks"
-        },
-        {
-          "label": "Tech Startups",
-          "url": "https://techstartups.com/2026/11/23/openai-to-pay-ai-experts-up-to-8000-a-month-to-help-small-businesses-adopt-ai/"
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai/"
         }
       ]
     },
     {
-      "title": "Clay ships a batch of credit and enrichment fixes",
-      "body": "Nov 24: in a Make It Great Week post Clay listed 67 shipped tickets, including no credit charge when a Crunchbase funding lookup comes back empty, a label showing which third-party enrichments cost zero credits, G2 lookups for vendor products, prices paid and contract lengths, and phone lookups that stop when providers repeat the same number.",
+      "title": "Gong is now available in Korean",
+      "body": "Nov 24: Gong said on LinkedIn that its product is now available in Korean for organizations in Korea, and that more languages are coming.",
       "new": true,
       "cites": [
         {
-          "label": "Clay (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531035244003782656/"
+          "label": "Gong (LinkedIn)",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
         }
       ]
     }
   ],
-  "quiet_note": "No launch, funding, M&A or pricing of their own from Gong, Nooks, Outreach, Salesloft or Monaco dated Nov 23–24. Clay's Nov 23 blog is a lead-scoring how-to; Monaco's Nov 22–23 blog posts are explainers.",
+  "quiet_note": "No launch, funding, M&A or pricing of their own from Salesforce, Outreach, Salesloft or Monaco dated Nov 24–25. Salesforce's X posts were Cyber Week customer stories (Nestlé, FIDE, F1); Clay's Nov 24–25 X posts were guides and GTM-engineer content.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (policy-gated agent approvals)",
-      "text": "Claude Approvals approves pull requests only as a repo policy allows (Nov 23), following Close's pre-approved tools (Nov 21) and Coworker's approve-before-save edits (Nov 23)."
+      "label": "Accelerating (vendor playbooks inside AI assistants)",
+      "text": "Skills over MCP (Nov 24) lets apps like HubSpot ship workflows into Claude, after ChatGPT for Sales plugins from Clay, Outreach and Nooks (Nov 17–19); OpenAI's Clay story (Nov 24) adds a Codex plugin."
     },
     {
       "kind": "new",
-      "label": "New (customer-held retention for frontier models)",
-      "text": "Anthropic's top models can now keep required 30-day logs in the customer's own AWS account (Nov 23), a week after Clay's bring-your-own Bedrock connection (Nov 20)."
+      "label": "New (vertical models for outbound)",
+      "text": "Instantly's Pulse (Nov 24) ranks prospects with its own model, while Clay routes work across GPT-6 Sol, Astra and Luna by cost (Nov 24)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (headless setup of CRM products)",
-      "text": "Salesforce says Contact Centre can be configured from Claude or Cursor without logging into Salesforce (Nov 24)."
+      "label": "Accelerating (buying-committee mapping from activity data)",
+      "text": "Nooks builds org charts and warm-intro paths from calls, emails and CRM history (Nov 24)."
     },
     {
       "kind": "flat",
-      "label": "Steady (Gong, Nooks, Outreach, Salesloft, Monaco)",
-      "text": "No new announcements of their own Nov 23–24."
+      "label": "Steady (Salesforce, Outreach, Salesloft, Monaco)",
+      "text": "No new announcements of their own Nov 24–25; Gong added Korean (Nov 24)."
     }
   ],
   "language_pulse": [
     {
-      "term": "Approval policy",
-      "gloss": "Anthropic's term for the repository file that tells Claude Approvals which pull requests it may approve on its own (Nov 23)."
+      "term": "Skills over MCP",
+      "gloss": "Anthropic's term for workflow guides a connected app publishes alongside its tools, loaded only when needed (Nov 24)."
     },
     {
-      "term": "Trusted access program",
-      "gloss": "AWS's name for provider programs on Bedrock that trade stricter terms for more control over safety review and data storage (Nov 23)."
+      "term": "Elicitation",
+      "gloss": "MCP feature that lets a server pause mid-call to ask the user for input or sign-off (GA Nov 24)."
     },
     {
-      "term": "Headless skills",
-      "gloss": "Salesforce's term for setting up Contact Centre from AI coding assistants instead of the Salesforce UI (Nov 24)."
+      "term": "Warm Intros",
+      "gloss": "Nooks' name for ranked introduction paths into an account through teammates, former champions and customer alumni (Nov 24)."
+    },
+    {
+      "term": "Frontier AI model for sales and GTM",
+      "gloss": "Instantly's positioning for Pulse, its proprietary lead-ranking model (Nov 24)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "text": "Salesforce Contact Centre GA in Australia and New Zealand; setup via headless skills from Claude or Cursor (Nov 24).",
+      "company": "Nooks",
+      "slug": "nooks",
+      "text": "Org Charts and Warm Intros in Deal Intelligence: buying-committee maps and ranked intro paths built from the team's activity data (Nov 24).",
       "cites": [
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/au/news/press-releases/2026/11/24/salesforce-contact-centre-now-generally-available-in-australia-and-new-zealand/"
+          "label": "Nooks",
+          "url": "https://www.nooks.ai/blog-posts/org-charts-and-warm-intros"
+        }
+      ]
+    },
+    {
+      "company": "Gong",
+      "slug": "gong",
+      "text": "Gong now available in Korean (Nov 24).",
+      "cites": [
+        {
+          "label": "Gong (LinkedIn)",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
         }
       ]
     },
     {
       "company": "Clay",
       "slug": "clay",
-      "text": "Make It Great Week: 67 fixes, including zero credits on empty Crunchbase lookups and zero-credit labels on enrichments (Nov 24).",
+      "text": "OpenAI customer story: GPT-6 Sol primary model, plugins in ChatGPT and Codex, inbound SDR demo agent in development (Nov 24).",
       "cites": [
         {
-          "label": "Clay (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531035244003782656/"
+          "label": "OpenAI",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai/"
         }
       ]
     }
@@ -221,42 +239,57 @@
   "watch": [
     {
       "title": "Wed Dec 2: Salesforce Q3 FY27 results",
-      "body": "Date conflict resolved: Salesforce's LinkedIn post has been edited and now says December 2 at 2 p.m. PT, matching the IR release (results after the close, call 2:00 PM PT). First quarter with the $50/user Coworker SKU (Nov 4), the Cresta deal (Nov 2), Copilotforce (Nov 17) and Coworker in the SMB suites (Nov 23).",
+      "body": "Results after the close, call 2:00 PM PT. Salesforce forecast that AI and agents will influence $75.8B of Cyber Week (Nov 24–30) online sales; expect agent-commerce numbers alongside the first quarter of the $50/user Coworker SKU, Copilotforce and Coworker in the SMB suites.",
       "cites": [
         {
           "label": "Salesforce IR",
           "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/"
         },
         {
-          "label": "Salesforce (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529580647020167168/"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/cyber-week-ai-sales-2026/"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Nov 24 Salesforce Contact Centre became GA in Australia and New Zealand. Nov 23 Anthropic launched Claude Ship (Code Review GA; PR Steward and Claude Approvals beta); AWS made the Bedrock trusted access program API GA with Anthropic's Enterprise Frontier Safeguards and Enterprise Data Controls in public preview; OpenAI launched the OpenWorks small-business pilot and a ChatGPT-tuned GPT-6.2 Sol. Nov 24 Clay listed 67 shipped fixes including zero-credit empty Crunchbase lookups; ANT fell 12% to below its $83 IPO price. Gong, Nooks, Outreach, Salesloft and Monaco announced nothing new of their own Nov 23–24.",
-    "interpretation": "Enterprise buyers are getting written policies and customer-held logs as the condition for letting agents act on their own; vendors that can show who approved an action, and where the record of it sits, will have an easier security review. OpenAI paying local partners to set up ChatGPT for small businesses is a bid for the same small-team buyers Salesforce just gave free Coworker access."
+    "fact": "Nov 24 Nooks launched Org Charts and Warm Intros; Gong became available in Korean. Nov 24 Anthropic put Skills over MCP in public beta and made Tasks and Elicitation GA (HubSpot, ZoomInfo among users); Claude artifacts became installable as desktop apps (beta). Nov 24 Instantly launched its Pulse sales model; OpenAI published a customer story on Clay's GPT-6 use and ChatGPT/Codex plugins; OpenAI reported GPT-6 protein-design results; Meta put Muse in Instagram DMs with Walmart checkout. Salesforce, Outreach, Salesloft and Monaco announced nothing new of their own Nov 24–25.",
+    "interpretation": "With skills shipped by the data vendor itself, the workflow that used to live in a sales tool's UI can now arrive inside the rep's assistant, so differentiation shifts to the data and the playbook rather than the screen. Instantly and Nooks are both betting that proprietary activity data (replies, calls, relationships) is what a general model cannot replicate."
   },
   "feed": [
     {
-      "company": "Clay",
-      "slug": "clay",
+      "company": "Nooks",
+      "slug": "nooks",
       "author": {
-        "name": "Clay",
-        "handle": "linkedin.com/company/grow-with-clay",
-        "url": "https://www.linkedin.com/company/grow-with-clay/"
+        "name": "Nooks",
+        "handle": "linkedin.com/company/nooksapp",
+        "url": "https://www.linkedin.com/company/nooksapp/"
       },
       "kind": "company",
       "source": "LinkedIn",
-      "ts": "2026-11-24T08:45:22.039000-08:00",
+      "ts": "2026-11-24T13:41:20.585000-08:00",
       "category": "launch",
-      "summary": "Clay shipped 67 fixes for Make It Great Week, including zero credits for empty Crunchbase funding lookups, G2 product and pricing lookups, and a label showing which enrichments cost zero credits.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531035244003782656/",
+      "summary": "Nooks launched Org Charts, where its deal agents map the whole buying committee, and Warm Intros, which tell reps who on their team can get them an introduction.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531109728744161281/",
       "engagement": {
-        "reactions": 1,
-        "comments": 1
+        "reactions": 18,
+        "comments": 2
       }
+    },
+    {
+      "company": "Gong",
+      "slug": "gong",
+      "author": {
+        "name": "Gong",
+        "handle": "linkedin.com/company/gong-io",
+        "url": "https://www.linkedin.com/company/gong-io/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-24T16:01:11.423000-08:00",
+      "category": "launch",
+      "summary": "Gong is now available in Korean, with more languages coming.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
     }
   ]
 }

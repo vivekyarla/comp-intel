@@ -1,7 +1,41 @@
 {
-  "as_of": "2026-11-24T08:48:44.023371-08:00",
+  "as_of": "2026-11-25T08:40:34.099153-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Gong",
+      "slug": "gong",
+      "author": {
+        "name": "Gong",
+        "handle": "linkedin.com/company/gong-io",
+        "url": "https://www.linkedin.com/company/gong-io/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-24T16:01:11.423000-08:00",
+      "category": "launch",
+      "summary": "Gong is now available in Korean, with more languages coming.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
+    },
+    {
+      "company": "Nooks",
+      "slug": "nooks",
+      "author": {
+        "name": "Nooks",
+        "handle": "linkedin.com/company/nooksapp",
+        "url": "https://www.linkedin.com/company/nooksapp/"
+      },
+      "kind": "company",
+      "source": "LinkedIn",
+      "ts": "2026-11-24T13:41:20.585000-08:00",
+      "category": "launch",
+      "summary": "Nooks launched Org Charts, where its deal agents map the whole buying committee, and Warm Intros, which tell reps who on their team can get them an introduction.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531109728744161281/",
+      "engagement": {
+        "reactions": 18,
+        "comments": 2
+      }
+    },
     {
       "company": "Clay",
       "slug": "clay",
