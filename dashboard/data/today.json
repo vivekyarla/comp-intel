@@ -1,33 +1,25 @@
 {
-  "as_of": "2026-11-25 morning ~8:50 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Tue Nov 24 (after the morning run) – Wed Nov 25 morning PT (items already on the Nov 24 and earlier briefs not re-led)",
+  "as_of": "2026-11-26 morning ~8:55 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 25 (after the morning run) – Thu Nov 26 morning PT (US Thanksgiving; items already on the Nov 25 and earlier briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Vendors started shipping their playbooks inside the AI assistant rather than beside it: MCP servers can now carry skills, long-running tasks and sign-off prompts into Claude, and a cold-email vendor launched its own model to rank prospects before anything is sent.",
+    "lede": "Sales work is moving into the AI assistant and starting to write back to the CRM from there, while the assistant vendors change how that work is metered and protected.",
     "bullets": [
       {
-        "text": "Nov 24: Skills over MCP (public beta) lets a connected app publish step-by-step skills with its tools; HubSpot uses it to onboard customers in Claude. Tasks (long background jobs; ZoomInfo runs deeper account and contact research) and Elicitation (the server pauses for user sign-off, e.g. before spending money or deleting data) are GA. Enterprise support for skills is \"coming soon\".",
+        "text": "Nov 25: Salesforce said the Salesforce in Claude plugin ships 37 prebuilt sales skills (meeting prep, deal health, pipeline reviews). BACA Systems says over half its employees use it; at Legora, record creates, updates and deletes are almost 20% of its headless tool-call volume.",
         "cites": [
           {
-            "label": "Anthropic",
-            "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
-          },
-          {
-            "label": "The Next Web",
-            "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
+            "label": "Salesforce",
+            "url": "https://www.salesforce.com/blog/5-ways-customers-are-already-innovating-with-salesforce-in-claude/"
           }
         ]
       },
       {
-        "text": "Nov 24: Instantly launched Pulse (PULSE-1), a proprietary sales/GTM model that predicts which prospects will reply before a campaign goes out; Instantly says its top-ranked 20% of leads drew 2.2x the positive replies of an unranked baseline in retrospective testing, with free trials until Dec 1.",
+        "text": "Nov 25: OpenAI began moving ChatGPT's Chat and Work to one shared usage meter for a small group of Pro users, with a wider rollout in December; OpenAI says a small share of its heaviest users may hit limits sooner, and Instant stays unlimited.",
         "cites": [
           {
-            "label": "Instantly",
-            "url": "https://instantly.ai/pulse-campaign"
-          },
-          {
-            "label": "The Neuron",
-            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
           }
         ]
       }
@@ -35,203 +27,151 @@
   },
   "biggest_ai_news": [
     {
-      "title": "Anthropic lets MCP servers ship skills and run background tasks in Claude",
-      "body": "Nov 24: Skills over MCP in public beta; Tasks and Elicitation GA; File Uploads coming. Anthropic says MCP has 700M+ monthly SDK downloads and 10,000+ connectors for Claude.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
-        }
-      ]
-    },
-    {
-      "title": "Claude artifacts install as Mac and Windows apps",
-      "body": "Nov 24–25: \"Install as app\" (beta, all plans) gives artifacts their own window, connectors and tiered permissions up to full computer access; off on Enterprise until an owner enables it.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/install-as-app"
-        },
-        {
-          "label": "MacRumors",
-          "url": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI shows GPT-6 designing proteins",
-      "body": "Nov 24: in lab tests, 35 of 322 GPT-6.2-based minibinder designs bound their targets; OpenAI also added healthcare model configurations to the Responses API.",
+      "title": "OpenAI pilots Private Inference for business prompts",
+      "body": "Nov 25: an alpha in OpenAI's Private Intelligence package that uses confidential computing to keep prompts and replies private while they are processed; a small group of customers, no date for a wider rollout.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+          "url": "https://openai.com/business/private-intelligence/"
         },
         {
-          "label": "OpenAI API changelog",
-          "url": "https://developers.openai.com/api/docs/changelog"
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-private-inference-testing-customers"
         }
       ]
     },
     {
-      "title": "Meta puts Muse in Instagram DMs; Walmart opens checkout to it",
-      "body": "Nov 24: Muse can shop Walmart Black Friday deals and check out after the user signs in and sets an Agent Profile with a spending limit.",
+      "title": "Claude agents moved Anthropic's Messages API to Rust",
+      "body": "Nov 25: Anthropic says the rewrite cut CPU per request about 70% and median time to first token about 20%, with no downtime; agents found and fixed mismatches against live traffic under human review.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
         },
         {
-          "label": "Walmart",
-          "url": "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse"
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration"
+        }
+      ]
+    },
+    {
+      "title": "Amazon and Meta discuss ending the Muse blockade",
+      "body": "Nov 25: Fortune reports talks to let Meta's Muse agent shop on Amazon, with search results and advertising the open issues; no deal, and both companies declined to comment.",
+      "new": true,
+      "cites": [
+        {
+          "label": "Fortune",
+          "url": "https://www.fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Nooks launches Org Charts and Warm Intros",
-      "body": "Nov 24: part of Nooks Deal Intelligence. Org Charts build the buying committee for one account or a whole book from CRM data and the team's calls, meetings and emails (filled in from LinkedIn and the web), flag people not yet in the CRM or never contacted, and add them to a sequence from the chart. Warm Intros rank paths in through teammate and exec connections, former champions, customer alumni and real work/school overlap, and route the intro ask to the teammate in Slack.",
+      "title": "Salesforce publishes early results from Salesforce in Claude",
+      "body": "Nov 25: a Salesforce blog says the plugin (part of Claudeforce, launched at Dreamforce) comes with 37 prebuilt sales skills, and that customers can build custom skills on Salesforce's MCP server. BACA Systems says over half its employees use it; Legora says writes (create, update, delete) are almost 20% of its headless tool-call volume; Deloitte is exploring it for opportunity management.",
       "new": true,
       "cites": [
         {
-          "label": "Nooks",
-          "url": "https://www.nooks.ai/blog-posts/org-charts-and-warm-intros"
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/5-ways-customers-are-already-innovating-with-salesforce-in-claude/"
         }
       ]
     },
     {
-      "title": "MCP servers can now carry skills, background tasks and approval prompts into Claude",
-      "body": "Nov 24: Skills over MCP is in public beta (on by default for Pro, Max and Ultra; Team admins opt in; Enterprise coming soon). Tasks and Elicitation are GA for Pro, Max and Ultra and rolling out to Team and Enterprise. HubSpot ships onboarding skills; ZoomInfo uses Tasks for deeper research.",
+      "title": "Benioff posts Salesforce's Cyber Week day-one numbers",
+      "body": "Nov 25: Marc Benioff posted 5.57M agent conversations and actions, 2.8 trillion Zero Copy data rows accessed (+1,237% year over year), 6.9B messages delivered and $554M in Commerce GMV for day one of Cyber Week (company-reported).",
       "new": true,
       "cites": [
         {
-          "label": "Anthropic",
-          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
+          "label": "Benioff (X)",
+          "url": "https://x.com/Benioff/status/2125704255931851162"
         }
       ]
     },
     {
-      "title": "Instantly launches its own sales model",
-      "body": "Nov 24: Pulse is a proprietary model trained on what Instantly calls billions of sales interactions; it ranks leads by likelihood of a positive reply and powers five new Instantly products.",
+      "title": "ChatGPT moves Chat and Work to one usage meter",
+      "body": "Nov 25: rollout started for a small group of Pro users; broader rollout planned for December. Instant chats stay unlimited and do not count toward the shared allowance.",
       "new": true,
       "cites": [
         {
-          "label": "Instantly",
-          "url": "https://instantly.ai/pulse-campaign"
-        },
-        {
-          "label": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
         }
       ]
     },
     {
-      "title": "OpenAI details how Clay runs on GPT-6",
-      "body": "Nov 24: an OpenAI customer story says Clay uses GPT-6 Sol as its primary model, Astra for harder tasks and Luna for cost-sensitive work, offers Clay plugins in ChatGPT and Codex, and is building inbound sales-development features in which an agent shows a product to a prospect.",
+      "title": "OpenAI starts testing Private Inference",
+      "body": "Nov 25: Sam Altman announced the alpha with a small group of customers; it joins Private Safety Processing (rolling out since September) in Private Intelligence.",
       "new": true,
       "cites": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/business/customer-stories/clay-plugins-openai/"
-        }
-      ]
-    },
-    {
-      "title": "Gong is now available in Korean",
-      "body": "Nov 24: Gong said on LinkedIn that its product is now available in Korean for organizations in Korea, and that more languages are coming.",
-      "new": true,
-      "cites": [
+          "url": "https://openai.com/business/private-intelligence/"
+        },
         {
-          "label": "Gong (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-private-inference-testing-customers"
         }
       ]
     }
   ],
-  "quiet_note": "No launch, funding, M&A or pricing of their own from Salesforce, Outreach, Salesloft or Monaco dated Nov 24–25. Salesforce's X posts were Cyber Week customer stories (Nestlé, FIDE, F1); Clay's Nov 24–25 X posts were guides and GTM-engineer content.",
+  "quiet_note": "No launch, funding, M&A or pricing change from Gong, Clay, Nooks, Outreach, Salesloft or Monaco dated Nov 25–26 (US Thanksgiving). Clay's posts were GTM-engineer content and a guide; Gong's LinkedIn post was a GTA 6 joke; Monaco's X activity was retweets (a customer's MCP testimonial and a podcast clip of Sam Blond citing ~$40k ACVs with $10k of credit up front; the up-front credit is already on Monaco's pricing page).",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (vendor playbooks inside AI assistants)",
-      "text": "Skills over MCP (Nov 24) lets apps like HubSpot ship workflows into Claude, after ChatGPT for Sales plugins from Clay, Outreach and Nooks (Nov 17–19); OpenAI's Clay story (Nov 24) adds a Codex plugin."
+      "label": "Accelerating (CRM work from inside the assistant)",
+      "text": "Salesforce in Claude pilots report 37 prebuilt skills and writes at almost 20% of one customer's tool calls (Nov 25), a day after Skills over MCP (Nov 24)."
     },
     {
       "kind": "new",
-      "label": "New (vertical models for outbound)",
-      "text": "Instantly's Pulse (Nov 24) ranks prospects with its own model, while Clay routes work across GPT-6 Sol, Astra and Luna by cost (Nov 24)."
+      "label": "New (one meter for chat and agent work)",
+      "text": "OpenAI is pooling Chat and Work usage into a single ChatGPT allowance (Nov 25), so heavier agentic work draws down the same budget."
     },
     {
       "kind": "up",
-      "label": "Accelerating (buying-committee mapping from activity data)",
-      "text": "Nooks builds org charts and warm-intro paths from calls, emails and CRM history (Nov 24)."
+      "label": "Accelerating (provider-side privacy controls)",
+      "text": "OpenAI's Private Inference pilot (Nov 25) follows Bedrock's customer-held retention for Anthropic models (Nov 23)."
     },
     {
       "kind": "flat",
-      "label": "Steady (Salesforce, Outreach, Salesloft, Monaco)",
-      "text": "No new announcements of their own Nov 24–25; Gong added Korean (Nov 24)."
+      "label": "Steady (Gong, Clay, Nooks, Outreach, Salesloft, Monaco)",
+      "text": "No announcements of their own Nov 25–26 over Thanksgiving."
     }
   ],
   "language_pulse": [
     {
-      "term": "Skills over MCP",
-      "gloss": "Anthropic's term for workflow guides a connected app publishes alongside its tools, loaded only when needed (Nov 24)."
+      "term": "Headless tool calls",
+      "gloss": "Legora's phrase for Salesforce actions run from Claude rather than the Salesforce UI (Nov 25)."
     },
     {
-      "term": "Elicitation",
-      "gloss": "MCP feature that lets a server pause mid-call to ask the user for input or sign-off (GA Nov 24)."
+      "term": "Private Inference",
+      "gloss": "OpenAI's alpha that keeps business prompts and replies private during processing via confidential computing (Nov 25)."
     },
     {
-      "term": "Warm Intros",
-      "gloss": "Nooks' name for ranked introduction paths into an account through teammates, former champions and customer alumni (Nov 24)."
-    },
-    {
-      "term": "Frontier AI model for sales and GTM",
-      "gloss": "Instantly's positioning for Pulse, its proprietary lead-ranking model (Nov 24)."
+      "term": "Shared usage limits",
+      "gloss": "OpenAI's single ChatGPT allowance across Chat and Work (Nov 25)."
     }
   ],
   "competitive_moves": [
     {
-      "company": "Nooks",
-      "slug": "nooks",
-      "text": "Org Charts and Warm Intros in Deal Intelligence: buying-committee maps and ranked intro paths built from the team's activity data (Nov 24).",
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "text": "Salesforce in Claude pilot results: 37 prebuilt sales skills, over half of BACA Systems' staff using it, writes at almost 20% of Legora's headless tool calls (Nov 25); Benioff posted 5.57M agent conversations and actions on Cyber Week day one (Nov 25).",
       "cites": [
         {
-          "label": "Nooks",
-          "url": "https://www.nooks.ai/blog-posts/org-charts-and-warm-intros"
-        }
-      ]
-    },
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "text": "Gong now available in Korean (Nov 24).",
-      "cites": [
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/blog/5-ways-customers-are-already-innovating-with-salesforce-in-claude/"
+        },
         {
-          "label": "Gong (LinkedIn)",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
-        }
-      ]
-    },
-    {
-      "company": "Clay",
-      "slug": "clay",
-      "text": "OpenAI customer story: GPT-6 Sol primary model, plugins in ChatGPT and Codex, inbound SDR demo agent in development (Nov 24).",
-      "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/business/customer-stories/clay-plugins-openai/"
+          "label": "Benioff (X)",
+          "url": "https://x.com/Benioff/status/2125704255931851162"
         }
       ]
     }
@@ -239,57 +179,38 @@
   "watch": [
     {
       "title": "Wed Dec 2: Salesforce Q3 FY27 results",
-      "body": "Results after the close, call 2:00 PM PT. Salesforce forecast that AI and agents will influence $75.8B of Cyber Week (Nov 24–30) online sales; expect agent-commerce numbers alongside the first quarter of the $50/user Coworker SKU, Copilotforce and Coworker in the SMB suites.",
+      "body": "Results after the close, call 2:00 PM PT. Watch for full Cyber Week agent numbers after Benioff's day-one post, plus any adoption figures for Salesforce in Claude and Coworker in the SMB suites.",
       "cites": [
         {
           "label": "Salesforce IR",
           "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/"
         },
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/news/stories/cyber-week-ai-sales-2026/"
+          "label": "Benioff (X)",
+          "url": "https://x.com/Benioff/status/2125704255931851162"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Nov 24 Nooks launched Org Charts and Warm Intros; Gong became available in Korean. Nov 24 Anthropic put Skills over MCP in public beta and made Tasks and Elicitation GA (HubSpot, ZoomInfo among users); Claude artifacts became installable as desktop apps (beta). Nov 24 Instantly launched its Pulse sales model; OpenAI published a customer story on Clay's GPT-6 use and ChatGPT/Codex plugins; OpenAI reported GPT-6 protein-design results; Meta put Muse in Instagram DMs with Walmart checkout. Salesforce, Outreach, Salesloft and Monaco announced nothing new of their own Nov 24–25.",
-    "interpretation": "With skills shipped by the data vendor itself, the workflow that used to live in a sales tool's UI can now arrive inside the rep's assistant, so differentiation shifts to the data and the playbook rather than the screen. Instantly and Nooks are both betting that proprietary activity data (replies, calls, relationships) is what a general model cannot replicate."
+    "fact": "Nov 25 Salesforce published Salesforce in Claude pilot results (37 prebuilt sales skills; BACA Systems over half of staff; Legora writes at almost 20% of headless tool calls), and Benioff posted Cyber Week day-one platform numbers. Nov 25 OpenAI began rolling out a shared Chat and Work usage meter and started testing Private Inference; Anthropic described its agent-built Rust migration of the Messages API; Fortune reported Amazon–Meta talks on Muse. Gong, Clay, Nooks, Outreach, Salesloft and Monaco announced nothing new of their own Nov 25–26.",
+    "interpretation": "Writes, not lookups, are the sign that the assistant is becoming the place where CRM work happens; once that holds, the questions buyers ask shift to who meters the work and who can see the data, which is where OpenAI moved this week."
   },
   "feed": [
     {
-      "company": "Nooks",
-      "slug": "nooks",
+      "company": "Salesforce",
+      "slug": "salesforce",
       "author": {
-        "name": "Nooks",
-        "handle": "linkedin.com/company/nooksapp",
-        "url": "https://www.linkedin.com/company/nooksapp/"
+        "name": "Marc Benioff",
+        "handle": "@Benioff",
+        "url": "https://x.com/Benioff"
       },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-24T13:41:20.585000-08:00",
-      "category": "launch",
-      "summary": "Nooks launched Org Charts, where its deal agents map the whole buying committee, and Warm Intros, which tell reps who on their team can get them an introduction.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531109728744161281/",
-      "engagement": {
-        "reactions": 18,
-        "comments": 2
-      }
-    },
-    {
-      "company": "Gong",
-      "slug": "gong",
-      "author": {
-        "name": "Gong",
-        "handle": "linkedin.com/company/gong-io",
-        "url": "https://www.linkedin.com/company/gong-io/"
-      },
-      "kind": "company",
-      "source": "LinkedIn",
-      "ts": "2026-11-24T16:01:11.423000-08:00",
-      "category": "launch",
-      "summary": "Gong is now available in Korean, with more languages coming.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531144922469445632/"
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-25T13:32:42-08:00",
+      "category": "funding",
+      "summary": "Marc Benioff posted Salesforce's Cyber Week day-one numbers: 5.57M agent conversations and actions, 2.8 trillion Zero Copy rows accessed, 6.9B messages and $554M in Commerce GMV.",
+      "url": "https://x.com/Benioff/status/2125704255931851162"
     }
   ]
 }

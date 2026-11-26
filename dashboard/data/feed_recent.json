@@ -1,7 +1,22 @@
 {
-  "as_of": "2026-11-25T08:40:34.099153-08:00",
+  "as_of": "2026-11-26T08:41:46.298286-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Marc Benioff",
+        "handle": "@Benioff",
+        "url": "https://x.com/Benioff"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-25T13:32:42-08:00",
+      "category": "funding",
+      "summary": "Marc Benioff posted Salesforce's Cyber Week day-one numbers: 5.57M agent conversations and actions, 2.8 trillion Zero Copy rows accessed, 6.9B messages and $554M in Commerce GMV.",
+      "url": "https://x.com/Benioff/status/2125704255931851162"
+    },
     {
       "company": "Gong",
       "slug": "gong",
