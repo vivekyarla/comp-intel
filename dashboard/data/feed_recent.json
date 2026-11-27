@@ -1,7 +1,22 @@
 {
-  "as_of": "2026-11-26T08:41:46.298286-08:00",
+  "as_of": "2026-11-27T08:43:31.592970-08:00",
   "days": 14,
   "items": [
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "author": {
+        "name": "Marc Benioff",
+        "handle": "@Benioff",
+        "url": "https://x.com/Benioff"
+      },
+      "kind": "founder",
+      "source": "X",
+      "ts": "2026-11-26T13:36:38-08:00",
+      "category": "funding",
+      "summary": "Marc Benioff posted Salesforce's Cyber Week day-two numbers: 12.6M Agentforce AI conversations and actions, 14B Marketing Cloud messages and $1.15B in Commerce GMV.",
+      "url": "https://x.com/Benioff/status/2126067629836423582"
+    },
     {
       "company": "Salesforce",
       "slug": "salesforce",
@@ -201,30 +216,6 @@
       },
       "also": {
         "Salesforce": "https://www.salesforce.com/news/stories/copilotforce-announcement/"
-      }
-    },
-    {
-      "company": "Salesforce",
-      "slug": "salesforce",
-      "author": {
-        "name": "Marc Benioff",
-        "handle": "@Benioff",
-        "url": "https://x.com/Benioff"
-      },
-      "kind": "founder",
-      "source": "X",
-      "ts": "2026-11-12T19:06:05-08:00",
-      "category": "launch",
-      "summary": "Benioff announced SOV-Transcribe-1, Salesforce's open-weight (Apache 2.0) speech-to-text model from Missionforce Sovereign AI.",
-      "url": "https://x.com/Benioff/status/2121077110488109147",
-      "engagement": {
-        "likes": 108,
-        "reposts": 15,
-        "replies": 23,
-        "views": 24332
-      },
-      "also": {
-        "Hugging Face": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1"
       }
     }
   ]

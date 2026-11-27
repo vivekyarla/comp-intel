@@ -1,25 +1,25 @@
 {
-  "as_of": "2026-11-26 morning ~8:55 AM PT",
-  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Wed Nov 25 (after the morning run) – Thu Nov 26 morning PT (US Thanksgiving; items already on the Nov 25 and earlier briefs not re-led)",
+  "as_of": "2026-11-27 morning ~9:00 AM PT",
+  "filter_note": "V1 set (7) + market briefing + AI news; Today window = Thu Nov 26 (after the morning run) – Fri Nov 27 morning PT (US Thanksgiving and Black Friday; items already on the Nov 26 and earlier briefs not re-led)",
   "meaningful_signal": true,
   "market_briefing": {
-    "lede": "Sales work is moving into the AI assistant and starting to write back to the CRM from there, while the assistant vendors change how that work is metered and protected.",
+    "lede": "AI shopping traffic jumped over Thanksgiving, but agents still complete few purchases themselves, and the week's security news centred on stolen access tokens rather than model failures.",
     "bullets": [
       {
-        "text": "Nov 25: Salesforce said the Salesforce in Claude plugin ships 37 prebuilt sales skills (meeting prep, deal health, pipeline reviews). BACA Systems says over half its employees use it; at Legora, record creates, updates and deletes are almost 20% of its headless tool-call volume.",
+        "text": "Nov 26–27: Adobe told the AP that traffic from AI services to US retail sites more than doubled on Thanksgiving year over year; Bain research puts purchases made by AI agents at 0.4% of global e-commerce transactions, and a Morning Consult poll for Visa found 23% of adults trust generative AI to pay for them.",
         "cites": [
           {
-            "label": "Salesforce",
-            "url": "https://www.salesforce.com/blog/5-ways-customers-are-already-innovating-with-salesforce-in-claude/"
+            "label": "The Next Web",
+            "url": "https://thenextweb.com/news/ai-shopping-agents-black-friday-retailers-trust"
           }
         ]
       },
       {
-        "text": "Nov 25: OpenAI began moving ChatGPT's Chat and Work to one shared usage meter for a small group of Pro users, with a wider rollout in December; OpenAI says a small share of its heaviest users may hit limits sooner, and Instant stays unlimited.",
+        "text": "Nov 26: SAP confirmed a security incident and says it has found no sign of access to customer business data. An insider told Der Spiegel that attackers used stolen employee access tokens to copy and change SAP source code on GitHub, possibly with agentic AI; SAP has not confirmed those details.",
         "cites": [
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+            "label": "The Next Web",
+            "url": "https://thenextweb.com/news/sap-security-incident-github-breach"
           }
         ]
       }
@@ -27,151 +27,116 @@
   },
   "biggest_ai_news": [
     {
-      "title": "OpenAI pilots Private Inference for business prompts",
-      "body": "Nov 25: an alpha in OpenAI's Private Intelligence package that uses confidential computing to keep prompts and replies private while they are processed; a small group of customers, no date for a wider rollout.",
+      "title": "OpenAI fixes a GPT-6.2 billing error; limits arrive sooner",
+      "body": "Posted late Nov 25 PT, reported Nov 26: a launch bug had under-counted GPT-6.2 Astra and Sol usage. Users now hit limits 40% faster on Astra and 25% faster on Sol than last week; no back-charges, and one banked reset for Go, Plus, Pro and Business.",
       "new": true,
       "cites": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/business/private-intelligence/"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/openai-private-inference-testing-customers"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
         }
       ]
     },
     {
-      "title": "Claude agents moved Anthropic's Messages API to Rust",
-      "body": "Nov 25: Anthropic says the rewrite cut CPU per request about 70% and median time to first token about 20%, with no downtime; agents found and fixed mismatches against live traffic under human review.",
+      "title": "Nvidia pauses server shipments to four Southeast Asian countries",
+      "body": "Nov 26: per the WSJ, Nvidia told Dell, Super Micro and other partners to pause shipments to Malaysia, Singapore, Thailand and Indonesia while it checks compliance with US export rules.",
       "new": true,
       "cites": [
-        {
-          "label": "Anthropic",
-          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration"
-        }
-      ]
-    },
-    {
-      "title": "Amazon and Meta discuss ending the Muse blockade",
-      "body": "Nov 25: Fortune reports talks to let Meta's Muse agent shop on Amazon, with search results and advertising the open issues; no deal, and both companies declined to comment.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Fortune",
-          "url": "https://www.fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/"
-        },
         {
           "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        }
+      ]
+    },
+    {
+      "title": "An AI agent pays by bank at Papa John's in a UK pilot",
+      "body": "Nov 27: TrueLayer's pilot with Lloyds and NatWest, run in the FCA's sandbox, lets Papa John's agent take payment from a bank account within spending limits the customer sets with the bank.",
+      "new": true,
+      "cites": [
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/papa-johns-ai-agent-pay-by-bank-truelayer-fca-pilot"
         }
       ]
     }
   ],
   "what_changed": [
     {
-      "title": "Salesforce publishes early results from Salesforce in Claude",
-      "body": "Nov 25: a Salesforce blog says the plugin (part of Claudeforce, launched at Dreamforce) comes with 37 prebuilt sales skills, and that customers can build custom skills on Salesforce's MCP server. BACA Systems says over half its employees use it; Legora says writes (create, update, delete) are almost 20% of its headless tool-call volume; Deloitte is exploring it for opportunity management.",
-      "new": true,
-      "cites": [
-        {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/blog/5-ways-customers-are-already-innovating-with-salesforce-in-claude/"
-        }
-      ]
-    },
-    {
-      "title": "Benioff posts Salesforce's Cyber Week day-one numbers",
-      "body": "Nov 25: Marc Benioff posted 5.57M agent conversations and actions, 2.8 trillion Zero Copy data rows accessed (+1,237% year over year), 6.9B messages delivered and $554M in Commerce GMV for day one of Cyber Week (company-reported).",
+      "title": "Benioff posts Salesforce's Cyber Week day-two numbers",
+      "body": "Nov 26: Marc Benioff posted 12.6M Agentforce AI conversations and actions, 14B Marketing Cloud messages and $1.15B in Commerce GMV for Cyber Week day two, with '100% reliability' (company-reported; the post does not say whether the figures are cumulative). His day-one post (Nov 25) listed 5.57M agent conversations and actions and $554M GMV.",
       "new": true,
       "cites": [
         {
           "label": "Benioff (X)",
-          "url": "https://x.com/Benioff/status/2125704255931851162"
+          "url": "https://x.com/Benioff/status/2126067629836423582"
         }
       ]
     },
     {
-      "title": "ChatGPT moves Chat and Work to one usage meter",
-      "body": "Nov 25: rollout started for a small group of Pro users; broader rollout planned for December. Instant chats stay unlimited and do not count toward the shared allowance.",
+      "title": "OpenAI corrects GPT-6.2 usage metering",
+      "body": "Late Nov 25 PT: Codex lead Thibault Sottiaux said a launch billing mistake discounted GPT-6.2 Astra and Sol usage; after the fix, the same work uses 40% (Astra) and 25% (Sol) more of a plan's allowance than last week. OpenAI is adding one banked reset and not charging for past usage.",
       "new": true,
       "cites": [
         {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
         }
       ]
     },
     {
-      "title": "OpenAI starts testing Private Inference",
-      "body": "Nov 25: Sam Altman announced the alpha with a small group of customers; it joins Private Safety Processing (rolling out since September) in Private Intelligence.",
+      "title": "SAP confirms a security incident",
+      "body": "Nov 26: SAP said it identified suspicious activity and found no sign of access to customer business data. Der Spiegel's insider account (stolen employee tokens used to copy and change source code on GitHub) is unconfirmed by SAP. The same day, Germany's BSI warned about autonomous AI attack tools.",
       "new": true,
       "cites": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/business/private-intelligence/"
-        },
         {
           "label": "The Next Web",
-          "url": "https://thenextweb.com/news/openai-private-inference-testing-customers"
+          "url": "https://thenextweb.com/news/sap-security-incident-github-breach"
         }
       ]
     }
   ],
-  "quiet_note": "No launch, funding, M&A or pricing change from Gong, Clay, Nooks, Outreach, Salesloft or Monaco dated Nov 25–26 (US Thanksgiving). Clay's posts were GTM-engineer content and a guide; Gong's LinkedIn post was a GTA 6 joke; Monaco's X activity was retweets (a customer's MCP testimonial and a podcast clip of Sam Blond citing ~$40k ACVs with $10k of credit up front; the up-front credit is already on Monaco's pricing page).",
+  "quiet_note": "No launch, funding, M&A or pricing change from Gong, Clay, Nooks, Outreach, Salesloft or Monaco dated Nov 26–27 (US Thanksgiving and Black Friday). Monaco's blog posted two tool-comparison guides and Sam Blond's X activity was replies and retweets; no new Clay changelog entry.",
   "market_direction": [
     {
       "kind": "up",
-      "label": "Accelerating (CRM work from inside the assistant)",
-      "text": "Salesforce in Claude pilots report 37 prebuilt skills and writes at almost 20% of one customer's tool calls (Nov 25), a day after Skills over MCP (Nov 24)."
+      "label": "Accelerating (AI-referred shopping traffic)",
+      "text": "AI traffic to US retail sites more than doubled on Thanksgiving (Adobe), and Benioff's day-two post put Agentforce at 12.6M conversations and actions (Nov 26)."
     },
     {
-      "kind": "new",
-      "label": "New (one meter for chat and agent work)",
-      "text": "OpenAI is pooling Chat and Work usage into a single ChatGPT allowance (Nov 25), so heavier agentic work draws down the same budget."
+      "kind": "flat",
+      "label": "Steady (agents that pay)",
+      "text": "Agent purchases are 0.4% of global e-commerce transactions (Bain); payment pilots like TrueLayer's run under regulator watch (Nov 27)."
     },
     {
       "kind": "up",
-      "label": "Accelerating (provider-side privacy controls)",
-      "text": "OpenAI's Private Inference pilot (Nov 25) follows Bedrock's customer-held retention for Anthropic models (Nov 23)."
+      "label": "Accelerating (tighter metering of model usage)",
+      "text": "OpenAI's GPT-6.2 billing fix (Nov 25–26) follows its shared Chat and Work meter (Nov 25)."
     },
     {
       "kind": "flat",
       "label": "Steady (Gong, Clay, Nooks, Outreach, Salesloft, Monaco)",
-      "text": "No announcements of their own Nov 25–26 over Thanksgiving."
+      "text": "No announcements of their own Nov 26–27 over the holiday."
     }
   ],
   "language_pulse": [
     {
-      "term": "Headless tool calls",
-      "gloss": "Legora's phrase for Salesforce actions run from Claude rather than the Salesforce UI (Nov 25)."
+      "term": "Banked reset",
+      "gloss": "OpenAI's saved, one-time reset of a ChatGPT usage limit, given after the GPT-6.2 billing fix (Nov 26)."
     },
     {
-      "term": "Private Inference",
-      "gloss": "OpenAI's alpha that keeps business prompts and replies private during processing via confidential computing (Nov 25)."
-    },
-    {
-      "term": "Shared usage limits",
-      "gloss": "OpenAI's single ChatGPT allowance across Chat and Work (Nov 25)."
+      "term": "Agentic Pay by Bank",
+      "gloss": "TrueLayer's term for an AI agent paying from a bank account under bank-set spending limits (Nov 27)."
     }
   ],
   "competitive_moves": [
     {
       "company": "Salesforce",
       "slug": "salesforce",
-      "text": "Salesforce in Claude pilot results: 37 prebuilt sales skills, over half of BACA Systems' staff using it, writes at almost 20% of Legora's headless tool calls (Nov 25); Benioff posted 5.57M agent conversations and actions on Cyber Week day one (Nov 25).",
+      "text": "Benioff posted Cyber Week day-two figures: 12.6M Agentforce AI conversations and actions, 14B Marketing Cloud messages, $1.15B Commerce GMV (Nov 26).",
       "cites": [
         {
-          "label": "Salesforce",
-          "url": "https://www.salesforce.com/blog/5-ways-customers-are-already-innovating-with-salesforce-in-claude/"
-        },
-        {
           "label": "Benioff (X)",
-          "url": "https://x.com/Benioff/status/2125704255931851162"
+          "url": "https://x.com/Benioff/status/2126067629836423582"
         }
       ]
     }
@@ -179,7 +144,7 @@
   "watch": [
     {
       "title": "Wed Dec 2: Salesforce Q3 FY27 results",
-      "body": "Results after the close, call 2:00 PM PT. Watch for full Cyber Week agent numbers after Benioff's day-one post, plus any adoption figures for Salesforce in Claude and Coworker in the SMB suites.",
+      "body": "Results after the close, call 2:00 PM PT. Watch for full Cyber Week Agentforce numbers after Benioff's day-one and day-two posts, and any adoption figures for Salesforce in Claude.",
       "cites": [
         {
           "label": "Salesforce IR",
@@ -187,14 +152,14 @@
         },
         {
           "label": "Benioff (X)",
-          "url": "https://x.com/Benioff/status/2125704255931851162"
+          "url": "https://x.com/Benioff/status/2126067629836423582"
         }
       ]
     }
   ],
   "interpretation": {
-    "fact": "Nov 25 Salesforce published Salesforce in Claude pilot results (37 prebuilt sales skills; BACA Systems over half of staff; Legora writes at almost 20% of headless tool calls), and Benioff posted Cyber Week day-one platform numbers. Nov 25 OpenAI began rolling out a shared Chat and Work usage meter and started testing Private Inference; Anthropic described its agent-built Rust migration of the Messages API; Fortune reported Amazon–Meta talks on Muse. Gong, Clay, Nooks, Outreach, Salesloft and Monaco announced nothing new of their own Nov 25–26.",
-    "interpretation": "Writes, not lookups, are the sign that the assistant is becoming the place where CRM work happens; once that holds, the questions buyers ask shift to who meters the work and who can see the data, which is where OpenAI moved this week."
+    "fact": "Nov 26 Benioff posted Cyber Week day-two numbers (12.6M Agentforce conversations and actions, $1.15B Commerce GMV). Late Nov 25 PT OpenAI said it fixed a GPT-6.2 billing error, so Astra and Sol limits arrive 40% and 25% sooner. Nov 26 SAP confirmed a security incident and Nvidia paused server shipments to four Southeast Asian countries (WSJ via TechCrunch). Nov 27 TrueLayer announced an agent pay-by-bank pilot with Papa John's. Adobe, Bain and Visa data show AI shopping traffic up sharply but agent purchases small. Gong, Clay, Nooks, Outreach, Salesloft and Monaco announced nothing new Nov 26–27.",
+    "interpretation": "Agents are now a big source of traffic and conversations but a small share of completed transactions; the gap is about trust, payment controls and access tokens, which is also where buyers of sales agents will push vendors."
   },
   "feed": [
     {
@@ -207,10 +172,10 @@
       },
       "kind": "founder",
       "source": "X",
-      "ts": "2026-11-25T13:32:42-08:00",
+      "ts": "2026-11-26T13:36:38-08:00",
       "category": "funding",
-      "summary": "Marc Benioff posted Salesforce's Cyber Week day-one numbers: 5.57M agent conversations and actions, 2.8 trillion Zero Copy rows accessed, 6.9B messages and $554M in Commerce GMV.",
-      "url": "https://x.com/Benioff/status/2125704255931851162"
+      "summary": "Marc Benioff posted Salesforce's Cyber Week day-two numbers: 12.6M Agentforce AI conversations and actions, 14B Marketing Cloud messages and $1.15B in Commerce GMV.",
+      "url": "https://x.com/Benioff/status/2126067629836423582"
     }
   ]
 }
